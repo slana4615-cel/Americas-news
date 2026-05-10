@@ -82,10 +82,4 @@ jobs:
           git push
         fi
 
-    - name: Notify Slack
-      uses: slackapi/slack-github-action@v3
-      if: success()
-      with:
-        webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
-        webhook-type: incoming-webhook
-        payload-file-path: slack_message.json
+    
