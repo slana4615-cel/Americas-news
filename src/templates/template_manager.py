@@ -61,9 +61,9 @@ class TemplateManager:
     
     
     def calculate_read_time(self, text: str) -> str:
-        """テキストから推定読時間を計算（日本語対応）"""
+        """テキストから推定読時間を計算（多言語対応）"""
         if not text:
-            return "約3分"
+            return "约3分钟"
         
         # HTMLタグを除去
         clean_text = re.sub(r'<[^>]+>', '', text)
@@ -96,7 +96,7 @@ class TemplateManager:
         # より広い範囲で調整（最小3分、最大12分）
         total_minutes = max(3, min(12, round(estimated_full_time)))
         
-        return f"約{total_minutes}分"
+        return f"约{total_minutes}分钟"
     
     def get_relative_date(self, published_date: str) -> str:
         """公開日から相対的な日付文字列を生成"""
@@ -133,17 +133,17 @@ class TemplateManager:
             diff = now - published
             
             if diff.days > 30:
-                return f"{diff.days // 30}ヶ月前"
+                return f"{diff.days // 30}个月前"
             elif diff.days > 7:
-                return f"{diff.days // 7}週間前"
+                return f"{diff.days // 7}周前"
             elif diff.days > 0:
-                return f"{diff.days}日前"
+                return f"{diff.days}天前"
             elif diff.seconds > 3600:
-                return f"{diff.seconds // 3600}時間前"
+                return f"{diff.seconds // 3600}小时前"
             elif diff.seconds > 60:
-                return f"{diff.seconds // 60}分前"
+                return f"{diff.seconds // 60}分钟前"
             else:
-                return "たった今"
+                return "刚刚"
                 
         except Exception:
             return ""
@@ -173,7 +173,7 @@ class TemplateManager:
                 clean_desc = clean_desc[:300] + '...'
             return clean_desc
         
-        return "記事の詳細を確認してください。"
+        return "请打开原文查看详情。"
     
     def generate_card_id(self, link: str) -> str:
         """記事リンクからユニークなカードIDを生成"""
@@ -182,31 +182,14 @@ class TemplateManager:
     def categorize_article(self, title: str, description: str = '') -> List[str]:
         """記事タイトルと概要からカテゴリタグを自動判定"""
         categories = {
-            'AI・機械学習': ['AI', 'Claude', 'GPT', '機械学習', 'LLM', 'Gemini', '生成AI', 'ChatGPT', 'OpenAI', 'Anthropic', 'neoAI', 'Reasoning Model', '事前学習', 'ファインチューニング', 'Copilot'],
-            'Web開発': ['React', 'Vue', 'JavaScript', 'CSS', 'HTML', 'フロントエンド', 'Next.js', 'TypeScript', 'Angular', 'Svelte', 'Node.js', 'npm', 'webpack', 'Vite', 'Nuxt'],
-            'クラウド': ['AWS', 'Azure', 'GCP', 'Docker', 'Kubernetes', 'クラウド', 'サーバーレス', 'Lambda', 'EC2', 'S3', 'Athena', 'BigQuery', 'CloudFormation', 'Oracle Cloud', 'DynamoDB', 'Cloudflare'],
-            'モバイル': ['Swift', 'iOS', 'Android', 'React Native', 'Flutter', 'アプリ開発', 'Kotlin', 'Xcode', 'Android Studio', 'モバイル', 'Suica'],
-            'ゲーム開発': ['Unity', 'Unreal Engine', 'Unreal', 'ゲーム開発', 'ゲーム制作', 'ゲーム', 'MRTK', 'Mixed Reality Toolkit', 'HoloLens', 'ゲームエンジン'],
-            'DevOps': ['CI/CD', 'Jenkins', 'GitHub Actions', 'インフラ', 'デプロイ', 'Docker', 'Terraform', 'Ansible', 'Kubernetes', 'GitOps', 'SRE', 'SLO', 'Datadog'],
-            'セキュリティ': ['セキュリティ', '脆弱性', 'HTTPS', '認証', '暗号化', 'サイバー', 'セキュア', '攻撃', 'ペネトレーション', 'OAuth'],
-            'データベース': ['MySQL', 'PostgreSQL', 'MongoDB', 'Redis', 'データベース', 'SQL', 'NoSQL', 'DynamoDB', 'Firebase', 'Supabase', 'Oracle Database'],
-            'データ分析': ['データ分析', 'ビッグデータ', '分析', 'Analytics', 'データサイエンス', 'Tableau', 'Power BI', 'データ可視化', 'ETL', 'データ処理', 'QuickSight', 'SPICE'],
-            'プログラミング': ['Python', 'Java', 'Go', 'Rust', 'C++', 'C#', 'PHP', 'Ruby', 'Scala', 'Kotlin', 'Elixir', 'Haskell', 'F#', 'Windows', 'WSL', 'Ubuntu', 'Linux'],
-            'ツール・IDE': ['VS Code', 'Visual Studio', 'IntelliJ', 'Eclipse', 'Vim', 'Git', 'GitHub', 'GitLab', 'Notion', 'Slack', 'Claude Code', 'Cursor', 'hawk', 'awk'],
-            'アルゴリズム・数学': ['正規表現', '抽象構文木', 'アルゴリズム', '数学', '微分', 'イテレーター', '最適化', 'データ構造', '計算量', 'Brzozowski'],
-            'ツール紹介': ['Startpage', '検索エンジン', 'プライベート検索', 'ツール紹介', 'サービス紹介', 'レビュー', 'ツール', 'サービス', 'オープンソース', 'WinActor', 'RPA'],
-            '技術発表・LT': ['LT', 'スライド', '発表', 'プレゼン', 'HTML', 'スライド作成', '技術発表', 'カンファレンス', '勉強会', 'SpeakerDeck'],
-            'トラブルシューティング': ['トラブルシューティング', 'デバッグ', 'エラー', '問題解決', '障害対応', 'バグ修正', 'ログ解析', 'やってはいけない'],
-            'コーディング支援': ['AIコーディング', 'コード生成', 'GitHub Copilot', 'AI支援', 'コーディング', '開発効率', 'IDE拡張', 'GenAI Processors'],
-            'ネットワーク': ['ネットワーク', 'TCP/IP', 'HTTP', 'DNS', 'CDN', 'ロードバランサー', 'プロキシ', 'VPN'],
-            'UI/UX': ['UI', 'UX', 'デザイン', 'ユーザビリティ', 'プロトタイプ', 'Figma', 'デザインシステム', 'アクセシビリティ'],
-            'VR・AR・MR': ['VR', 'AR', 'MR', 'Mixed Reality', 'XR', 'OpenXR', '拡張現実', '仮想現実', '複合現実'],
-            'キャリア・組織': ['フルリモート', '居場所', 'キャリア', '組織', 'マネジメント', 'チーム', 'エンジニア', '働き方'],
-            'ハードウェア・IoT': ['睡眠トラッカー', 'スマートウォッチ', 'IoT', 'ハードウェア', 'Raspberry Pi', 'ブート'],
-            'オープンソース': ['オープンソース', 'OSS', 'ライセンス', 'GPL', 'MIT', 'Apache', 'ライセンス違反'],
-            'テクノロジートレンド': ['トレンド', '戦略', 'アップル', 'グーグル', 'OpenAI', '業界動向', 'ガートナー', '量子技術'],
-            'システム開発': ['オブジェクト指向', 'サンプルプログラム', '設計', 'アーキテクチャ', 'パターン', '開発手法'],
-            'OS・システム': ['Windows', 'Linux', 'Ubuntu', 'openSUSE', 'システム', 'OS', 'ディレクトリ', 'スラッシュ', 'バックスラッシュ']
+            '民主治理': ['democracy', 'election', 'vote', 'voting', 'campaign', 'parliament', 'congress', 'president', 'constitutional', 'governance'],
+            '安全': ['security', 'defense', 'military', 'border', 'cartel', 'crime', 'violence', 'police', 'trafficking', 'terrorism'],
+            '经济': ['economy', 'economic', 'inflation', 'trade', 'tariff', 'market', 'investment', 'growth', 'debt', 'finance', 'jobs'],
+            '移民': ['migration', 'migrant', 'immigration', 'refugee', 'asylum', 'diaspora', 'deportation', 'border'],
+            '气候环境': ['climate', 'hurricane', 'wildfire', 'flood', 'drought', 'energy', 'environment', 'resilience', 'disaster'],
+            '人权': ['rights', 'human rights', 'civil society', 'indigenous', 'gender', 'freedom', 'press', 'corruption', 'justice'],
+            '区域关系': ['latin america', 'caribbean', 'canada', 'united states', 'mexico', 'brazil', 'venezuela', 'cuba', 'haiti', 'oas', 'united nations'],
+            '研究资料': ['report', 'analysis', 'study', 'research', 'brief', 'paper', 'data', 'survey', 'policy'],
         }
         
         detected_tags = []
@@ -229,7 +212,7 @@ class TemplateManager:
                         detected_tags.append(category)
                         break
         
-        return detected_tags if detected_tags else ['その他']
+        return detected_tags if detected_tags else ['其他']
     
     def get_tag_filter_html(self, total_count: int) -> str:
         """タグフィルターのHTMLを生成"""
@@ -254,7 +237,7 @@ class TemplateManager:
         css_path = "../../../assets/css/main.css" if is_archive else "assets/css/main.css"
         
         return f"""<!DOCTYPE html>
-<html lang="ja">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -266,7 +249,7 @@ class TemplateManager:
     <meta property="og:type" content="website">
     <meta property="og:url" content="{canonical_url}">
     <meta property="og:image" content="{og_image_url}">
-    <meta property="og:site_name" content="今日のテックニュース">
+    <meta property="og:site_name" content="{self.site_config.SITE_TITLE_TEMPLATE.split(' (')[0]}">
     
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
@@ -305,13 +288,13 @@ class TemplateManager:
         if is_archive:
             date_obj = datetime.strptime(date_str, '%Y-%m-%d')
             archive_path = f"{date_obj.year}/{date_obj.month:02d}"
-            tweet_url = f"https://twitter.com/intent/tweet?text=👨‍💻 今日のテックニュース ({date_str}) をサクッとチェック！&url={site_url}archives/{archive_path}/{date_str}.html&hashtags={hashtags}"
+            tweet_url = f"https://twitter.com/intent/tweet?text=美洲新闻自动抓取结果 ({date_str})&url={site_url}archives/{archive_path}/{date_str}.html&hashtags={hashtags}"
             archive_link = "../index.html"
-            archive_text = "アーカイブ一覧"
+            archive_text = "归档首页"
         else:
-            tweet_url = f"https://twitter.com/intent/tweet?text=👨‍💻 今日のテックニュース ({date_str}) をサクッとチェック！&url={site_url}&hashtags={hashtags}"
+            tweet_url = f"https://twitter.com/intent/tweet?text=美洲新闻自动抓取结果 ({date_str})&url={site_url}&hashtags={hashtags}"
             archive_link = "archives/index.html"
-            archive_text = "過去のニュースを見る"
+            archive_text = "历史归档"
         
         template = self.load_template('navigation.html')
         return self.render_template(
@@ -330,17 +313,17 @@ class TemplateManager:
         rss_link = ""
         
         if is_archive:
-            main_page_link = '<p><a href="../../index.html" class="nav-button">🏠 メインページに戻る</a></p>\n        '
-            rss_link = f'<p>📡 <a href="{site_url}rss.xml">RSSフィードを購読</a></p>\n        '
+            main_page_link = '<p><a href="../../index.html" class="nav-button">🏠 返回最新结果</a></p>\n        '
+            rss_link = f'<p>📡 <a href="{site_url}rss.xml">订阅 RSS</a></p>\n        '
         else:
             # メインページ用のカード表示デザイン
             rss_link = f'''<div class="rss-card">
         <div class="rss-card-content">
             <div class="rss-card-icon">📡</div>
             <div class="rss-card-text">
-                <h3>RSSフィード配信中</h3>
-                <p>お使いのRSSリーダーで購読してください</p>
-                <a href="{site_url}rss.xml" class="rss-link" target="_blank">RSSフィードを購読する</a>
+                <h3>RSS 订阅</h3>
+                <p>可使用 RSS 阅读器订阅自动抓取结果。</p>
+                <a href="{site_url}rss.xml" class="rss-link" target="_blank">订阅 RSS</a>
             </div>
         </div>
     </div>
@@ -352,7 +335,9 @@ class TemplateManager:
             main_page_link=main_page_link,
             rss_link=rss_link,
             twitter_handle=twitter_user.lstrip('@'),
-            twitter_user=twitter_user
+            twitter_user=self.site_config.profile_display_name,
+            profile_url=self.site_config.profile_url,
+            github_repo_url=self.site_config.github_repo_url
         )
     
     def render_card(self, entry: Any, feed_name: str, thumbnail_url: str = None) -> str:
@@ -462,9 +447,9 @@ class ContentStructure:
         site_url = self.template_manager.site_config.site_url
         
         if is_archive:
-            nav_links = f'📚 [過去のニュースを見る](../../index.md) | 🎨 [カード表示版を見る]({site_url}) | 📡 [RSSフィードを購読]({site_url}rss.xml)'
+            nav_links = f'📚 [历史归档](../../index.md) | 🎨 [HTML 卡片视图]({site_url}) | 📡 [RSS 订阅]({site_url}rss.xml)'
         else:
-            nav_links = f'📚 [過去のニュースを見る](archives/index.md) | 🎨 [カード表示版を見る]({site_url}) | 📡 [RSSフィードを購読]({site_url}rss.xml)'
+            nav_links = f'📚 [历史归档](archives/index.md) | 🎨 [HTML 卡片视图]({site_url}) | 📡 [RSS 订阅]({site_url}rss.xml)'
         
         return f"""# {title}
 
@@ -472,16 +457,7 @@ class ContentStructure:
 
 {self.template_manager.site_config.SITE_DESCRIPTION}
 
-## 🎨 カード表示版もあります
-
-GitHub Pages版では各記事がカード形式で見やすく表示されます：  
-{site_url}
-
 ---
 
 {entries_markdown}
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 """

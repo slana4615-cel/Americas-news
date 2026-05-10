@@ -1,495 +1,222 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>今日のテックニュース</title>
-    <link>https://unsolublesugar.github.io/daily-tech-news/</link>
-    <description>日本の主要な技術系メディアの最新人気エントリーを毎日お届けします</description>
-    <language>ja</language>
+    <title>美洲新闻自动抓取结果｜Daily Americas News Collection</title>
+    <link>https://unsolublesugar.github.io/americas-news/</link>
+    <description>本文件由程序根据公开 RSS 新闻源自动抓取生成，仅用于研究团队初步筛选。新闻价值、事实核验和最终采用由人工判断。</description>
+    <language>zh-CN</language>
     <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     <lastBuildDate>Sun, 10 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://unsolublesugar.github.io/daily-tech-news/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://unsolublesugar.github.io/americas-news/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>【Microsoft Foundry】- hosted agentとは？ | ヘッドウォータースのフィード</title>
-      <link>https://zenn.dev/headwaters/articles/e81d19893d220d</link>
-      <description>Tech Blog Weeklyからの記事: 【Microsoft Foundry】- hosted agentとは？ | ヘッドウォータースのフィード</description>
-      <guid>https://zenn.dev/headwaters/articles/e81d19893d220d</guid>
-      <pubDate>Sat, 09 May 2026 11:43:40 +0000</pubDate>
+      <title>The latest congressional redistricting changes and what to know</title>
+      <link>https://www.pbs.org/newshour/politics/the-latest-congressional-redistricting-changes-and-what-to-know</link>
+      <description>地区分类：美国；来源：PBS NewsHour Politics；原标题：The latest congressional redistricting changes and what to know</description>
+      <guid>https://www.pbs.org/newshour/politics/the-latest-congressional-redistricting-changes-and-what-to-know</guid>
+      <pubDate>Sat, 09 May 2026 15:35:16 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Code 恒久2倍 vs Codex 5月限定プロモ - 上限引き上げ比較 | サーバーワークスエンジニアブログ</title>
-      <link>https://blog.serverworks.co.jp/2026/05/09/190000</link>
-      <description>Tech Blog Weeklyからの記事: Claude Code 恒久2倍 vs Codex 5月限定プロモ - 上限引き上げ比較 | サーバーワークスエンジニアブログ</description>
-      <guid>https://blog.serverworks.co.jp/2026/05/09/190000</guid>
-      <pubDate>Sat, 09 May 2026 10:00:00 +0000</pubDate>
+      <title>Virginia's Supreme Court tosses voter-approved redistricting plan in blow to Democrats</title>
+      <link>https://www.pbs.org/newshour/show/virginias-supreme-court-tosses-voter-approved-redistricting-plan-in-blow-to-democrats</link>
+      <description>地区分类：美国；来源：PBS NewsHour Politics；原标题：Virginia's Supreme Court tosses voter-approved redistricting plan in blow to Democrats</description>
+      <guid>https://www.pbs.org/newshour/show/virginias-supreme-court-tosses-voter-approved-redistricting-plan-in-blow-to-democrats</guid>
+      <pubDate>Fri, 08 May 2026 22:40:27 +0000</pubDate>
     </item>
     <item>
-      <title>Kiro Web が公開されたので、コーポレートサイトを勝手にこそっとリデザインしてもらった | ForgeVision Engineer Blog</title>
-      <link>https://techblog.forgevision.com/entry/kiro/kiro-web</link>
-      <description>Tech Blog Weeklyからの記事: Kiro Web が公開されたので、コーポレートサイトを勝手にこそっとリデザインしてもらった | ForgeVision Engineer Blog</description>
-      <guid>https://techblog.forgevision.com/entry/kiro/kiro-web</guid>
-      <pubDate>Sat, 09 May 2026 09:58:44 +0000</pubDate>
+      <title>Brooks and Marcus on Virginia's major shakeup in the national redistricting battle</title>
+      <link>https://www.pbs.org/newshour/show/brooks-and-marcus-on-virginias-major-shakeup-in-the-national-redistricting-battle</link>
+      <description>地区分类：美国；来源：PBS NewsHour Politics；原标题：Brooks and Marcus on Virginia's major shakeup in the national redistricting battle</description>
+      <guid>https://www.pbs.org/newshour/show/brooks-and-marcus-on-virginias-major-shakeup-in-the-national-redistricting-battle</guid>
+      <pubDate>Fri, 08 May 2026 22:25:37 +0000</pubDate>
     </item>
     <item>
-      <title>MacでWordをPDFに変換する方法 | ヘッドウォータースのフィード</title>
-      <link>https://zenn.dev/headwaters/articles/ecaa35a259166b</link>
-      <description>Tech Blog Weeklyからの記事: MacでWordをPDFに変換する方法 | ヘッドウォータースのフィード</description>
-      <guid>https://zenn.dev/headwaters/articles/ecaa35a259166b</guid>
-      <pubDate>Fri, 08 May 2026 10:50:05 +0000</pubDate>
+      <title>Prosecutors aim to strip U.S. citizenship from diplomat-turned-spy</title>
+      <link>https://www.pbs.org/newshour/politics/prosecutors-aim-to-strip-u-s-citizenship-from-diplomat-turned-cuban-spy</link>
+      <description>地区分类：美国；来源：PBS NewsHour Politics；原标题：Prosecutors aim to strip U.S. citizenship from diplomat-turned-spy</description>
+      <guid>https://www.pbs.org/newshour/politics/prosecutors-aim-to-strip-u-s-citizenship-from-diplomat-turned-cuban-spy</guid>
+      <pubDate>Fri, 08 May 2026 21:49:08 +0000</pubDate>
     </item>
     <item>
-      <title>App Service 上で実行中のアプリのコンソールログ確認方法 | ヘッドウォータースのフィード</title>
-      <link>https://zenn.dev/headwaters/articles/718ab45cffcb5e</link>
-      <description>Tech Blog Weeklyからの記事: App Service 上で実行中のアプリのコンソールログ確認方法 | ヘッドウォータースのフィード</description>
-      <guid>https://zenn.dev/headwaters/articles/718ab45cffcb5e</guid>
-      <pubDate>Fri, 08 May 2026 09:08:30 +0000</pubDate>
+      <title>Trump is lifting restrictions on hunting in national parks and other areas</title>
+      <link>https://www.pbs.org/newshour/politics/trump-is-lifting-restrictions-on-hunting-in-national-parks-and-other-areas</link>
+      <description>地区分类：美国；来源：PBS NewsHour Politics；原标题：Trump is lifting restrictions on hunting in national parks and other areas</description>
+      <guid>https://www.pbs.org/newshour/politics/trump-is-lifting-restrictions-on-hunting-in-national-parks-and-other-areas</guid>
+      <pubDate>Fri, 08 May 2026 21:31:24 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Codeを&quot;使いこなす&quot;ための個人ルール設定 - 実際にやって効果が高かった設定</title>
-      <link>https://zenn.dev/dotdtech_blog/articles/92348ee48cc692</link>
-      <description>Zennからの記事: Claude Codeを&quot;使いこなす&quot;ための個人ルール設定 - 実際にやって効果が高かった設定</description>
-      <guid>https://zenn.dev/dotdtech_blog/articles/92348ee48cc692</guid>
-      <pubDate>Fri, 08 May 2026 12:38:57 +0000</pubDate>
+      <title>United States imposes new sanctions on Cuban military conglomerate GAESA amid escalating pressure</title>
+      <link>https://en.mercopress.com/2026/05/08/united-states-imposes-new-sanctions-on-cuban-military-conglomerate-gaesa-amid-escalating-pressure?utm_source=feed&amp;utm_medium=rss&amp;utm_content=latin-america&amp;utm_campaign=rss</link>
+      <description>地区分类：拉丁美洲；来源：MercoPress Latin America；原标题：United States imposes new sanctions on Cuban military conglomerate GAESA amid escalating pressure</description>
+      <guid>https://en.mercopress.com/2026/05/08/united-states-imposes-new-sanctions-on-cuban-military-conglomerate-gaesa-amid-escalating-pressure?utm_source=feed&amp;utm_medium=rss&amp;utm_content=latin-america&amp;utm_campaign=rss</guid>
+      <pubDate>Fri, 08 May 2026 02:14:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI時代こそ、エンジニアは「師匠」が要る</title>
-      <link>https://zenn.dev/acntechjp/articles/2e8d38ad383dd3</link>
-      <description>Zennからの記事: AI時代こそ、エンジニアは「師匠」が要る</description>
-      <guid>https://zenn.dev/acntechjp/articles/2e8d38ad383dd3</guid>
-      <pubDate>Fri, 08 May 2026 10:19:21 +0000</pubDate>
+      <title>El Salvador puts 486 MS-13 leaders on trial for 29,000 killings in process Bukele compares to Nuremberg</title>
+      <link>https://en.mercopress.com/2026/05/06/el-salvador-puts-486-ms-13-leaders-on-trial-for-29-000-killings-in-process-bukele-compares-to-nuremberg?utm_source=feed&amp;utm_medium=rss&amp;utm_content=latin-america&amp;utm_campaign=rss</link>
+      <description>地区分类：拉丁美洲；来源：MercoPress Latin America；原标题：El Salvador puts 486 MS-13 leaders on trial for 29,000 killings in process Bukele compares to Nuremberg</description>
+      <guid>https://en.mercopress.com/2026/05/06/el-salvador-puts-486-ms-13-leaders-on-trial-for-29-000-killings-in-process-bukele-compares-to-nuremberg?utm_source=feed&amp;utm_medium=rss&amp;utm_content=latin-america&amp;utm_campaign=rss</guid>
+      <pubDate>Wed, 06 May 2026 16:38:00 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic の 5 パターンで Claude Code エージェント設計を分類する</title>
-      <link>https://zenn.dev/motowo/articles/anthropic-multi-agent-coordination-patterns-guide</link>
-      <description>Zennからの記事: Anthropic の 5 パターンで Claude Code エージェント設計を分類する</description>
-      <guid>https://zenn.dev/motowo/articles/anthropic-multi-agent-coordination-patterns-guide</guid>
-      <pubDate>Fri, 08 May 2026 09:00:09 +0000</pubDate>
+      <title>Trump threatens to take Cuba 'almost immediately' after tightening sanctions on the regime</title>
+      <link>https://en.mercopress.com/2026/05/03/trump-threatens-to-take-cuba-almost-immediately-after-tightening-sanctions-on-the-regime?utm_source=feed&amp;utm_medium=rss&amp;utm_content=latin-america&amp;utm_campaign=rss</link>
+      <description>地区分类：拉丁美洲；来源：MercoPress Latin America；原标题：Trump threatens to take Cuba 'almost immediately' after tightening sanctions on the regime</description>
+      <guid>https://en.mercopress.com/2026/05/03/trump-threatens-to-take-cuba-almost-immediately-after-tightening-sanctions-on-the-regime?utm_source=feed&amp;utm_medium=rss&amp;utm_content=latin-america&amp;utm_campaign=rss</guid>
+      <pubDate>Sun, 03 May 2026 09:59:00 +0000</pubDate>
     </item>
     <item>
-      <title>Expo SDK 56ベータから読み解く、Expo・React Nativeの「ネイティブ志向」な進化</title>
-      <link>https://zenn.dev/tellernovel_inc/articles/fe4f4964b4f9e3</link>
-      <description>Zennからの記事: Expo SDK 56ベータから読み解く、Expo・React Nativeの「ネイティブ志向」な進化</description>
-      <guid>https://zenn.dev/tellernovel_inc/articles/fe4f4964b4f9e3</guid>
-      <pubDate>Fri, 08 May 2026 07:03:33 +0000</pubDate>
+      <title>Bolivia's agro-environmental court judge shot dead amid wave of drug-related violence</title>
+      <link>https://en.mercopress.com/2026/05/01/bolivia-s-agro-environmental-court-judge-shot-dead-amid-wave-of-drug-related-violence?utm_source=feed&amp;utm_medium=rss&amp;utm_content=latin-america&amp;utm_campaign=rss</link>
+      <description>地区分类：拉丁美洲；来源：MercoPress Latin America；原标题：Bolivia's agro-environmental court judge shot dead amid wave of drug-related violence</description>
+      <guid>https://en.mercopress.com/2026/05/01/bolivia-s-agro-environmental-court-judge-shot-dead-amid-wave-of-drug-related-violence?utm_source=feed&amp;utm_medium=rss&amp;utm_content=latin-america&amp;utm_campaign=rss</guid>
+      <pubDate>Fri, 01 May 2026 14:54:00 +0000</pubDate>
     </item>
     <item>
-      <title>あなたの Claude Code、実は前回のセッションを完全に忘れている (5 分で永続記憶を入れる)</title>
-      <link>https://zenn.dev/kanseilink/articles/linksee-memory-claude-code-recall-20260508</link>
-      <description>Zennからの記事: あなたの Claude Code、実は前回のセッションを完全に忘れている (5 分で永続記憶を入れる)</description>
-      <guid>https://zenn.dev/kanseilink/articles/linksee-memory-claude-code-recall-20260508</guid>
-      <pubDate>Fri, 08 May 2026 00:38:24 +0000</pubDate>
+      <title>Poll projects dead heat between Fujimori and Sánchez in Peru runoff as count nears completion</title>
+      <link>https://en.mercopress.com/2026/04/27/poll-projects-dead-heat-between-fujimori-and-sanchez-in-peru-runoff-as-count-nears-completion?utm_source=feed&amp;utm_medium=rss&amp;utm_content=latin-america&amp;utm_campaign=rss</link>
+      <description>地区分类：拉丁美洲；来源：MercoPress Latin America；原标题：Poll projects dead heat between Fujimori and Sánchez in Peru runoff as count nears completion</description>
+      <guid>https://en.mercopress.com/2026/04/27/poll-projects-dead-heat-between-fujimori-and-sanchez-in-peru-runoff-as-count-nears-completion?utm_source=feed&amp;utm_medium=rss&amp;utm_content=latin-america&amp;utm_campaign=rss</guid>
+      <pubDate>Mon, 27 Apr 2026 12:36:00 +0000</pubDate>
     </item>
     <item>
-      <title>AWS MCPサーバー超進化してGAしたらしい</title>
-      <link>https://qiita.com/Syoitu/items/5022be3615ecd8b5337c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <description>Qiitaからの記事: AWS MCPサーバー超進化してGAしたらしい</description>
-      <guid>https://qiita.com/Syoitu/items/5022be3615ecd8b5337c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <pubDate>Thu, 07 May 2026 10:18:36 +0000</pubDate>
+      <title>Central bank independence</title>
+      <link>https://caribbeannewsglobal.com/central-bank-independence/</link>
+      <description>地区分类：加勒比地区；来源：Caribbean News Global；原标题：Central bank independence</description>
+      <guid>https://caribbeannewsglobal.com/central-bank-independence/</guid>
+      <pubDate>Sun, 10 May 2026 04:03:31 +0000</pubDate>
     </item>
     <item>
-      <title>Git初心者の頃わからなかった「pullするな」の意味</title>
-      <link>https://qiita.com/shimitaro/items/bdd7cedde03974a94406?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <description>Qiitaからの記事: Git初心者の頃わからなかった「pullするな」の意味</description>
-      <guid>https://qiita.com/shimitaro/items/bdd7cedde03974a94406?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <pubDate>Fri, 08 May 2026 04:16:30 +0000</pubDate>
+      <title>How Saudi Arabia is turning evidence into better health policy decisions</title>
+      <link>https://caribbeannewsglobal.com/how-saudi-arabia-is-turning-evidence-into-better-health-policy-decisions/</link>
+      <description>地区分类：加勒比地区；来源：Caribbean News Global；原标题：How Saudi Arabia is turning evidence into better health policy decisions</description>
+      <guid>https://caribbeannewsglobal.com/how-saudi-arabia-is-turning-evidence-into-better-health-policy-decisions/</guid>
+      <pubDate>Sun, 10 May 2026 04:01:49 +0000</pubDate>
     </item>
     <item>
-      <title>「自分にエンジニアなんて無理かも」と思ってる人へ。最初に知ってほしい“仕事の進め方”</title>
-      <link>https://qiita.com/prum_hitomi/items/30ed3d885da5bb605460?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <description>Qiitaからの記事: 「自分にエンジニアなんて無理かも」と思ってる人へ。最初に知ってほしい“仕事の進め方”</description>
-      <guid>https://qiita.com/prum_hitomi/items/30ed3d885da5bb605460?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <pubDate>Fri, 08 May 2026 05:11:50 +0000</pubDate>
+      <title>Invisible barriers are reshaping global trade</title>
+      <link>https://caribbeannewsglobal.com/invisible-barriers-are-reshaping-global-trade/</link>
+      <description>地区分类：加勒比地区；来源：Caribbean News Global；原标题：Invisible barriers are reshaping global trade</description>
+      <guid>https://caribbeannewsglobal.com/invisible-barriers-are-reshaping-global-trade/</guid>
+      <pubDate>Sun, 10 May 2026 04:00:39 +0000</pubDate>
     </item>
     <item>
-      <title>Copilot StudioをClaude Code化したら、Copilot Studio自身でPower Platformを構築できた話</title>
-      <link>https://qiita.com/katohiro_fi/items/9acccd181ca2f1a75f3c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <description>Qiitaからの記事: Copilot StudioをClaude Code化したら、Copilot Studio自身でPower Platformを構築できた話</description>
-      <guid>https://qiita.com/katohiro_fi/items/9acccd181ca2f1a75f3c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <pubDate>Thu, 07 May 2026 02:36:12 +0000</pubDate>
+      <title>Jet Fuel Flexibility: How the industry is preparing for supply disruptions</title>
+      <link>https://caribbeannewsglobal.com/jet-fuel-flexibility-how-the-industry-is-preparing-for-supply-disruptions/</link>
+      <description>地区分类：加勒比地区；来源：Caribbean News Global；原标题：Jet Fuel Flexibility: How the industry is preparing for supply disruptions</description>
+      <guid>https://caribbeannewsglobal.com/jet-fuel-flexibility-how-the-industry-is-preparing-for-supply-disruptions/</guid>
+      <pubDate>Sun, 10 May 2026 03:59:11 +0000</pubDate>
     </item>
     <item>
-      <title>「AWS環境にデプロイした際に、Webサーバーって何のためにいるの？」という疑問について調べてみた</title>
-      <link>https://qiita.com/hosomatu/items/9545ee09b2ffbe25057c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <description>Qiitaからの記事: 「AWS環境にデプロイした際に、Webサーバーって何のためにいるの？」という疑問について調べてみた</description>
-      <guid>https://qiita.com/hosomatu/items/9545ee09b2ffbe25057c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <pubDate>Sat, 09 May 2026 12:11:18 +0000</pubDate>
+      <title>Global crackdown on illicit pharmaceuticals sees USD 15.5 million in seizures</title>
+      <link>https://caribbeannewsglobal.com/global-crackdown-on-illicit-pharmaceuticals-sees-usd-15-5-million-in-seizures/</link>
+      <description>地区分类：加勒比地区；来源：Caribbean News Global；原标题：Global crackdown on illicit pharmaceuticals sees USD 15.5 million in seizures</description>
+      <guid>https://caribbeannewsglobal.com/global-crackdown-on-illicit-pharmaceuticals-sees-usd-15-5-million-in-seizures/</guid>
+      <pubDate>Sat, 09 May 2026 23:11:37 +0000</pubDate>
     </item>
     <item>
-      <title>上司になったら｜miyasaka</title>
-      <link>https://note.com/mmiya/n/n2eec10d531b2</link>
-      <description>はてなブックマーク - IT（人気）からの記事: 上司になったら｜miyasaka</description>
-      <guid>https://note.com/mmiya/n/n2eec10d531b2</guid>
+      <title>Joint Statement Following the Conclusion of Mexico’s Trade Mission to Canada (Toronto and Montréal – May 6-8, 2026)</title>
+      <link>https://www.canada.ca/en/global-affairs/news/2026/05/joint-statement-following-the-conclusion-of-mexicos-trade-mission-to-canada-toronto-and-montreal--may-6-8-2026.html</link>
+      <description>地区分类：加拿大；来源：Government of Canada News；原标题：Joint Statement Following the Conclusion of Mexico’s Trade Mission to Canada (Toronto and Montréal – May 6-8, 2026)</description>
+      <guid>https://www.canada.ca/en/global-affairs/news/2026/05/joint-statement-following-the-conclusion-of-mexicos-trade-mission-to-canada-toronto-and-montreal--may-6-8-2026.html</guid>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI時代のリッチテキスト形式（RTF）</title>
-      <link>https://blog.lai.so/ai-rich-text-format/</link>
-      <description>はてなブックマーク - IT（人気）からの記事: AI時代のリッチテキスト形式（RTF）</description>
-      <guid>https://blog.lai.so/ai-rich-text-format/</guid>
+      <title>Are young people turning their backs on Quebec television, or does television simply no longer speak to them? Mounir Kaddouri kicks off ON FILME, the NFB’s YouTube-based documentary initiative.</title>
+      <link>https://www.canada.ca/en/national-film-board/news/2026/05/are-young-people-turning-their-backs-on-quebec-television-or-does-television-simply-no-longer-speak-to-them-mounir-kaddouri-kicks-off-on-filme-the-.html</link>
+      <description>地区分类：加拿大；来源：Government of Canada News；原标题：Are young people turning their backs on Quebec television, or does television simply no longer speak to them? Mounir Kaddouri kicks off ON FILME, the NFB’s YouTube-based documentary initiative.</description>
+      <guid>https://www.canada.ca/en/national-film-board/news/2026/05/are-young-people-turning-their-backs-on-quebec-television-or-does-television-simply-no-longer-speak-to-them-mounir-kaddouri-kicks-off-on-filme-the-.html</guid>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>要求を仕様に落とすテンプレートを作ってみた</title>
-      <link>https://zenn.dev/channnnsm/articles/c3a6de22e71f86</link>
-      <description>はてなブックマーク - IT（人気）からの記事: 要求を仕様に落とすテンプレートを作ってみた</description>
-      <guid>https://zenn.dev/channnnsm/articles/c3a6de22e71f86</guid>
+      <title>A Force of Nature: Canada’s Strategy to Protect Nature</title>
+      <link>https://www.canada.ca/en/environment-climate-change/news/2026/05/a-force-of-nature-canadas-strategy-to-protect-nature.html</link>
+      <description>地区分类：加拿大；来源：Government of Canada News；原标题：A Force of Nature: Canada’s Strategy to Protect Nature</description>
+      <guid>https://www.canada.ca/en/environment-climate-change/news/2026/05/a-force-of-nature-canadas-strategy-to-protect-nature.html</guid>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>紙時代の出版社の思い出話　その12『あの時代、LOGINはどうすればよかったんだろう？』｜地雷魚</title>
-      <link>https://note.com/jiraygyo/n/n7387843babd9</link>
-      <description>はてなブックマーク - IT（人気）からの記事: 紙時代の出版社の思い出話　その12『あの時代、LOGINはどうすればよかったんだろう？』｜地雷魚</description>
-      <guid>https://note.com/jiraygyo/n/n7387843babd9</guid>
+      <title>Minister Solomon to make announcement supporting sovereign large-scale data centre</title>
+      <link>https://www.canada.ca/en/innovation-science-economic-development/news/2026/05/minister-solomon-to-make-announcement-supporting-sovereign-large-scale-data-centre.html</link>
+      <description>地区分类：加拿大；来源：Government of Canada News；原标题：Minister Solomon to make announcement supporting sovereign large-scale data centre</description>
+      <guid>https://www.canada.ca/en/innovation-science-economic-development/news/2026/05/minister-solomon-to-make-announcement-supporting-sovereign-large-scale-data-centre.html</guid>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>2026年のソフトウェア開発を考える（2026/05版） / Software Engineering Scrum Fest Niigata 2026 Edition</title>
-      <link>https://speakerdeck.com/twada/software-engineering-scrum-fest-niigata-2026-edition</link>
-      <description>はてなブックマーク - IT（人気）からの記事: 2026年のソフトウェア開発を考える（2026/05版） / Software Engineering Scrum Fest Niigata 2026 Edition</description>
-      <guid>https://speakerdeck.com/twada/software-engineering-scrum-fest-niigata-2026-edition</guid>
+      <title>Government of Canada announces historic investments in Canada’s small craft harbours</title>
+      <link>https://www.canada.ca/en/privy-council/news/2026/05/government-of-canada-announces-historic-investments-in-canadas-small-craft-harbours.html</link>
+      <description>地区分类：加拿大；来源：Government of Canada News；原标题：Government of Canada announces historic investments in Canada’s small craft harbours</description>
+      <guid>https://www.canada.ca/en/privy-council/news/2026/05/government-of-canada-announces-historic-investments-in-canadas-small-craft-harbours.html</guid>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The unreasonable effectiveness of HTML — examples</title>
-      <link>https://thariqs.github.io/html-effectiveness/?ref=blog.lai.so</link>
-      <description>はてなブックマーク - IT（新着）からの記事: The unreasonable effectiveness of HTML — examples</description>
-      <guid>https://thariqs.github.io/html-effectiveness/?ref=blog.lai.so</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <title>The Surprising Factors Behind the Decline in the Fentanyl Epidemic</title>
+      <link>https://thedialogue.org/blogs/2026/04/the-surprising-factors-behind-the-decline-in-the-fentanyl-epidemic</link>
+      <description>地区分类：智库；来源：Inter-American Dialogue；原标题：The Surprising Factors Behind the Decline in the Fentanyl Epidemic</description>
+      <guid>https://thedialogue.org/blogs/2026/04/the-surprising-factors-behind-the-decline-in-the-fentanyl-epidemic</guid>
+      <pubDate>Wed, 22 Apr 2026 15:52:22 +0000</pubDate>
     </item>
     <item>
-      <title>A recent experience with ChatGPT 5.5 Pro</title>
-      <link>https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/</link>
-      <description>はてなブックマーク - IT（新着）からの記事: A recent experience with ChatGPT 5.5 Pro</description>
-      <guid>https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <title>Regional Competitiveness and Resilience through Integration of Digital and Physical SEZs (Special Economic Zones)</title>
+      <link>https://thedialogue.org/blogs/2026/04/regional-competitiveness-and-resilience-through-integration-of-digital-and-physical-sezs-special-economic-zones</link>
+      <description>地区分类：智库；来源：Inter-American Dialogue；原标题：Regional Competitiveness and Resilience through Integration of Digital and Physical SEZs (Special Economic Zones)</description>
+      <guid>https://thedialogue.org/blogs/2026/04/regional-competitiveness-and-resilience-through-integration-of-digital-and-physical-sezs-special-economic-zones</guid>
+      <pubDate>Wed, 01 Apr 2026 18:36:36 +0000</pubDate>
     </item>
     <item>
-      <title>取れない銀行口座データ　家計簿アプリから自分アプリへ</title>
-      <link>https://www.watch.impress.co.jp/docs/topic/watchplus/2107085.html</link>
-      <description>はてなブックマーク - IT（新着）からの記事: 取れない銀行口座データ　家計簿アプリから自分アプリへ</description>
-      <guid>https://www.watch.impress.co.jp/docs/topic/watchplus/2107085.html</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <title>Between Moderation and Mistrust: Rethinking Polarization in Brazil and the United States</title>
+      <link>https://thedialogue.org/blogs/2026/03/between-moderation-and-mistrust-rethinking-polarization-in-brazil-and-the-united-states</link>
+      <description>地区分类：智库；来源：Inter-American Dialogue；原标题：Between Moderation and Mistrust: Rethinking Polarization in Brazil and the United States</description>
+      <guid>https://thedialogue.org/blogs/2026/03/between-moderation-and-mistrust-rethinking-polarization-in-brazil-and-the-united-states</guid>
+      <pubDate>Tue, 24 Mar 2026 18:28:19 +0000</pubDate>
     </item>
     <item>
-      <title>クオンツトレード入門者のための確率過程――価格予測ではなく、分布・リスク・エッジを見るために - Qiita</title>
-      <link>https://qiita.com/tikeda123/items/ac378f83a4e7911392d4</link>
-      <description>はてなブックマーク - IT（新着）からの記事: クオンツトレード入門者のための確率過程――価格予測ではなく、分布・リスク・エッジを見るために - Qiita</description>
-      <guid>https://qiita.com/tikeda123/items/ac378f83a4e7911392d4</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <title>Mexico’s Electoral Reform</title>
+      <link>https://thedialogue.org/blogs/2026/03/mexicos-electoral-reform</link>
+      <description>地区分类：智库；来源：Inter-American Dialogue；原标题：Mexico’s Electoral Reform</description>
+      <guid>https://thedialogue.org/blogs/2026/03/mexicos-electoral-reform</guid>
+      <pubDate>Tue, 24 Mar 2026 13:51:48 +0000</pubDate>
     </item>
     <item>
-      <title>Valibot作者が開発したフォームライブラリ Formisch を使ってみる - プププなテクブ</title>
-      <link>https://blog.inorinrinrin.com/entry/2026/05/09/114847</link>
-      <description>はてなブックマーク - IT（新着）からの記事: Valibot作者が開発したフォームライブラリ Formisch を使ってみる - プププなテクブ</description>
-      <guid>https://blog.inorinrinrin.com/entry/2026/05/09/114847</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <title>Beyond USMCA: From Trade Integration to Joint Industrialization</title>
+      <link>https://thedialogue.org/blogs/2026/03/beyond-usmca-from-trade-integration-to-joint-industrialization</link>
+      <description>地区分类：智库；来源：Inter-American Dialogue；原标题：Beyond USMCA: From Trade Integration to Joint Industrialization</description>
+      <guid>https://thedialogue.org/blogs/2026/03/beyond-usmca-from-trade-integration-to-joint-industrialization</guid>
+      <pubDate>Tue, 10 Mar 2026 19:34:32 +0000</pubDate>
     </item>
     <item>
-      <title>LiteLLMのリクエストログをS3に出力する構成をMinIOでローカル再現してみた</title>
-      <link>https://dev.classmethod.jp/articles/litellm-s3-log-minio-local/</link>
-      <description>DevelopersIOからの記事: LiteLLMのリクエストログをS3に出力する構成をMinIOでローカル再現してみた</description>
-      <guid>https://dev.classmethod.jp/articles/litellm-s3-log-minio-local/</guid>
-      <pubDate>Sat, 09 May 2026 16:15:26 +0000</pubDate>
+      <title>Gang-controlled streets, shuttered newsrooms: How violence is eroding Haiti’s media</title>
+      <link>https://news.un.org/feed/view/en/story/2026/05/1167414</link>
+      <description>地区分类：国际组织；来源：UN News - Global perspective Human stories；原标题：Gang-controlled streets, shuttered newsrooms: How violence is eroding Haiti’s media</description>
+      <guid>https://news.un.org/feed/view/en/story/2026/05/1167414</guid>
+      <pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[アップデート] AWS公式 AIコーディングエージェント向けのSkill集「Agent Toolkit for AWS」の提供を開始！</title>
-      <link>https://dev.classmethod.jp/articles/20260506-agent-toolkit-for-aws/</link>
-      <description>DevelopersIOからの記事: [アップデート] AWS公式 AIコーディングエージェント向けのSkill集「Agent Toolkit for AWS」の提供を開始！</description>
-      <guid>https://dev.classmethod.jp/articles/20260506-agent-toolkit-for-aws/</guid>
-      <pubDate>Sat, 09 May 2026 14:46:22 +0000</pubDate>
+      <title>UN rights chief urges action to end impunity and address disappearances in Mexico</title>
+      <link>https://news.un.org/feed/view/en/story/2026/04/1167371</link>
+      <description>地区分类：国际组织；来源：UN News - Global perspective Human stories；原标题：UN rights chief urges action to end impunity and address disappearances in Mexico</description>
+      <guid>https://news.un.org/feed/view/en/story/2026/04/1167371</guid>
+      <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CDKのデプロイ待ち時間を1/6に！高速デプロイツール「cdkd」の実力を測ってみた</title>
-      <link>https://dev.classmethod.jp/articles/cdkd-deploy-6x-faster-than-cloudformation/</link>
-      <description>DevelopersIOからの記事: CDKのデプロイ待ち時間を1/6に！高速デプロイツール「cdkd」の実力を測ってみた</description>
-      <guid>https://dev.classmethod.jp/articles/cdkd-deploy-6x-faster-than-cloudformation/</guid>
-      <pubDate>Sat, 09 May 2026 10:39:46 +0000</pubDate>
+      <title>SECURITY COUNCIL LIVE: Update on Haiti as humanitarian crisis continues alongside gang violence</title>
+      <link>https://news.un.org/feed/view/en/story/2026/04/1167362</link>
+      <description>地区分类：国际组织；来源：UN News - Global perspective Human stories；原标题：SECURITY COUNCIL LIVE: Update on Haiti as humanitarian crisis continues alongside gang violence</description>
+      <guid>https://news.un.org/feed/view/en/story/2026/04/1167362</guid>
+      <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[アップデート] Amazon EventBridgeのPutEvents呼び出しがCloudTrailで追跡できるようになりました</title>
-      <link>https://dev.classmethod.jp/articles/2026-05-08-eventbridge-putevents-cloudtrail-tracking/</link>
-      <description>DevelopersIOからの記事: [アップデート] Amazon EventBridgeのPutEvents呼び出しがCloudTrailで追跡できるようになりました</description>
-      <guid>https://dev.classmethod.jp/articles/2026-05-08-eventbridge-putevents-cloudtrail-tracking/</guid>
-      <pubDate>Sat, 09 May 2026 07:27:59 +0000</pubDate>
+      <title>As Colombia elections near, Security Council hears calls for calm</title>
+      <link>https://news.un.org/feed/view/en/story/2026/04/1167348</link>
+      <description>地区分类：国际组织；来源：UN News - Global perspective Human stories；原标题：As Colombia elections near, Security Council hears calls for calm</description>
+      <guid>https://news.un.org/feed/view/en/story/2026/04/1167348</guid>
+      <pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AWS Batch のジョブキューの使用状況とシェア別の使用状況がマネージメントコンソールと API で確認できるようになりました</title>
-      <link>https://dev.classmethod.jp/articles/aws-batch-job-queue-share-utilization-visibility/</link>
-      <description>DevelopersIOからの記事: AWS Batch のジョブキューの使用状況とシェア別の使用状況がマネージメントコンソールと API で確認できるようになりました</description>
-      <guid>https://dev.classmethod.jp/articles/aws-batch-job-queue-share-utilization-visibility/</guid>
-      <pubDate>Sat, 09 May 2026 05:31:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>ubuntu.comへのDDoSとその対処、“copyfail”問題への対応、Ubuntu 26.10 “Stonking Stingray”の開発 / ドキュメント公開サイトの整理</title>
-      <link>https://gihyo.jp/admin/clip/01/ubuntu-topics/202605/08?utm_source=feed</link>
-      <description>gihyo.jpからの記事: ubuntu.comへのDDoSとその対処、“copyfail”問題への対応、Ubuntu 26.10 “Stonking Stingray”の開発 / ドキュメント公開サイトの整理</description>
-      <guid>https://gihyo.jp/admin/clip/01/ubuntu-topics/202605/08?utm_source=feed</guid>
-      <pubDate>Fri, 08 May 2026 00:45:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google検索のAIモードとAIによる概要、Webサイトへのリンクを見つけやすくする更新を順次提供</title>
-      <link>https://gihyo.jp/article/2026/05/google-search-ai-mode-upgrades?utm_source=feed</link>
-      <description>gihyo.jpからの記事: Google検索のAIモードとAIによる概要、Webサイトへのリンクを見つけやすくする更新を順次提供</description>
-      <guid>https://gihyo.jp/article/2026/05/google-search-ai-mode-upgrades?utm_source=feed</guid>
-      <pubDate>Thu, 07 May 2026 06:15:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic、SpaceXと提携、Claude Codeの利用制限を大幅に緩和</title>
-      <link>https://gihyo.jp/article/2026/05/anthropic-spacex-partnership?utm_source=feed</link>
-      <description>gihyo.jpからの記事: Anthropic、SpaceXと提携、Claude Codeの利用制限を大幅に緩和</description>
-      <guid>https://gihyo.jp/article/2026/05/anthropic-spacex-partnership?utm_source=feed</guid>
-      <pubDate>Thu, 07 May 2026 02:05:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codexアプリのペットを孵化させる　hatch-petスキルで動くマスコットを作る</title>
-      <link>https://gihyo.jp/article/2026/05/hatch-codex-pets?utm_source=feed</link>
-      <description>gihyo.jpからの記事: Codexアプリのペットを孵化させる　hatch-petスキルで動くマスコットを作る</description>
-      <guid>https://gihyo.jp/article/2026/05/hatch-codex-pets?utm_source=feed</guid>
-      <pubDate>Sun, 03 May 2026 05:36:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI、Codexアプリの作業状況を知らせるコンパニオン「Codex pets」をリリース</title>
-      <link>https://gihyo.jp/article/2026/05/codex-pets?utm_source=feed</link>
-      <description>gihyo.jpからの記事: OpenAI、Codexアプリの作業状況を知らせるコンパニオン「Codex pets」をリリース</description>
-      <guid>https://gihyo.jp/article/2026/05/codex-pets?utm_source=feed</guid>
-      <pubDate>Sat, 02 May 2026 03:48:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AIエージェントを作れる「Google Agent Studio」／Amazon S3がファイルシステムに／ローカルAI環境を配布「Foundry Local」ほか、2026年4月の人気記事</title>
-      <link>https://www.publickey1.jp/blog/26/aigoogle_agent_studioamazon_s3aifoundry_local20264.html</link>
-      <description>Publickeyからの記事: AIエージェントを作れる「Google Agent Studio」／Amazon S3がファイルシステムに／ローカルAI環境を配布「Foundry Local」ほか、2026年4月の人気記事</description>
-      <guid>https://www.publickey1.jp/blog/26/aigoogle_agent_studioamazon_s3aifoundry_local20264.html</guid>
-      <pubDate>Thu, 07 May 2026 15:49:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>AWS、攻撃を受けた中東（UAE）リージョンの復旧には数カ月かかると。状況を約2カ月ぶりに報告</title>
-      <link>https://www.publickey1.jp/blog/26/awsuae2.html</link>
-      <description>Publickeyからの記事: AWS、攻撃を受けた中東（UAE）リージョンの復旧には数カ月かかると。状況を約2カ月ぶりに報告</description>
-      <guid>https://www.publickey1.jp/blog/26/awsuae2.html</guid>
-      <pubDate>Wed, 06 May 2026 15:19:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>「TypeScript 7.0」ベータ版が公開。TypeScriptコンパイラなどをGo言語に移植、コンパイルを10倍速に</title>
-      <link>https://www.publickey1.jp/blog/26/typescript_70typescriptgo10.html</link>
-      <description>Publickeyからの記事: 「TypeScript 7.0」ベータ版が公開。TypeScriptコンパイラなどをGo言語に移植、コンパイルを10倍速に</description>
-      <guid>https://www.publickey1.jp/blog/26/typescript_70typescriptgo10.html</guid>
-      <pubDate>Sun, 26 Apr 2026 15:08:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>［速報］Google Cloud、ローカルマシンにインストールできる大規模分散RDB「Spanner Omni」プレビュー公開</title>
-      <link>https://www.publickey1.jp/blog/26/google_cloudrdbspanner_omni.html</link>
-      <description>Publickeyからの記事: ［速報］Google Cloud、ローカルマシンにインストールできる大規模分散RDB「Spanner Omni」プレビュー公開</description>
-      <guid>https://www.publickey1.jp/blog/26/google_cloudrdbspanner_omni.html</guid>
-      <pubDate>Wed, 22 Apr 2026 16:58:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>［速報］Google、AIエージェントをローコードで作れる「Agent Studio」含むAIエージェント基盤「Gemini Enterprise Agent Platform」発表</title>
-      <link>https://www.publickey1.jp/blog/26/googleaiagent_studioaigemini_enterprise_agent_platform.html</link>
-      <description>Publickeyからの記事: ［速報］Google、AIエージェントをローコードで作れる「Agent Studio」含むAIエージェント基盤「Gemini Enterprise Agent Platform」発表</description>
-      <guid>https://www.publickey1.jp/blog/26/googleaiagent_studioaigemini_enterprise_agent_platform.html</guid>
-      <pubDate>Wed, 22 Apr 2026 15:59:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Manus、タスクから自動学習し更新する「Project」の新機能を発表</title>
-      <link>https://codezine.jp/article/detail/24172</link>
-      <description>CodeZineからの記事: Manus、タスクから自動学習し更新する「Project」の新機能を発表</description>
-      <guid>https://codezine.jp/article/detail/24172</guid>
-      <pubDate>Sat, 09 May 2026 09:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GitHub Copilot、「GPT-4.1」の提供を6月1日で終了</title>
-      <link>https://codezine.jp/article/detail/24170</link>
-      <description>CodeZineからの記事: GitHub Copilot、「GPT-4.1」の提供を6月1日で終了</description>
-      <guid>https://codezine.jp/article/detail/24170</guid>
-      <pubDate>Sat, 09 May 2026 06:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Node.jsが「v26.1.0」をリリース、動的ライブラリのロード機能など追加</title>
-      <link>https://codezine.jp/article/detail/24168</link>
-      <description>CodeZineからの記事: Node.jsが「v26.1.0」をリリース、動的ライブラリのロード機能など追加</description>
-      <guid>https://codezine.jp/article/detail/24168</guid>
-      <pubDate>Sat, 09 May 2026 03:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Visual Studio Code 1.119公開、エージェントと統合ブラウザの連携が可能に</title>
-      <link>https://codezine.jp/article/detail/24166</link>
-      <description>CodeZineからの記事: Visual Studio Code 1.119公開、エージェントと統合ブラウザの連携が可能に</description>
-      <guid>https://codezine.jp/article/detail/24166</guid>
-      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>NVIDIAが「Nemotron Labs」開発者向けライブ配信を日本で開始、第1回は5月13日</title>
-      <link>https://codezine.jp/article/detail/24174</link>
-      <description>CodeZineからの記事: NVIDIAが「Nemotron Labs」開発者向けライブ配信を日本で開始、第1回は5月13日</description>
-      <guid>https://codezine.jp/article/detail/24174</guid>
-      <pubDate>Fri, 08 May 2026 08:45:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AIコーディングアシスタントはデリバリーを加速しない、なぜならコーディングがこれまでボトルネックではなかったから</title>
-      <link>https://www.infoq.com/jp/news/2026/04/agoda-ai-code-bottleneck/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</link>
-      <description>InfoQ Japanからの記事: AIコーディングアシスタントはデリバリーを加速しない、なぜならコーディングがこれまでボトルネックではなかったから</description>
-      <guid>https://www.infoq.com/jp/news/2026/04/agoda-ai-code-bottleneck/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</guid>
-      <pubDate>Fri, 24 Apr 2026 09:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sapporo.swift #1</title>
-      <link>https://japan-region-swift.connpass.com/event/393404/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</link>
-      <description>connpass - イベントからの記事: Sapporo.swift #1</description>
-      <guid>https://japan-region-swift.connpass.com/event/393404/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</guid>
-      <pubDate>Sat, 09 May 2026 17:09:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>devblogラジオ vol.142</title>
-      <link>https://devblog.connpass.com/event/393402/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</link>
-      <description>connpass - イベントからの記事: devblogラジオ vol.142</description>
-      <guid>https://devblog.connpass.com/event/393402/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</guid>
-      <pubDate>Sat, 09 May 2026 15:36:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>ネットワークスペシャリストのNoteメンバーシップの説明会</title>
-      <link>https://nespe.connpass.com/event/393399/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</link>
-      <description>connpass - イベントからの記事: ネットワークスペシャリストのNoteメンバーシップの説明会</description>
-      <guid>https://nespe.connpass.com/event/393399/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</guid>
-      <pubDate>Sat, 09 May 2026 13:33:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>【無料・オンライン】3軸分析ワークショップ — セキュリティ情報の読み解き方（6月回）</title>
-      <link>https://security-3axis.connpass.com/event/393393/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</link>
-      <description>connpass - イベントからの記事: 【無料・オンライン】3軸分析ワークショップ — セキュリティ情報の読み解き方（6月回）</description>
-      <guid>https://security-3axis.connpass.com/event/393393/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</guid>
-      <pubDate>Sat, 09 May 2026 12:19:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>第40回_AWS Certified Cloud Practitioner (CLF) 勉強会</title>
-      <link>https://shift-mentor-study.connpass.com/event/393395/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</link>
-      <description>connpass - イベントからの記事: 第40回_AWS Certified Cloud Practitioner (CLF) 勉強会</description>
-      <guid>https://shift-mentor-study.connpass.com/event/393395/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</guid>
-      <pubDate>Sat, 09 May 2026 12:17:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>春のAgentCoreアップデート解説まつり（JAWS-UG東京）</title>
-      <link>https://jawsug.connpass.com/event/393392/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</link>
-      <description>connpass - イベントからの記事: 春のAgentCoreアップデート解説まつり（JAWS-UG東京）</description>
-      <guid>https://jawsug.connpass.com/event/393392/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</guid>
-      <pubDate>Sat, 09 May 2026 10:57:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>Toyama.rb #111 もくもく会</title>
-      <link>https://toyamarb.connpass.com/event/393360/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</link>
-      <description>connpass - イベントからの記事: Toyama.rb #111 もくもく会</description>
-      <guid>https://toyamarb.connpass.com/event/393360/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</guid>
-      <pubDate>Sat, 09 May 2026 10:33:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>しんめ.rb #66</title>
-      <link>https://shinmerb.connpass.com/event/393391/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</link>
-      <description>connpass - イベントからの記事: しんめ.rb #66</description>
-      <guid>https://shinmerb.connpass.com/event/393391/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</guid>
-      <pubDate>Sat, 09 May 2026 10:25:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>【2分プレゼン&amp;FB招待あり】人とつながるビジネス交流会＠新潟市</title>
-      <link>https://connpass.com/event/393389/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</link>
-      <description>connpass - イベントからの記事: 【2分プレゼン&amp;FB招待あり】人とつながるビジネス交流会＠新潟市</description>
-      <guid>https://connpass.com/event/393389/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</guid>
-      <pubDate>Sat, 09 May 2026 09:43:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rustオンラインもくもく会 #352</title>
-      <link>https://rust-online.connpass.com/event/393387/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</link>
-      <description>connpass - イベントからの記事: Rustオンラインもくもく会 #352</description>
-      <guid>https://rust-online.connpass.com/event/393387/?utm_campaign=recent_events&amp;utm_source=feed&amp;utm_medium=atom</guid>
-      <pubDate>Sat, 09 May 2026 08:58:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>【累計登録3,000名】デモで解説！ “ライフプラン×不動産投資シミュレーション” ご紹介セミナー</title>
-      <link>https://techplay.jp/event/995650</link>
-      <description>TECH PLAY - イベントからの記事: 【累計登録3,000名】デモで解説！ “ライフプラン×不動産投資シミュレーション” ご紹介セミナー</description>
-      <guid>https://techplay.jp/event/995650</guid>
-      <pubDate>Sat, 09 May 2026 07:32:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>(教室見学・体験) 小学生・中学生対象 Unityでゲームプログラミング！</title>
-      <link>https://techplay.jp/event/995649</link>
-      <description>TECH PLAY - イベントからの記事: (教室見学・体験) 小学生・中学生対象 Unityでゲームプログラミング！</description>
-      <guid>https://techplay.jp/event/995649</guid>
-      <pubDate>Sat, 09 May 2026 07:16:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>バイブコーディングクラブ</title>
-      <link>https://techplay.jp/event/995647</link>
-      <description>TECH PLAY - イベントからの記事: バイブコーディングクラブ</description>
-      <guid>https://techplay.jp/event/995647</guid>
-      <pubDate>Sat, 09 May 2026 05:33:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>ゼロからはじめるPython入門講座（対面・無料）</title>
-      <link>https://techplay.jp/event/995646</link>
-      <description>TECH PLAY - イベントからの記事: ゼロからはじめるPython入門講座（対面・無料）</description>
-      <guid>https://techplay.jp/event/995646</guid>
-      <pubDate>Sat, 09 May 2026 03:56:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>【初心者歓迎・無料】ゼロから始めるClaude Code講座</title>
-      <link>https://techplay.jp/event/995644</link>
-      <description>TECH PLAY - イベントからの記事: 【初心者歓迎・無料】ゼロから始めるClaude Code講座</description>
-      <guid>https://techplay.jp/event/995644</guid>
-      <pubDate>Sat, 09 May 2026 03:54:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>第61回ゼロからのデータ分析入門講座</title>
-      <link>https://techplay.jp/event/995326</link>
-      <description>TECH PLAY - イベントからの記事: 第61回ゼロからのデータ分析入門講座</description>
-      <guid>https://techplay.jp/event/995326</guid>
-      <pubDate>Sat, 09 May 2026 01:00:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>組織でも事業でも！事例で見る、AIを使いこなす企業の共通点</title>
-      <link>https://techplay.jp/event/995640</link>
-      <description>TECH PLAY - イベントからの記事: 組織でも事業でも！事例で見る、AIを使いこなす企業の共通点</description>
-      <guid>https://techplay.jp/event/995640</guid>
-      <pubDate>Fri, 08 May 2026 14:53:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>【超入門】Claude Code導入実践セミナー</title>
-      <link>https://techplay.jp/event/995634</link>
-      <description>TECH PLAY - イベントからの記事: 【超入門】Claude Code導入実践セミナー</description>
-      <guid>https://techplay.jp/event/995634</guid>
-      <pubDate>Fri, 08 May 2026 14:14:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>Aligned</title>
-      <link>http://www.oreilly.co.jp/books/9784814401499/?utm_source=feed&amp;utm_mediun=referral&amp;utm_content=new_book</link>
-      <description>O'Reilly Japan - 近刊からの記事: Aligned</description>
-      <guid>http://www.oreilly.co.jp/books/9784814401499/?utm_source=feed&amp;utm_mediun=referral&amp;utm_content=new_book</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Webブラウザエンジニアリング</title>
-      <link>http://www.oreilly.co.jp/books/9784814401574/?utm_source=feed&amp;utm_mediun=referral&amp;utm_content=new_book</link>
-      <description>O'Reilly Japan - 近刊からの記事: Webブラウザエンジニアリング</description>
-      <guid>http://www.oreilly.co.jp/books/9784814401574/?utm_source=feed&amp;utm_mediun=referral&amp;utm_content=new_book</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>UX for Business</title>
-      <link>http://www.oreilly.co.jp/books/9784814401475/?utm_source=feed&amp;utm_mediun=referral&amp;utm_content=new_book</link>
-      <description>O'Reilly Japan - 近刊からの記事: UX for Business</description>
-      <guid>http://www.oreilly.co.jp/books/9784814401475/?utm_source=feed&amp;utm_mediun=referral&amp;utm_content=new_book</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>APIハンズオンラーニング</title>
-      <link>http://www.oreilly.co.jp/books/9784814401628/?utm_source=feed&amp;utm_mediun=referral&amp;utm_content=new_book</link>
-      <description>O'Reilly Japan - 近刊からの記事: APIハンズオンラーニング</description>
-      <guid>http://www.oreilly.co.jp/books/9784814401628/?utm_source=feed&amp;utm_mediun=referral&amp;utm_content=new_book</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LLMOps</title>
-      <link>http://www.oreilly.co.jp/books/9784814401604/?utm_source=feed&amp;utm_mediun=referral&amp;utm_content=new_book</link>
-      <description>O'Reilly Japan - 近刊からの記事: LLMOps</description>
-      <guid>http://www.oreilly.co.jp/books/9784814401604/?utm_source=feed&amp;utm_mediun=referral&amp;utm_content=new_book</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <title>More than half of Haitians continue to face food crisis</title>
+      <link>https://news.un.org/feed/view/en/story/2026/04/1167328</link>
+      <description>地区分类：国际组织；来源：UN News - Global perspective Human stories；原标题：More than half of Haitians continue to face food crisis</description>
+      <guid>https://news.un.org/feed/view/en/story/2026/04/1167328</guid>
+      <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

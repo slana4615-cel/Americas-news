@@ -13,6 +13,7 @@ from concurrent.futures import ThreadPoolExecutor
 import concurrent.futures
 import json
 import hashlib
+import socket
 from urllib.parse import urlparse, urlunparse, urlencode, parse_qsl
 
 # srcディレクトリをPythonパスに追加
@@ -21,27 +22,53 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 # 設定のインポート
 from config.archive_config import DEFAULT_SITE_CONFIG
 
-# 取得するRSSフィードのリスト
-FEEDS = {
-    "Tech Blog Weekly": "https://yamadashy.github.io/tech-blog-rss-feed/feeds/rss.xml",
-    "Zenn": "https://zenn.dev/feed",
-    "Qiita": "https://qiita.com/popular-items/feed",
-    "はてなブックマーク - IT（人気）": "http://b.hatena.ne.jp/hotentry/it.rss",
-    "はてなブックマーク - IT（新着）": "https://b.hatena.ne.jp/entrylist/it.rss",
-    "DevelopersIO": "https://dev.classmethod.jp/feed/",
-    "gihyo.jp": "https://gihyo.jp/dev/feed/rss2",
-    "Publickey": "https://www.publickey1.jp/atom.xml",
-    "CodeZine": "https://codezine.jp/rss/new/20/index.xml",
-    "InfoQ Japan": "https://feed.infoq.com/jp",
-    "connpass - イベント": "https://connpass.com/explore/ja.atom",
-    "TECH PLAY - イベント": "https://rss.techplay.jp/event/w3c-rss-format/rss.xml",
-    "O'Reilly Japan - 近刊": "https://www.oreilly.co.jp/catalog/soon.xml"
+socket.setdefaulttimeout(20)
+
+# Public RSS feeds for Americas-focused research monitoring.
+BRIEF_TITLE = "美洲新闻自动抓取结果｜Daily Americas News Collection"
+BRIEF_DESCRIPTION = (
+    "本文件由程序根据公开 RSS 新闻源自动抓取生成，仅用于研究团队初步筛选。"
+    "新闻价值、事实核验和最终采用由人工判断。"
+)
+BRIEF_LANGUAGE = "zh-CN"
+BRIEF_UPDATE_NOTE = "自动更新时间：每日 22:00 UTC。"
+
+CATEGORY_LABELS = {
+    "United States": "美国",
+    "Latin America": "拉丁美洲",
+    "Caribbean": "加勒比地区",
+    "Canada": "加拿大",
+    "Think Tanks": "智库",
+    "International Organizations": "国际组织",
 }
 
-# 除外するドメインのリスト
+SOURCE_LABELS = {
+    "美国": "PBS NewsHour Politics",
+    "拉丁美洲": "MercoPress Latin America",
+    "加勒比地区": "Caribbean News Global",
+    "加拿大": "Government of Canada News",
+    "智库": "Inter-American Dialogue",
+    "国际组织": "UN News Americas",
+}
+
+FEEDS = {
+    "美国": "https://www.pbs.org/newshour/feeds/rss/politics",
+    "拉丁美洲": "https://en.mercopress.com/rss/latin-america",
+    "加勒比地区": "https://caribbeannewsglobal.com/feed/",
+    "加拿大": "https://api.io.canada.ca/io-server/gc/news/en/v2?format=atom&orderBy=desc&pick=50&sort=publishedDate",
+    "智库": "https://www.thedialogue.org/feed/",
+    "国际组织": "https://news.un.org/feed/subscribe/en/news/region/americas/feed/rss.xml",
+}
+
+# Domains to exclude from entry collection and thumbnail page requests.
 EXCLUDED_DOMAINS = {
-    'anond.hatelabo.jp': 'hatena anonymous diary',
-    'togetter.com': 'togetter'
+    'nytimes.com': 'paywalled source',
+    'washingtonpost.com': 'paywalled source',
+    'wsj.com': 'paywalled source',
+    'ft.com': 'paywalled source',
+    'economist.com': 'paywalled source',
+    'bloomberg.com': 'paywalled source',
+    'foreignaffairs.com': 'registration/paywall restricted source',
 }
 
 # 各フィードから取得する記事の件数
@@ -232,14 +259,96 @@ def extract_author_info(entry):
     
     return author
 
-def fetch_feed_entries(feed_url):
+def get_category_label(feed_name):
+    """Return the Chinese category label for a feed name."""
+    return CATEGORY_LABELS.get(feed_name, feed_name)
+
+def clean_text(text):
+    """Convert RSS HTML/text fragments to compact plain text."""
+    if not text:
+        return None
+    soup = BeautifulSoup(str(text), 'html.parser')
+    cleaned = soup.get_text(" ", strip=True)
+    cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+    return cleaned or None
+
+def get_entry_summary(entry):
+    """Extract the original RSS summary/description without translation."""
+    for field in ('summary', 'description'):
+        value = getattr(entry, field, None)
+        cleaned = clean_text(value)
+        if cleaned:
+            return cleaned
+    if hasattr(entry, 'content') and entry.content:
+        content = entry.content[0].get('value', '') if isinstance(entry.content, list) else str(entry.content)
+        return clean_text(content)
+    return None
+
+def get_entry_published(entry):
+    """Extract the RSS-provided publication timestamp without rewriting it."""
+    for field in ('published', 'updated', 'created'):
+        value = getattr(entry, field, None)
+        if value:
+            return clean_text(value)
+    parsed_date = (
+        getattr(entry, 'published_parsed', None)
+        or getattr(entry, 'updated_parsed', None)
+        or getattr(entry, 'created_parsed', None)
+    )
+    if parsed_date:
+        return datetime.datetime(*parsed_date[:6]).strftime('%Y-%m-%d %H:%M:%S UTC')
+    return "未提供"
+
+def get_entry_source(entry, feed_name):
+    """Extract a source name while keeping category separate from source."""
+    if hasattr(entry, 'source') and entry.source:
+        source = entry.source
+        if isinstance(source, dict) and source.get('title'):
+            return clean_text(source.get('title'))
+        if hasattr(source, 'title') and source.title:
+            return clean_text(source.title)
+    if hasattr(entry, 'source_detail') and entry.source_detail and entry.source_detail.get('title'):
+        return clean_text(entry.source_detail.get('title'))
+    if hasattr(entry, 'source_info') and entry.source_info:
+        return entry.source_info
+    if feed_name in SOURCE_LABELS:
+        return SOURCE_LABELS[feed_name]
+    if hasattr(entry, 'link') and entry.link:
+        netloc = urlparse(entry.link).netloc.replace('www.', '')
+        return netloc or feed_name
+    return feed_name
+
+def format_markdown_entry(entry, feed_name):
+    """Render one RSS entry in the fixed Chinese research-screening format."""
+    title = clean_text(getattr(entry, 'title', '')) or "未提供"
+    link = getattr(entry, 'link', '') or "未提供"
+    source = get_entry_source(entry, feed_name) or "未提供"
+    published = get_entry_published(entry)
+    category = get_category_label(feed_name)
+    summary = get_entry_summary(entry)
+
+    item = (
+        f"- **原标题**：{title}\n"
+        f"  - **来源**：{source}\n"
+        f"  - **发布时间**：{published}\n"
+        f"  - **地区分类**：{category}\n"
+        f"  - **原文链接**：{link}\n"
+    )
+    if summary:
+        item += f"  - **原文摘要**：{summary}\n"
+    return item
+
+def fetch_feed_entries(feed_url, feed_name=None):
     """指定されたURLからRSSフィードのエントリーを取得する"""
     try:
         feed = feedparser.parse(feed_url)
+        feed_title = clean_text(feed.feed.get('title')) if feed.feed else None
+        fallback_source = SOURCE_LABELS.get(feed_name) or feed_title or urlparse(feed_url).netloc
         
         # 各エントリに著者情報を追加
         for entry in feed.entries:
             entry.author_info = extract_author_info(entry)
+            entry.source_info = fallback_source
         
         return feed.entries
     except Exception as e:
@@ -248,8 +357,13 @@ def fetch_feed_entries(feed_url):
 
 def get_article_thumbnail(url, max_retries=2):
     """記事URLからサムネイル画像URLを取得する"""
+    parsed_url = urlparse(url)
+    if any(domain in parsed_url.netloc for domain in EXCLUDED_DOMAINS):
+        print(f"Skipping thumbnail lookup for restricted or paywalled domain: {url}")
+        return None
+
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        'User-Agent': 'DailyAmericasNewsBrief/1.0 (+https://github.com/unsolublesugar/americas-news)'
     }
     
     def validate_image_url(img_url):
@@ -261,8 +375,8 @@ def get_article_thumbnail(url, max_retries=2):
         # 画像形式のチェック
         if any(ext in img_url.lower() for ext in ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg']):
             return True
-        # 動的生成画像のパターン（qiita、zennなど）
-        if any(domain in img_url for domain in ['qiita-user-contents.imgix.net', 'res.cloudinary.com', 'cdn.image.st-hatena.com']):
+        # Dynamic image services commonly used for article thumbnails.
+        if any(domain in img_url for domain in ['res.cloudinary.com', 'images.ctfassets.net', 'cdn.sanity.io']):
             return True
         return False
     
@@ -404,8 +518,7 @@ def deduplicate_urls_across_feeds(all_entries):
                 deduplicated_feeds[feed_name] = entries
                 continue
                 
-            # イベントフィードかどうかで目標件数を決定
-            target_count = 10 if "イベント" in feed_name else 5
+            target_count = DEFAULT_SITE_CONFIG.get_max_entries(feed_name)
             
             # URL重複除去（正規化URLで比較）
             unique_entries = []
@@ -430,8 +543,8 @@ def deduplicate_urls_across_feeds(all_entries):
                             print(f"  正規化URL: {norm}  ← 正規化による検出")
                             norm_caught_feed += 1
 
-            # イベントフィードの場合はさらにイベント重複除去を適用
-            if "イベント" in feed_name:
+            # Event-style feeds can still opt into title-based event deduplication.
+            if "Event" in feed_name or "イベント" in feed_name:
                 unique_entries = deduplicate_events(unique_entries, target_count)
 
             deduplicated_feeds[feed_name] = unique_entries
@@ -446,8 +559,7 @@ def deduplicate_urls_across_feeds(all_entries):
                 deduplicated_feeds[feed_name] = entries
                 continue
 
-            # イベントフィードかどうかで目標件数を決定
-            target_count = 10 if "イベント" in feed_name else 5
+            target_count = DEFAULT_SITE_CONFIG.get_max_entries(feed_name)
 
             # URL重複除去（正規化URLで比較）
             unique_entries = []
@@ -472,8 +584,8 @@ def deduplicate_urls_across_feeds(all_entries):
                             print(f"  正規化URL: {norm}  ← 正規化による検出")
                             norm_caught_feed += 1
 
-            # イベントフィードの場合はさらにイベント重複除去を適用
-            if "イベント" in feed_name:
+            # Event-style feeds can still opt into title-based event deduplication.
+            if "Event" in feed_name or "イベント" in feed_name:
                 unique_entries = deduplicate_events(unique_entries, target_count)
 
             deduplicated_feeds[feed_name] = unique_entries
@@ -579,21 +691,22 @@ def generate_html(all_entries, date_str, thumbnails=None):
     entries_html = ""
     
     for feed_name, entries in all_entries.items():
-        entries_html += f"    <h2>{feed_name}</h2>\n"
+        category = get_category_label(feed_name)
+        entries_html += f"    <h2>{category}</h2>\n"
         
         if not entries:
-            entries_html += "    <p>記事を取得できませんでした。</p>\n"
+            entries_html += "    <p>未能获取新闻条目。</p>\n"
         else:
             for entry in entries:
                 thumbnail_url = thumbnails.get(entry.link) if thumbnails else None
-                card_html = template_manager.render_card(entry, feed_name, thumbnail_url)
+                card_html = template_manager.render_card(entry, category, thumbnail_url)
                 entries_html += card_html
     
     # 記事総数を計算
     total_entries = sum(len(entries) for entries in all_entries.values())
     
     # 完全なHTMLページを構築
-    title = f"今日のテックニュース ({date_str})"
+    title = f"{BRIEF_TITLE} ({date_str})"
     html_content = content_structure.build_html_page(
         title=title,
         date_str=date_str,
@@ -606,71 +719,58 @@ def generate_html(all_entries, date_str, thumbnails=None):
 
 def generate_markdown(all_entries, date_str):
     """取得したエントリーからMarkdownコンテンツを生成する"""
-    markdown = f"# 今日のテックニュース ({date_str})\n\n"
-    markdown += f"""📚 [過去のニュースを見る](archives/index.md) | 🎨 [カード表示版を見る]({DEFAULT_SITE_CONFIG.site_url}) | 📡 [RSSフィードを購読]({DEFAULT_SITE_CONFIG.rss_url})
+    markdown = f"# {BRIEF_TITLE}\n\n"
+    markdown += f"""- **生成日期**：{date_str}
+- **自动更新**：每日 22:00 UTC
+- **输出说明**：{BRIEF_DESCRIPTION}
 
-日本の主要な技術系メディアの最新人気エントリーをお届けします。
-
-※毎日JST 7:00に自動更新
-
-## 🎨 カード表示版もあります
-
-GitHub Pages版では各記事がカード形式で見やすく表示されます：  
-{DEFAULT_SITE_CONFIG.site_url}
-
+📚 [历史归档](archives/index.md) | 🎨 [HTML 卡片视图]({DEFAULT_SITE_CONFIG.site_url}) | 📡 [RSS 订阅]({DEFAULT_SITE_CONFIG.rss_url})
 ---
+
+## 抓取结果
+
 """
 
     for feed_name, entries in all_entries.items():
-        markdown += f"## {feed_name}\n\n"
+        category = get_category_label(feed_name)
+        markdown += f"## {category}\n\n"
         if not entries:
-            markdown += "記事を取得できませんでした。\n"
+            markdown += "未能获取新闻条目。\n"
         else:
             # エントリーはすでにURL重複除去済み
             for entry in entries:
-                title = entry.title
-                link = entry.link
-                
-                # シンプルなリンク形式で表示
-                markdown += f"- [{title}]({link})\n"
+                markdown += format_markdown_entry(entry, feed_name) + "\n"
         
         markdown += "\n\n---\n"
-    
-    markdown += "## License\n\nThis project is licensed under the [MIT License](LICENSE).\n"
     
     return markdown
 
 def generate_archive_markdown(all_entries, date_str):
     """アーカイブ用のMarkdownコンテンツを生成する（相対パス修正版）"""
-    markdown = f"# 今日のテックニュース ({date_str})\n\n"
-    markdown += f"""📚 [過去のニュースを見る](../../daily_news.md) | 🎨 [カード表示版を見る]({DEFAULT_SITE_CONFIG.site_url}) | 📡 [RSSフィードを購読]({DEFAULT_SITE_CONFIG.rss_url})
+    markdown = f"# {BRIEF_TITLE}\n\n"
+    markdown += f"""- **生成日期**：{date_str}
+- **自动更新**：每日 22:00 UTC
+- **输出说明**：{BRIEF_DESCRIPTION}
 
-日本の主要な技術系メディアの最新人気エントリーをお届けします。
-
-## 🎨 カード表示版もあります
-
-GitHub Pages版では各記事がカード形式で見やすく表示されます：  
-{DEFAULT_SITE_CONFIG.site_url}
+📚 [最新结果](../../daily_news.md) | 🎨 [HTML 卡片视图]({DEFAULT_SITE_CONFIG.site_url}) | 📡 [RSS 订阅]({DEFAULT_SITE_CONFIG.rss_url})
 
 ---
+
+## 抓取结果
+
 """
 
     for feed_name, entries in all_entries.items():
-        markdown += f"## {feed_name}\n\n"
+        category = get_category_label(feed_name)
+        markdown += f"## {category}\n\n"
         if not entries:
-            markdown += "記事を取得できませんでした。\n"
+            markdown += "未能获取新闻条目。\n"
         else:
             # エントリーはすでにURL重複除去済み
             for entry in entries:
-                title = entry.title
-                link = entry.link
-                
-                # シンプルなリンク形式で表示
-                markdown += f"- [{title}]({link})\n"
+                markdown += format_markdown_entry(entry, feed_name) + "\n"
         
         markdown += "\n\n---\n"
-    
-    markdown += "## License\n\nThis project is licensed under the [MIT License](LICENSE).\n"
     
     return markdown
 
@@ -686,18 +786,19 @@ def generate_archive_html(all_entries, date_str, thumbnails=None):
     entries_html = ""
     
     for feed_name, entries in all_entries.items():
-        entries_html += f"    <h2>{feed_name}</h2>\n"
+        category = get_category_label(feed_name)
+        entries_html += f"    <h2>{category}</h2>\n"
         
         if not entries:
-            entries_html += "    <p>記事を取得できませんでした。</p>\n"
+            entries_html += "    <p>未能获取新闻条目。</p>\n"
         else:
             for entry in entries:
                 thumbnail_url = thumbnails.get(entry.link) if thumbnails else None
-                card_html = template_manager.render_card(entry, feed_name, thumbnail_url)
+                card_html = template_manager.render_card(entry, category, thumbnail_url)
                 entries_html += card_html
     
     # アーカイブ用HTMLページを構築
-    title = f"今日のテックニュース ({date_str})"
+    title = f"{BRIEF_TITLE} ({date_str})"
     html_content = content_structure.build_html_page(
         title=title,
         date_str=date_str,
@@ -749,39 +850,40 @@ def update_monthly_index(year, month):
     md_files = sorted([f for f in archive_dir.iterdir() if f.suffix == '.md' and f.name != 'index.md'])
     
     # Markdown版
-    md_content = f"# {year}年{month}月のテックニュース\n\n"
-    md_content += f"{year}年{month}月に取得したテックニュースの一覧です。\n\n"
+    month_label = f"{year}-{month:02d}"
+    md_content = f"# {BRIEF_TITLE} 归档：{month_label}\n\n"
+    md_content += f"{month_label} 自动抓取结果列表。\n\n"
     
     for md_file in reversed(md_files):  # 新しい順
         date_str = md_file.stem
         md_content += f"- [{date_str}]({md_file.name})\n"
     
-    md_content += f"\n[← {year}年一覧に戻る](../index.md)\n"
+    md_content += f"\n[← 返回 {year} 年归档](../index.md)\n"
     
     with open(archive_dir / "index.md", "w", encoding="utf-8") as f:
         f.write(md_content)
     
     # HTML版
     html_content = f"""<!DOCTYPE html>
-<html lang="ja">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{year}年{month}月のテックニュース</title>
+    <title>{BRIEF_TITLE} 归档：{month_label}</title>
     
     <!-- OGP Tags -->
-    <meta property="og:title" content="{year}年{month}月のテックニュース">
-    <meta property="og:description" content="日本の主要な技術系メディアの最新人気エントリーを毎日お届けします。">
+    <meta property="og:title" content="{BRIEF_TITLE} 归档：{month_label}">
+    <meta property="og:description" content="{BRIEF_DESCRIPTION}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{DEFAULT_SITE_CONFIG.site_url}">
     <meta property="og:image" content="{DEFAULT_SITE_CONFIG.og_image_url}">
-    <meta property="og:site_name" content="今日のテックニュース">
+    <meta property="og:site_name" content="{BRIEF_TITLE}">
     
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@unsoluble_sugar">
-    <meta name="twitter:title" content="{year}年{month}月のテックニュース">
-    <meta name="twitter:description" content="日本の主要な技術系メディアの最新人気エントリーを毎日お届けします。">
+    <meta name="twitter:title" content="{BRIEF_TITLE} 归档：{month_label}">
+    <meta name="twitter:description" content="{BRIEF_DESCRIPTION}">
     <meta name="twitter:image" content="{DEFAULT_SITE_CONFIG.og_image_url}">
     
     <!-- Favicon Links -->
@@ -825,9 +927,9 @@ def update_monthly_index(year, month):
     </style>
 </head>
 <body>
-    <h1>{year}年{month}月のテックニュース</h1>
+    <h1>{BRIEF_TITLE} 归档：{month_label}</h1>
     
-    <p>{year}年{month}月に取得したテックニュースの一覧です。</p>
+    <p>{month_label} 自动抓取结果列表。</p>
     
     <ul>"""
     
@@ -839,7 +941,7 @@ def update_monthly_index(year, month):
     </ul>
     
     <div class="back-link">
-        <p><a href="../index.html">← {year}年一覧に戻る</a></p>
+        <p><a href="../index.html">← 返回 {year} 年归档</a></p>
     </div>
 </body>
 </html>"""
@@ -857,39 +959,39 @@ def update_yearly_index(year):
     month_dirs = sorted([d for d in year_dir.iterdir() if d.is_dir() and d.name.isdigit()])
     
     # Markdown版
-    md_content = f"# {year}年のテックニュース\n\n"
-    md_content += f"{year}年に取得したテックニュースの月別一覧です。\n\n"
+    md_content = f"# {BRIEF_TITLE} 归档：{year}\n\n"
+    md_content += f"{year} 年自动抓取结果按月归档。\n\n"
     
     for month_dir in reversed(month_dirs):  # 新しい順
         month = int(month_dir.name)
-        md_content += f"- [{year}年{month}月]({month_dir.name}/index.md)\n"
+        md_content += f"- [{year}-{month:02d}]({month_dir.name}/index.md)\n"
     
-    md_content += f"\n[← アーカイブ一覧に戻る](../index.md)\n"
+    md_content += f"\n[← 返回归档首页](../index.md)\n"
     
     with open(year_dir / "index.md", "w", encoding="utf-8") as f:
         f.write(md_content)
     
     # HTML版
     html_content = f"""<!DOCTYPE html>
-<html lang="ja">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{year}年のテックニュース</title>
+    <title>{BRIEF_TITLE} 归档：{year}</title>
     
     <!-- OGP Tags -->
-    <meta property="og:title" content="{year}年のテックニュース">
-    <meta property="og:description" content="日本の主要な技術系メディアの最新人気エントリーを毎日お届けします。">
+    <meta property="og:title" content="{BRIEF_TITLE} 归档：{year}">
+    <meta property="og:description" content="{BRIEF_DESCRIPTION}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{DEFAULT_SITE_CONFIG.site_url}">
     <meta property="og:image" content="{DEFAULT_SITE_CONFIG.og_image_url}">
-    <meta property="og:site_name" content="今日のテックニュース">
+    <meta property="og:site_name" content="{BRIEF_TITLE}">
     
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@unsoluble_sugar">
-    <meta name="twitter:title" content="{year}年のテックニュース">
-    <meta name="twitter:description" content="日本の主要な技術系メディアの最新人気エントリーを毎日お届けします。">
+    <meta name="twitter:title" content="{BRIEF_TITLE} 归档：{year}">
+    <meta name="twitter:description" content="{BRIEF_DESCRIPTION}">
     <meta name="twitter:image" content="{DEFAULT_SITE_CONFIG.og_image_url}">
     
     <!-- Favicon Links -->
@@ -933,21 +1035,21 @@ def update_yearly_index(year):
     </style>
 </head>
 <body>
-    <h1>{year}年のテックニュース</h1>
+    <h1>{BRIEF_TITLE} 归档：{year}</h1>
     
-    <p>{year}年に取得したテックニュースの月別一覧です。</p>
+    <p>{year} 年自动抓取结果按月归档。</p>
     
     <ul>"""
     
     for month_dir in reversed(month_dirs):  # 新しい順
         month = int(month_dir.name)
-        html_content += f'\n        <li><a href="{month_dir.name}/index.html">{year}年{month}月</a></li>'
+        html_content += f'\n        <li><a href="{month_dir.name}/index.html">{year}-{month:02d}</a></li>'
     
     html_content += f"""
     </ul>
     
     <div class="back-link">
-        <p><a href="../index.html">← アーカイブ一覧に戻る</a></p>
+        <p><a href="../index.html">← 返回归档首页</a></p>
     </div>
 </body>
 </html>"""
@@ -977,25 +1079,29 @@ def generate_missing_html_archives():
                     md_content = f.read()
                 
                 # 日付を抽出
-                date_match = re.search(r'# 今日のテックニュース \((\d{4}-\d{2}-\d{2})\)', md_content)
+                date_match = re.search(r'^\s*-\s*\*\*生成日期\*\*：\s*(\d{4}-\d{2}-\d{2})', md_content, re.MULTILINE)
+                if not date_match:
+                    date_match = re.search(r'^Date:\s*(\d{4}-\d{2}-\d{2})', md_content, re.MULTILINE)
+                if not date_match:
+                    date_match = re.search(r'# .*\((\d{4}-\d{2}-\d{2})\)', md_content)
                 if date_match:
                     date_str = date_match.group(1)
                     
                     # 簡易的なHTML生成（完全な記事リスト無しでも基本構造を生成）
                     html_content = f"""<!DOCTYPE html>
-<html lang="ja">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>今日のテックニュース ({date_str})</title>
+    <title>{BRIEF_TITLE} ({date_str})</title>
     
     <!-- OGP Tags -->
-    <meta property="og:title" content="今日のテックニュース ({date_str})">
-    <meta property="og:description" content="日本の主要な技術系メディアの最新人気エントリーを毎日お届けします。">
+    <meta property="og:title" content="{BRIEF_TITLE} ({date_str})">
+    <meta property="og:description" content="{BRIEF_DESCRIPTION}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{DEFAULT_SITE_CONFIG.site_url}">
     <meta property="og:image" content="{DEFAULT_SITE_CONFIG.og_image_url}">
-    <meta property="og:site_name" content="今日のテックニュース">
+    <meta property="og:site_name" content="{BRIEF_TITLE}">
     
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
@@ -1047,14 +1153,14 @@ def generate_missing_html_archives():
     </style>
 </head>
 <body>
-    <h1>今日のテックニュース ({date_str})</h1>
+    <h1>{BRIEF_TITLE} ({date_str})</h1>
     
-    <p>📚 <a href="../../index.html">過去のニュースを見る</a> | 📡 <a href="{DEFAULT_SITE_CONFIG.rss_url}">RSSフィードを購読</a></p>
+    <p>📚 <a href="../../index.html">历史归档</a> | 📡 <a href="{DEFAULT_SITE_CONFIG.rss_url}">RSS 订阅</a></p>
     
-    <p>日本の主要な技術系メディアの最新人気エントリーをお届けします。</p>
+    <p>{BRIEF_DESCRIPTION}</p>
     
     <div class="rss-info">
-        <p>毎日JST 7:00に自動更新</p>
+        <p>{BRIEF_UPDATE_NOTE}</p>
     </div>
     
     <hr>
@@ -1095,10 +1201,10 @@ def generate_missing_html_archives():
                     if in_list:
                         html_content += "    </ul>\n    <hr>\n"
                     
-                    html_content += """
+                    html_content += f"""
     <div class="footer">
-        <p>📡 <a href="{DEFAULT_SITE_CONFIG.rss_url}">RSSフィードを購読</a></p>
-        <p>🚀 <a href="https://unsolublesugar.github.io/portfolio/" target="_blank" rel="noopener">{DEFAULT_SITE_CONFIG.profile_display_name}</a> |
+        <p>📡 <a href="{DEFAULT_SITE_CONFIG.rss_url}">订阅 RSS</a></p>
+        <p>🚀 <a href="{DEFAULT_SITE_CONFIG.profile_url}" target="_blank" rel="noopener">{DEFAULT_SITE_CONFIG.profile_display_name}</a> |
         📁 <a href="{DEFAULT_SITE_CONFIG.github_repo_url}" target="_blank" rel="noopener">GitHub Repository</a></p>
     </div>
 </body>
@@ -1123,38 +1229,38 @@ def update_archive_index():
     year_dirs = sorted([d for d in archives_dir.iterdir() if d.is_dir() and d.name.isdigit()])
     
     # Markdown版（README.mdからの遷移用）
-    md_content = "# テックニュース アーカイブ\n\n"
-    md_content += "過去のテックニュースの年別アーカイブです。\n\n"
+    md_content = f"# {BRIEF_TITLE} 归档\n\n"
+    md_content += "历年自动抓取结果归档。\n\n"
     
     for year_dir in reversed(year_dirs):  # 新しい順
         year = year_dir.name
-        md_content += f"- [{year}年]({year}/index.md)\n"
+        md_content += f"- [{year}]({year}/index.md)\n"
     
-    md_content += f"\n[← メインページに戻る](../daily_news.md)\n"
+    md_content += f"\n[← 返回最新结果](../daily_news.md)\n"
     with open(archives_dir / "index.md", "w", encoding="utf-8") as f:
         f.write(md_content)
     
     # HTML版（index.htmlからの遷移用）
-    html_content = """<!DOCTYPE html>
-<html lang="ja">
+    html_content = f"""<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>テックニュース アーカイブ</title>
+    <title>{BRIEF_TITLE} 归档</title>
     
     <!-- OGP Tags -->
-    <meta property="og:title" content="テックニュース アーカイブ">
-    <meta property="og:description" content="日本の主要な技術系メディアの最新人気エントリーを毎日お届けします。">
+    <meta property="og:title" content="{BRIEF_TITLE} 归档">
+    <meta property="og:description" content="{BRIEF_DESCRIPTION}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{DEFAULT_SITE_CONFIG.site_url}">
     <meta property="og:image" content="{DEFAULT_SITE_CONFIG.og_image_url}">
-    <meta property="og:site_name" content="今日のテックニュース">
+    <meta property="og:site_name" content="{BRIEF_TITLE}">
     
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@unsoluble_sugar">
-    <meta name="twitter:title" content="テックニュース アーカイブ">
-    <meta name="twitter:description" content="日本の主要な技術系メディアの最新人気エントリーを毎日お届けします。">
+    <meta name="twitter:title" content="{BRIEF_TITLE} 归档">
+    <meta name="twitter:description" content="{BRIEF_DESCRIPTION}">
     <meta name="twitter:image" content="{DEFAULT_SITE_CONFIG.og_image_url}">
     
     <!-- Favicon Links -->
@@ -1165,54 +1271,54 @@ def update_archive_index():
     <link rel="shortcut icon" href="../assets/favicons/favicon.ico">
     
     <style>
-        body {
+        body {{
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
             line-height: 1.6;
             color: #333;
-        }
-        h1 {
+        }}
+        h1 {{
             color: #1f2328;
-        }
-        ul {
+        }}
+        ul {{
             list-style-type: disc;
             padding-left: 2em;
-        }
-        li {
+        }}
+        li {{
             margin: 8px 0;
-        }
-        a {
+        }}
+        a {{
             color: #0969da;
             text-decoration: none;
-        }
-        a:hover {
+        }}
+        a:hover {{
             text-decoration: underline;
-        }
-        .back-link {
+        }}
+        .back-link {{
             margin-top: 30px;
             padding-top: 20px;
             border-top: 1px solid #e1e5e9;
-        }
+        }}
     </style>
 </head>
 <body>
-    <h1>テックニュース アーカイブ</h1>
+    <h1>{BRIEF_TITLE} 归档</h1>
     
-    <p>過去のテックニュースの年別アーカイブです。</p>
+    <p>历年自动抓取结果归档。</p>
     
     <ul>"""
     
     for year_dir in reversed(year_dirs):  # 新しい順
         year = year_dir.name
-        html_content += f'\n        <li><a href="{year}/index.html">{year}年</a></li>'
+        html_content += f'\n        <li><a href="{year}/index.html">{year}</a></li>'
     
     html_content += """
     </ul>
     
     <div class="back-link">
-        <p><a href="../index.html">← メインページに戻る</a></p>
+        <p><a href="../index.html">← 返回最新结果</a></p>
     </div>
 </body>
 </html>"""
@@ -1233,10 +1339,10 @@ def generate_rss_feed(all_entries, date_obj):
     channel = ET.SubElement(rss, 'channel')
     
     # チャンネル情報
-    ET.SubElement(channel, 'title').text = '今日のテックニュース'
+    ET.SubElement(channel, 'title').text = BRIEF_TITLE
     ET.SubElement(channel, 'link').text = DEFAULT_SITE_CONFIG.site_url
-    ET.SubElement(channel, 'description').text = '日本の主要な技術系メディアの最新人気エントリーを毎日お届けします'
-    ET.SubElement(channel, 'language').text = 'ja'
+    ET.SubElement(channel, 'description').text = BRIEF_DESCRIPTION
+    ET.SubElement(channel, 'language').text = BRIEF_LANGUAGE
     ET.SubElement(channel, 'pubDate').text = date_obj.strftime('%a, %d %b %Y %H:%M:%S +0000')
     ET.SubElement(channel, 'lastBuildDate').text = date_obj.strftime('%a, %d %b %Y %H:%M:%S +0000')
     
@@ -1250,12 +1356,14 @@ def generate_rss_feed(all_entries, date_obj):
     for feed_name, entries in all_entries.items():
         # エントリーはすでにURL重複除去済み
         for entry in entries:
+            category = get_category_label(feed_name)
+            source = get_entry_source(entry, feed_name)
             item = ET.SubElement(channel, 'item')
             # RSSタイトルはプレーンテキストのみ（HTMLタグや絵文字を除去）
             clean_title = re.sub(r'<[^>]+>', '', entry.title)  # HTMLタグを除去
             ET.SubElement(item, 'title').text = clean_title
             ET.SubElement(item, 'link').text = entry.link
-            ET.SubElement(item, 'description').text = f'{feed_name}からの記事: {entry.title}'
+            ET.SubElement(item, 'description').text = f'地区分类：{category}；来源：{source}；原标题：{clean_title}'
             ET.SubElement(item, 'guid').text = entry.link
             
             # 公開日（エントリーに日付があれば使用、なければ今日）
@@ -1282,20 +1390,20 @@ def save_rss_feed(rss_element):
 
 def generate_slack_message(all_entries, date):
     """Slack通知用のメッセージを生成"""
-    # 注目記事をピックアップ（各フィードから1-2件）
-    featured_articles = []
+    # 各フィードから先頭条目を抽出。ニュース価値の自動判断は行わない。
+    sample_articles = []
     
-    # 優先度の高いフィードから記事を選択
-    priority_feeds = ["Tech Blog Weekly", "Zenn", "Qiita", "はてなブックマーク - IT（人気）"]
+    # 設定順で記事を選択
+    priority_feeds = DEFAULT_SITE_CONFIG.PRIORITY_FEEDS
     
     for feed_name in priority_feeds:
         if feed_name in all_entries and all_entries[feed_name]:
             # 各フィードから最大2件取得
             for entry in all_entries[feed_name][:2]:
-                if len(featured_articles) < 6:  # 最大6件まで
+                if len(sample_articles) < 6:  # 最大6件まで
                     # タイトルからHTMLタグを除去
                     clean_title = re.sub(r'<[^>]+>', '', entry.title)
-                    featured_articles.append({
+                    sample_articles.append({
                         "title": clean_title,
                         "link": entry.link
                     })
@@ -1304,33 +1412,33 @@ def generate_slack_message(all_entries, date):
     total_articles = sum(len(entries) for entries in all_entries.values())
     
     # Slackメッセージのペイロードを生成
-    featured_text = "\n".join([
+    sample_text = "\n".join([
         f"• <{article['link']}|{article['title']}>"
-        for article in featured_articles
-    ])
+        for article in sample_articles
+    ]) or "暂无可展示条目。"
     
     slack_payload = {
-        "text": f"📰 今日のテックニュース ({date.isoformat()})",
+        "text": f"📰 {BRIEF_TITLE} ({date.isoformat()})",
         "blocks": [
             {
                 "type": "header",
                 "text": {
                     "type": "plain_text",
-                    "text": f"📰 今日のテックニュース ({date.isoformat()})"
+                    "text": f"📰 {BRIEF_TITLE} ({date.isoformat()})"
                 }
             },
             {
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": f"🔥 *注目記事*\n{featured_text}"
+                    "text": f"*自动抓取条目示例（非新闻价值判断）*\n{sample_text}"
                 }
             },
             {
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": f"📊 *更新サマリー*: {total_articles}記事を更新\n\n🔗 <{DEFAULT_SITE_CONFIG.site_url}|カード表示版を見る>\n📰 <{DEFAULT_SITE_CONFIG.github_repo_url}|GitHub リポジトリ>"
+                    "text": f"*抓取统计*: 共抓取 {total_articles} 条\n\n🔗 <{DEFAULT_SITE_CONFIG.site_url}|打开 HTML 卡片视图>\n📰 <{DEFAULT_SITE_CONFIG.github_repo_url}|GitHub 仓库>"
                 }
             },
             {
@@ -1338,7 +1446,7 @@ def generate_slack_message(all_entries, date):
                 "elements": [
                     {
                         "type": "mrkdwn",
-                        "text": "⚡ GitHub Actions で自動更新 | 🚀 キャッシュ機能で高速化"
+                            "text": "⚡ GitHub Actions 自动更新 | 缩略图查询使用缓存"
                     }
                 ]
             }
@@ -1355,18 +1463,15 @@ def save_slack_message(slack_payload):
 
 if __name__ == "__main__":
     script_start_time = time.time()
-    # JST（日本時間）基準で日付を取得
-    jst = datetime.timezone(datetime.timedelta(hours=9))
-    today = datetime.datetime.now(jst).date()
+    # Use a UTC date so scheduled GitHub Actions runs are stable across regions.
+    today = datetime.datetime.now(datetime.timezone.utc).date()
     
     all_entries = {}
     for name, feed_url in FEEDS.items():
         print(f"Fetching entries from {name}...")
-        entries = fetch_feed_entries(feed_url)
+        entries = fetch_feed_entries(feed_url, name)
         
         for domain, label in EXCLUDED_DOMAINS.items():
-            if domain == 'anond.hatelabo.jp' and name not in ["はてなブックマーク - IT（人気）", "はてなブックマーク - IT（新着）"]:
-                continue
             entries = filter_entries_by_domain(entries, domain, label)
         
         all_entries[name] = entries

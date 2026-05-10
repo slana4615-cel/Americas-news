@@ -1,7 +1,7 @@
 name: Test Branch OSS Configuration
 
 on:
-  workflow_dispatch: # 手動実行のみ
+  workflow_dispatch: # 仅手动运行
     inputs:
       test_username:
         description: 'Test GitHub username'
@@ -10,7 +10,7 @@ on:
       test_repo:
         description: 'Test repository name'
         required: false
-        default: 'my-tech-news'
+        default: 'my-americas-news'
       test_x_username:
         description: 'Test X username (optional)'
         required: false

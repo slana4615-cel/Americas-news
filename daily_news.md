@@ -1,151 +1,251 @@
-# 今日のテックニュース (2026-05-10)
+# 美洲新闻自动抓取结果｜Daily Americas News Collection
 
-📚 [過去のニュースを見る](archives/index.md) | 🎨 [カード表示版を見る](https://unsolublesugar.github.io/daily-tech-news/) | 📡 [RSSフィードを購読](https://unsolublesugar.github.io/daily-tech-news/rss.xml)
+- **生成日期**：2026-05-10
+- **自动更新**：每日 22:00 UTC
+- **输出说明**：本文件由程序根据公开 RSS 新闻源自动抓取生成，仅用于研究团队初步筛选。新闻价值、事实核验和最终采用由人工判断。
 
-日本の主要な技術系メディアの最新人気エントリーをお届けします。
-
-※毎日JST 7:00に自動更新
-
-## 🎨 カード表示版もあります
-
-GitHub Pages版では各記事がカード形式で見やすく表示されます：  
-https://unsolublesugar.github.io/daily-tech-news/
-
+📚 [历史归档](archives/index.md) | 🎨 [HTML 卡片视图](https://unsolublesugar.github.io/americas-news/) | 📡 [RSS 订阅](https://unsolublesugar.github.io/americas-news/rss.xml)
 ---
-## Tech Blog Weekly
 
-- [【Microsoft Foundry】- hosted agentとは？ | ヘッドウォータースのフィード](https://zenn.dev/headwaters/articles/e81d19893d220d)
-- [Claude Code 恒久2倍 vs Codex 5月限定プロモ - 上限引き上げ比較 | サーバーワークスエンジニアブログ](https://blog.serverworks.co.jp/2026/05/09/190000)
-- [Kiro Web が公開されたので、コーポレートサイトを勝手にこそっとリデザインしてもらった | ForgeVision Engineer Blog](https://techblog.forgevision.com/entry/kiro/kiro-web)
-- [MacでWordをPDFに変換する方法 | ヘッドウォータースのフィード](https://zenn.dev/headwaters/articles/ecaa35a259166b)
-- [App Service 上で実行中のアプリのコンソールログ確認方法 | ヘッドウォータースのフィード](https://zenn.dev/headwaters/articles/718ab45cffcb5e)
+## 抓取结果
 
+## 美国
 
----
-## Zenn
+- **原标题**：The latest congressional redistricting changes and what to know
+  - **来源**：PBS NewsHour Politics
+  - **发布时间**：Sat, 09 May 2026 11:35:16 -0400
+  - **地区分类**：美国
+  - **原文链接**：https://www.pbs.org/newshour/politics/the-latest-congressional-redistricting-changes-and-what-to-know
+  - **原文摘要**：The remaking of the U.S. political map accelerated this week in courts and legislatures. Here's a look at where things stand.
 
-- [Claude Codeを"使いこなす"ための個人ルール設定 - 実際にやって効果が高かった設定](https://zenn.dev/dotdtech_blog/articles/92348ee48cc692)
-- [AI時代こそ、エンジニアは「師匠」が要る](https://zenn.dev/acntechjp/articles/2e8d38ad383dd3)
-- [Anthropic の 5 パターンで Claude Code エージェント設計を分類する](https://zenn.dev/motowo/articles/anthropic-multi-agent-coordination-patterns-guide)
-- [Expo SDK 56ベータから読み解く、Expo・React Nativeの「ネイティブ志向」な進化](https://zenn.dev/tellernovel_inc/articles/fe4f4964b4f9e3)
-- [あなたの Claude Code、実は前回のセッションを完全に忘れている (5 分で永続記憶を入れる)](https://zenn.dev/kanseilink/articles/linksee-memory-claude-code-recall-20260508)
+- **原标题**：Virginia's Supreme Court tosses voter-approved redistricting plan in blow to Democrats
+  - **来源**：PBS NewsHour Politics
+  - **发布时间**：Fri, 08 May 2026 18:40:27 -0400
+  - **地区分类**：美国
+  - **原文链接**：https://www.pbs.org/newshour/show/virginias-supreme-court-tosses-voter-approved-redistricting-plan-in-blow-to-democrats
+  - **原文摘要**：Virginia's Supreme Court has struck down a voter-approved plan to redraw the state's congressional maps to benefit Democrats. It was a major setback for Democrats, as both parties wage a war of mid-decade redistricting. David Wasserman of the Cook Political Report with Amy Walter joins Amna Nawaz to discuss Friday's ruling and the national context.
 
+- **原标题**：Brooks and Marcus on Virginia's major shakeup in the national redistricting battle
+  - **来源**：PBS NewsHour Politics
+  - **发布时间**：Fri, 08 May 2026 18:25:37 -0400
+  - **地区分类**：美国
+  - **原文链接**：https://www.pbs.org/newshour/show/brooks-and-marcus-on-virginias-major-shakeup-in-the-national-redistricting-battle
+  - **原文摘要**：David Brooks of The Atlantic and Ruth Marcus of The New Yorker join Amna Nawaz to discuss the week in politics, including the Virginia Supreme Court's decision to strike down a voter-approved congressional map and developments in the war with Iran.
 
----
-## Qiita
+- **原标题**：Prosecutors aim to strip U.S. citizenship from diplomat-turned-spy
+  - **来源**：PBS NewsHour Politics
+  - **发布时间**：Fri, 08 May 2026 17:49:08 -0400
+  - **地区分类**：美国
+  - **原文链接**：https://www.pbs.org/newshour/politics/prosecutors-aim-to-strip-u-s-citizenship-from-diplomat-turned-cuban-spy
+  - **原文摘要**：The Trump administration moved this week to denaturalize 11 other people accused of crimes, including child sexual abuse and providing material support to terrorists.
 
-- [AWS MCPサーバー超進化してGAしたらしい](https://qiita.com/Syoitu/items/5022be3615ecd8b5337c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items)
-- [Git初心者の頃わからなかった「pullするな」の意味](https://qiita.com/shimitaro/items/bdd7cedde03974a94406?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items)
-- [「自分にエンジニアなんて無理かも」と思ってる人へ。最初に知ってほしい“仕事の進め方”](https://qiita.com/prum_hitomi/items/30ed3d885da5bb605460?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items)
-- [Copilot StudioをClaude Code化したら、Copilot Studio自身でPower Platformを構築できた話](https://qiita.com/katohiro_fi/items/9acccd181ca2f1a75f3c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items)
-- [「AWS環境にデプロイした際に、Webサーバーって何のためにいるの？」という疑問について調べてみた](https://qiita.com/hosomatu/items/9545ee09b2ffbe25057c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items)
+- **原标题**：Trump is lifting restrictions on hunting in national parks and other areas
+  - **来源**：PBS NewsHour Politics
+  - **发布时间**：Fri, 08 May 2026 17:31:24 -0400
+  - **地区分类**：美国
+  - **原文链接**：https://www.pbs.org/newshour/politics/trump-is-lifting-restrictions-on-hunting-in-national-parks-and-other-areas
+  - **原文摘要**：President Donald Trump's administration is quietly pushing national park, refuge and wilderness area managers to dramatically scale back hunting restrictions, raising questions about visitor safety and the impact on wildlife.
 
-
----
-## はてなブックマーク - IT（人気）
-
-- [上司になったら｜miyasaka](https://note.com/mmiya/n/n2eec10d531b2)
-- [AI時代のリッチテキスト形式（RTF）](https://blog.lai.so/ai-rich-text-format/)
-- [要求を仕様に落とすテンプレートを作ってみた](https://zenn.dev/channnnsm/articles/c3a6de22e71f86)
-- [紙時代の出版社の思い出話　その12『あの時代、LOGINはどうすればよかったんだろう？』｜地雷魚](https://note.com/jiraygyo/n/n7387843babd9)
-- [2026年のソフトウェア開発を考える（2026/05版） / Software Engineering Scrum Fest Niigata 2026 Edition](https://speakerdeck.com/twada/software-engineering-scrum-fest-niigata-2026-edition)
 
 
 ---
-## はてなブックマーク - IT（新着）
+## 拉丁美洲
 
-- [The unreasonable effectiveness of HTML — examples](https://thariqs.github.io/html-effectiveness/?ref=blog.lai.so)
-- [A recent experience with ChatGPT 5.5 Pro](https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/)
-- [取れない銀行口座データ　家計簿アプリから自分アプリへ](https://www.watch.impress.co.jp/docs/topic/watchplus/2107085.html)
-- [クオンツトレード入門者のための確率過程――価格予測ではなく、分布・リスク・エッジを見るために - Qiita](https://qiita.com/tikeda123/items/ac378f83a4e7911392d4)
-- [Valibot作者が開発したフォームライブラリ Formisch を使ってみる - プププなテクブ](https://blog.inorinrinrin.com/entry/2026/05/09/114847)
+- **原标题**：United States imposes new sanctions on Cuban military conglomerate GAESA amid escalating pressure
+  - **来源**：MercoPress Latin America
+  - **发布时间**：Fri, 08 May 2026 02:14:00 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://en.mercopress.com/2026/05/08/united-states-imposes-new-sanctions-on-cuban-military-conglomerate-gaesa-amid-escalating-pressure?utm_source=feed&utm_medium=rss&utm_content=latin-america&utm_campaign=rss
+  - **原文摘要**：US Secretary of State Marco Rubio announced on Thursday a new package of sanctions against the Grupo de Administración Empresarial S.A. (GAESA), the conglomerate linked to the Cuban Armed Forces that controls approximately 40% of the island's economy, in a fresh escalation of the economic pressure deployed by the Trump administration against the Havana regime. The measure is part of the implementation of Executive Order 14404, signed by President Donald Trump on May 1, which authorizes sanctions against those responsible for political repression and threats to US national security.
 
+- **原标题**：El Salvador puts 486 MS-13 leaders on trial for 29,000 killings in process Bukele compares to Nuremberg
+  - **来源**：MercoPress Latin America
+  - **发布时间**：Wed, 06 May 2026 16:38:00 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://en.mercopress.com/2026/05/06/el-salvador-puts-486-ms-13-leaders-on-trial-for-29-000-killings-in-process-bukele-compares-to-nuremberg?utm_source=feed&utm_medium=rss&utm_content=latin-america&utm_campaign=rss
+  - **原文摘要**：El Salvador launched in late April the largest trial in the country's history against 486 alleged leaders of the Mara Salvatrucha-13, accused of ordering more than 29,000 killings committed between 2012 and 2022, in a process President Nayib Bukele described as "historic" and compared to the Nuremberg trials against Nazi leaders after the Second World War. The proceedings, held before a specialized tribunal with anonymous judges, represent the first case worldwide in which the "command responsibility" principle has been applied to a gang structure.
 
----
-## DevelopersIO
+- **原标题**：Trump threatens to take Cuba 'almost immediately' after tightening sanctions on the regime
+  - **来源**：MercoPress Latin America
+  - **发布时间**：Sun, 03 May 2026 09:59:00 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://en.mercopress.com/2026/05/03/trump-threatens-to-take-cuba-almost-immediately-after-tightening-sanctions-on-the-regime?utm_source=feed&utm_medium=rss&utm_content=latin-america&utm_campaign=rss
+  - **原文摘要**：US President Donald Trump said on Friday that his country would take Cuba “almost immediately,” in remarks made during a private event at the Forum Club in West Palm Beach, Florida, hours after signing an executive order substantially expanding economic sanctions against the Havana regime. The president's words, though framed in colloquial tone, considerably escalate bilateral tensions and open a new chapter in US policy toward Miguel Díaz-Canel's government.
 
-- [LiteLLMのリクエストログをS3に出力する構成をMinIOでローカル再現してみた](https://dev.classmethod.jp/articles/litellm-s3-log-minio-local/)
-- [[アップデート] AWS公式 AIコーディングエージェント向けのSkill集「Agent Toolkit for AWS」の提供を開始！](https://dev.classmethod.jp/articles/20260506-agent-toolkit-for-aws/)
-- [CDKのデプロイ待ち時間を1/6に！高速デプロイツール「cdkd」の実力を測ってみた](https://dev.classmethod.jp/articles/cdkd-deploy-6x-faster-than-cloudformation/)
-- [[アップデート] Amazon EventBridgeのPutEvents呼び出しがCloudTrailで追跡できるようになりました](https://dev.classmethod.jp/articles/2026-05-08-eventbridge-putevents-cloudtrail-tracking/)
-- [AWS Batch のジョブキューの使用状況とシェア別の使用状況がマネージメントコンソールと API で確認できるようになりました](https://dev.classmethod.jp/articles/aws-batch-job-queue-share-utilization-visibility/)
+- **原标题**：Bolivia's agro-environmental court judge shot dead amid wave of drug-related violence
+  - **来源**：MercoPress Latin America
+  - **发布时间**：Fri, 01 May 2026 14:54:00 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://en.mercopress.com/2026/05/01/bolivia-s-agro-environmental-court-judge-shot-dead-amid-wave-of-drug-related-violence?utm_source=feed&utm_medium=rss&utm_content=latin-america&utm_campaign=rss
+  - **原文摘要**：Víctor Hugo Claure, dean of Bolivia's Agro-Environmental Court, was shot dead late Thursday in the eastern city of Santa Cruz de la Sierra, in what authorities describe as an attack carried out by hitmen and which falls within a sequence of violent events linked to the growing influence of drug trafficking in the country's main city. The killing has prompted unanimous condemnation from the judicial system and from opposition politicians, and poses a direct challenge to the administration of President Rodrigo Paz, in office since November.
 
+- **原标题**：Poll projects dead heat between Fujimori and Sánchez in Peru runoff as count nears completion
+  - **来源**：MercoPress Latin America
+  - **发布时间**：Mon, 27 Apr 2026 12:36:00 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://en.mercopress.com/2026/04/27/poll-projects-dead-heat-between-fujimori-and-sanchez-in-peru-runoff-as-count-nears-completion?utm_source=feed&utm_medium=rss&utm_content=latin-america&utm_campaign=rss
+  - **原文摘要**：Right-wing candidate Keiko Fujimori and left-wing candidate Roberto Sánchez would tie at 38% of the vote in the Peruvian presidential runoff scheduled for June 7, according to the first opinion poll published after the April 12 election, against a backdrop of an inconclusive count and an ongoing dispute over second place. The Ipsos Peru survey, conducted between April 23 and 24 and published by daily Perú.21, points to a scenario of absolute parity with a margin of error of +/- 2.8 percentage points.
 
----
-## gihyo.jp
-
-- [ubuntu.comへのDDoSとその対処、“copyfail”問題への対応、Ubuntu 26.10 “Stonking Stingray”の開発 / ドキュメント公開サイトの整理](https://gihyo.jp/admin/clip/01/ubuntu-topics/202605/08?utm_source=feed)
-- [Google検索のAIモードとAIによる概要、Webサイトへのリンクを見つけやすくする更新を順次提供](https://gihyo.jp/article/2026/05/google-search-ai-mode-upgrades?utm_source=feed)
-- [Anthropic、SpaceXと提携、Claude Codeの利用制限を大幅に緩和](https://gihyo.jp/article/2026/05/anthropic-spacex-partnership?utm_source=feed)
-- [Codexアプリのペットを孵化させる　hatch-petスキルで動くマスコットを作る](https://gihyo.jp/article/2026/05/hatch-codex-pets?utm_source=feed)
-- [OpenAI、Codexアプリの作業状況を知らせるコンパニオン「Codex pets」をリリース](https://gihyo.jp/article/2026/05/codex-pets?utm_source=feed)
-
-
----
-## Publickey
-
-- [AIエージェントを作れる「Google Agent Studio」／Amazon S3がファイルシステムに／ローカルAI環境を配布「Foundry Local」ほか、2026年4月の人気記事](https://www.publickey1.jp/blog/26/aigoogle_agent_studioamazon_s3aifoundry_local20264.html)
-- [AWS、攻撃を受けた中東（UAE）リージョンの復旧には数カ月かかると。状況を約2カ月ぶりに報告](https://www.publickey1.jp/blog/26/awsuae2.html)
-- [「TypeScript 7.0」ベータ版が公開。TypeScriptコンパイラなどをGo言語に移植、コンパイルを10倍速に](https://www.publickey1.jp/blog/26/typescript_70typescriptgo10.html)
-- [［速報］Google Cloud、ローカルマシンにインストールできる大規模分散RDB「Spanner Omni」プレビュー公開](https://www.publickey1.jp/blog/26/google_cloudrdbspanner_omni.html)
-- [［速報］Google、AIエージェントをローコードで作れる「Agent Studio」含むAIエージェント基盤「Gemini Enterprise Agent Platform」発表](https://www.publickey1.jp/blog/26/googleaiagent_studioaigemini_enterprise_agent_platform.html)
-
-
----
-## CodeZine
-
-- [Manus、タスクから自動学習し更新する「Project」の新機能を発表](https://codezine.jp/article/detail/24172)
-- [GitHub Copilot、「GPT-4.1」の提供を6月1日で終了](https://codezine.jp/article/detail/24170)
-- [Node.jsが「v26.1.0」をリリース、動的ライブラリのロード機能など追加](https://codezine.jp/article/detail/24168)
-- [Visual Studio Code 1.119公開、エージェントと統合ブラウザの連携が可能に](https://codezine.jp/article/detail/24166)
-- [NVIDIAが「Nemotron Labs」開発者向けライブ配信を日本で開始、第1回は5月13日](https://codezine.jp/article/detail/24174)
 
 
 ---
-## InfoQ Japan
+## 加勒比地区
 
-- [AIコーディングアシスタントはデリバリーを加速しない、なぜならコーディングがこれまでボトルネックではなかったから](https://www.infoq.com/jp/news/2026/04/agoda-ai-code-bottleneck/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global)
+- **原标题**：Central bank independence
+  - **来源**：Caribbean News Global
+  - **发布时间**：Sun, 10 May 2026 04:03:31 +0000
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://caribbeannewsglobal.com/central-bank-independence/
+  - **原文摘要**：At the Hoover Institution Annual Monetary Policy Conference, Stanford, California By Governor Christopher J. Waller What I want to talk about is central bank independence, but applied to reserve bank operations. The decentralised and regional design of the Federal Reserve helps reinforce our independence by ensuring that the full range of interests and views are […] The post Central bank independence appeared first on Caribbean News Global .
 
+- **原标题**：How Saudi Arabia is turning evidence into better health policy decisions
+  - **来源**：Caribbean News Global
+  - **发布时间**：Sun, 10 May 2026 04:01:49 +0000
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://caribbeannewsglobal.com/how-saudi-arabia-is-turning-evidence-into-better-health-policy-decisions/
+  - **原文摘要**：By Khalid Al-Moteiry, Parviz Ahamadov, Shahad Alhomidi, and Volkan Cetinkaya Health systems globally are facing both supply- and demand-side pressures — from workforce shortages and tight budgets to rising chronic diseases and higher expectations from the public. Policymakers need strong evidence to understand which reforms truly make the biggest difference for the population. Saudi Arabia […] The post How Saudi Arabia is turning evidence into better health policy decisions appeared first on Caribbean News Global .
 
----
-## connpass - イベント
+- **原标题**：Invisible barriers are reshaping global trade
+  - **来源**：Caribbean News Global
+  - **发布时间**：Sun, 10 May 2026 04:00:39 +0000
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://caribbeannewsglobal.com/invisible-barriers-are-reshaping-global-trade/
+  - **原文摘要**：Non-tariff measures drive trade costs for most countries, exceeding tariffs in 88 percent of cases Developing countries face rising tariffs and higher compliance costs at the same time Better transparency alone could reduce trade costs linked to these measures by nearly 20 percent GENEVA, Switzerland – The real cost of trade is shifting: The May […] The post Invisible barriers are reshaping global trade appeared first on Caribbean News Global .
 
-- [Sapporo.swift #1](https://japan-region-swift.connpass.com/event/393404/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom)
-- [devblogラジオ vol.142](https://devblog.connpass.com/event/393402/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom)
-- [ネットワークスペシャリストのNoteメンバーシップの説明会](https://nespe.connpass.com/event/393399/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom)
-- [【無料・オンライン】3軸分析ワークショップ — セキュリティ情報の読み解き方（6月回）](https://security-3axis.connpass.com/event/393393/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom)
-- [第40回_AWS Certified Cloud Practitioner (CLF) 勉強会](https://shift-mentor-study.connpass.com/event/393395/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom)
-- [春のAgentCoreアップデート解説まつり（JAWS-UG東京）](https://jawsug.connpass.com/event/393392/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom)
-- [Toyama.rb #111 もくもく会](https://toyamarb.connpass.com/event/393360/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom)
-- [しんめ.rb #66](https://shinmerb.connpass.com/event/393391/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom)
-- [【2分プレゼン&FB招待あり】人とつながるビジネス交流会＠新潟市](https://connpass.com/event/393389/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom)
-- [Rustオンラインもくもく会 #352](https://rust-online.connpass.com/event/393387/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom)
+- **原标题**：Jet Fuel Flexibility: How the industry is preparing for supply disruptions
+  - **来源**：Caribbean News Global
+  - **发布时间**：Sun, 10 May 2026 03:59:11 +0000
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://caribbeannewsglobal.com/jet-fuel-flexibility-how-the-industry-is-preparing-for-supply-disruptions/
+  - **原文摘要**：By Stuart Fox The recent pressure on the supply of aviation fuel globally due to the war in the Middle East has put a spotlight on something most passengers never think about: the fuel in the aircraft. If the war continues, it won’t be long before we see fuel shortfalls in parts of the world. […] The post Jet Fuel Flexibility: How the industry is preparing for supply disruptions appeared first on Caribbean News Global .
 
+- **原标题**：Global crackdown on illicit pharmaceuticals sees USD 15.5 million in seizures
+  - **来源**：Caribbean News Global
+  - **发布时间**：Sat, 09 May 2026 23:11:37 +0000
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://caribbeannewsglobal.com/global-crackdown-on-illicit-pharmaceuticals-sees-usd-15-5-million-in-seizures/
+  - **原文摘要**：SINGAPORE – An INTERPOL-coordinated operation across 90 countries and territories has resulted in the seizure of 6.42 million doses of unapproved and counterfeit pharmaceuticals worth USD 15.5 million. Operation Pangea XVIII (10 – 23 March 2026), led to 269 arrests and the dismantling of 66 criminal groups involved in the illicit pharmaceutical trade. Law enforcement […] The post Global crackdown on illicit pharmaceuticals sees USD 15.5 million in seizures appeared first on Caribbean News Global .
 
----
-## TECH PLAY - イベント
-
-- [【累計登録3,000名】デモで解説！ “ライフプラン×不動産投資シミュレーション” ご紹介セミナー](https://techplay.jp/event/995650)
-- [(教室見学・体験) 小学生・中学生対象 Unityでゲームプログラミング！](https://techplay.jp/event/995649)
-- [バイブコーディングクラブ](https://techplay.jp/event/995647)
-- [ゼロからはじめるPython入門講座（対面・無料）](https://techplay.jp/event/995646)
-- [【初心者歓迎・無料】ゼロから始めるClaude Code講座](https://techplay.jp/event/995644)
-- [第61回ゼロからのデータ分析入門講座](https://techplay.jp/event/995326)
-- [組織でも事業でも！事例で見る、AIを使いこなす企業の共通点](https://techplay.jp/event/995640)
-- [【超入門】Claude Code導入実践セミナー](https://techplay.jp/event/995634)
-
-
----
-## O'Reilly Japan - 近刊
-
-- [Aligned](http://www.oreilly.co.jp/books/9784814401499/?utm_source=feed&utm_mediun=referral&utm_content=new_book)
-- [Webブラウザエンジニアリング](http://www.oreilly.co.jp/books/9784814401574/?utm_source=feed&utm_mediun=referral&utm_content=new_book)
-- [UX for Business](http://www.oreilly.co.jp/books/9784814401475/?utm_source=feed&utm_mediun=referral&utm_content=new_book)
-- [APIハンズオンラーニング](http://www.oreilly.co.jp/books/9784814401628/?utm_source=feed&utm_mediun=referral&utm_content=new_book)
-- [LLMOps](http://www.oreilly.co.jp/books/9784814401604/?utm_source=feed&utm_mediun=referral&utm_content=new_book)
 
 
 ---
-## License
+## 加拿大
 
-This project is licensed under the [MIT License](LICENSE).
+- **原标题**：Joint Statement Following the Conclusion of Mexico’s Trade Mission to Canada (Toronto and Montréal – May 6-8, 2026)
+  - **来源**：Government of Canada News
+  - **发布时间**：2026-05-08T18:51:44-04:00
+  - **地区分类**：加拿大
+  - **原文链接**：https://www.canada.ca/en/global-affairs/news/2026/05/joint-statement-following-the-conclusion-of-mexicos-trade-mission-to-canada-toronto-and-montreal--may-6-8-2026.html
+  - **原文摘要**：The Honourable Dominic LeBlanc, President of the King’s Privy Council for Canada and Minister responsible for Canada–U.S. Trade, Intergovernmental Affairs, Internal Trade and One Canadian Economy, and His Excellency Marcelo Ebrard, Secretary of Economy of Mexico, welcomed the successful conclusion of Mexico’s Trade Mission to Canada as a further demonstration of the strength, depth and forward-looking nature of the Canada–Mexico partnership.
+
+- **原标题**：Are young people turning their backs on Quebec television, or does television simply no longer speak to them? Mounir Kaddouri kicks off ON FILME, the NFB’s YouTube-based documentary initiative.
+  - **来源**：Government of Canada News
+  - **发布时间**：2026-05-08T16:39:49-04:00
+  - **地区分类**：加拿大
+  - **原文链接**：https://www.canada.ca/en/national-film-board/news/2026/05/are-young-people-turning-their-backs-on-quebec-television-or-does-television-simply-no-longer-speak-to-them-mounir-kaddouri-kicks-off-on-filme-the-.html
+  - **原文摘要**：Now streaming on YouTube, Après moi le déluge by Mounir Kaddouri (a.k.a. Maire de Laval) tackles a hot topic: the growing gap between the Quebec television industry and young audiences, examined through four distinct but complementary formats.
+
+- **原标题**：A Force of Nature: Canada’s Strategy to Protect Nature
+  - **来源**：Government of Canada News
+  - **发布时间**：2026-05-08T16:26:00-04:00
+  - **地区分类**：加拿大
+  - **原文链接**：https://www.canada.ca/en/environment-climate-change/news/2026/05/a-force-of-nature-canadas-strategy-to-protect-nature.html
+  - **原文摘要**：Today, the Honourable Nathalie Provost, Secretary of State (Nature), highlighted the Government of Canada’s recent launch of A Force of Nature: Canada’s Strategy to Protect Nature.
+
+- **原标题**：Minister Solomon to make announcement supporting sovereign large-scale data centre
+  - **来源**：Government of Canada News
+  - **发布时间**：2026-05-08T15:46:06-04:00
+  - **地区分类**：加拿大
+  - **原文链接**：https://www.canada.ca/en/innovation-science-economic-development/news/2026/05/minister-solomon-to-make-announcement-supporting-sovereign-large-scale-data-centre.html
+  - **原文摘要**：The Honourable Evan Solomon, Minister of Artificial Intelligence and Digital Innovation and Minister responsible for the Federal Economic Development Agency for Southern Ontario, will make an important announcement in support of Canadian artificial intelligence infrastructure.
+
+- **原标题**：Government of Canada announces historic investments in Canada’s small craft harbours
+  - **来源**：Government of Canada News
+  - **发布时间**：2026-05-08T15:38:17-04:00
+  - **地区分类**：加拿大
+  - **原文链接**：https://www.canada.ca/en/privy-council/news/2026/05/government-of-canada-announces-historic-investments-in-canadas-small-craft-harbours.html
+  - **原文摘要**：The Honourable Arielle Kayabaga, Member of Parliament for London West, will highlight key investments from the Spring Economic Update to Fisheries and Oceans Canada’s Small Craft Harbours Program.
+
+
+
+---
+## 智库
+
+- **原标题**：The Surprising Factors Behind the Decline in the Fentanyl Epidemic
+  - **来源**：Inter-American Dialogue
+  - **发布时间**：Wed, 22 Apr 2026 15:52:22 +0000
+  - **地区分类**：智库
+  - **原文链接**：https://thedialogue.org/blogs/2026/04/the-surprising-factors-behind-the-decline-in-the-fentanyl-epidemic
+  - **原文摘要**：Since returning to the White House in 2025, U.S. President Donald Trump has put the fentanyl crisis at the center of U.S. policy toward Latin America.
+
+- **原标题**：Regional Competitiveness and Resilience through Integration of Digital and Physical SEZs (Special Economic Zones)
+  - **来源**：Inter-American Dialogue
+  - **发布时间**：Wed, 01 Apr 2026 18:36:36 +0000
+  - **地区分类**：智库
+  - **原文链接**：https://thedialogue.org/blogs/2026/04/regional-competitiveness-and-resilience-through-integration-of-digital-and-physical-sezs-special-economic-zones
+  - **原文摘要**：North American competitiveness and resilience to geopolitical and climate disruptions increasingly depend on whether the region can co-design and co-locate its digital and manufacturing supply chains, so they reinforce rather than constrain one another. This approach provides a new paradigm and framework, one based on “ring-fencing” supply chains. Alongside efforts to shift factories closer to home and secure physical inputs, it is equally important to create trusted rules and interoperable systems for data, cloud, and digital services that now sit inside every physical product, production infrastructure, and process.
+
+- **原标题**：Between Moderation and Mistrust: Rethinking Polarization in Brazil and the United States
+  - **来源**：Inter-American Dialogue
+  - **发布时间**：Tue, 24 Mar 2026 18:28:19 +0000
+  - **地区分类**：智库
+  - **原文链接**：https://thedialogue.org/blogs/2026/03/between-moderation-and-mistrust-rethinking-polarization-in-brazil-and-the-united-states
+  - **原文摘要**：An analysis of new research from Brazil and the United States challenges the notion of deeply polarized electorates, arguing that democratic strain stems less from ideological extremism than from widespread public fatigue, distrust, and growing emotional division.
+
+- **原标题**：Mexico’s Electoral Reform
+  - **来源**：Inter-American Dialogue
+  - **发布时间**：Tue, 24 Mar 2026 13:51:48 +0000
+  - **地区分类**：智库
+  - **原文链接**：https://thedialogue.org/blogs/2026/03/mexicos-electoral-reform
+  - **原文摘要**：President Sheinbaum has been unable to reform Mexico’s electoral code. She failed to pass a bill that sought to modify the proportional representation system and reduce public financing for political parties. Many critics argued that the reform was intended to weaken pluralism in Mexico. Two weeks ago, Mexico’s Congress rejected the proposal.
+
+- **原标题**：Beyond USMCA: From Trade Integration to Joint Industrialization
+  - **来源**：Inter-American Dialogue
+  - **发布时间**：Tue, 10 Mar 2026 19:34:32 +0000
+  - **地区分类**：智库
+  - **原文链接**：https://thedialogue.org/blogs/2026/03/beyond-usmca-from-trade-integration-to-joint-industrialization
+  - **原文摘要**：The starting point for understanding the current moment in the U.S.–Mexico economic relationship is trade. Over the past three decades, bilateral exports have expanded at a pace that few regional partnerships in the world can match.
+
+
+
+---
+## 国际组织
+
+- **原标题**：Gang-controlled streets, shuttered newsrooms: How violence is eroding Haiti’s media
+  - **来源**：UN News - Global perspective Human stories
+  - **发布时间**：Fri, 01 May 2026 12:00:00 +0000
+  - **地区分类**：国际组织
+  - **原文链接**：https://news.un.org/feed/view/en/story/2026/05/1167414
+  - **原文摘要**：Journalists working in Haiti are under constant threat of death or injury from rapidly expanding criminal gangs, as they continue to report news and information which they hope will help keep fellow citizens safe.
+
+- **原标题**：UN rights chief urges action to end impunity and address disappearances in Mexico
+  - **来源**：UN News - Global perspective Human stories
+  - **发布时间**：Thu, 23 Apr 2026 12:00:00 +0000
+  - **地区分类**：国际组织
+  - **原文链接**：https://news.un.org/feed/view/en/story/2026/04/1167371
+  - **原文摘要**：Mexican authorities must intensify efforts to end impunity, protect journalists and human rights defenders, and address the country’s “painful” crisis of disappearances, UN human rights chief Volker Türk has said.
+
+- **原标题**：SECURITY COUNCIL LIVE: Update on Haiti as humanitarian crisis continues alongside gang violence
+  - **来源**：UN News - Global perspective Human stories
+  - **发布时间**：Thu, 23 Apr 2026 12:00:00 +0000
+  - **地区分类**：国际组织
+  - **原文链接**：https://news.un.org/feed/view/en/story/2026/04/1167362
+  - **原文摘要**：The Security Council is addressing the deepening crisis in Haiti on Thursday, centered on the Secretary-General’s latest report which highlights a security landscape of both intensified enforcement and rising civilian risk. While operations including by the UN-backed Gang Suppression Force (GSF) between December and February resulted in the deaths of 1,343 suspected gang members, the humanitarian cost remains staggering. The UN Special Representative told ambassadors elections are the “only legitimate path” back to political stability, while his counterpart with the GSF said its success depends on “effective coordination”. Follow full meetings coverage below.
+
+- **原标题**：As Colombia elections near, Security Council hears calls for calm
+  - **来源**：UN News - Global perspective Human stories
+  - **发布时间**：Tue, 21 Apr 2026 12:00:00 +0000
+  - **地区分类**：国际组织
+  - **原文链接**：https://news.un.org/feed/view/en/story/2026/04/1167348
+  - **原文摘要**：While hope for peace is alive in Colombia as the country prepares for presidential elections, the Security Council on Tuesday heard that achieving it – and making it last – still requires the full implementation of a peace accord signed almost 10 years ago.
+
+- **原标题**：More than half of Haitians continue to face food crisis
+  - **来源**：UN News - Global perspective Human stories
+  - **发布时间**：Fri, 17 Apr 2026 12:00:00 +0000
+  - **地区分类**：国际组织
+  - **原文链接**：https://news.un.org/feed/view/en/story/2026/04/1167328
+  - **原文摘要**：5.8 million Haitians, or roughly 52 per cent of the population, are facing crisis levels of food insecurity, or worse. Of those, more than 1.8 million are dealing with emergency levels, which means they are exhausting their last assets and unable to meet even basic food needs.
+
+
+
+---

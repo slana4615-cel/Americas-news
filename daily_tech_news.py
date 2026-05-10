@@ -1,19 +1,13 @@
 #!/usr/bin/env python3
 """
-Daily Tech News - メインエントリーポイント
+Daily Americas News Brief - compatibility entry point.
 
-新しいディレクトリ構造に対応したメインスクリプト
-既存のfetch_news.pyと同等の機能を提供
+The GitHub Actions workflow uses fetch_news.py directly. This wrapper is kept
+for users who still call the legacy entry point.
 """
 
-import sys
-import os
-
-# src ディレクトリをPythonパスに追加
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
-
-# メインモジュールをインポートして実行
-from main import main
+from pathlib import Path
+import runpy
 
 if __name__ == "__main__":
-    main()
+    runpy.run_path(str(Path(__file__).with_name("fetch_news.py")), run_name="__main__")

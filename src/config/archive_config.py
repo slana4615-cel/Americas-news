@@ -11,10 +11,10 @@ class SiteConfig:
     """サイト全体の設定を管理するクラス"""
     
     # サイト基本情報
-    SITE_TITLE_TEMPLATE: str = "👨‍💻 今日のテックニュース ({date})"
-    SITE_DESCRIPTION: str = "忙しいエンジニアのために。毎日サクッとキャッチアップ。"
+    SITE_TITLE_TEMPLATE: str = "美洲新闻自动抓取结果｜Daily Americas News Collection ({date})"
+    SITE_DESCRIPTION: str = "本文件由程序根据公开 RSS 新闻源自动抓取生成，仅用于研究团队初步筛选。新闻价值、事实核验和最终采用由人工判断。"
     GITHUB_USERNAME: str = os.getenv("GITHUB_USERNAME") or os.getenv("USER_NAME") or os.getenv("GITHUB_REPOSITORY_OWNER", "unsolublesugar")
-    REPOSITORY_NAME: str = os.getenv("REPOSITORY_NAME", "daily-tech-news")
+    REPOSITORY_NAME: str = os.getenv("REPOSITORY_NAME", "americas-news")
     X_USERNAME: str = os.getenv("X_USERNAME") or os.getenv("TWITTER_USERNAME") or os.getenv("GITHUB_REPOSITORY_OWNER") or "unsoluble_sugar"
     
     @property
@@ -70,15 +70,17 @@ class SiteConfig:
     
     # X(Twitter) 設定
     X_LOGO_PATH: str = "assets/images/x-logo/logo-white.png"
-    X_HASHTAGS: str = "techhunter"
+    X_HASHTAGS: str = "AmericasNews,AcademicResearch"
     
     def __post_init__(self):
         if self.PRIORITY_FEEDS is None:
             self.PRIORITY_FEEDS = [
-                "Tech Blog Weekly", 
-                "Zenn", 
-                "Qiita", 
-                "はてなブックマーク - IT（人気）"
+                "美国",
+                "拉丁美洲",
+                "加勒比地区",
+                "加拿大",
+                "智库",
+                "国际组织",
             ]
     
     @property
@@ -92,7 +94,7 @@ class SiteConfig:
     
     def get_max_entries(self, feed_name: str) -> int:
         """フィード名に応じた最大エントリー数を取得"""
-        if "イベント" in feed_name:
+        if "Event" in feed_name or "イベント" in feed_name:
             return self.MAX_ENTRIES_EVENTS
         return self.MAX_ENTRIES_DEFAULT
 

@@ -1,12 +1,12 @@
-name: Daily Tech News Update
+name: Daily Americas News Collection Update
 
 on:
   schedule:
-    # 毎日JST 7:00 (UTC 22:00) に実行
+    # 每日 22:00 UTC 自动运行。
     - cron: '0 22 * * *'
-  workflow_dispatch: # 手動実行も可能
+  workflow_dispatch: # 也支持手动运行。
 
-# キュー詰まり・重複実行対策（最新runを優先）
+# 同一分支只保留最新运行。
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -52,7 +52,7 @@ jobs:
         echo "USER_NAME: ${USER_NAME:-'(not set)'}"
         echo "X_USERNAME: ${X_USERNAME:-'(not set)'}"
 
-    - name: Fetch latest tech news
+    - name: Fetch latest Americas news collection
       env:
         USER_NAME: ${{ secrets.USER_NAME }}
         X_USERNAME: ${{ secrets.X_USERNAME }}
@@ -78,8 +78,7 @@ jobs:
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          # JSTタイムゾーンで日付を取得
-          git commit -m "🗞️ 毎日のテックニュース更新 $(TZ=Asia/Tokyo date '+%Y-%m-%d')"
+          git commit -m "Update Americas news collection $(date -u '+%Y-%m-%d')"
           git push
         fi
 

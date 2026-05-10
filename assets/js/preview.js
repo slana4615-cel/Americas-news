@@ -322,7 +322,7 @@ class TagFilter {
             const count = this.tagCounts[tag] || 0;
             
             if (tag === 'all') {
-                button.textContent = `すべて (${this.tagCounts['all']})`;
+                button.textContent = `全部 (${this.tagCounts['all']})`;
             } else if (count > 0) {
                 button.textContent = `${tag} (${count})`;
                 button.style.display = 'inline-block';
@@ -441,9 +441,9 @@ class TagFilter {
         `;
         
         if (tag === 'all') {
-            resultElement.textContent = `全ての記事 (${count}件) を表示中`;
+            resultElement.textContent = `正在显示全部条目（${count}）`;
         } else {
-            resultElement.textContent = `「${tag}」でフィルタリング中 (${count}件)`;
+            resultElement.textContent = `正在按「${tag}」筛选（${count}）`;
         }
         
         // タグフィルターの後に挿入
@@ -468,7 +468,7 @@ class TagFilter {
             filterStatus.style.display = 'none';
         } else {
             filterStatus.style.display = 'flex';
-            filterStatusText.textContent = `${tag}でフィルター中 (${visibleCount}件)`;
+            filterStatusText.textContent = `正在按「${tag}」筛选（${visibleCount}）`;
         }
     }
 }

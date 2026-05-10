@@ -25,57 +25,29 @@ from templates import TemplateManager
 
 # 既存の設定を保持（後方互換性のため）
 FEEDS = {
-    "Tech Blog Weekly": {
-        "url": "https://yamadashy.github.io/tech-blog-rss-feed/feeds/rss.xml",
-        "favicon": "💻"
+    "美国": {
+        "url": "https://www.pbs.org/newshour/feeds/rss/politics",
+        "favicon": "US"
     },
-    "Zenn": {
-        "url": "https://zenn.dev/feed",
-        "favicon": "https://zenn.dev/favicon.ico"
+    "拉丁美洲": {
+        "url": "https://en.mercopress.com/rss/latin-america",
+        "favicon": "LATAM"
     },
-    "Qiita": {
-        "url": "https://qiita.com/popular-items/feed", 
-        "favicon": "https://cdn.qiita.com/assets/favicons/public/production-c620d3e403342b1022967ba5e3db1aaa.ico"
+    "加勒比地区": {
+        "url": "https://caribbeannewsglobal.com/feed/",
+        "favicon": "CAR"
     },
-    "はてなブックマーク - IT（人気）": {
-        "url": "http://b.hatena.ne.jp/hotentry/it.rss",
-        "favicon": "https://b.hatena.ne.jp/favicon.ico"
+    "加拿大": {
+        "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?format=atom&orderBy=desc&pick=50&sort=publishedDate",
+        "favicon": "CA"
     },
-    "はてなブックマーク - IT（新着）": {
-        "url": "https://b.hatena.ne.jp/entrylist/it.rss",
-        "favicon": "https://b.hatena.ne.jp/favicon.ico"
+    "智库": {
+        "url": "https://www.thedialogue.org/feed/",
+        "favicon": "TT"
     },
-    "DevelopersIO": {
-        "url": "https://dev.classmethod.jp/feed/",
-        "favicon": "https://dev.classmethod.jp/favicon.ico"
-    },
-    "gihyo.jp": {
-        "url": "https://gihyo.jp/dev/feed/rss2",
-        "favicon": "https://gihyo.jp/favicon.ico"
-    },
-    "Publickey": {
-        "url": "https://www.publickey1.jp/atom.xml",
-        "favicon": "https://www.publickey1.jp/favicon.ico"
-    },
-    "CodeZine": {
-        "url": "https://codezine.jp/rss/new/20/index.xml",
-        "favicon": "https://codezine.jp/favicon.ico"
-    },
-    "InfoQ Japan": {
-        "url": "https://feed.infoq.com/jp",
-        "favicon": "https://www.infoq.com/favicon.ico"
-    },
-    "connpass - イベント": {
-        "url": "https://connpass.com/explore/ja.atom",
-        "favicon": "https://connpass.com/favicon.ico"
-    },
-    "TECH PLAY - イベント": {
-        "url": "https://rss.techplay.jp/event/w3c-rss-format/rss.xml",
-        "favicon": "https://techplay.jp/favicon.ico"
-    },
-    "O'Reilly Japan - 近刊": {
-        "url": "https://www.oreilly.co.jp/catalog/soon.xml",
-        "favicon": "https://www.oreilly.co.jp/favicon.ico"
+    "国际组织": {
+        "url": "https://news.un.org/feed/subscribe/en/news/region/americas/feed/rss.xml",
+        "favicon": "IO"
     }
 }
 
@@ -294,7 +266,7 @@ def remove_url_duplicates(all_entries):
     norm_caught = 0
 
     # 優先フィードの順序を定義
-    priority_feeds = ["Tech Blog Weekly", "Zenn", "Qiita", "はてなブックマーク - IT（人気）"]
+    priority_feeds = ["美国", "拉丁美洲", "加勒比地区", "加拿大", "智库", "国际组织"]
 
     # 優先フィードから先に処理
     for feed_name in priority_feeds:
