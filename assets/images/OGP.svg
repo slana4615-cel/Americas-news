@@ -1,5 +1,5 @@
 <svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
-  <!-- 背景の青グラデーション -->
+  <!-- 蓝色渐变背景 -->
   <defs>
     <linearGradient id="blueGradient" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#007ACC"/>
@@ -8,22 +8,22 @@
   </defs>
   <rect width="1200" height="630" fill="url(#blueGradient)"/>
 
-  <!-- アイコン：中央寄せ -->
+  <!-- 居中图标 -->
   <g transform="translate(500, 120) scale(10)" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-    <!-- ▼ここに自分のSVGのパス/円をそのままコピペする▼ -->
+    <!-- 在此替换为自定义 SVG 路径或圆形 -->
     <circle cx="5" cy="19" r="2" fill="#FFFFFF"/>
     <path d="M5 11a8 8 0 0 1 8 8"/>
     <path d="M5 5a14 14 0 0 1 14 14"/>
-    <!-- ▲ここを置き換える -->
+    <!-- 自定义图标结束 -->
   </g>
 
-  <!-- タイトル -->
+  <!-- 标题 -->
   <text x="600" y="500" font-size="72" font-family="sans-serif" fill="#FFFFFF" text-anchor="middle">
-    DAILY TECH NEWS
+    AMERICAS NEWS
   </text>
 
-  <!-- サブキャッチ -->
+  <!-- 副标题 -->
   <text x="600" y="560" font-size="36" font-family="sans-serif" fill="#FFFFFF" text-anchor="middle">
-    All Your Tech Feeds In One Place
+    Public RSS Collection for Research Teams
   </text>
 </svg>

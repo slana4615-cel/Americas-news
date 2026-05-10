@@ -1,7 +1,7 @@
 /**
- * 記事プレビュー機能
- * デスクトップ：ホバー時にプレビュー表示
- * モバイル：タップ時にプレビュー表示
+ * 新闻条目预览功能
+ * 桌面端：悬停时显示预览
+ * 移动端：点击时显示预览
  */
 
 class ArticlePreview {
@@ -21,7 +21,7 @@ class ArticlePreview {
     }
     
     createOverlay() {
-        // モバイル用のオーバーレイ背景を作成
+        // 创建移动端遮罩层。
         this.overlay = document.createElement('div');
         this.overlay.className = 'preview-overlay';
         this.overlay.addEventListener('click', () => this.hideActivePreview());
@@ -36,12 +36,12 @@ class ArticlePreview {
             if (!preview) return;
             
             if (this.isMobile) {
-                // モバイル：タップイベント（プレビュー表示）
+                // 移动端：点击显示预览。
                 card.addEventListener('click', (e) => this.handleMobileClick(e, card, preview));
             } else {
-                // デスクトップ：ホバーでプレビュー、クリックで記事に遷移
+                // 桌面端：悬停预览，点击打开原文。
                 card.addEventListener('mouseenter', (e) => {
-                    // タイトルリンクのクリック時はプレビューを表示しない
+                    // 点击标题链接时不显示预览。
                     if (e.target.tagName === 'A') return;
                     this.handleDesktopHover(card, preview);
                 });
@@ -50,7 +50,7 @@ class ArticlePreview {
             }
         });
         
-        // ESCキーでプレビューを閉じる
+        // 按 ESC 关闭预览。
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') {
                 this.hideActivePreview();
@@ -59,47 +59,47 @@ class ArticlePreview {
     }
     
     handleMobileClick(event, card, preview) {
-        // リンククリック時はプレビューではなく記事に移動
+        // 点击链接时直接打开原文。
         if (event.target.tagName === 'A' || event.target.closest('a')) {
-            return; // デフォルトのリンク動作を許可
+            return; // 保留默认链接行为。
         }
         
         event.preventDefault();
         
-        // 既にプレビューが表示されている場合は閉じる
+        // 如果预览已经显示，则关闭。
         if (preview.classList.contains('show')) {
             this.hidePreview(preview);
             return;
         }
         
-        // 他のプレビューを閉じる
+        // 关闭其他预览。
         this.hideActivePreview();
         
-        // プレビューを表示
+        // 显示预览。
         this.showPreview(preview);
         this.activePreview = preview;
     }
     
     handleDesktopHover(card, preview) {
-        // 遅延表示でちらつきを防止
+        // 延迟显示，减少闪烁。
         this.previewTimeout = setTimeout(() => {
             this.hideActivePreview();
             this.showPreview(preview);
             this.activePreview = preview;
             
-            // プレビュー位置を調整
+            // 调整预览位置。
             this.adjustPreviewPosition(card, preview);
         }, 800);
     }
     
     handleDesktopLeave(card, preview) {
-        // ホバー遅延をクリア
+        // 清除悬停延迟。
         if (this.previewTimeout) {
             clearTimeout(this.previewTimeout);
             this.previewTimeout = null;
         }
         
-        // プレビューが表示されている場合は少し遅延して閉じる
+        // 预览显示时稍作延迟后关闭。
         setTimeout(() => {
             if (this.activePreview === preview && !this.isHoveringPreview(preview)) {
                 this.hidePreview(preview);
@@ -109,31 +109,31 @@ class ArticlePreview {
     }
     
     handleDesktopClick(event, card) {
-        // リンククリック時はデフォルトの動作を許可
+        // 点击链接时保留默认行为。
         if (event.target.tagName === 'A' || event.target.closest('a')) {
             return;
         }
         
-        // カード全体のクリックで記事に遷移
+        // 点击整张卡片打开原文。
         const articleLink = card.querySelector('.card-title a');
         if (articleLink) {
-            // 新しいタブで記事を開く
+            // 在新标签页打开原文。
             window.open(articleLink.href, '_blank');
         }
     }
     
     showPreview(preview) {
-        // プレビューをbodyの直下に移動（z-index競合を回避）
+        // 将预览移动到 body 下，避免 z-index 冲突。
         if (preview.parentNode !== document.body) {
             document.body.appendChild(preview);
         }
         
-        // 著者情報を表示/非表示の制御
+        // 控制作者信息显示。
         this.updateAuthorDisplay(preview);
         
         preview.style.display = 'block';
         
-        // レイアウト計算を強制実行
+        // 触发布局计算。
         preview.offsetHeight;
         
         preview.classList.add('show');
@@ -150,11 +150,11 @@ class ArticlePreview {
             const authorInfo = authorElement.textContent.trim();
             
             if (authorInfo && authorInfo !== '') {
-                // 著者情報がある場合は表示
+                // 有作者信息时显示。
                 authorElement.style.display = 'inline';
                 authorElement.textContent = `by ${authorInfo}`;
             } else {
-                // 著者情報がない場合は非表示
+                // 无作者信息时隐藏。
                 authorElement.style.display = 'none';
             }
         }
@@ -187,11 +187,11 @@ class ArticlePreview {
         const viewportWidth = window.innerWidth;
         const viewportHeight = window.innerHeight;
         
-        // プレビューの仮サイズを取得
-        const previewWidth = 400; // max-widthから
+        // 估算预览尺寸。
+        const previewWidth = 400; // 来自 max-width
         const previewHeight = preview.scrollHeight || 300;
         
-        // 横方向の位置調整
+        // 调整横向位置。
         let left = cardRect.left;
         if (left + previewWidth > viewportWidth - 20) {
             left = viewportWidth - previewWidth - 20;
@@ -200,7 +200,7 @@ class ArticlePreview {
             left = 20;
         }
         
-        // 縦方向の位置調整
+        // 调整纵向位置。
         let top = cardRect.bottom + 8;
         if (top + previewHeight > viewportHeight - 20) {
             top = cardRect.top - previewHeight - 8;
@@ -209,7 +209,7 @@ class ArticlePreview {
             }
         }
         
-        // position: fixedで絶対位置に配置
+        // 使用 position: fixed 定位。
         preview.style.left = left + 'px';
         preview.style.top = top + 'px';
         preview.style.right = 'auto';
@@ -219,7 +219,7 @@ class ArticlePreview {
     }
     
     isHoveringPreview(preview, event = null) {
-        // イベントオブジェクトが提供されていない場合は、要素のホバー状態をチェック
+        // 未提供事件对象时，检查元素悬停状态。
         if (!event) {
             return preview.matches(':hover');
         }
@@ -237,7 +237,7 @@ class ArticlePreview {
             const wasMobile = this.isMobile;
             this.isMobile = window.innerWidth <= 768;
             
-            // モバイル⇔デスクトップ切り替え時にイベントリスナーを再設定
+            // 移动端和桌面端切换时重设事件监听。
             if (wasMobile !== this.isMobile) {
                 this.hideActivePreview();
                 this.removeEventListeners();
@@ -254,7 +254,7 @@ class ArticlePreview {
     }
 }
 
-// プレビューを閉じるグローバル関数（HTMLから呼び出し用）
+// 供 HTML 调用的全局预览关闭函数。
 function hidePreview(event, cardId) {
     event.preventDefault();
     event.stopPropagation();
@@ -266,12 +266,12 @@ function hidePreview(event, cardId) {
     }
 }
 
-// DOM読み込み完了後に初期化
+// DOM 加载完成后初始化。
 document.addEventListener('DOMContentLoaded', () => {
     window.articlePreview = new ArticlePreview();
 });
 
-// ページ表示時にも初期化（ブラウザバック対応）
+// 页面显示时也初始化，兼容浏览器返回。
 window.addEventListener('pageshow', () => {
     if (!window.articlePreview) {
         window.articlePreview = new ArticlePreview();
@@ -279,8 +279,8 @@ window.addEventListener('pageshow', () => {
 });
 
 /**
- * タグフィルタリング機能
- * 記事カードをタグに基づいてフィルタリング
+ * 标签筛选功能
+ * 根据标签筛选新闻卡片。
  */
 class TagFilter {
     constructor() {
@@ -362,26 +362,26 @@ class TagFilter {
             }
         });
         
-        // セクション見出しを即座に更新
+        // 立即更新分区标题。
         this.updateSectionHeaders();
         
-        // フィルタリング結果のフィードバック
+        // 展示筛选反馈。
         this.showFilterResults(tag, visibleCount);
         
-        // フィルター状態を更新
+        // 更新筛选状态。
         this.updateFilterStatus(tag, visibleCount);
     }
     
     updateSectionHeaders() {
-        // 全てのセクション見出し（h2要素）を取得
+        // 获取所有分区标题。
         const headers = document.querySelectorAll('h2');
         
         headers.forEach(header => {
-            // 見出しの次にある記事カードをカウント
+            // 统计标题下方的新闻卡片。
             let visibleCardsInSection = 0;
             let nextElement = header.nextElementSibling;
             
-            // 見出しの後にあるカードをチェック（次のh2まで）
+            // 检查当前标题到下一个 h2 之间的卡片。
             while (nextElement && nextElement.tagName !== 'H2') {
                 if (nextElement.classList.contains('card')) {
                     const cardStyle = window.getComputedStyle(nextElement);
@@ -392,7 +392,7 @@ class TagFilter {
                 nextElement = nextElement.nextElementSibling;
             }
             
-            // 表示する記事がない場合は見出しを非表示
+            // 没有可显示条目时隐藏标题。
             if (visibleCardsInSection === 0) {
                 header.style.display = 'none';
             } else {
@@ -420,13 +420,13 @@ class TagFilter {
     }
     
     showFilterResults(tag, count) {
-        // 既存の結果表示を削除
+        // 删除已有结果提示。
         const existingResult = document.querySelector('.filter-result');
         if (existingResult) {
             existingResult.remove();
         }
         
-        // フィルタリング結果を表示
+        // 显示筛选结果。
         const resultElement = document.createElement('div');
         resultElement.className = 'filter-result';
         resultElement.style.cssText = `
@@ -446,12 +446,12 @@ class TagFilter {
             resultElement.textContent = `正在按「${tag}」筛选（${count}）`;
         }
         
-        // タグフィルターの後に挿入
+        // 插入到标签筛选器之后。
         const filterContainer = document.querySelector('.tag-filter-container');
         if (filterContainer) {
             filterContainer.insertAdjacentElement('afterend', resultElement);
             
-            // 3秒後に自動で削除
+            // 3 秒后自动移除。
             setTimeout(() => {
                 if (resultElement.parentNode) {
                     resultElement.remove();
@@ -473,12 +473,12 @@ class TagFilter {
     }
 }
 
-// DOM読み込み完了後にタグフィルターを初期化
+// DOM 加载完成后初始化标签筛选。
 document.addEventListener('DOMContentLoaded', () => {
     window.tagFilter = new TagFilter();
 });
 
-// ページ表示時にも初期化（ブラウザバック対応）
+// 页面显示时也初始化，兼容浏览器返回。
 window.addEventListener('pageshow', () => {
     if (!window.tagFilter) {
         window.tagFilter = new TagFilter();
@@ -486,11 +486,11 @@ window.addEventListener('pageshow', () => {
 });
 
 /**
- * タグフィルターをクリア（すべて表示に戻す）
+ * 清除标签筛选，恢复全部显示。
  */
 function clearTagFilter() {
     if (window.tagFilter) {
-        // 「すべて」ボタンを見つけてクリックをシミュレート
+        // 找到“全部”按钮并模拟点击。
         const allButton = document.querySelector('.tag-filter-btn[data-tag="all"]');
         if (allButton) {
             window.tagFilter.filterByTag('all');
@@ -500,19 +500,19 @@ function clearTagFilter() {
 }
 
 /**
- * タグフィルターの折りたたみ機能
+ * 标签筛选器折叠功能。
  */
 function toggleTagFilter() {
     const filterBar = document.getElementById('tagFilterBar');
     const toggleBtn = document.querySelector('.filter-toggle-btn');
     
     if (filterBar.classList.contains('collapsed')) {
-        // 展開
+        // 展开。
         filterBar.classList.remove('collapsed');
         filterBar.classList.add('expanded');
         toggleBtn.classList.add('expanded');
     } else {
-        // 折りたたみ
+        // 折叠。
         filterBar.classList.remove('expanded');
         filterBar.classList.add('collapsed');
         toggleBtn.classList.remove('expanded');
@@ -520,8 +520,8 @@ function toggleTagFilter() {
 }
 
 /**
- * ダークモード機能
- * システム設定の検出、ユーザー設定の永続化、テーマ切り替えを提供
+ * 深色模式功能
+ * 提供系统设置检测、用户设置持久化和主题切换。
  */
 class ThemeManager {
     constructor() {
@@ -535,19 +535,19 @@ class ThemeManager {
     }
     
     init() {
-        // フローティングボタンを作成
+        // 创建浮动按钮。
         this.createFloatingButton();
         
-        // 保存されたテーマまたはシステム設定を適用
+        // 应用已保存主题或系统设置。
         this.applyInitialTheme();
         
-        // テーマ切り替えボタンにイベントリスナーを追加
+        // 为主题切换按钮添加事件监听。
         this.attachEventListeners();
         
-        // システム設定変更の監視
+        // 监听系统主题变化。
         this.watchSystemTheme();
         
-        // 自動表示/非表示の設定
+        // 设置自动显示和隐藏。
         this.setupAutoHide();
     }
     
@@ -555,12 +555,12 @@ class ThemeManager {
         const savedTheme = localStorage.getItem(this.themeKey);
         
         if (savedTheme) {
-            // 保存されたテーマを使用
+            // 使用已保存主题。
             this.setTheme(savedTheme);
         } else {
-            // システム設定に従う
+            // 跟随系统设置。
             const systemTheme = this.prefersDark.matches ? 'dark' : 'light';
-            this.setTheme(systemTheme, false); // localStorageには保存しない
+            this.setTheme(systemTheme, false); // 不写入 localStorage
         }
     }
     
@@ -572,17 +572,17 @@ class ThemeManager {
     }
     
     createFloatingButton() {
-        // 既存のボタンがあれば削除
+        // 删除已有按钮。
         const existingButton = document.getElementById('theme-toggle');
         if (existingButton) {
             existingButton.remove();
         }
         
-        // フローティングボタンを作成
+        // 创建浮动按钮。
         const button = document.createElement('button');
         button.id = 'theme-toggle';
-        button.title = 'ダークモード切り替え';
-        button.setAttribute('aria-label', 'テーマを切り替える');
+        button.title = '切换深色模式';
+        button.setAttribute('aria-label', '切换主题');
         
         const icon = document.createElement('span');
         icon.id = 'theme-icon';
@@ -590,12 +590,12 @@ class ThemeManager {
         
         const text = document.createElement('span');
         text.id = 'theme-text';
-        text.textContent = 'ダークモード';
+        text.textContent = '深色模式';
         
         button.appendChild(icon);
         button.appendChild(text);
         
-        // ホバーイベントを追加
+        // 添加悬停事件。
         button.addEventListener('mouseenter', () => {
             this.isHovered = true;
             this.showButton();
@@ -606,16 +606,16 @@ class ThemeManager {
             this.scheduleHide();
         });
         
-        // bodyに追加
+        // 添加到 body。
         document.body.appendChild(button);
     }
     
     watchSystemTheme() {
-        // システムテーマ変更時の処理（ユーザーが明示的に設定していない場合のみ）
+        // 系统主题变化时，仅在用户未显式设置时跟随。
         this.prefersDark.addEventListener('change', (e) => {
             const savedTheme = localStorage.getItem(this.themeKey);
             if (!savedTheme) {
-                // ユーザー設定がない場合のみシステム設定に従う
+                // 仅在没有用户设置时跟随系统。
                 const systemTheme = e.matches ? 'dark' : 'light';
                 this.setTheme(systemTheme, false);
             }
@@ -628,22 +628,22 @@ class ThemeManager {
     }
     
     setTheme(theme, saveToStorage = true) {
-        // HTMLのdata-theme属性を設定
+        // 设置 HTML 的 data-theme 属性。
         if (theme === 'dark') {
             document.documentElement.setAttribute('data-theme', 'dark');
         } else {
             document.documentElement.removeAttribute('data-theme');
         }
         
-        // ボタンのテキストとアイコンを更新
+        // 更新按钮文字和图标。
         this.updateThemeButton(theme);
         
-        // localStorage に保存（システム設定追従時は保存しない）
+        // 写入 localStorage；跟随系统设置时不保存。
         if (saveToStorage) {
             localStorage.setItem(this.themeKey, theme);
         }
         
-        // スムーズな切り替えアニメーション
+        // 添加平滑切换动画。
         this.addTransitionClass();
     }
     
@@ -653,7 +653,7 @@ class ThemeManager {
         
         this.setTheme(newTheme);
         
-        // 切り替えフィードバック
+        // 显示切换反馈。
         this.showThemeChangeNotification(newTheme);
     }
     
@@ -664,16 +664,16 @@ class ThemeManager {
         if (themeIcon && themeText) {
             if (theme === 'dark') {
                 themeIcon.textContent = '☀️';
-                themeText.textContent = 'ライトモード';
+                themeText.textContent = '浅色模式';
             } else {
                 themeIcon.textContent = '🌙';
-                themeText.textContent = 'ダークモード';
+                themeText.textContent = '深色模式';
             }
         }
     }
     
     addTransitionClass() {
-        // 切り替えアニメーション用のクラスを一時的に追加
+        // 临时添加切换动画类。
         document.documentElement.classList.add('theme-transition');
         
         setTimeout(() => {
@@ -682,7 +682,7 @@ class ThemeManager {
     }
     
     showThemeChangeNotification(theme) {
-        // 切り替え通知を表示（フィードバック）
+        // 显示切换通知。
         const notification = document.createElement('div');
         notification.className = 'theme-notification';
         notification.style.cssText = `
@@ -703,18 +703,18 @@ class ThemeManager {
             box-shadow: 0 4px 12px var(--shadow-medium);
         `;
         
-        const themeName = theme === 'dark' ? 'ダークモード' : 'ライトモード';
-        notification.textContent = `${themeName}に切り替えました`;
+        const themeName = theme === 'dark' ? '深色模式' : '浅色模式';
+        notification.textContent = `已切换到${themeName}`;
         
         document.body.appendChild(notification);
         
-        // アニメーション表示
+        // 显示动画。
         requestAnimationFrame(() => {
             notification.style.opacity = '1';
             notification.style.transform = 'translateY(0)';
         });
         
-        // 2秒後に削除
+        // 2 秒后移除。
         setTimeout(() => {
             notification.style.opacity = '0';
             notification.style.transform = 'translateY(-20px)';
@@ -728,33 +728,33 @@ class ThemeManager {
     }
     
     setupAutoHide() {
-        // 初期表示（3秒後に自動で隠す）
+        // 初始显示，3 秒后自动隐藏。
         this.showButton();
         this.scheduleHide(3000);
         
-        // スクロールイベントの監視
+        // 监听滚动事件。
         let scrollTimeout;
         window.addEventListener('scroll', () => {
-            // スクロール中は表示
+            // 滚动时显示。
             this.showButton();
             
-            // スクロール停止をデバウンス検出
+            // 防抖检测滚动停止。
             clearTimeout(scrollTimeout);
             scrollTimeout = setTimeout(() => {
                 if (!this.isHovered) {
-                    this.scheduleHide(1500); // スクロール停止1.5秒後に隠す
+                    this.scheduleHide(1500); // 滚动停止 1.5 秒后隐藏
                 }
             }, 150);
         });
         
-        // マウス移動時の表示（画面端付近のみ）
+        // 鼠标移至屏幕边缘附近时显示。
         document.addEventListener('mousemove', (e) => {
-            const rightEdgeThreshold = window.innerWidth - 150; // 右端150px
-            const topEdgeThreshold = 150; // 上端150px
+            const rightEdgeThreshold = window.innerWidth - 150; // 右侧 150px
+            const topEdgeThreshold = 150; // 顶部 150px
             
             if (e.clientX > rightEdgeThreshold && e.clientY < topEdgeThreshold) {
                 this.showButton();
-                this.scheduleHide(2000); // 2秒後に隠す
+                this.scheduleHide(2000); // 2 秒后隐藏
             }
         });
     }
@@ -767,7 +767,7 @@ class ThemeManager {
             button.style.pointerEvents = 'auto';
         }
         
-        // 既存のタイマーをクリア
+        // 清除已有定时器。
         if (this.hideTimeout) {
             clearTimeout(this.hideTimeout);
             this.hideTimeout = null;
@@ -780,7 +780,7 @@ class ThemeManager {
             button.style.opacity = '0';
             button.style.pointerEvents = 'none';
             
-            // 完全に非表示にする（アニメーション後）
+            // 动画结束后完全隐藏。
             setTimeout(() => {
                 if (button.style.opacity === '0') {
                     button.style.visibility = 'hidden';
@@ -802,12 +802,12 @@ class ThemeManager {
     }
 }
 
-// DOM読み込み完了後にテーママネージャーを初期化
+// DOM 加载完成后初始化主题管理器。
 document.addEventListener('DOMContentLoaded', () => {
     window.themeManager = new ThemeManager();
 });
 
-// ページ表示時にも初期化（ブラウザバック対応）
+// 页面显示时也初始化，兼容浏览器返回。
 window.addEventListener('pageshow', () => {
     if (!window.themeManager) {
         window.themeManager = new ThemeManager();

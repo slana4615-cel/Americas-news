@@ -1,18 +1,18 @@
-name: Test Branch OSS Configuration
+name: 测试分支公开配置
 
 on:
   workflow_dispatch: # 仅手动运行
     inputs:
       test_username:
-        description: 'Test GitHub username'
+        description: '测试用 GitHub 用户名'
         required: false
         default: 'test-user'
       test_repo:
-        description: 'Test repository name'
+        description: '测试用仓库名'
         required: false
         default: 'my-americas-news'
       test_x_username:
-        description: 'Test X username (optional)'
+        description: '测试用 X 用户名（可选）'
         required: false
         default: ''
 
@@ -21,62 +21,62 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout repository
+    - name: 检出仓库
       uses: actions/checkout@v6
 
-    - name: Set up Python
+    - name: 设置 Python
       uses: actions/setup-python@v6
       with:
         python-version: '3.9'
         
-    - name: Install dependencies
+    - name: 安装依赖
       run: |
         pip install -r requirements.txt
         
-    - name: Test environment variables
+    - name: 测试环境变量
       env:
         GITHUB_USERNAME: ${{ github.event.inputs.test_username }}
         REPOSITORY_NAME: ${{ github.event.inputs.test_repo }}
         X_USERNAME: ${{ github.event.inputs.test_x_username }}
       run: |
-        echo "🔍 Test Environment Variables:"
+        echo "🔍 测试环境变量："
         echo "GITHUB_REPOSITORY_OWNER: $GITHUB_REPOSITORY_OWNER"
         echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY"
         echo "GITHUB_USERNAME: ${GITHUB_USERNAME:-'(not set)'}"
         echo "REPOSITORY_NAME: ${REPOSITORY_NAME:-'(not set)'}"
         echo "X_USERNAME: ${X_USERNAME:-'(not set)'}"
         
-    - name: Test URL generation
+    - name: 测试 URL 生成
       env:
         GITHUB_USERNAME: ${{ github.event.inputs.test_username }}
         REPOSITORY_NAME: ${{ github.event.inputs.test_repo }}
         X_USERNAME: ${{ github.event.inputs.test_x_username }}
       run: |
-        echo "🔗 Test Generated URLs:"
+        echo "🔗 测试生成 URL："
         python -c "import sys, os; sys.path.append('src'); from config.archive_config import DEFAULT_SITE_CONFIG; print('Site URL:', DEFAULT_SITE_CONFIG.site_url); print('GitHub Repo URL:', DEFAULT_SITE_CONFIG.github_repo_url); print('RSS URL:', DEFAULT_SITE_CONFIG.rss_url); print('Profile URL:', DEFAULT_SITE_CONFIG.profile_url); print('Profile Display:', DEFAULT_SITE_CONFIG.profile_display_name)"
         
-    - name: Test auto-detection (no custom env vars)
+    - name: 测试自动识别（不设置自定义环境变量）
       run: |
-        echo "🤖 Test Auto-Detection (GITHUB_REPOSITORY_OWNER only):"
+        echo "🤖 测试自动识别（仅使用 GITHUB_REPOSITORY_OWNER）："
         python -c "import sys, os; sys.path.append('src'); from config.archive_config import DEFAULT_SITE_CONFIG; print('Site URL:', DEFAULT_SITE_CONFIG.site_url); print('GitHub Repo URL:', DEFAULT_SITE_CONFIG.github_repo_url); print('RSS URL:', DEFAULT_SITE_CONFIG.rss_url); print('Profile URL:', DEFAULT_SITE_CONFIG.profile_url); print('Profile Display:', DEFAULT_SITE_CONFIG.profile_display_name)"
         
-    - name: Generate test files (no commit/push)
+    - name: 生成测试文件（不提交、不推送）
       env:
         GITHUB_USERNAME: ${{ github.event.inputs.test_username }}
         REPOSITORY_NAME: ${{ github.event.inputs.test_repo }}
         X_USERNAME: ${{ github.event.inputs.test_x_username }}
       run: |
-        echo "📝 Generating test files..."
+        echo "📝 正在生成测试文件..."
         python fetch_news.py
-        echo "✅ Files generated successfully"
+        echo "✅ 文件生成成功"
         
-    - name: Show generated URLs in files
+    - name: 查看文件中的生成 URL
       run: |
-        echo "📄 URLs in generated daily_news.md:"
+        echo "📄 daily_news.md 中的 URL："
         head -10 daily_news.md
         echo ""
-        echo "📡 RSS feed URLs:"
-        head -15 rss.xml | grep -E "(link|href)" || echo "RSS structure check"
+        echo "📡 RSS URL："
+        head -15 rss.xml | grep -E "(link|href)" || echo "RSS 结构检查"
         echo ""
-        echo "💬 Slack message URLs:"
-        cat slack_message.json | grep -o 'https://[^|]*' | head -3 || echo "Slack message check"
+        echo "💬 Slack 消息 URL："
+        cat slack_message.json | grep -o 'https://[^|]*' | head -3 || echo "Slack 消息检查"

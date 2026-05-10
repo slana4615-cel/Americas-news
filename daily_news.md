@@ -4,7 +4,7 @@
 - **自动更新**：每日 22:00 UTC
 - **输出说明**：本文件由程序根据公开 RSS 新闻源自动抓取生成，仅用于研究团队初步筛选。新闻价值、事实核验和最终采用由人工判断。
 
-📚 [历史归档](archives/index.md) | 🎨 [HTML 卡片视图](https://slana4615-cel.github.io/americas-news/) | 📡 [RSS 订阅](https://slana4615-cel.github.io/americas-news/rss.xml)
+📚 [历史归档](archives/index.md) | 🎨 [HTML 卡片视图](https://unsolublesugar.github.io/americas-news/) | 📡 [RSS 订阅](https://unsolublesugar.github.io/americas-news/rss.xml)
 ---
 
 ## 抓取结果

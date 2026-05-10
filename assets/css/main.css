@@ -1,12 +1,11 @@
 /**
- * 今日のテックニュース - メインスタイル
- * プロジェクト構造改善によりCSS外部化
- * ダークモード対応
+ * 美洲新闻自动抓取工具 - 主样式
+ * 样式已外部化，支持深色模式
  */
 
-/* CSS変数でテーマ定義 */
+/* 使用 CSS 变量定义主题 */
 :root {
-    /* ライトテーマ */
+    /* 浅色主题 */
     --bg-color: #ffffff;
     --text-color: #333333;
     --text-secondary: #656d76;
@@ -24,7 +23,7 @@
     --shadow-medium: rgba(0, 0, 0, 0.15);
 }
 
-/* ダークテーマ */
+/* 深色主题 */
 [data-theme="dark"] {
     --bg-color: #0d1117;
     --text-color: #e6edf3;
@@ -43,7 +42,7 @@
     --shadow-medium: rgba(0, 0, 0, 0.5);
 }
 
-/* システム設定に基づく自動ダークモード */
+/* 根据系统设置自动启用深色模式 */
 @media (prefers-color-scheme: dark) {
     :root:not([data-theme]) {
         --bg-color: #0d1117;
@@ -1043,7 +1042,7 @@ a:hover {
     margin-left: 8px;
 }
 
-/* フローティングダークモード切り替えボタン */
+/* 浮动深色模式切换按钮 */
 #theme-toggle {
     position: fixed;
     top: 20px;
@@ -1108,8 +1107,7 @@ a:hover {
     }
 }
 
-/* テーマ切り替えアニメーション */
+/* 主题切换动画 */
 .theme-transition * {
     transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease !important;
 }
-

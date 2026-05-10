@@ -1,83 +1,80 @@
-# プロジェクト構造ドキュメント
+# 项目结构说明
 
-## ディレクトリ構成
+## 目录结构
 
 ```
-daily-tech-news/
-├── src/                          # Pythonソースコード
-│   ├── __init__.py              # メインパッケージ初期化
-│   ├── main.py                  # メイン処理（旧fetch_news_refactored.py）
-│   ├── config/                  # 設定管理
+americas-news/
+├── src/                          # Python 源代码
+│   ├── __init__.py              # 主包初始化
+│   ├── main.py                  # 兼容辅助入口
+│   ├── config/                  # 配置管理
 │   │   ├── __init__.py
-│   │   └── archive_config.py    # サイト・パス設定
-│   ├── generators/              # 生成エンジン
+│   │   └── archive_config.py    # 站点与路径配置
+│   ├── generators/              # 生成器
 │   │   ├── __init__.py
-│   │   └── archive_generator.py # アーカイブ・インデックス生成
-│   ├── templates/               # テンプレート管理
+│   │   └── archive_generator.py # 归档与索引生成
+│   ├── templates/               # 模板管理
 │   │   ├── __init__.py
-│   │   └── template_manager.py  # HTML/CSS テンプレート
-│   └── utils/                   # ユーティリティ
+│   │   └── template_manager.py  # HTML/CSS 模板
+│   └── utils/                   # 工具函数
 │       └── __init__.py
-├── assets/                      # 静的アセット
-│   ├── css/                    # スタイルシート（将来拡張）
-│   ├── images/                 # 画像ファイル
-│   │   └── x-logo/            # 既存Xロゴ
-│   └── js/                    # JavaScript（将来拡張）
-├── templates/                   # HTMLテンプレート（将来拡張）
-├── config/                     # 設定ファイル（将来拡張）
-├── tests/                      # テストファイル（将来拡張）
-├── docs/                       # ドキュメント
+├── assets/                      # 静态资源
+│   ├── css/                    # 样式表
+│   ├── images/                 # 图片文件
+│   │   └── x-logo/            # X 标识资源
+│   └── js/                    # JavaScript
+├── docs/                       # 文档
 │   └── DIRECTORY_STRUCTURE.md
-├── archives/                   # 生成されたアーカイブ
-├── daily_tech_news.py         # 新メインエントリーポイント
-├── fetch_news.py              # 既存メインスクリプト（互換性維持）
-├── requirements.txt           # 依存関係
-└── README.md                  # プロジェクト概要
+├── archives/                   # 自动生成的历史归档
+├── daily_tech_news.py         # 兼容入口，转发执行 fetch_news.py
+├── fetch_news.py              # 主要抓取与生成脚本
+├── requirements.txt           # Python 依赖
+└── README.md                  # 项目概览
 ```
 
-## 実行方法
+## 运行方式
 
-### 新しい構造での実行
-```bash
-python3 daily_tech_news.py
-```
-
-### 既存スクリプトでの実行（互換性維持）
+### 主要入口
 ```bash
 python3 fetch_news.py
 ```
 
-## モジュール構成
+### 兼容入口
+```bash
+python3 daily_tech_news.py
+```
+
+## 模块说明
 
 ### src/config/
-- **SiteConfig**: サイト全体の設定管理
-- **PathConfig**: パス・URL関連の設定管理
+- **SiteConfig**：站点整体配置
+- **PathConfig**：路径与 URL 配置
 
 ### src/generators/
-- **ArchiveGenerator**: 日次アーカイブ生成
-- **ArchiveIndexGenerator**: インデックスページ生成
+- **ArchiveGenerator**：每日归档生成
+- **ArchiveIndexGenerator**：索引页生成
 
 ### src/templates/
-- **TemplateManager**: HTML/CSSテンプレート統一管理
-- **ContentStructure**: コンテンツ構造化
+- **TemplateManager**：HTML/CSS 模板统一管理
+- **ContentStructure**：内容结构化
 
 ### src/utils/
-- 将来の共通ユーティリティ用（現在は空）
+- 预留通用工具函数位置
 
-## 変更履歴
+## 变更记录
 
-### v2.0.0 - プロジェクト構造改善
-- ディレクトリ構造の整理
-- モジュール分割による保守性向上
-- 既存機能の完全互換性維持
-- 将来拡張に向けた基盤整備
+### v2.0.0 - 项目结构调整
+- 整理目录结构
+- 拆分配置、模板和归档辅助模块
+- 保留主要抓取脚本兼容性
+- 面向后续维护预留模块边界
 
-### v1.1.0 - リファクタリング
-- アーカイブ生成機能の統合
-- 重複コード削減
-- 設定管理の統一化
+### v1.1.0 - 重构
+- 整合归档生成功能
+- 减少重复代码
+- 统一配置管理
 
-### v1.0.0 - 初期版
-- 基本的なニュース収集・配信機能
+### v1.0.0 - 初始版本
+- 基础新闻抓取和发布能力
 - RSS feed parsing
-- HTML/Markdown生成
+- HTML/Markdown 生成

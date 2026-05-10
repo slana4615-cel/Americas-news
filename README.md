@@ -1,26 +1,12 @@
-# 美洲新闻自动抓取结果｜Daily Americas News Collection
+# 美洲新闻自动抓取工具｜Daily Americas News Collection
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![RSS](https://img.shields.io/badge/RSS-Available-orange.svg)](https://unsolublesugar.github.io/americas-news/rss.xml)
 
-# 美洲新闻自动抓取工具
+本项目是面向中文研究团队的美洲新闻自动抓取工具。程序根据公开 RSS 新闻源自动抓取与美洲相关的新闻和机构动态，并输出 Markdown、HTML、RSS 和历史归档。
 
-本项目用于根据公开 RSS 新闻源自动抓取美洲相关新闻，并生成 Markdown、HTML、RSS 和历史归档，供研究团队进行人工筛选、核验和后续改写。
-
-
-
-## 项目来源
-
-本仓库基于 [unsolublesugar/daily-tech-news](https://github.com/unsolublesugar/daily-tech-news) 修改而来。原项目采用 MIT License，原版权声明保留于 LICENSE 文件中。
-
-本仓库的主要修改包括：
-- 将新闻源从日本技术媒体改为美洲相关新闻源；
-- 将输出格式改为中文研究团队便于筛选的格式；
-- 调整分类为美国、拉丁美洲、加勒比地区、加拿大、智库、国际组织；
-- 修改 GitHub Actions，使其定时抓取并自动更新结果。
-
-
+程序只负责根据公开 RSS 自动抓取、去重、归类和结构化展示新闻，不负责判断新闻价值、事实核验或最终采用优先级。英文新闻原标题会原样保留，不强制翻译标题。
 
 ## 查看结果
 
@@ -37,7 +23,7 @@
 | 智库 | Inter-American Dialogue | 5 |
 | 国际组织 | UN News Americas | 5 |
 
-只使用公开 RSS.
+只使用公开 RSS。
 
 ## 输出文件
 
@@ -79,7 +65,9 @@ FEEDS = {
 }
 ```
 
+## 项目来源与致谢
 
+本项目基于 [unsolublesugar/daily-tech-news](https://github.com/unsolublesugar/daily-tech-news) 修改而来，原项目采用 MIT License。感谢原作者提供的自动抓取、归档和页面生成基础。
 
 ## License
 

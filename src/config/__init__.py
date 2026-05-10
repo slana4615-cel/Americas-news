@@ -1,7 +1,7 @@
 """
-設定管理モジュール
+配置管理模块
 
-サイト設定、パス設定、環境設定を統一管理
+统一管理站点配置、路径配置和环境配置。
 """
 
 from config.archive_config import SiteConfig, PathConfig, DEFAULT_SITE_CONFIG, DEFAULT_PATH_CONFIG

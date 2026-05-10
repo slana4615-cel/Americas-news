@@ -1,7 +1,7 @@
 """
-生成エンジンモジュール
+生成器模块
 
-アーカイブ生成、インデックス生成、コンテンツ生成機能を提供
+提供归档生成、索引生成和内容生成能力。
 """
 
 from generators.archive_generator import ArchiveGenerator, ArchiveIndexGenerator
