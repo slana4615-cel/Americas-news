@@ -4,7 +4,21 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![RSS](https://img.shields.io/badge/RSS-Available-orange.svg)](https://unsolublesugar.github.io/americas-news/rss.xml)
 
-本项目用于根据公开 RSS 新闻源自动抓取美洲相关新闻，并输出 Markdown、HTML、RSS 和历史归档.
+# 美洲新闻自动抓取工具
+
+本项目用于根据公开 RSS 新闻源自动抓取美洲相关新闻，并生成 Markdown、HTML、RSS 和历史归档，供研究团队进行人工筛选、核验和后续改写。
+
+
+
+## 项目来源
+
+本仓库基于 [unsolublesugar/daily-tech-news](https://github.com/unsolublesugar/daily-tech-news) 修改而来。原项目采用 MIT License，原版权声明保留于 LICENSE 文件中。
+
+本仓库的主要修改包括：
+- 将新闻源从日本技术媒体改为美洲相关新闻源；
+- 将输出格式改为中文研究团队便于筛选的格式；
+- 调整分类为美国、拉丁美洲、加勒比地区、加拿大、智库、国际组织；
+- 修改 GitHub Actions，使其定时抓取并自动更新结果。
 
 
 
