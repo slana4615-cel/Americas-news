@@ -363,7 +363,7 @@ def get_article_thumbnail(url, max_retries=2):
         return None
 
     headers = {
-        'User-Agent': 'DailyAmericasNewsBrief/1.0 (+https://github.com/unsolublesugar/americas-news)'
+        'User-Agent': 'DailyAmericasNewsBrief/1.0 (+https://github.com/slana4615-cel/Americas-news)'
     }
     
     def validate_image_url(img_url):

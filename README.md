@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![RSS](https://img.shields.io/badge/RSS-Available-orange.svg)](https://unsolublesugar.github.io/americas-news/rss.xml)
+[![RSS](https://img.shields.io/badge/RSS-Available-orange.svg)](https://slana4615-cel.github.io/Americas-news/rss.xml)
 
 美洲新闻自动抓取工具。根据公开 RSS 新闻源自动抓取与美洲相关的新闻和机构动态，并输出 Markdown、HTML、RSS 和历史归档。
 
@@ -10,7 +10,7 @@
 
 ## 查看结果
 
-**[Markdown 结果](daily_news.md)** | **[HTML 卡片视图](https://unsolublesugar.github.io/americas-news/)** | **[RSS 订阅](https://unsolublesugar.github.io/americas-news/rss.xml)**
+**[Markdown 结果](daily_news.md)** | **[HTML 卡片视图](https://slana4615-cel.github.io/Americas-news/)** | **[RSS 订阅](https://slana4615-cel.github.io/Americas-news/rss.xml)**
 
 ## 默认分类
 

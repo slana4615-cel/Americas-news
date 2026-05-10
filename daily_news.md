@@ -131,6 +131,13 @@
 ---
 ## 加拿大
 
+- **原标题**：Minister Anand to travel to Brussels for the High-Level Meeting of the International Coalition for the Return of Ukrainian Children
+  - **来源**：Government of Canada News
+  - **发布时间**：2026-05-10T12:00:00-04:00
+  - **地区分类**：加拿大
+  - **原文链接**：https://www.canada.ca/en/global-affairs/news/2026/05/minister-anand-to-travel-to-brussels-for-the-high-level-meeting-of-the-international-coalition-for-the-return-of-ukrainian-children.html
+  - **原文摘要**：The coalition, which comprises 49 members, including states and international organizations, supports the safe return and reintegration of Ukrainian children unlawfully deported or forcibly transferred by Russia.
+
 - **原标题**：Joint Statement Following the Conclusion of Mexico’s Trade Mission to Canada (Toronto and Montréal – May 6-8, 2026)
   - **来源**：Government of Canada News
   - **发布时间**：2026-05-08T18:51:44-04:00
@@ -158,13 +165,6 @@
   - **地区分类**：加拿大
   - **原文链接**：https://www.canada.ca/en/innovation-science-economic-development/news/2026/05/minister-solomon-to-make-announcement-supporting-sovereign-large-scale-data-centre.html
   - **原文摘要**：The Honourable Evan Solomon, Minister of Artificial Intelligence and Digital Innovation and Minister responsible for the Federal Economic Development Agency for Southern Ontario, will make an important announcement in support of Canadian artificial intelligence infrastructure.
-
-- **原标题**：Government of Canada announces historic investments in Canada’s small craft harbours
-  - **来源**：Government of Canada News
-  - **发布时间**：2026-05-08T15:38:17-04:00
-  - **地区分类**：加拿大
-  - **原文链接**：https://www.canada.ca/en/privy-council/news/2026/05/government-of-canada-announces-historic-investments-in-canadas-small-craft-harbours.html
-  - **原文摘要**：The Honourable Arielle Kayabaga, Member of Parliament for London West, will highlight key investments from the Spring Economic Update to Fisheries and Oceans Canada’s Small Craft Harbours Program.
 
 
 
