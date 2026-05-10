@@ -50,7 +50,7 @@ python3 fetch_news.py
 
 ## 自动更新
 
-GitHub Actions 每日 22:00 UTC 自动运行，也支持手动触发。工作流会在结果变化时提交 `daily_news.md`、`index.html`、`rss.xml` 和 `archives/`。
+GitHub Actions 每日 北京时间9：00 自动运行，也支持手动触发。工作流会在结果变化时提交 `daily_news.md`、`index.html`、`rss.xml` 和 `archives/`。
 
 ## RSS 源配置
 
