@@ -4,9 +4,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![RSS](https://img.shields.io/badge/RSS-Available-orange.svg)](https://unsolublesugar.github.io/americas-news/rss.xml)
 
-本项目用于根据公开 RSS 新闻源自动抓取美洲相关新闻，并输出 Markdown、HTML、RSS 和历史归档，方便研究团队人工筛选。
+本项目用于根据公开 RSS 新闻源自动抓取美洲相关新闻，并输出 Markdown、HTML、RSS 和历史归档.
 
-本项目不自动判断新闻价值，不自动撰写评论。新闻价值、事实核验和最终采用由人工完成。
+
 
 ## 查看结果
 
@@ -23,7 +23,7 @@
 | 智库 | Inter-American Dialogue | 5 |
 | 国际组织 | UN News Americas | 5 |
 
-本项目只使用公开 RSS，不抓取付费墙页面，也不绕过网站限制。缩略图查询会跳过已知付费或受限域名。
+只使用公开 RSS.
 
 ## 输出文件
 
@@ -65,7 +65,7 @@ FEEDS = {
 }
 ```
 
-请保持来源为公开 RSS，并避免付费墙或受限页面。
+
 
 ## License
 
