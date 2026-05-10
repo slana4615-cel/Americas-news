@@ -4,9 +4,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![RSS](https://img.shields.io/badge/RSS-Available-orange.svg)](https://unsolublesugar.github.io/americas-news/rss.xml)
 
-本项目是面向中文研究团队的美洲新闻自动抓取工具。程序根据公开 RSS 新闻源自动抓取与美洲相关的新闻和机构动态，并输出 Markdown、HTML、RSS 和历史归档。
+美洲新闻自动抓取工具。根据公开 RSS 新闻源自动抓取与美洲相关的新闻和机构动态，并输出 Markdown、HTML、RSS 和历史归档。
 
-程序只负责根据公开 RSS 自动抓取、去重、归类和结构化展示新闻，不负责判断新闻价值、事实核验或最终采用优先级。英文新闻原标题会原样保留，不强制翻译标题。
+
 
 ## 查看结果
 
