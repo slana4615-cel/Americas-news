@@ -246,6 +246,23 @@ TARGET_REGION_KEYWORDS = (
     "jamaica", "barbados", "trinidad", "tobago",
 )
 
+LATIN_AMERICA_ENTITY_KEYWORDS = (
+    "latin america", "latin american", "south america", "central america",
+    "caribbean", "mexico", "brazil", "argentina", "chile", "colombia",
+    "venezuela", "peru", "ecuador", "bolivia", "uruguay", "paraguay",
+    "cuba", "haiti", "dominican republic", "panama", "costa rica",
+    "guatemala", "honduras", "el salvador", "nicaragua", "guyana",
+    "suriname", "belize", "jamaica", "barbados", "trinidad", "tobago",
+    "mercosur",
+)
+
+NON_AMERICAS_KEYWORDS = (
+    "taiwan", "china", "beijing", "xi jinping", "trump-xi",
+    "taiwan strait", "asia", "asian", "europe", "european", "ukraine",
+    "russia", "middle east", "israel", "iran", "gaza", "africa",
+    "african",
+)
+
 POLITICS_ECONOMY_KEYWORDS = (
     "politics", "political", "election", "vote", "voter", "campaign",
     "president", "government", "congress", "senate", "minister",
@@ -258,6 +275,23 @@ POLITICS_ECONOMY_KEYWORDS = (
     "dollar", "growth", "recession", "jobs", "labor", "supply chain",
     "energy", "oil", "gas", "mining", "lithium", "copper", "imf",
     "world bank", "idb", "oas",
+)
+
+US_DOMESTIC_ENTITY_KEYWORDS = (
+    "united states", "u.s.", "us", "usa", "american", "white house",
+    "congress", "senate", "house of representatives", "supreme court",
+    "federal reserve", "fed", "treasury", "treasury department",
+    "department of homeland security", "dhs", "trump administration",
+    "biden administration",
+)
+
+US_DOMESTIC_POLITICS_ECONOMY_KEYWORDS = (
+    "u.s. congress", "us congress", "white house", "congress", "senate",
+    "house of representatives", "federal reserve", "fed", "rate cut",
+    "treasury", "dhs", "department of homeland security", "supreme court",
+    "election", "midterm", "vote", "voter", "border", "immigration",
+    "budget", "inflation", "jobs", "tax", "tariff", "interest rate",
+    "trump administration", "biden administration",
 )
 
 CONTENT_SEARCH_LIMIT = 1200
@@ -337,6 +371,12 @@ def contains_any(text, keywords):
 
     return False
 
+def is_us_domestic_politics_or_economy(text):
+    return (
+        contains_any(text, US_DOMESTIC_ENTITY_KEYWORDS)
+        and contains_any(text, US_DOMESTIC_POLITICS_ECONOMY_KEYWORDS)
+    )
+
 def should_keep_entry(entry):
     text = entry_search_text(entry)
 
@@ -349,7 +389,17 @@ def should_keep_entry(entry):
     if contains_any(text, NOISE_KEYWORDS):
         return False
 
-    has_target_region = contains_any(text, TARGET_REGION_KEYWORDS)
+    has_latin_america_entity = contains_any(text, LATIN_AMERICA_ENTITY_KEYWORDS)
+    is_us_domestic_entry = is_us_domestic_politics_or_economy(text)
+
+    if (
+        contains_any(text, NON_AMERICAS_KEYWORDS)
+        and not has_latin_america_entity
+        and not is_us_domestic_entry
+    ):
+        return False
+
+    has_target_region = contains_any(text, TARGET_REGION_KEYWORDS) or has_latin_america_entity
     has_politics_or_economy = contains_any(text, POLITICS_ECONOMY_KEYWORDS)
 
     return has_target_region and has_politics_or_economy

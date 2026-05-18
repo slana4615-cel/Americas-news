@@ -39,12 +39,12 @@
   - **原文链接**：https://www.pbs.org/newshour/politics/crowds-pack-into-washingtons-national-mall-for-prayer-rally
   - **原文摘要**：President Trump read a passage of Scripture in a video shown at the rally, the same footage used in a Bible-reading event last month. Most speakers celebrated Christianity's ties to American history.
 
-- **原标题**：Taiwan's president defends U.S. arms purchases after Trump sowed doubts following visit to China
+- **原标题**：Peru's Fujimori and Sánchez to meet in June 7 presidential runoff
   - **来源**：PBS NewsHour Politics
-  - **发布时间**：Sun, 17 May 2026 12:42:13 -0400
+  - **发布时间**：Sun, 17 May 2026 12:32:25 -0400
   - **地区分类**：美国
-  - **原文链接**：https://www.pbs.org/newshour/world/taiwans-president-defends-u-s-arms-purchases-after-trumps-visit-to-china
-  - **原文摘要**：His statement came days after Trump raised doubts over his willingness to continue to sell arms to Taiwan, the island democracy that China claims as its own breakaway province, to be retaken by force if necessary.
+  - **原文链接**：https://www.pbs.org/newshour/world/perus-fujimori-and-sanchez-to-meet-in-june-7-presidential-runoff
+  - **原文摘要**：The final vote count was released Friday, but it had to be confirmed by Peru's National Elections Board to set the second round as none of the candidates received more than half the valid votes.
 
 
 
@@ -91,13 +91,6 @@
 ---
 ## 加勒比地区
 
-- **原标题**：Taiwan determined to maintain the status quo across the Taiwan Strait
-  - **来源**：Caribbean News Global
-  - **发布时间**：Sun, 17 May 2026 23:08:20 +0000
-  - **地区分类**：加勒比地区
-  - **原文链接**：https://caribbeannewsglobal.com/taiwan-determined-to-maintain-the-status-quo-across-the-taiwan-strait/
-  - **原文摘要**：MOFA response to US president Trump’s comments on Trump – Xi summit By Caribbean News Global TAIPEI, Taiwan – The Ministry of Foreign Affairs (MOFA) in a follow-up to interactions between the United States and China, as expressed in a press release May 15, notes that the United States has repeatedly stressed that its long-standing […] The post Taiwan determined to maintain the status quo across the Taiwan Strait appeared first on Caribbean News Global .
-
 - **原标题**：Venezuela to restructure debt with western creditors, oil output surpasses 1M BPD
   - **来源**：Caribbean News Global
   - **发布时间**：Sun, 17 May 2026 22:43:02 +0000
@@ -119,12 +112,12 @@
   - **原文链接**：https://caribbeannewsglobal.com/dhs-st-new-guidance-to-crack-down-on-synthetic-opioid-risks/
   - **原文摘要**：WASHINGTON, USA – The Department of Homeland Security (DHS) Science and Technology Directorate (S&T) released the updated Master Question List (MQL) for Synthetic Opioids, a powerful tool to help federal agencies, emergency responders, and planners crack down on synthetic opioid threats. Backed by the president’s executive order designating fentanyl as a weapon of mass destruction, this scientifically vetted reference […] The post DHS – S&T new guidance to crack down on synthetic opioid risks appeared first on Caribbean News Global .
 
-- **原标题**：MOFA response to US Secretary of State Rubio’s interview on Trump-Xi summit
+- **原标题**：How AI is changing the value of experience over credentials in Latin America – the Caribbean
   - **来源**：Caribbean News Global
-  - **发布时间**：Fri, 15 May 2026 23:44:01 +0000
+  - **发布时间**：Fri, 15 May 2026 23:41:00 +0000
   - **地区分类**：加勒比地区
-  - **原文链接**：https://caribbeannewsglobal.com/mofa-response-to-us-secretary-of-state-rubios-interview-on-trump-xi-summit/
-  - **原文摘要**：TAIPEI, Taiwan – The Ministry of Foreign Affairs (MOFA) continues to pay close attention to interactions between the United States and China, as expressed in a press release May 15. “In an interview in Beijing on May 14 concerning the summit between US president Donald Trump and Chinese leader Xi Jinping, US secretary of state […] The post MOFA response to US Secretary of State Rubio’s interview on Trump-Xi summit appeared first on Caribbean News Global .
+  - **原文链接**：https://caribbeannewsglobal.com/how-ai-is-changing-the-value-of-experience-over-credentials-in-latin-america-the-caribbean/
+  - **原文摘要**：AI makes codified knowledge abundant and practical expertise scarcer. Policies must ensure learning opportunities for workers are preserved. Key ideas As artificial intelligence makes codified knowledge abundant, tacit knowledge—the expertise gained only through doing—becomes scarcer and more valuable. Latin America and the Caribbean face a specific risk: the entry-level jobs where young workers acquire practical […] The post How AI is changing the value of experience over credentials in Latin America – the Caribbean appeared first on Caribbean News Global .
 
 
 
