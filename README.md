@@ -19,7 +19,6 @@
 | 美国 | PBS NewsHour Politics | 5 |
 | 拉丁美洲 | MercoPress Latin America | 5 |
 | 加勒比地区 | Caribbean News Global | 5 |
-| 加拿大 | Government of Canada News Atom feed | 5 |
 | 智库 | Inter-American Dialogue | 5 |
 | 国际组织 | UN News Americas | 5 |
 
@@ -60,8 +59,9 @@ GitHub Actions 每日 北京时间9：00 自动运行，也支持手动触发。
 FEEDS = {
     "美国": "https://www.pbs.org/newshour/feeds/rss/politics",
     "拉丁美洲": "https://en.mercopress.com/rss/latin-america",
-    "加拿大": "https://api.io.canada.ca/io-server/gc/news/en/v2?format=atom&orderBy=desc&pick=50&sort=publishedDate",
+    "加勒比地区": "https://caribbeannewsglobal.com/feed/",
     "智库": "https://www.thedialogue.org/feed/",
+    "国际组织": "https://news.un.org/feed/subscribe/en/news/region/americas/feed/rss.xml",
 }
 ```
 

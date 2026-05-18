@@ -14,7 +14,7 @@ class SiteConfig:
     SITE_TITLE_TEMPLATE: str = "美洲新闻自动抓取结果｜Daily Americas News Collection ({date})"
     SITE_DESCRIPTION: str = "本文件由程序根据公开 RSS 新闻源自动抓取生成，仅用于研究团队初步筛选。新闻价值、事实核验和最终采用由人工判断。"
     GITHUB_USERNAME: str = os.getenv("GITHUB_USERNAME") or os.getenv("USER_NAME") or os.getenv("GITHUB_REPOSITORY_OWNER", "slana4615-cel")
-    REPOSITORY_NAME: str = os.getenv("REPOSITORY_NAME", "americas-news")
+    REPOSITORY_NAME: str = os.getenv("REPOSITORY_NAME", "Americas-news")
     GITHUB_REPOSITORY_NAME: str = os.getenv("GITHUB_REPOSITORY_NAME", "Americas-news")
     X_USERNAME: str = os.getenv("X_USERNAME") or os.getenv("TWITTER_USERNAME") or os.getenv("GITHUB_REPOSITORY_OWNER") or "unsoluble_sugar"
     
@@ -79,7 +79,6 @@ class SiteConfig:
                 "美国",
                 "拉丁美洲",
                 "加勒比地区",
-                "加拿大",
                 "智库",
                 "国际组织",
             ]

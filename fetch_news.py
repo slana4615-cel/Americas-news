@@ -37,7 +37,6 @@ CATEGORY_LABELS = {
     "United States": "美国",
     "Latin America": "拉丁美洲",
     "Caribbean": "加勒比地区",
-    "Canada": "加拿大",
     "Think Tanks": "智库",
     "International Organizations": "国际组织",
 }
@@ -46,7 +45,6 @@ SOURCE_LABELS = {
     "美国": "PBS NewsHour Politics",
     "拉丁美洲": "MercoPress Latin America",
     "加勒比地区": "Caribbean News Global",
-    "加拿大": "Government of Canada News",
     "智库": "Inter-American Dialogue",
     "国际组织": "UN News Americas",
 }
@@ -55,7 +53,6 @@ FEEDS = {
     "美国": "https://www.pbs.org/newshour/feeds/rss/politics",
     "拉丁美洲": "https://en.mercopress.com/rss/latin-america",
     "加勒比地区": "https://caribbeannewsglobal.com/feed/",
-    "加拿大": "https://api.io.canada.ca/io-server/gc/news/en/v2?format=atom&orderBy=desc&pick=50&sort=publishedDate",
     "智库": "https://www.thedialogue.org/feed/",
     "国际组织": "https://news.un.org/feed/subscribe/en/news/region/americas/feed/rss.xml",
 }
@@ -221,6 +218,159 @@ def filter_entries_by_domain(entries, domain, label):
     if excluded_count > 0:
         print(f"Excluded {excluded_count} {label} entries")
     
+    return filtered_entries
+
+CANADA_KEYWORDS = (
+    "canada", "canadian", "ottawa", "toronto", "vancouver", "montreal",
+    "bank of canada", "government of canada",
+)
+
+NOISE_KEYWORDS = (
+    "sports", "nba", "nfl", "mlb", "soccer", "football", "baseball",
+    "celebrity", "actor", "actress", "movie", "film", "music",
+    "entertainment", "lifestyle", "fashion", "recipe", "travel tips",
+    "weather forecast",
+)
+
+TARGET_REGION_KEYWORDS = (
+    "united states", "u.s.", "us", "usa", "america", "american",
+    "white house", "congress", "senate", "house of representatives",
+    "federal reserve", "fed", "treasury department", "state department",
+    "department of homeland security", "dhs", "trump administration",
+    "biden administration", "latin america", "latin american",
+    "south america", "central america", "caribbean", "mexico", "brazil",
+    "argentina", "chile", "colombia", "venezuela", "peru", "ecuador",
+    "bolivia", "uruguay", "paraguay", "cuba", "haiti",
+    "dominican republic", "panama", "costa rica", "guatemala", "honduras",
+    "el salvador", "nicaragua", "guyana", "suriname", "belize",
+    "jamaica", "barbados", "trinidad", "tobago",
+)
+
+POLITICS_ECONOMY_KEYWORDS = (
+    "politics", "political", "election", "vote", "voter", "campaign",
+    "president", "government", "congress", "senate", "minister",
+    "cabinet", "policy", "reform", "law", "court", "supreme court",
+    "diplomacy", "foreign policy", "sanctions", "border", "migration",
+    "immigration", "security", "defense", "military", "economy",
+    "economic", "inflation", "interest rate", "central bank",
+    "federal reserve", "fed", "treasury", "debt", "budget", "fiscal",
+    "tax", "tariff", "trade", "investment", "market", "currency",
+    "dollar", "growth", "recession", "jobs", "labor", "supply chain",
+    "energy", "oil", "gas", "mining", "lithium", "copper", "imf",
+    "world bank", "idb", "oas",
+)
+
+CONTENT_SEARCH_LIMIT = 1200
+_SHORT_KEYWORD_PATTERN = re.compile(r"^[a-z0-9]{1,3}$")
+_BOUNDARY_KEYWORDS = frozenset({
+    "sports", "soccer", "football", "baseball", "celebrity", "actor",
+    "actress", "movie", "film", "music", "entertainment", "lifestyle",
+    "fashion", "recipe",
+})
+
+def entry_search_text(entry):
+    """Build a lightweight search string from RSS-provided entry fields only."""
+    parts = []
+
+    for field in ("title", "summary", "description"):
+        cleaned = clean_text(getattr(entry, field, None))
+        if cleaned:
+            parts.append(cleaned)
+
+    content = getattr(entry, "content", None)
+    if content:
+        content_items = content if isinstance(content, list) else [content]
+        for item in content_items:
+            if isinstance(item, dict):
+                value = item.get("value")
+            else:
+                value = getattr(item, "value", None) or str(item)
+            cleaned = clean_text(value)
+            if cleaned:
+                parts.append(cleaned[:CONTENT_SEARCH_LIMIT])
+
+    link = getattr(entry, "link", None)
+    if link:
+        parsed_link = urlparse(str(link))
+        link_text = " ".join(
+            part for part in (
+                parsed_link.path,
+                parsed_link.params,
+                parsed_link.query,
+                parsed_link.fragment,
+            ) if part
+        )
+        if contains_any(parsed_link.netloc.lower(), CANADA_KEYWORDS):
+            link_text = f"{parsed_link.netloc} {link_text}".strip()
+        if link_text:
+            parts.append(link_text)
+
+    search_text = " ".join(parts)
+    search_text = re.sub(
+        r"\bthe post .*? appeared first on [^.]+\.?",
+        " ",
+        search_text,
+        flags=re.IGNORECASE,
+    )
+    search_text = re.sub(r"\bby caribbean news global\b", " ", search_text, flags=re.IGNORECASE)
+    return re.sub(r"\s+", " ", search_text).strip()
+
+def contains_any(text, keywords):
+    if not text:
+        return False
+
+    raw_text = str(text)
+    normalized_text = re.sub(r"\s+", " ", raw_text.lower())
+    for keyword in keywords:
+        normalized_keyword = keyword.lower()
+        if normalized_keyword == "us":
+            if re.search(r"(?<![A-Za-z0-9$])US(?![A-Za-z0-9$])", raw_text):
+                return True
+            continue
+        if normalized_keyword in _BOUNDARY_KEYWORDS or _SHORT_KEYWORD_PATTERN.match(normalized_keyword):
+            pattern = rf"(?<![a-z0-9]){re.escape(normalized_keyword)}(?![a-z0-9])"
+            if re.search(pattern, normalized_text):
+                return True
+            continue
+        if normalized_keyword in normalized_text:
+            return True
+
+    return False
+
+def should_keep_entry(entry):
+    text = entry_search_text(entry)
+
+    if not text:
+        return False
+
+    if contains_any(text, CANADA_KEYWORDS):
+        return False
+
+    if contains_any(text, NOISE_KEYWORDS):
+        return False
+
+    has_target_region = contains_any(text, TARGET_REGION_KEYWORDS)
+    has_politics_or_economy = contains_any(text, POLITICS_ECONOMY_KEYWORDS)
+
+    return has_target_region and has_politics_or_economy
+
+def filter_entries_by_scope(entries, feed_name):
+    filtered_entries = []
+    excluded_titles = []
+
+    for entry in entries:
+        if should_keep_entry(entry):
+            filtered_entries.append(entry)
+            continue
+
+        title = clean_text(getattr(entry, "title", None)) or getattr(entry, "link", None) or "未提供标题"
+        excluded_titles.append(title)
+
+    if excluded_titles:
+        print(f"Scope filter excluded {len(excluded_titles)} entries from {feed_name}")
+        for title in excluded_titles:
+            print(f"范围过滤: [{feed_name}] {title}")
+
     return filtered_entries
 
 def extract_author_info(entry):
@@ -1473,6 +1623,8 @@ if __name__ == "__main__":
         
         for domain, label in EXCLUDED_DOMAINS.items():
             entries = filter_entries_by_domain(entries, domain, label)
+        
+        entries = filter_entries_by_scope(entries, name)
         
         all_entries[name] = entries
     

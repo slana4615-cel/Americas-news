@@ -2,12 +2,12 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>美洲新闻自动抓取结果｜Daily Americas News Collection</title>
-    <link>https://slana4615-cel.github.io/americas-news/</link>
+    <link>https://slana4615-cel.github.io/Americas-news/</link>
     <description>本文件由程序根据公开 RSS 新闻源自动抓取生成，仅用于研究团队初步筛选。新闻价值、事实核验和最终采用由人工判断。</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-    <lastBuildDate>Sun, 17 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://slana4615-cel.github.io/americas-news/rss.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://slana4615-cel.github.io/Americas-news/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Critics fear a midterm purge as the Trump administration promotes program to check voter eligibility</title>
       <link>https://www.pbs.org/newshour/politics/critics-fear-a-midterm-purge-as-the-trump-administration-promotes-program-to-check-voter-eligibility</link>
@@ -30,18 +30,18 @@
       <pubDate>Sun, 17 May 2026 19:26:35 +0000</pubDate>
     </item>
     <item>
-      <title>New York governor pleads with unions to resume talks amid North America's largest commuter rail system shut down</title>
-      <link>https://www.pbs.org/newshour/nation/new-york-governor-pleads-with-unions-to-resume-talks-amid-north-americas-largest-commuter-rail-system-shut-down</link>
-      <description>地区分类：美国；来源：PBS NewsHour Politics；原标题：New York governor pleads with unions to resume talks amid North America's largest commuter rail system shut down</description>
-      <guid>https://www.pbs.org/newshour/nation/new-york-governor-pleads-with-unions-to-resume-talks-amid-north-americas-largest-commuter-rail-system-shut-down</guid>
-      <pubDate>Sun, 17 May 2026 17:50:50 +0000</pubDate>
-    </item>
-    <item>
       <title>Crowds pack into Washington's National Mall for prayer rally</title>
       <link>https://www.pbs.org/newshour/politics/crowds-pack-into-washingtons-national-mall-for-prayer-rally</link>
       <description>地区分类：美国；来源：PBS NewsHour Politics；原标题：Crowds pack into Washington's National Mall for prayer rally</description>
       <guid>https://www.pbs.org/newshour/politics/crowds-pack-into-washingtons-national-mall-for-prayer-rally</guid>
       <pubDate>Sun, 17 May 2026 16:55:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Taiwan's president defends U.S. arms purchases after Trump sowed doubts following visit to China</title>
+      <link>https://www.pbs.org/newshour/world/taiwans-president-defends-u-s-arms-purchases-after-trumps-visit-to-china</link>
+      <description>地区分类：美国；来源：PBS NewsHour Politics；原标题：Taiwan's president defends U.S. arms purchases after Trump sowed doubts following visit to China</description>
+      <guid>https://www.pbs.org/newshour/world/taiwans-president-defends-u-s-arms-purchases-after-trumps-visit-to-china</guid>
+      <pubDate>Sun, 17 May 2026 16:42:13 +0000</pubDate>
     </item>
     <item>
       <title>Brazil leads South America's military spending and Uruguay posts one of the largest relative rises, SIPRI says</title>
@@ -58,9 +58,9 @@
       <pubDate>Sat, 16 May 2026 04:16:00 +0000</pubDate>
     </item>
     <item>
-      <title>Trump claims he will engineer a &quot;turnaround&quot; in Cuba and pull it away from China and Russia</title>
+      <title>Trump claims he will engineer a "turnaround" in Cuba and pull it away from China and Russia</title>
       <link>https://en.mercopress.com/2026/05/16/trump-claims-he-will-engineer-a-turnaround-in-cuba-and-pull-it-away-from-china-and-russia?utm_source=feed&amp;utm_medium=rss&amp;utm_content=latin-america&amp;utm_campaign=rss</link>
-      <description>地区分类：拉丁美洲；来源：MercoPress Latin America；原标题：Trump claims he will engineer a &quot;turnaround&quot; in Cuba and pull it away from China and Russia</description>
+      <description>地区分类：拉丁美洲；来源：MercoPress Latin America；原标题：Trump claims he will engineer a "turnaround" in Cuba and pull it away from China and Russia</description>
       <guid>https://en.mercopress.com/2026/05/16/trump-claims-he-will-engineer-a-turnaround-in-cuba-and-pull-it-away-from-china-and-russia?utm_source=feed&amp;utm_medium=rss&amp;utm_content=latin-america&amp;utm_campaign=rss</guid>
       <pubDate>Sat, 16 May 2026 03:45:00 +0000</pubDate>
     </item>
@@ -79,6 +79,13 @@
       <pubDate>Fri, 15 May 2026 02:58:00 +0000</pubDate>
     </item>
     <item>
+      <title>Taiwan determined to maintain the status quo across the Taiwan Strait</title>
+      <link>https://caribbeannewsglobal.com/taiwan-determined-to-maintain-the-status-quo-across-the-taiwan-strait/</link>
+      <description>地区分类：加勒比地区；来源：Caribbean News Global；原标题：Taiwan determined to maintain the status quo across the Taiwan Strait</description>
+      <guid>https://caribbeannewsglobal.com/taiwan-determined-to-maintain-the-status-quo-across-the-taiwan-strait/</guid>
+      <pubDate>Sun, 17 May 2026 23:08:20 +0000</pubDate>
+    </item>
+    <item>
       <title>Venezuela to restructure debt with western creditors, oil output surpasses 1M BPD</title>
       <link>https://caribbeannewsglobal.com/venezuela-to-restructure-debt-with-western-creditors-oil-output-surpasses-1m-bpd/</link>
       <description>地区分类：加勒比地区；来源：Caribbean News Global；原标题：Venezuela to restructure debt with western creditors, oil output surpasses 1M BPD</description>
@@ -93,20 +100,6 @@
       <pubDate>Sun, 17 May 2026 22:29:17 +0000</pubDate>
     </item>
     <item>
-      <title>Building resilience in Europe and Central Asia: A smart investment for growth and jobs</title>
-      <link>https://caribbeannewsglobal.com/building-resilience-in-europe-and-central-asia-a-smart-investment-for-growth-and-jobs/</link>
-      <description>地区分类：加勒比地区；来源：Caribbean News Global；原标题：Building resilience in Europe and Central Asia: A smart investment for growth and jobs</description>
-      <guid>https://caribbeannewsglobal.com/building-resilience-in-europe-and-central-asia-a-smart-investment-for-growth-and-jobs/</guid>
-      <pubDate>Sun, 17 May 2026 22:16:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>APEC economies push to break barriers, expand opportunities for women</title>
-      <link>https://caribbeannewsglobal.com/apec-economies-push-to-break-barriers-expand-opportunities-for-women/</link>
-      <description>地区分类：加勒比地区；来源：Caribbean News Global；原标题：APEC economies push to break barriers, expand opportunities for women</description>
-      <guid>https://caribbeannewsglobal.com/apec-economies-push-to-break-barriers-expand-opportunities-for-women/</guid>
-      <pubDate>Sun, 17 May 2026 21:59:19 +0000</pubDate>
-    </item>
-    <item>
       <title>DHS – S&amp;T new guidance to crack down on synthetic opioid risks</title>
       <link>https://caribbeannewsglobal.com/dhs-st-new-guidance-to-crack-down-on-synthetic-opioid-risks/</link>
       <description>地区分类：加勒比地区；来源：Caribbean News Global；原标题：DHS – S&amp;T new guidance to crack down on synthetic opioid risks</description>
@@ -114,53 +107,11 @@
       <pubDate>Sun, 17 May 2026 21:36:16 +0000</pubDate>
     </item>
     <item>
-      <title>Minister Anand to travel to Latvia, Estonia and Sweden</title>
-      <link>https://www.canada.ca/en/global-affairs/news/2026/05/minister-anand-to-travel-to-latvia-estonia-and-sweden.html</link>
-      <description>地区分类：加拿大；来源：Government of Canada News；原标题：Minister Anand to travel to Latvia, Estonia and Sweden</description>
-      <guid>https://www.canada.ca/en/global-affairs/news/2026/05/minister-anand-to-travel-to-latvia-estonia-and-sweden.html</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Media update on Andes hantavirus situation</title>
-      <link>https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html</link>
-      <description>地区分类：加拿大；来源：Government of Canada News；原标题：Media update on Andes hantavirus situation</description>
-      <guid>https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation1.html</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Statement by Minister Rechie Valdez on the International Day Against Homophobia, Transphobia, and Biphobia</title>
-      <link>https://www.canada.ca/en/women-gender-equality/news/2026/05/statement-by-minister-rechie-valdez-on-the-international-day-against-homophobia-transphobia-and-biphobia.html</link>
-      <description>地区分类：加拿大；来源：Government of Canada News；原标题：Statement by Minister Rechie Valdez on the International Day Against Homophobia, Transphobia, and Biphobia</description>
-      <guid>https://www.canada.ca/en/women-gender-equality/news/2026/05/statement-by-minister-rechie-valdez-on-the-international-day-against-homophobia-transphobia-and-biphobia.html</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Media update on Andes hantavirus situation</title>
-      <link>https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation0.html</link>
-      <description>地区分类：加拿大；来源：Government of Canada News；原标题：Media update on Andes hantavirus situation</description>
-      <guid>https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation0.html</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Government of Canada provides nearly $490,000 to expand innovation for a resilient northern economy</title>
-      <link>https://www.canada.ca/en/northern-economic-development/news/2026/05/the-government-of-canada-provides-nearly-490000-to-expand-innovation-for-a-resilient-northern-economy.html</link>
-      <description>地区分类：加拿大；来源：Government of Canada News；原标题：The Government of Canada provides nearly $490,000 to expand innovation for a resilient northern economy</description>
-      <guid>https://www.canada.ca/en/northern-economic-development/news/2026/05/the-government-of-canada-provides-nearly-490000-to-expand-innovation-for-a-resilient-northern-economy.html</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Reporter, Latin America Advisor</title>
-      <link>https://thedialogue.org/blogs/2026/05/reporter-latin-america-advisor</link>
-      <description>地区分类：智库；来源：Inter-American Dialogue；原标题：Reporter, Latin America Advisor</description>
-      <guid>https://thedialogue.org/blogs/2026/05/reporter-latin-america-advisor</guid>
-      <pubDate>Fri, 15 May 2026 14:16:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Surprising Factors Behind the Decline in the Fentanyl Epidemic</title>
-      <link>https://thedialogue.org/blogs/2026/04/the-surprising-factors-behind-the-decline-in-the-fentanyl-epidemic</link>
-      <description>地区分类：智库；来源：Inter-American Dialogue；原标题：The Surprising Factors Behind the Decline in the Fentanyl Epidemic</description>
-      <guid>https://thedialogue.org/blogs/2026/04/the-surprising-factors-behind-the-decline-in-the-fentanyl-epidemic</guid>
-      <pubDate>Wed, 22 Apr 2026 15:52:22 +0000</pubDate>
+      <title>MOFA response to US Secretary of State Rubio’s interview on Trump-Xi summit</title>
+      <link>https://caribbeannewsglobal.com/mofa-response-to-us-secretary-of-state-rubios-interview-on-trump-xi-summit/</link>
+      <description>地区分类：加勒比地区；来源：Caribbean News Global；原标题：MOFA response to US Secretary of State Rubio’s interview on Trump-Xi summit</description>
+      <guid>https://caribbeannewsglobal.com/mofa-response-to-us-secretary-of-state-rubios-interview-on-trump-xi-summit/</guid>
+      <pubDate>Fri, 15 May 2026 23:44:01 +0000</pubDate>
     </item>
     <item>
       <title>Regional Competitiveness and Resilience through Integration of Digital and Physical SEZs (Special Economic Zones)</title>
@@ -170,13 +121,6 @@
       <pubDate>Wed, 01 Apr 2026 18:36:36 +0000</pubDate>
     </item>
     <item>
-      <title>Between Moderation and Mistrust: Rethinking Polarization in Brazil and the United States</title>
-      <link>https://thedialogue.org/blogs/2026/03/between-moderation-and-mistrust-rethinking-polarization-in-brazil-and-the-united-states</link>
-      <description>地区分类：智库；来源：Inter-American Dialogue；原标题：Between Moderation and Mistrust: Rethinking Polarization in Brazil and the United States</description>
-      <guid>https://thedialogue.org/blogs/2026/03/between-moderation-and-mistrust-rethinking-polarization-in-brazil-and-the-united-states</guid>
-      <pubDate>Tue, 24 Mar 2026 18:28:19 +0000</pubDate>
-    </item>
-    <item>
       <title>Mexico’s Electoral Reform</title>
       <link>https://thedialogue.org/blogs/2026/03/mexicos-electoral-reform</link>
       <description>地区分类：智库；来源：Inter-American Dialogue；原标题：Mexico’s Electoral Reform</description>
@@ -184,25 +128,25 @@
       <pubDate>Tue, 24 Mar 2026 13:51:48 +0000</pubDate>
     </item>
     <item>
-      <title>Blackouts and shortages disrupt healthcare across Cuba</title>
-      <link>https://news.un.org/feed/view/en/story/2026/05/1167524</link>
-      <description>地区分类：国际组织；来源：UN News - Global perspective Human stories；原标题：Blackouts and shortages disrupt healthcare across Cuba</description>
-      <guid>https://news.un.org/feed/view/en/story/2026/05/1167524</guid>
-      <pubDate>Fri, 15 May 2026 12:00:00 +0000</pubDate>
+      <title>Beyond USMCA: From Trade Integration to Joint Industrialization</title>
+      <link>https://thedialogue.org/blogs/2026/03/beyond-usmca-from-trade-integration-to-joint-industrialization</link>
+      <description>地区分类：智库；来源：Inter-American Dialogue；原标题：Beyond USMCA: From Trade Integration to Joint Industrialization</description>
+      <guid>https://thedialogue.org/blogs/2026/03/beyond-usmca-from-trade-integration-to-joint-industrialization</guid>
+      <pubDate>Tue, 10 Mar 2026 19:34:32 +0000</pubDate>
     </item>
     <item>
-      <title>Gang-controlled streets, shuttered newsrooms: How violence is eroding Haiti’s media</title>
-      <link>https://news.un.org/feed/view/en/story/2026/05/1167414</link>
-      <description>地区分类：国际组织；来源：UN News - Global perspective Human stories；原标题：Gang-controlled streets, shuttered newsrooms: How violence is eroding Haiti’s media</description>
-      <guid>https://news.un.org/feed/view/en/story/2026/05/1167414</guid>
-      <pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate>
+      <title>Change and Continuity in Money Transfers in 2026</title>
+      <link>https://thedialogue.org/blogs/2026/03/change-and-continuity-in-money-transfers-in-2026</link>
+      <description>地区分类：智库；来源：Inter-American Dialogue；原标题：Change and Continuity in Money Transfers in 2026</description>
+      <guid>https://thedialogue.org/blogs/2026/03/change-and-continuity-in-money-transfers-in-2026</guid>
+      <pubDate>Mon, 09 Mar 2026 20:27:41 +0000</pubDate>
     </item>
     <item>
-      <title>UN rights chief urges action to end impunity and address disappearances in Mexico</title>
-      <link>https://news.un.org/feed/view/en/story/2026/04/1167371</link>
-      <description>地区分类：国际组织；来源：UN News - Global perspective Human stories；原标题：UN rights chief urges action to end impunity and address disappearances in Mexico</description>
-      <guid>https://news.un.org/feed/view/en/story/2026/04/1167371</guid>
-      <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
+      <title>Use of Digital Financial Applications for Payments in Central America</title>
+      <link>https://thedialogue.org/blogs/2026/02/use-of-digital-financial-applications-for-payments-in-central-america</link>
+      <description>地区分类：智库；来源：Inter-American Dialogue；原标题：Use of Digital Financial Applications for Payments in Central America</description>
+      <guid>https://thedialogue.org/blogs/2026/02/use-of-digital-financial-applications-for-payments-in-central-america</guid>
+      <pubDate>Tue, 17 Feb 2026 21:16:43 +0000</pubDate>
     </item>
     <item>
       <title>SECURITY COUNCIL LIVE: Update on Haiti as humanitarian crisis continues alongside gang violence</title>
@@ -217,6 +161,27 @@
       <description>地区分类：国际组织；来源：UN News - Global perspective Human stories；原标题：As Colombia elections near, Security Council hears calls for calm</description>
       <guid>https://news.un.org/feed/view/en/story/2026/04/1167348</guid>
       <pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>More than half of Haitians continue to face food crisis</title>
+      <link>https://news.un.org/feed/view/en/story/2026/04/1167328</link>
+      <description>地区分类：国际组织；来源：UN News - Global perspective Human stories；原标题：More than half of Haitians continue to face food crisis</description>
+      <guid>https://news.un.org/feed/view/en/story/2026/04/1167328</guid>
+      <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cuba energy crisis: Humanitarian needs remain despite fuel supplies</title>
+      <link>https://news.un.org/feed/view/en/story/2026/04/1167254</link>
+      <description>地区分类：国际组织；来源：UN News - Global perspective Human stories；原标题：Cuba energy crisis: Humanitarian needs remain despite fuel supplies</description>
+      <guid>https://news.un.org/feed/view/en/story/2026/04/1167254</guid>
+      <pubDate>Mon, 06 Apr 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>‘Hope’ for Haiti’s political future as some 300 groups reportedly register for upcoming elections</title>
+      <link>https://news.un.org/feed/view/en/story/2026/03/1167143</link>
+      <description>地区分类：国际组织；来源：UN News - Global perspective Human stories；原标题：‘Hope’ for Haiti’s political future as some 300 groups reportedly register for upcoming elections</description>
+      <guid>https://news.un.org/feed/view/en/story/2026/03/1167143</guid>
+      <pubDate>Mon, 16 Mar 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
