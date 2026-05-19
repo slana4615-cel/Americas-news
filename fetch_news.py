@@ -834,6 +834,13 @@ def is_us_domestic_politics_or_economy(text):
         and contains_any(text, US_DOMESTIC_POLITICS_ECONOMY_KEYWORDS)
     )
 
+def has_valid_americas_scope(text):
+    return (
+        contains_any(text, LATIN_AMERICA_ENTITY_KEYWORDS)
+        or contains_any(text, CARIBBEAN_ENTITY_KEYWORDS)
+        or is_us_domestic_politics_or_economy(text)
+    )
+
 def get_scope_exclusion_reason(entry):
     text = entry_search_text(entry)
     title_text = clean_text(getattr(entry, "title", None)) or ""
@@ -843,6 +850,7 @@ def get_scope_exclusion_reason(entry):
 
     has_latin_america_entity = contains_any(text, LATIN_AMERICA_ENTITY_KEYWORDS)
     is_us_domestic_entry = is_us_domestic_politics_or_economy(text)
+    has_americas_scope = has_valid_americas_scope(text)
 
     if (
         contains_any(title_text, CANADA_KEYWORDS)
@@ -855,11 +863,15 @@ def get_scope_exclusion_reason(entry):
 
     if (
         contains_any(text, NON_AMERICAS_KEYWORDS)
-        and not has_latin_america_entity
+        and not has_americas_scope
     ):
         return "非美洲主题"
 
-    has_target_region = contains_any(text, TARGET_REGION_KEYWORDS) or has_latin_america_entity
+    has_target_region = (
+        contains_any(text, TARGET_REGION_KEYWORDS)
+        or has_latin_america_entity
+        or is_us_domestic_entry
+    )
     has_politics_or_economy = contains_any(text, POLITICS_ECONOMY_KEYWORDS)
 
     if not has_target_region:
@@ -1099,11 +1111,7 @@ def score_noise_penalty(entry, text, now):
     elif contains_any(text, NOISE_KEYWORDS):
         penalty += 12
 
-    has_americas_entity = (
-        contains_any(text, LATIN_AMERICA_ENTITY_KEYWORDS)
-        or contains_any(text, CARIBBEAN_ENTITY_KEYWORDS)
-    )
-    if contains_any(text, NON_AMERICAS_KEYWORDS) and not has_americas_entity:
+    if contains_any(text, NON_AMERICAS_KEYWORDS) and not has_valid_americas_scope(text):
         penalty += 25
 
     age = entry_age_days(entry, now)
@@ -1220,7 +1228,51 @@ def apply_cross_source_bonuses(entries, now):
     for entry in entries:
         entry.cross_source_bonus = min(bonuses[id(entry)], 20)
 
-def title_fingerprint(title):
+_GOOGLE_NEWS_SOURCE_SUFFIX_PATTERN = re.compile(r"\s+[-–—]\s+([^-–—]{2,80})$")
+
+def normalize_source_suffix(value):
+    return re.sub(r"[^a-z0-9]+", " ", str(value).lower()).strip()
+
+def is_google_news_entry(entry):
+    feed_name = clean_text(getattr(entry, "feed_name", None)) or ""
+    source_info = clean_text(getattr(entry, "source_info", None)) or ""
+    if feed_name.startswith("Google News") or source_info == "Google News":
+        return True
+
+    for field in ("feed_url", "link"):
+        value = getattr(entry, field, None)
+        if value and normalize_domain(urlparse(str(value)).netloc) == "news.google.com":
+            return True
+
+    return False
+
+def is_known_google_news_source_suffix(suffix):
+    if domain_from_source_alias(suffix):
+        return True
+
+    normalized_suffix = normalize_source_suffix(suffix)
+    known_labels = {
+        normalize_source_suffix(source_name)
+        for source_name in SOURCE_LABELS.values()
+    }
+    return normalized_suffix in known_labels
+
+def strip_google_news_source_suffix(title):
+    cleaned = clean_text(title) or ""
+    match = _GOOGLE_NEWS_SOURCE_SUFFIX_PATTERN.search(cleaned)
+    if not match:
+        return cleaned
+
+    suffix = match.group(1).strip()
+    if is_known_google_news_source_suffix(suffix):
+        return cleaned[:match.start()].strip()
+
+    return cleaned
+
+def title_fingerprint(title, strip_source_suffix=False):
+    if strip_source_suffix:
+        title = strip_google_news_source_suffix(title)
+
     tokens = title_tokens(title)
     if not tokens:
         cleaned = clean_text(title) or ""
@@ -1239,7 +1291,13 @@ def deduplicate_candidate_entries(entries):
         link = getattr(entry, "link", "")
         normalized_link = normalize_url(link) if link else ""
         domain = get_entry_domain(entry) or "unknown"
-        title_key = (domain, title_fingerprint(getattr(entry, "title", "")))
+        title_key = (
+            domain,
+            title_fingerprint(
+                getattr(entry, "title", ""),
+                strip_source_suffix=is_google_news_entry(entry),
+            ),
+        )
 
         if normalized_link and normalized_link in seen_urls:
             removed_by_url += 1

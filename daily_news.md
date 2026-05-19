@@ -11,6 +11,24 @@
 
 ## 美国
 
+- **原标题**：Donald Trump says he ‘wasn’t involved’ in creation of $1.7bn compensation fund – as it happened
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：183
+  - **发布时间**：Tue, 19 May 2026 01:44:29 GMT
+  - **地区分类**：美国
+  - **原文链接**：https://www.theguardian.com/us-news/live/2026/may/18/donald-trump-redistricting-south-carolina-iran-healthcare-latest-news-updates
+  - **原文摘要**：This live blog is now closed. Trump dismisses $10bn suit against IRS and creates $1.7bn ‘anti-weaponization’ fund Sign up for the Breaking News US email Democratic reactions to the news about Trump moving to withdraw his lawsuit against the IRS are coming in. Ron Wyden, a top Democrat on the Senate Finance Committee, said Trump deserved no credit for dropping the lawsuit, regardless of his reasons. “Even by his standards the move he’s trying to get away with now is a stunning act of corruption,” said Wyden in a statement. “What Trump wants is a $1.7bn slush fund for right-wing political violence and subversion, and if he follows through, it will be the most brazen theft and abuse of taxpayer dollars by any president in American history.” Continue reading...
+
+- **原标题**：The Iran war reminds us: we’ll never be energy-independent with fossil fuels | Lloyd Doggett and Michael Shank
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：179
+  - **发布时间**：Mon, 18 May 2026 10:00:54 GMT
+  - **地区分类**：美国
+  - **原文链接**：https://www.theguardian.com/commentisfree/2026/may/18/iran-war-energy-independence-fossil-fuels
+  - **原文摘要**：Energy security comes from using local, renewable resources to power, heat and cool communities, as Ukraine is doing Donald Trump ’s unjustified war on Iran and the resulting global fuel crisis is a continuing reminder that true energy security and independence will continue to elude us so long as we remain dependent on fossil fuels. Whether it’s wars over oil and gas resource access or attacks on fossil fuel power plants and energy grids, this reliance on finite resources only worsens a country’s threat profile. News this month of Russia’s deadly attacks on Ukraine’s energy infrastructure, Russian drones swarming Ukrainian power stations and Kyiv running out of time to prepare for another winter of attacks on its energy grid illustrates this urgency. The US representative Lloyd Doggett serves Texas’s 37th district in the House of Representatives and is a member of the Ukraine caucus and the House sustainable energy and environment coalition. Michael Shank PhD is adjunct faculty at New York University’s Center for Global Affairs, and at George Mason University’s Carter School for Peace and Conflict Resolution Continue reading...
+
 - **原标题**：The Republican who stood up to Trump is hoping for a big win against president
   - **来源**：BBC
   - **来源级别**：Tier 1
@@ -46,15 +64,6 @@
   - **地区分类**：美国
   - **原文链接**：https://www.aljazeera.com/news/2026/5/19/how-philadelphias-democratic-primary-tests-the-bounds-of-us-progressivism?traffic_source=rss
   - **原文摘要**：The race for Pennsylvania's third congressional district reveals divisions between Democrats closely aligned on policy.
-
-- **原标题**：US Border Patrol chief quits, adding to turnover among immigration officials - Reuters
-  - **来源**：Reuters
-  - **来源级别**：Tier 1
-  - **评分**：160
-  - **发布时间**：Thu, 14 May 2026 20:48:50 GMT
-  - **地区分类**：美国
-  - **原文链接**：https://news.google.com/rss/articles/CBMingFBVV95cUxPUmZJZ2ZzSVJQTkpwcjlDMVNQa19ZRF9RQmRZazZMUXNEUDdqUHpnUHBkSHJGVmh6ZzFGemhnbl9hOHBQWC1kZjE0Nm9hY3NNbjVuSDhpMGNmem1IVG9YbUpjOWlRaFFyRzJ4ei1fOWN4b1N0MXkydWs0cUJkWnBvNHpTeTFxcVdIaXFZOFFkVkVvT3RxRFR6ZEdENlNiUQ?oc=5
-  - **原文摘要**：US Border Patrol chief quits, adding to turnover among immigration officials Reuters
 
 
 
@@ -124,15 +133,6 @@
   - **原文链接**：https://news.google.com/rss/articles/CBMiywFBVV95cUxNVXphaVE1NlF2cEluUzNDanJCUTNXeEdsamlMQnhRTmQyRnJVV0FOOTNwM1Z2WmsybVgzbFJ3TTFTN2FKYkhlbG1lN01EbmM3Ulo2T2NKbG5Ec21vNVVHTWhGZHZQUTNmYlNycDJIS0J0WWxMSUxUSmhnS3p0WnhDWllTZ3EwZzd0ZjNMa3pHZEt3blNPNVoyYjBwdlcwaHhzdWR0Vkw3RU9sZUlBNUYzRXBndDBXTzN5UjBIRk9UazJvLXZDeGJfaVdjdw?oc=5
   - **原文摘要**：Venezuela oil officials set to make rare appearance at Houston area energy conference Reuters
 
-- **原标题**：Peru presidential standoff confirmed after month-long vote count
-  - **来源**：France 24
-  - **来源级别**：Tier 1
-  - **评分**：158
-  - **发布时间**：Mon, 18 May 2026 10:09:17 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.france24.com/en/peru-presidential-standoff-confirmed-after-month-long-vote-count
-  - **原文摘要**：The daughter of late former president Alberto Fujimori, Keiko Fujimori will stand against the leftwing Roberto Sanchez in the second round of Peru's presidential elections. Sanchez's place in the contest was confirmed by the country's national election board on May 17 after he gathered over 2 million votes. But his position in the contest is not without controversy. Sanchez was accused of financial crime by the public prosecutor's office and the ultraconservative Rafael Lopez Aliga, who came third in the first round has said he will not recognise the election outcome.
-
 
 
 ---
@@ -183,24 +183,6 @@
   - **原文链接**：https://www.theguardian.com/world/video/2026/may/14/protests-havana-cuba-runs-out-diesel-fuel-oil-us-blockade-video
   - **原文摘要**：Cuba's capital city, Havana, is facing rolling blackouts amid a US blockade that has caused the country to completely run out of diesel and fuel oil. Residents in Havana gathered around fires in streets to protest against the power cuts that have left many neighbourhoods without light for hours a day. The US has put pressure on Cuba since seizing the Venezuelan president, Nicolás Maduro, in January. Donald Trump has threatened to impose tariffs on any country selling oil to Cuba and cut off their Venezuelan oil shipments. In March, Trump said he expected to have 'the honour of taking Cuba' Cuba has run out of diesel and fuel oil, energy minister says, as US blockade pushes island to brink Continue reading...
 
-- **原标题**：Threatened indictment of Raúl Castro ratchets up US pressure on Cuba
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：179
-  - **发布时间**：Fri, 15 May 2026 17:31:49 GMT
-  - **地区分类**：加勒比地区
-  - **原文链接**：https://www.theguardian.com/world/2026/may/15/raul-castro-indictment-cuba-trump
-  - **原文摘要**：Trump administration move echoes indictment of Venezuela’s Nicolás Maduro as fuel crisis racks Cuba Tensions between Cuba and US seem set to rise further amid reports that Raúl Castro, the country’s 94-year-old former president, may soon face the type of indictment that led to the US abduction of the Venezuelan leader, Nicolás Maduro, in January. Although Raúl is officially retired, he remains the most potent figure in Cuban politics following the death of his brother Fidel in 2016, and by targeting him Washington appears to be heaping pressure on Cuba’s communist leadership at the end of an already extraordinarily intense week. Continue reading...
-
-- **原标题**：13 men killed by US military boat strikes identified: ‘These were flesh-and-blood people’
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：179
-  - **发布时间**：Fri, 15 May 2026 10:00:37 GMT
-  - **地区分类**：加勒比地区
-  - **原文链接**：https://www.theguardian.com/us-news/2026/may/15/us-military-airstrikes-caribbean-pacific-victim-identities
-  - **原文摘要**：All victims of US strikes in eastern Pacific and the Caribbean identified so far came from extremely poor communities Sign up for the Breaking News US newsletter email A five-month investigation has named 13 previously unidentified victims of US attacks on boats allegedly carrying narcotics in a campaign that has killed nearly 200 people in the Caribbean and the eastern Pacific. It is unclear if the US has ever identified any of its 194 victims before attacking them, and the names of just three had previously emerged, after their families launched legal cases against the White House. Continue reading...
-
 - **原标题**：Haiti gang clashes kill at least 78 in Port-au-Prince suburbs, UN says
   - **来源**：France 24
   - **来源级别**：Tier 1
@@ -209,6 +191,24 @@
   - **地区分类**：加勒比地区
   - **原文链接**：https://www.france24.com/en/americas/20260514-haiti-gang-clashes-port-au-prince-suburbs-78-dead-un
   - **原文摘要**：Clashes between rival gangs in the suburbs of Haiti’s capital have killed at least 78 people and wounded 66 since Saturday, the United Nations office in Haiti said on Thursday. The toll included 10 civilians. Haiti, the Caribbean’s poorest country, has faced spiralling gang violence and worsening insecurity over the past two years.
+
+- **原标题**：Cuba instead? Trump ups pressure on Havana as Iran campaign stalls
+  - **来源**：France 24
+  - **来源级别**：Tier 1
+  - **评分**：176
+  - **发布时间**：Mon, 18 May 2026 18:13:39 GMT
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://www.france24.com/en/tv-shows/the-debate/20260518-cuba-instead-trump-ups-pressure-on-havana-as-iran-campaign-stalls
+  - **原文摘要**：If Venezuela proved easier than Iran where Donald Trump's still looking for a win, could that explain why the attention seems to be turning to Cuba? The United States last week dispatching its CIA director to Havana and offering aid, while its crippling blockade plunges the Communist island nation in the dark. We’ll ask about carrots and sticks in the latest in a long, very long list of pressure campaigns.
+
+- **原标题**：A Cuban exiles' group is at the heart of DOJ’s push to indict Raúl Castro over a 1996 shootdown - AP News
+  - **来源**：AP News
+  - **来源级别**：Tier 1
+  - **评分**：169
+  - **发布时间**：Mon, 18 May 2026 17:19:00 GMT
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://news.google.com/rss/articles/CBMisgFBVV95cUxObWZmUGVGUU03blNuZUo4d2FfaW4tbFZybnhkV20wVDg2Z0k4OVlZMFFsX3RKZThlcjZFNzZEMzl4U2JuTDMyZzJ0ZFR2ZzlIaU5hRDZ4UWplejU4UFZpNHQ4SC0wUjNRcUU0MHV3VmwyNGVwYkptSkhzLU8wTHRucHk1OUFBcldQY3NLZjV3VDhzLWJBaVJocmN0eHdRTXhsM3hvVHJPbFh3TTBfY1prN3FB?oc=5
+  - **原文摘要**：A Cuban exiles' group is at the heart of DOJ’s push to indict Raúl Castro over a 1996 shootdown AP News
 
 
 
