@@ -74,7 +74,7 @@ jobs:
 
     - name: 提交并推送变更
       run: |
-        git add daily_news.md archives/ rss.xml index.html
+        git add daily_news.md archives/ rss.xml index.html slack_message.json
         if git diff --staged --quiet; then
           echo "没有需要提交的变更"
         else

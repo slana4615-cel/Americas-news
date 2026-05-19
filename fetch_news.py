@@ -14,6 +14,8 @@ import concurrent.futures
 import json
 import hashlib
 import socket
+from collections import OrderedDict, defaultdict
+from email.utils import parsedate_to_datetime
 from urllib.parse import urlparse, urlunparse, urlencode, parse_qsl
 
 # srcディレクトリをPythonパスに追加
@@ -35,27 +37,294 @@ BRIEF_UPDATE_NOTE = "自动更新时间：每日 22:00 UTC。"
 
 CATEGORY_LABELS = {
     "United States": "美国",
+    "美国": "美国",
     "Latin America": "拉丁美洲",
+    "拉丁美洲": "拉丁美洲",
     "Caribbean": "加勒比地区",
+    "加勒比地区": "加勒比地区",
+    "Canada": "加拿大",
+    "加拿大": "加拿大",
     "Think Tanks": "智库",
+    "Think Tanks / Research": "智库",
+    "智库": "智库",
     "International Organizations": "国际组织",
+    "Regional / International Organizations": "国际组织",
+    "国际组织": "国际组织",
 }
+
+OUTPUT_CATEGORY_ORDER = (
+    "美国",
+    "拉丁美洲",
+    "加勒比地区",
+    "智库",
+    "国际组织",
+)
+
+SOURCE_TIERS = {
+    "Tier 1": {
+        "score": 100,
+        "domains": (
+            "reuters.com",
+            "apnews.com",
+            "bbc.com",
+            "bbc.co.uk",
+            "aljazeera.com",
+            "france24.com",
+            "dw.com",
+            "theguardian.com",
+            "elpais.com",
+            "ft.com",
+            "bloomberg.com",
+            "economist.com",
+        ),
+    },
+    "Tier 2": {
+        "score": 75,
+        "domains": (
+            "americasquarterly.org",
+            "thedialogue.org",
+            "insightcrime.org",
+            "nacla.org",
+            "cepal.org",
+            "oas.org",
+            "iadb.org",
+            "worldbank.org",
+            "imf.org",
+            "news.un.org",
+            "un.org",
+        ),
+    },
+    "Tier 3": {
+        "score": 45,
+        "domains": (
+            "mercopress.com",
+            "caribbeannewsglobal.com",
+            "latinamericanpost.com",
+            "latinamericareports.com",
+        ),
+    },
+}
+
+SOURCE_AUTHORITY = {
+    domain: tier
+    for tier, tier_config in SOURCE_TIERS.items()
+    for domain in tier_config["domains"]
+}
+
+SOURCE_NAME_ALIASES = {
+    "reuters": "reuters.com",
+    "associated press": "apnews.com",
+    "ap news": "apnews.com",
+    "bbc": "bbc.com",
+    "bbc news": "bbc.com",
+    "al jazeera": "aljazeera.com",
+    "france 24": "france24.com",
+    "france24": "france24.com",
+    "dw": "dw.com",
+    "deutsche welle": "dw.com",
+    "the guardian": "theguardian.com",
+    "el pais": "elpais.com",
+    "financial times": "ft.com",
+    "bloomberg": "bloomberg.com",
+    "the economist": "economist.com",
+    "americas quarterly": "americasquarterly.org",
+    "inter-american dialogue": "thedialogue.org",
+    "the dialogue": "thedialogue.org",
+    "insight crime": "insightcrime.org",
+    "in sight crime": "insightcrime.org",
+    "nacla": "nacla.org",
+    "eclac": "cepal.org",
+    "cepal": "cepal.org",
+    "organization of american states": "oas.org",
+    "oas": "oas.org",
+    "inter-american development bank": "iadb.org",
+    "idb": "iadb.org",
+    "world bank": "worldbank.org",
+    "imf": "imf.org",
+    "international monetary fund": "imf.org",
+    "un news": "news.un.org",
+    "united nations": "un.org",
+    "mercopress": "mercopress.com",
+    "caribbean news global": "caribbeannewsglobal.com",
+    "latin america reports": "latinamericareports.com",
+    "latin american post": "latinamericanpost.com",
+}
+
+THINK_TANK_DOMAINS = {
+    "americasquarterly.org",
+    "thedialogue.org",
+    "insightcrime.org",
+    "nacla.org",
+}
+
+INTERNATIONAL_ORG_DOMAINS = {
+    "cepal.org",
+    "oas.org",
+    "iadb.org",
+    "worldbank.org",
+    "imf.org",
+    "news.un.org",
+    "un.org",
+}
+
+def google_news_rss_url(query):
+    """Build a transparent Google News RSS fallback URL for public search results."""
+    return "https://news.google.com/rss/search?" + urlencode({
+        "q": query,
+        "hl": "en-US",
+        "gl": "US",
+        "ceid": "US:en",
+    })
 
 SOURCE_LABELS = {
-    "美国": "PBS NewsHour Politics",
-    "拉丁美洲": "MercoPress Latin America",
-    "加勒比地区": "Caribbean News Global",
-    "智库": "Inter-American Dialogue",
-    "国际组织": "UN News Americas",
+    "BBC Latin America": "BBC",
+    "BBC US & Canada": "BBC",
+    "The Guardian Americas": "The Guardian",
+    "The Guardian US News": "The Guardian",
+    "Al Jazeera": "Al Jazeera",
+    "France 24 Americas": "France 24",
+    "DW Americas": "DW",
+    "Americas Quarterly": "Americas Quarterly",
+    "Inter-American Dialogue": "Inter-American Dialogue",
+    "InSight Crime": "InSight Crime",
+    "NACLA": "NACLA",
+    "UN News Americas": "UN News",
+    "MercoPress Latin America": "MercoPress",
+    "Caribbean News Global": "Caribbean News Global",
+    "Google News - Major Americas": "Google News",
+    "Google News - US Americas Policy": "Google News",
+    "Google News - Caribbean": "Google News",
+    "Google News - Institutions": "Google News",
 }
 
-FEEDS = {
-    "美国": "https://www.pbs.org/newshour/feeds/rss/politics",
-    "拉丁美洲": "https://en.mercopress.com/rss/latin-america",
-    "加勒比地区": "https://caribbeannewsglobal.com/feed/",
-    "智库": "https://www.thedialogue.org/feed/",
-    "国际组织": "https://news.un.org/feed/subscribe/en/news/region/americas/feed/rss.xml",
-}
+FEEDS = [
+    {
+        "name": "BBC Latin America",
+        "url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+        "category": "拉丁美洲",
+        "source_label": "BBC",
+    },
+    {
+        "name": "BBC US & Canada",
+        "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
+        "category": "美国",
+        "source_label": "BBC",
+    },
+    {
+        "name": "The Guardian Americas",
+        "url": "https://www.theguardian.com/world/americas/rss",
+        "category": "拉丁美洲",
+        "source_label": "The Guardian",
+    },
+    {
+        "name": "The Guardian US News",
+        "url": "https://www.theguardian.com/us-news/rss",
+        "category": "美国",
+        "source_label": "The Guardian",
+    },
+    {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/xml/rss/all.xml",
+        "category": "拉丁美洲",
+        "source_label": "Al Jazeera",
+    },
+    {
+        "name": "France 24 Americas",
+        "url": "https://www.france24.com/en/americas/rss",
+        "category": "拉丁美洲",
+        "source_label": "France 24",
+    },
+    {
+        "name": "DW Americas",
+        "url": "https://rss.dw.com/rdf/rss-en-americas",
+        "category": "拉丁美洲",
+        "source_label": "DW",
+    },
+    {
+        "name": "Americas Quarterly",
+        "url": "https://www.americasquarterly.org/feed/",
+        "category": "智库",
+        "source_label": "Americas Quarterly",
+    },
+    {
+        "name": "Inter-American Dialogue",
+        "url": "https://www.thedialogue.org/feed/",
+        "category": "智库",
+        "source_label": "Inter-American Dialogue",
+    },
+    {
+        "name": "InSight Crime",
+        "url": "https://insightcrime.org/feed/",
+        "category": "智库",
+        "source_label": "InSight Crime",
+    },
+    {
+        "name": "NACLA",
+        "url": "https://nacla.org/feed",
+        "category": "智库",
+        "source_label": "NACLA",
+    },
+    {
+        "name": "UN News Americas",
+        "url": "https://news.un.org/feed/subscribe/en/news/region/americas/feed/rss.xml",
+        "category": "国际组织",
+        "source_label": "UN News",
+    },
+    {
+        "name": "MercoPress Latin America",
+        "url": "https://en.mercopress.com/rss/latin-america",
+        "category": "拉丁美洲",
+        "source_label": "MercoPress",
+    },
+    {
+        "name": "Caribbean News Global",
+        "url": "https://caribbeannewsglobal.com/feed/",
+        "category": "加勒比地区",
+        "source_label": "Caribbean News Global",
+    },
+]
+
+FALLBACK_FEEDS = [
+    {
+        "name": "Google News - Major Americas",
+        "url": google_news_rss_url(
+            '(site:reuters.com OR site:apnews.com OR site:bbc.com OR site:france24.com) '
+            '("Latin America" OR "South America" OR "Central America" OR Mexico OR Brazil OR Argentina OR Colombia OR Peru OR Chile OR Venezuela) '
+            '(politics OR election OR economy OR debt OR inflation OR migration OR sanctions OR trade OR security) when:14d'
+        ),
+        "category": "拉丁美洲",
+        "source_label": "Google News",
+    },
+    {
+        "name": "Google News - US Americas Policy",
+        "url": google_news_rss_url(
+            '(site:reuters.com OR site:apnews.com OR site:bbc.com OR site:theguardian.com) '
+            '("United States" OR U.S.) ("Latin America" OR Mexico OR Caribbean OR Venezuela OR Cuba OR Haiti) '
+            '(policy OR sanctions OR migration OR trade OR diplomacy OR border) when:14d'
+        ),
+        "category": "美国",
+        "source_label": "Google News",
+    },
+    {
+        "name": "Google News - Caribbean",
+        "url": google_news_rss_url(
+            '(site:reuters.com OR site:apnews.com OR site:bbc.com OR site:news.un.org OR site:france24.com) '
+            '(Caribbean OR Haiti OR Cuba OR Jamaica OR Guyana OR "Dominican Republic") '
+            '(politics OR economy OR security OR migration OR debt OR election OR energy) when:14d'
+        ),
+        "category": "加勒比地区",
+        "source_label": "Google News",
+    },
+    {
+        "name": "Google News - Institutions",
+        "url": google_news_rss_url(
+            '("Latin America" OR Caribbean) (IMF OR "World Bank" OR IDB OR OAS OR ECLAC OR CEPAL) '
+            '(economy OR debt OR migration OR report OR election OR climate OR trade) when:30d'
+        ),
+        "category": "国际组织",
+        "source_label": "Google News",
+    },
+]
 
 # Domains to exclude from entry collection and thumbnail page requests.
 EXCLUDED_DOMAINS = {
@@ -68,8 +337,23 @@ EXCLUDED_DOMAINS = {
     'foreignaffairs.com': 'registration/paywall restricted source',
 }
 
-# 各フィードから取得する記事の件数
-MAX_ENTRIES = 5
+# Candidate pool and final output controls.
+CANDIDATE_LIMIT_PER_FEED = 40
+TOTAL_ARTICLE_LIMIT = 25
+MIN_SELECTION_SCORE = 55
+MAX_ARTICLES_PER_EVENT_CLUSTER = 3
+TOP_LOG_COUNT = 10
+CATEGORY_MAX_COUNTS = {
+    "美国": 6,
+    "拉丁美洲": 8,
+    "加勒比地区": 8,
+    "智库": 4,
+    "国际组织": 4,
+}
+CATEGORY_MIN_COUNTS = {
+    "智库": 2,
+    "国际组织": 2,
+}
 
 class ThumbnailCache:
     """サムネイルキャッシュを管理するクラス"""
@@ -205,12 +489,159 @@ def normalize_url(url):
     except Exception:
         return url
 
+def normalize_domain(domain):
+    """Normalize a host name for source-authority matching."""
+    if not domain:
+        return ""
+
+    domain = domain.lower().strip()
+    domain = domain.split("@")[-1]
+    domain = domain.split(":")[0]
+    for prefix in ("www.", "m.", "amp.", "feeds.", "rss."):
+        if domain.startswith(prefix):
+            domain = domain[len(prefix):]
+    return domain
+
+def domain_matches(domain, configured_domain):
+    """Return True when an article host belongs to a configured source domain."""
+    domain = normalize_domain(domain)
+    configured_domain = normalize_domain(configured_domain)
+    return domain == configured_domain or domain.endswith(f".{configured_domain}")
+
+def is_probable_media_credit(value):
+    cleaned = clean_text(value) or ""
+    lowered = cleaned.lower()
+    return (
+        cleaned.startswith("©")
+        or lowered.startswith("photo:")
+        or lowered.startswith("image:")
+        or lowered.startswith("credit:")
+        or lowered.startswith(("ap -", "afp -", "reuters -", "epa -"))
+    )
+
+def is_probable_media_url(parsed_url):
+    domain = normalize_domain(parsed_url.netloc)
+    path = parsed_url.path.lower()
+    return (
+        domain.startswith(("s.", "static.", "media.", "images."))
+        or "/media/" in path
+        or "/image/" in path
+        or path.endswith((".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg"))
+    )
+
+def get_source_name_from_entry(entry):
+    """Extract the publisher name from RSS metadata before falling back to feed labels."""
+    if hasattr(entry, "source") and entry.source:
+        source = entry.source
+        if isinstance(source, dict):
+            title = source.get("title")
+        else:
+            title = getattr(source, "title", None)
+        if title and not is_probable_media_credit(title):
+            return clean_text(title)
+
+    if hasattr(entry, "source_detail") and entry.source_detail:
+        title = entry.source_detail.get("title") if isinstance(entry.source_detail, dict) else None
+        if title and not is_probable_media_credit(title):
+            return clean_text(title)
+
+    if hasattr(entry, "source_info") and entry.source_info:
+        return clean_text(entry.source_info)
+
+    return None
+
+def domain_from_source_alias(source_name):
+    """Resolve common RSS source names, especially Google News source titles, to domains."""
+    if not source_name:
+        return ""
+
+    normalized_name = re.sub(r"\s+", " ", source_name.lower()).strip()
+    if normalized_name in SOURCE_NAME_ALIASES:
+        return SOURCE_NAME_ALIASES[normalized_name]
+
+    for alias, domain in SOURCE_NAME_ALIASES.items():
+        if alias in normalized_name:
+            return domain
+
+    return ""
+
+def extract_domain_from_entry_url(entry):
+    """Extract the best available publisher domain from entry URL-like fields."""
+    candidate_urls = []
+
+    if hasattr(entry, "link") and entry.link:
+        candidate_urls.append(entry.link)
+
+    if hasattr(entry, "source") and entry.source:
+        source = entry.source
+        href = source.get("href") if isinstance(source, dict) else getattr(source, "href", None)
+        if href:
+            candidate_urls.append(href)
+
+    if hasattr(entry, "source_detail") and entry.source_detail:
+        href = entry.source_detail.get("href") if isinstance(entry.source_detail, dict) else None
+        if href:
+            candidate_urls.append(href)
+
+    for candidate_url in candidate_urls:
+        try:
+            parsed = urlparse(candidate_url)
+            domain = normalize_domain(parsed.netloc)
+            if (
+                domain
+                and domain not in {"news.google.com", "google.com"}
+                and not is_probable_media_url(parsed)
+            ):
+                return domain
+        except Exception:
+            continue
+
+    return ""
+
+def get_entry_domain(entry):
+    """Return a canonical publisher domain for scoring."""
+    domain = extract_domain_from_entry_url(entry)
+    if domain:
+        return domain
+
+    source_name = get_source_name_from_entry(entry)
+    alias_domain = domain_from_source_alias(source_name)
+    if alias_domain:
+        return alias_domain
+
+    return ""
+
+def match_configured_domain(domain, domains):
+    for configured_domain in domains:
+        if domain_matches(domain, configured_domain):
+            return configured_domain
+    return None
+
+def get_source_authority(domain):
+    """Map a domain to source tier and numeric authority score."""
+    normalized_domain = normalize_domain(domain)
+    for tier, tier_config in SOURCE_TIERS.items():
+        if match_configured_domain(normalized_domain, tier_config["domains"]):
+            return tier, tier_config["score"]
+    return "Unknown", 20
+
+def get_entry_source_tier(entry):
+    return getattr(entry, "source_authority_tier", "Unknown")
+
+def get_entry_total_score(entry):
+    return getattr(entry, "total_score", None)
+
 def filter_entries_by_domain(entries, domain, label):
     filtered_entries = []
     excluded_count = 0
     
     for entry in entries:
-        if hasattr(entry, 'link') and domain in entry.link:
+        entry_domain = get_entry_domain(entry)
+        entry_link = getattr(entry, "link", "")
+        if (
+            (entry_domain and domain_matches(entry_domain, domain))
+            or (entry_link and domain in entry_link)
+        ):
             excluded_count += 1
             continue
         filtered_entries.append(entry)
@@ -229,7 +660,10 @@ NOISE_KEYWORDS = (
     "sports", "nba", "nfl", "mlb", "soccer", "football", "baseball",
     "celebrity", "actor", "actress", "movie", "film", "music",
     "entertainment", "lifestyle", "fashion", "recipe", "travel tips",
-    "weather forecast",
+    "weather forecast", "world cup", "premier league", "playoff",
+    "tournament", "concert", "singer", "song", "artist", "eurovision",
+    "shakira", "neymar", "prayer rally", "mass prayer",
+    "christian origins",
 )
 
 TARGET_REGION_KEYWORDS = (
@@ -256,6 +690,14 @@ LATIN_AMERICA_ENTITY_KEYWORDS = (
     "mercosur",
 )
 
+CARIBBEAN_ENTITY_KEYWORDS = (
+    "caribbean", "haiti", "cuba", "dominican republic", "jamaica",
+    "barbados", "trinidad", "tobago", "guyana", "suriname", "belize",
+    "bahamas", "grenada", "antigua", "barbuda", "saint lucia",
+    "st. lucia", "st lucia", "st. vincent", "saint vincent",
+    "st. kitts", "saint kitts",
+)
+
 NON_AMERICAS_KEYWORDS = (
     "taiwan", "china", "beijing", "xi jinping", "trump-xi",
     "taiwan strait", "asia", "asian", "europe", "european", "ukraine",
@@ -275,6 +717,18 @@ POLITICS_ECONOMY_KEYWORDS = (
     "dollar", "growth", "recession", "jobs", "labor", "supply chain",
     "energy", "oil", "gas", "mining", "lithium", "copper", "imf",
     "world bank", "idb", "oas",
+    "protest", "protests", "protester", "demonstration", "strike",
+    "blockade", "clash", "clashes", "violence", "gang", "cartel",
+    "police", "homicide", "trafficking", "drug charges", "indict",
+    "indictment", "prosecute", "prosecution", "criminal charges",
+    "justice department", "doj", "lawsuit", "corruption",
+    "humanitarian aid", "blackout", "energy crisis", "military action",
+    "invasion", "war", "conflict", "armed attack", "shooting", "killed",
+    "dead", "displacement", "drug", "narcotics", "political prisoner",
+    "political prisoners", "human rights", "rights", "disappearances",
+    "impunity", "hunger", "threat", "drone", "drones", "executive order",
+    "pressure", "investigation", "investigated", "officials", "freeze",
+    "freezes", "export", "exports",
 )
 
 US_DOMESTIC_ENTITY_KEYWORDS = (
@@ -282,7 +736,9 @@ US_DOMESTIC_ENTITY_KEYWORDS = (
     "congress", "senate", "house of representatives", "supreme court",
     "federal reserve", "fed", "treasury", "treasury department",
     "department of homeland security", "dhs", "trump administration",
-    "biden administration",
+    "biden administration", "california", "san diego", "new york",
+    "washington", "philadelphia", "pennsylvania", "kentucky", "texas",
+    "florida",
 )
 
 US_DOMESTIC_POLITICS_ECONOMY_KEYWORDS = (
@@ -291,7 +747,8 @@ US_DOMESTIC_POLITICS_ECONOMY_KEYWORDS = (
     "treasury", "dhs", "department of homeland security", "supreme court",
     "election", "midterm", "vote", "voter", "border", "immigration",
     "budget", "inflation", "jobs", "tax", "tariff", "interest rate",
-    "trump administration", "biden administration",
+    "trump administration", "biden administration", "shooting",
+    "hate crime", "crime", "police",
 )
 
 CONTENT_SEARCH_LIMIT = 1200
@@ -377,49 +834,63 @@ def is_us_domestic_politics_or_economy(text):
         and contains_any(text, US_DOMESTIC_POLITICS_ECONOMY_KEYWORDS)
     )
 
-def should_keep_entry(entry):
+def get_scope_exclusion_reason(entry):
     text = entry_search_text(entry)
+    title_text = clean_text(getattr(entry, "title", None)) or ""
 
     if not text:
-        return False
-
-    if contains_any(text, CANADA_KEYWORDS):
-        return False
-
-    if contains_any(text, NOISE_KEYWORDS):
-        return False
+        return "缺少可检索文本"
 
     has_latin_america_entity = contains_any(text, LATIN_AMERICA_ENTITY_KEYWORDS)
     is_us_domestic_entry = is_us_domestic_politics_or_economy(text)
 
     if (
+        contains_any(title_text, CANADA_KEYWORDS)
+        or (contains_any(text, CANADA_KEYWORDS) and not has_latin_america_entity)
+    ):
+        return "加拿大内容暂不纳入当前抓取范围"
+
+    if contains_any(title_text, NOISE_KEYWORDS):
+        return "噪音主题"
+
+    if (
         contains_any(text, NON_AMERICAS_KEYWORDS)
         and not has_latin_america_entity
-        and not is_us_domestic_entry
     ):
-        return False
+        return "非美洲主题"
 
     has_target_region = contains_any(text, TARGET_REGION_KEYWORDS) or has_latin_america_entity
     has_politics_or_economy = contains_any(text, POLITICS_ECONOMY_KEYWORDS)
 
-    return has_target_region and has_politics_or_economy
+    if not has_target_region:
+        return "未命中美洲地区关键词"
+    if not has_politics_or_economy:
+        return "未命中政治经济关键词"
+
+    return None
+
+def should_keep_entry(entry):
+    return get_scope_exclusion_reason(entry) is None
 
 def filter_entries_by_scope(entries, feed_name):
     filtered_entries = []
-    excluded_titles = []
+    excluded_items = []
 
     for entry in entries:
-        if should_keep_entry(entry):
+        reason = get_scope_exclusion_reason(entry)
+        if reason is None:
             filtered_entries.append(entry)
             continue
 
         title = clean_text(getattr(entry, "title", None)) or getattr(entry, "link", None) or "未提供标题"
-        excluded_titles.append(title)
+        excluded_items.append((title, reason))
 
-    if excluded_titles:
-        print(f"Scope filter excluded {len(excluded_titles)} entries from {feed_name}")
-        for title in excluded_titles:
-            print(f"范围过滤: [{feed_name}] {title}")
+    if excluded_items:
+        print(f"Scope filter excluded {len(excluded_items)} entries from {feed_name}")
+        for title, reason in excluded_items[:20]:
+            print(f"范围过滤: [{feed_name}] {reason}: {title}")
+        if len(excluded_items) > 20:
+            print(f"范围过滤: [{feed_name}] 另有 {len(excluded_items) - 20} 条已省略")
 
     return filtered_entries
 
@@ -504,11 +975,16 @@ def get_entry_source(entry, feed_name):
     if hasattr(entry, 'source') and entry.source:
         source = entry.source
         if isinstance(source, dict) and source.get('title'):
-            return clean_text(source.get('title'))
+            title = source.get('title')
+            if not is_probable_media_credit(title):
+                return clean_text(title)
         if hasattr(source, 'title') and source.title:
-            return clean_text(source.title)
+            if not is_probable_media_credit(source.title):
+                return clean_text(source.title)
     if hasattr(entry, 'source_detail') and entry.source_detail and entry.source_detail.get('title'):
-        return clean_text(entry.source_detail.get('title'))
+        title = entry.source_detail.get('title')
+        if not is_probable_media_credit(title):
+            return clean_text(title)
     if hasattr(entry, 'source_info') and entry.source_info:
         return entry.source_info
     if feed_name in SOURCE_LABELS:
@@ -518,11 +994,450 @@ def get_entry_source(entry, feed_name):
         return netloc or feed_name
     return feed_name
 
+def get_entry_datetime(entry):
+    """Return a timezone-aware UTC datetime when RSS metadata provides one."""
+    parsed_date = (
+        getattr(entry, 'published_parsed', None)
+        or getattr(entry, 'updated_parsed', None)
+        or getattr(entry, 'created_parsed', None)
+    )
+    if parsed_date:
+        try:
+            return datetime.datetime(*parsed_date[:6], tzinfo=datetime.timezone.utc)
+        except Exception:
+            pass
+
+    for field in ('published', 'updated', 'created'):
+        value = getattr(entry, field, None)
+        if not value:
+            continue
+        try:
+            parsed = parsedate_to_datetime(str(value))
+            if parsed.tzinfo is None:
+                parsed = parsed.replace(tzinfo=datetime.timezone.utc)
+            return parsed.astimezone(datetime.timezone.utc)
+        except Exception:
+            continue
+
+    return None
+
+def entry_age_days(entry, now):
+    published = get_entry_datetime(entry)
+    if not published:
+        return None
+    return max(0, (now - published).total_seconds() / 86400)
+
+def matched_keywords(text, keywords):
+    return {
+        keyword for keyword in keywords
+        if contains_any(text, (keyword,))
+    }
+
+_TITLE_STOPWORDS = frozenset({
+    "about", "after", "again", "against", "amid", "among", "before",
+    "being", "between", "could", "from", "have", "into", "more",
+    "over", "said", "says", "than", "that", "their", "there", "this",
+    "through", "under", "while", "with", "will", "would", "latin",
+    "america", "american", "caribbean", "united", "states",
+})
+
+def title_tokens(title):
+    cleaned = clean_text(title) or ""
+    tokens = re.findall(r"[a-zA-Z][a-zA-Z'-]{3,}", cleaned.lower())
+    return {
+        token.strip("-'")
+        for token in tokens
+        if token.strip("-'") and token.strip("-'") not in _TITLE_STOPWORDS
+    }
+
+def score_recency(entry, now):
+    """Score recent articles higher while still allowing slower institutional posts."""
+    age = entry_age_days(entry, now)
+    if age is None:
+        return 4
+    if age <= 1:
+        return 25
+    if age <= 3:
+        return 22
+    if age <= 7:
+        return 16
+    if age <= 14:
+        return 10
+    if age <= 30:
+        return 5
+    if age <= 60:
+        return 2
+    return 0
+
+def score_americas_relevance(text):
+    region_matches = matched_keywords(text, TARGET_REGION_KEYWORDS)
+    latin_matches = matched_keywords(text, LATIN_AMERICA_ENTITY_KEYWORDS)
+    caribbean_matches = matched_keywords(text, CARIBBEAN_ENTITY_KEYWORDS)
+
+    score = 0
+    if latin_matches:
+        score += 12
+    if caribbean_matches:
+        score += 4
+    if is_us_domestic_politics_or_economy(text):
+        score += 10
+    score += min(len(region_matches | latin_matches) * 2, 11)
+
+    return min(score, 25), region_matches | latin_matches | caribbean_matches
+
+def score_politics_economy_relevance(text):
+    topic_matches = matched_keywords(text, POLITICS_ECONOMY_KEYWORDS)
+    return min(len(topic_matches) * 3, 20), topic_matches
+
+def score_noise_penalty(entry, text, now):
+    """Penalize topics and stale items that pass the first-stage filter but are weak fits."""
+    penalty = 0
+    title_text = clean_text(getattr(entry, "title", None)) or ""
+
+    if contains_any(title_text, NOISE_KEYWORDS):
+        penalty += 40
+    elif contains_any(text, NOISE_KEYWORDS):
+        penalty += 12
+
+    has_americas_entity = (
+        contains_any(text, LATIN_AMERICA_ENTITY_KEYWORDS)
+        or contains_any(text, CARIBBEAN_ENTITY_KEYWORDS)
+    )
+    if contains_any(text, NON_AMERICAS_KEYWORDS) and not has_americas_entity:
+        penalty += 25
+
+    age = entry_age_days(entry, now)
+    domain = get_entry_domain(entry)
+    is_think_tank = (
+        match_configured_domain(domain, THINK_TANK_DOMAINS)
+        or getattr(entry, "feed_category", "") == "智库"
+    )
+
+    if age is not None:
+        if age > 60:
+            penalty += 35
+        elif age > 30:
+            penalty += 20
+
+        # Think-tank feeds often publish evergreen posts; keep them visible only
+        # when still fresh enough for a daily monitoring product.
+        if is_think_tank and age > 45:
+            penalty += 45
+        elif is_think_tank and age > 21:
+            penalty += 25
+
+    return penalty
+
+def apply_source_metadata(entry):
+    domain = get_entry_domain(entry)
+    tier, source_score = get_source_authority(domain)
+    entry.source_domain = domain or "unknown"
+    entry.source_authority_tier = tier
+    entry.source_authority_score = source_score
+    return entry
+
+def score_article(entry, now):
+    """Score an article by authority, freshness, Americas fit, policy/economy fit and noise.
+
+    Formula:
+        total_score =
+            source_authority_score
+            + recency_score
+            + americas_relevance_score
+            + politics_economy_relevance_score
+            + cross_source_bonus
+            - noise_penalty
+    """
+    apply_source_metadata(entry)
+    text = entry_search_text(entry)
+    recency = score_recency(entry, now)
+    americas_relevance, region_matches = score_americas_relevance(text)
+    politics_economy, topic_matches = score_politics_economy_relevance(text)
+    noise_penalty = score_noise_penalty(entry, text, now)
+    cross_source_bonus = getattr(entry, "cross_source_bonus", 0)
+
+    total_score = (
+        entry.source_authority_score
+        + recency
+        + americas_relevance
+        + politics_economy
+        + cross_source_bonus
+        - noise_penalty
+    )
+
+    entry.search_text = text
+    entry.region_matches = region_matches
+    entry.topic_matches = topic_matches
+    entry.title_tokens = title_tokens(getattr(entry, "title", ""))
+    entry.score_breakdown = {
+        "source_authority": entry.source_authority_score,
+        "recency": recency,
+        "americas_relevance": americas_relevance,
+        "politics_economy_relevance": politics_economy,
+        "cross_source_bonus": cross_source_bonus,
+        "noise_penalty": noise_penalty,
+    }
+    entry.total_score = round(total_score, 1)
+    return entry.total_score
+
+def articles_are_similar(entry_a, entry_b, now, max_days_apart=7):
+    domain_a = getattr(entry_a, "source_domain", get_entry_domain(entry_a))
+    domain_b = getattr(entry_b, "source_domain", get_entry_domain(entry_b))
+    if domain_a and domain_b and domain_a == domain_b:
+        return False
+
+    date_a = get_entry_datetime(entry_a)
+    date_b = get_entry_datetime(entry_b)
+    if date_a and date_b:
+        days_apart = abs((date_a - date_b).total_seconds()) / 86400
+        if days_apart > max_days_apart:
+            return False
+
+    shared_regions = getattr(entry_a, "region_matches", set()) & getattr(entry_b, "region_matches", set())
+    shared_topics = getattr(entry_a, "topic_matches", set()) & getattr(entry_b, "topic_matches", set())
+    tokens_a = getattr(entry_a, "title_tokens", set())
+    tokens_b = getattr(entry_b, "title_tokens", set())
+    shared_title_tokens = tokens_a & tokens_b
+    smaller_title_set = max(1, min(len(tokens_a), len(tokens_b)))
+    title_overlap = len(shared_title_tokens) / smaller_title_set
+
+    if shared_regions and (shared_topics or title_overlap >= 0.25):
+        return True
+    if title_overlap >= 0.4 and (shared_regions or shared_topics):
+        return True
+    return False
+
+def apply_cross_source_bonuses(entries, now):
+    """Add a capped bonus when independent sources appear to cover the same event."""
+    bonuses = defaultdict(int)
+
+    for index, entry_a in enumerate(entries):
+        for entry_b in entries[index + 1:]:
+            if articles_are_similar(entry_a, entry_b, now):
+                bonuses[id(entry_a)] += 5
+                bonuses[id(entry_b)] += 5
+
+    for entry in entries:
+        entry.cross_source_bonus = min(bonuses[id(entry)], 20)
+
+def title_fingerprint(title):
+    tokens = title_tokens(title)
+    if not tokens:
+        cleaned = clean_text(title) or ""
+        return re.sub(r"[^a-z0-9]+", "", cleaned.lower())[:80]
+    return " ".join(sorted(tokens))
+
+def deduplicate_candidate_entries(entries):
+    """Remove duplicate URLs and repeated source-title pairs before scoring."""
+    seen_urls = set()
+    seen_source_titles = set()
+    unique_entries = []
+    removed_by_url = 0
+    removed_by_title = 0
+
+    for entry in entries:
+        link = getattr(entry, "link", "")
+        normalized_link = normalize_url(link) if link else ""
+        domain = get_entry_domain(entry) or "unknown"
+        title_key = (domain, title_fingerprint(getattr(entry, "title", "")))
+
+        if normalized_link and normalized_link in seen_urls:
+            removed_by_url += 1
+            continue
+        if title_key[1] and title_key in seen_source_titles:
+            removed_by_title += 1
+            continue
+
+        if normalized_link:
+            seen_urls.add(normalized_link)
+        seen_source_titles.add(title_key)
+        unique_entries.append(entry)
+
+    removed_total = removed_by_url + removed_by_title
+    print(
+        "Candidate deduplication removed "
+        f"{removed_total} entries ({removed_by_url} by URL, {removed_by_title} by source/title)"
+    )
+    return unique_entries
+
+def determine_article_category(entry):
+    """Assign the output category after ranking, independent of the original feed."""
+    domain = getattr(entry, "source_domain", get_entry_domain(entry))
+    text = getattr(entry, "search_text", None) or entry_search_text(entry)
+
+    if match_configured_domain(domain, THINK_TANK_DOMAINS) or getattr(entry, "feed_category", "") == "智库":
+        return "智库"
+    if match_configured_domain(domain, INTERNATIONAL_ORG_DOMAINS) or getattr(entry, "feed_category", "") == "国际组织":
+        return "国际组织"
+    if contains_any(text, CARIBBEAN_ENTITY_KEYWORDS):
+        return "加勒比地区"
+    if contains_any(text, LATIN_AMERICA_ENTITY_KEYWORDS):
+        return "拉丁美洲"
+    if is_us_domestic_politics_or_economy(text):
+        return "美国"
+
+    return getattr(entry, "feed_category", "拉丁美洲") or "拉丁美洲"
+
+def max_articles_for_domain(entry):
+    tier = get_entry_source_tier(entry)
+    if tier == "Tier 1":
+        return 6
+    if tier == "Tier 2":
+        return 5
+    if tier == "Tier 3":
+        return 3
+    return 2
+
+def ensure_minimum_category_counts(selected, ranked_entries, total_limit):
+    """Backfill institutional/research categories when strong candidates exist."""
+    selected = list(selected)
+    selected_ids = {id(entry) for entry in selected}
+
+    def count_categories(entries):
+        counts = defaultdict(int)
+        for item in entries:
+            counts[determine_article_category(item)] += 1
+        return counts
+
+    category_counts = count_categories(selected)
+
+    for category, minimum_count in CATEGORY_MIN_COUNTS.items():
+        while category_counts[category] < minimum_count:
+            candidate = next(
+                (
+                    entry for entry in ranked_entries
+                    if id(entry) not in selected_ids
+                    and determine_article_category(entry) == category
+                    and (get_entry_total_score(entry) or 0) >= MIN_SELECTION_SCORE
+                ),
+                None,
+            )
+            if candidate is None:
+                break
+
+            if len(selected) < total_limit:
+                selected.append(candidate)
+                selected_ids.add(id(candidate))
+                category_counts[category] += 1
+                continue
+
+            replaceable_entries = [
+                entry for entry in selected
+                if category_counts[determine_article_category(entry)] > CATEGORY_MIN_COUNTS.get(determine_article_category(entry), 0)
+            ]
+            if not replaceable_entries:
+                break
+
+            replacement = min(
+                replaceable_entries,
+                key=lambda entry: get_entry_total_score(entry) or -999,
+            )
+            selected.remove(replacement)
+            selected_ids.remove(id(replacement))
+            category_counts[determine_article_category(replacement)] -= 1
+            selected.append(candidate)
+            selected_ids.add(id(candidate))
+            category_counts[category] += 1
+
+    return selected
+
+def select_top_articles(entries, total_limit=TOTAL_ARTICLE_LIMIT, now=None):
+    now = now or datetime.datetime.now(datetime.timezone.utc)
+    ranked_entries = sorted(
+        entries,
+        key=lambda entry: (
+            get_entry_total_score(entry) if get_entry_total_score(entry) is not None else -999,
+            get_entry_datetime(entry) or datetime.datetime.min.replace(tzinfo=datetime.timezone.utc),
+        ),
+        reverse=True,
+    )
+
+    selected = []
+    domain_counts = defaultdict(int)
+    category_counts = defaultdict(int)
+    skipped_low_score = 0
+    skipped_domain_cap = 0
+    skipped_event_cap = 0
+    skipped_category_cap = 0
+
+    for entry in ranked_entries:
+        score = get_entry_total_score(entry) or 0
+        if score < MIN_SELECTION_SCORE:
+            skipped_low_score += 1
+            continue
+
+        category = determine_article_category(entry)
+        if category_counts[category] >= CATEGORY_MAX_COUNTS.get(category, total_limit):
+            skipped_category_cap += 1
+            continue
+
+        domain = getattr(entry, "source_domain", "unknown") or "unknown"
+        if domain_counts[domain] >= max_articles_for_domain(entry):
+            skipped_domain_cap += 1
+            continue
+
+        similar_selected_count = sum(
+            1 for selected_entry in selected
+            if articles_are_similar(entry, selected_entry, now)
+        )
+        if similar_selected_count >= MAX_ARTICLES_PER_EVENT_CLUSTER:
+            skipped_event_cap += 1
+            continue
+
+        selected.append(entry)
+        domain_counts[domain] += 1
+        category_counts[category] += 1
+
+        if len(selected) >= total_limit:
+            break
+
+    if not selected and ranked_entries:
+        selected = ranked_entries[:min(10, total_limit)]
+
+    selected = ensure_minimum_category_counts(selected, ranked_entries, total_limit)
+    selected = sorted(
+        selected,
+        key=lambda entry: (
+            get_entry_total_score(entry) if get_entry_total_score(entry) is not None else -999,
+            get_entry_datetime(entry) or datetime.datetime.min.replace(tzinfo=datetime.timezone.utc),
+        ),
+        reverse=True,
+    )
+
+    print(
+        f"Selected {len(selected)} articles "
+        f"(skipped {skipped_low_score} below score threshold, "
+        f"{skipped_domain_cap} by source cap, {skipped_event_cap} by event cap, "
+        f"{skipped_category_cap} by category cap)"
+    )
+    return selected, ranked_entries
+
+def group_entries_by_category(entries):
+    grouped = OrderedDict((category, []) for category in OUTPUT_CATEGORY_ORDER)
+    for entry in entries:
+        category = determine_article_category(entry)
+        entry.output_category = category
+        grouped.setdefault(category, []).append(entry)
+    return grouped
+
+def log_top_articles(entries, limit=TOP_LOG_COUNT):
+    print(f"Top {min(limit, len(entries))} scored articles:")
+    for index, entry in enumerate(entries[:limit], start=1):
+        source = get_entry_source(entry, getattr(entry, "feed_name", ""))
+        title = clean_text(getattr(entry, "title", "")) or "未提供标题"
+        print(
+            f"{index}. score={get_entry_total_score(entry)} "
+            f"source={source} tier={get_entry_source_tier(entry)} "
+            f"domain={getattr(entry, 'source_domain', 'unknown')} title={title}"
+        )
+
 def format_markdown_entry(entry, feed_name):
     """Render one RSS entry in the fixed Chinese research-screening format."""
     title = clean_text(getattr(entry, 'title', '')) or "未提供"
     link = getattr(entry, 'link', '') or "未提供"
     source = get_entry_source(entry, feed_name) or "未提供"
+    source_tier = get_entry_source_tier(entry)
+    total_score = get_entry_total_score(entry)
     published = get_entry_published(entry)
     category = get_category_label(feed_name)
     summary = get_entry_summary(entry)
@@ -530,6 +1445,8 @@ def format_markdown_entry(entry, feed_name):
     item = (
         f"- **原标题**：{title}\n"
         f"  - **来源**：{source}\n"
+        f"  - **来源级别**：{source_tier}\n"
+        f"  - **评分**：{total_score if total_score is not None else '未评分'}\n"
         f"  - **发布时间**：{published}\n"
         f"  - **地区分类**：{category}\n"
         f"  - **原文链接**：{link}\n"
@@ -540,17 +1457,34 @@ def format_markdown_entry(entry, feed_name):
 
 def fetch_feed_entries(feed_url, feed_name=None):
     """指定されたURLからRSSフィードのエントリーを取得する"""
+    feed_config = feed_url if isinstance(feed_url, dict) else None
+    if feed_config:
+        feed_url = feed_config["url"]
+        feed_name = feed_config["name"]
+
     try:
         feed = feedparser.parse(feed_url)
+        if getattr(feed, "bozo", False):
+            print(f"Warning: feed parser reported a problem for {feed_name}: {getattr(feed, 'bozo_exception', '')}")
         feed_title = clean_text(feed.feed.get('title')) if feed.feed else None
-        fallback_source = SOURCE_LABELS.get(feed_name) or feed_title or urlparse(feed_url).netloc
+        fallback_source = (
+            (feed_config or {}).get("source_label")
+            or SOURCE_LABELS.get(feed_name)
+            or feed_title
+            or urlparse(feed_url).netloc
+        )
+        feed_category = (feed_config or {}).get("category") or get_category_label(feed_name)
         
         # 各エントリに著者情報を追加
         for entry in feed.entries:
             entry.author_info = extract_author_info(entry)
             entry.source_info = fallback_source
+            entry.feed_name = feed_name
+            entry.feed_category = feed_category
+            entry.feed_url = feed_url
+            entry.source_info = get_entry_source(entry, feed_name) or fallback_source
         
-        return feed.entries
+        return feed.entries[:CANDIDATE_LIMIT_PER_FEED]
     except Exception as e:
         print(f"Error fetching feed from {feed_url}: {e}")
         return []
@@ -1558,12 +2492,18 @@ def generate_rss_feed(all_entries, date_obj):
         for entry in entries:
             category = get_category_label(feed_name)
             source = get_entry_source(entry, feed_name)
+            source_tier = get_entry_source_tier(entry)
+            total_score = get_entry_total_score(entry)
             item = ET.SubElement(channel, 'item')
             # RSSタイトルはプレーンテキストのみ（HTMLタグや絵文字を除去）
             clean_title = re.sub(r'<[^>]+>', '', entry.title)  # HTMLタグを除去
             ET.SubElement(item, 'title').text = clean_title
             ET.SubElement(item, 'link').text = entry.link
-            ET.SubElement(item, 'description').text = f'地区分类：{category}；来源：{source}；原标题：{clean_title}'
+            score_text = total_score if total_score is not None else "未评分"
+            ET.SubElement(item, 'description').text = (
+                f'地区分类：{category}；来源：{source}；来源级别：{source_tier}；'
+                f'评分：{score_text}；原标题：{clean_title}'
+            )
             ET.SubElement(item, 'guid').text = entry.link
             
             # 公開日（エントリーに日付があれば使用、なければ今日）
@@ -1665,22 +2605,43 @@ if __name__ == "__main__":
     script_start_time = time.time()
     # Use a UTC date so scheduled GitHub Actions runs are stable across regions.
     today = datetime.datetime.now(datetime.timezone.utc).date()
+    scoring_now = datetime.datetime.now(datetime.timezone.utc)
     
-    all_entries = {}
-    for name, feed_url in FEEDS.items():
+    candidate_entries = []
+    feed_configs = FEEDS + FALLBACK_FEEDS
+
+    for feed_config in feed_configs:
+        name = feed_config["name"]
         print(f"Fetching entries from {name}...")
-        entries = fetch_feed_entries(feed_url, name)
+        entries = fetch_feed_entries(feed_config)
+        fetched_count = len(entries)
+        print(f"Fetched {fetched_count} candidates from {name}")
         
         for domain, label in EXCLUDED_DOMAINS.items():
             entries = filter_entries_by_domain(entries, domain, label)
         
+        before_scope_count = len(entries)
         entries = filter_entries_by_scope(entries, name)
-        
-        all_entries[name] = entries
-    
-    # フィード間URL重複除去と補填
-    print("Removing duplicate URLs across feeds...")
-    all_entries = deduplicate_urls_across_feeds(all_entries)
+        print(
+            f"Scope filter kept {len(entries)} of {before_scope_count} "
+            f"post-domain-filter candidates from {name}"
+        )
+        candidate_entries.extend(entries)
+
+    print(f"Collected {len(candidate_entries)} scoped candidates before deduplication")
+    candidate_entries = deduplicate_candidate_entries(candidate_entries)
+
+    for entry in candidate_entries:
+        score_article(entry, scoring_now)
+
+    apply_cross_source_bonuses(candidate_entries, scoring_now)
+
+    for entry in candidate_entries:
+        score_article(entry, scoring_now)
+
+    selected_entries, ranked_entries = select_top_articles(candidate_entries, now=scoring_now)
+    log_top_articles(ranked_entries)
+    all_entries = group_entries_by_category(selected_entries)
     
     # 🚀 全サムネイルを並列取得（大幅高速化）
     start_time = time.time()

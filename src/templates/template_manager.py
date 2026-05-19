@@ -365,6 +365,10 @@ class TemplateManager:
         if hasattr(entry, 'author_info') and entry.author_info:
             author_info = entry.author_info
         
+        source_name = getattr(entry, 'source_info', '') or feed_name
+        source_authority = getattr(entry, 'source_authority_tier', 'Unknown')
+        total_score = getattr(entry, 'total_score', None)
+        score_label = str(total_score) if total_score is not None else '未评分'
         relative_date = self.get_relative_date(published_date)
         tags = self.categorize_article(title, description)
         card_id = self.generate_card_id(link)
@@ -383,6 +387,9 @@ class TemplateManager:
             thumbnail=thumbnail,
             title=title,
             feed_name=feed_name,
+            source_name=source_name,
+            source_authority=source_authority,
+            score_label=score_label,
             description=description,
             published_date=published_date,
             relative_date=relative_date,
