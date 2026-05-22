@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-05-21)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-05-22)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-05-21)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-05-22)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/live/2026/may/21/donald-trump-ballroom-reconciliation-bill-republicans-democrats-war-powers-iran-epa-ai-latest-news-updates|Ro Khanna criticises Democrats’ 2024 election postmortem for not mentioning Israel’s war in Gaza – US politics live>\n• <https://www.france24.com/en/three-dead-in-san-diego-shooting-as-police-investigate-possible-hate-crime|Three dead in San Diego shooting as police investigate possible hate crime>\n• <https://www.theguardian.com/world/2026/may/20/bolivia-protests-coup-paz-pereira|Bolivia rocked by protests as US warns of ‘coup d’état’>\n• <https://www.france24.com/en/americas/20260519-bolivia-protests-escalate-with-violent-clashes-and-looting-in-la-paz|Bolivia protests against President Paz widen with violent clashes, looting in capital>\n• <https://www.bbc.com/news/articles/ckgplwg3xk3o?at_medium=RSS&at_campaign=rss|Three ways Cuba crisis could play out  after US indictment of Raúl Castro>\n• <https://www.theguardian.com/world/2026/may/21/cuba-us-attack-raul-castro-indictment|Cubans outraged at US charges against Raúl Castro as fears of military strikes grow>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/may/22/trump-not-focused-on-economy-poll|Kevin Warsh sworn in as Fed chair as Trump faces backlash over economy>\n• <https://www.france24.com/en/americas/20260520-us-lifts-sanctions-francesca-albanese-un-rapporteur-on-palestinians|US lifts sanctions against Francesca Albanese, UN rapporteur on Palestinians>\n• <https://www.theguardian.com/world/2026/may/20/bolivia-protests-coup-paz-pereira|Bolivia rocked by protests as US warns of ‘coup d’état’>\n• <https://news.google.com/rss/articles/CBMipgFBVV95cUxOalVnbUU4SVdqV0k1UzRMdl9SWm0yeUJ2WEl0emVmMVpGcERMaEZHOUIxSVlqMExJOHdUOUFLLW9hZjJhOE1PeHJOaS02R2pTYTd6SGl2cFVMd3BDZG1YejVMWGZMeXFBeDFQbjZucGotZUxsdVpSZVZlTWNsbzR4OFkwUXEyOW5aY3JIa3JfOU9xZG9fdGZlcTVzTDE5bmxtLTBKdGh3?oc=5|US and Mexico pledge ongoing joint security efforts during DHS Secretary Mullin visit - AP News>\n• <https://www.theguardian.com/world/2026/may/20/cuba-raul-castro-indictment|US indicts former Cuban president Raúl Castro as it seeks to oust regime>\n• <https://www.theguardian.com/us-news/2026/may/22/marco-rubio-doubtful-diplomacy-cuba-trump-renews-threat-military-action|Rubio doubtful of diplomacy with Cuba as Trump renews threat of military action>"
       }
     },
     {
