@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-05-22)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-05-23)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-05-22)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-05-23)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/may/22/trump-not-focused-on-economy-poll|Kevin Warsh sworn in as Fed chair as Trump faces backlash over economy>\n• <https://www.france24.com/en/americas/20260520-us-lifts-sanctions-francesca-albanese-un-rapporteur-on-palestinians|US lifts sanctions against Francesca Albanese, UN rapporteur on Palestinians>\n• <https://www.theguardian.com/world/2026/may/20/bolivia-protests-coup-paz-pereira|Bolivia rocked by protests as US warns of ‘coup d’état’>\n• <https://news.google.com/rss/articles/CBMipgFBVV95cUxOalVnbUU4SVdqV0k1UzRMdl9SWm0yeUJ2WEl0emVmMVpGcERMaEZHOUIxSVlqMExJOHdUOUFLLW9hZjJhOE1PeHJOaS02R2pTYTd6SGl2cFVMd3BDZG1YejVMWGZMeXFBeDFQbjZucGotZUxsdVpSZVZlTWNsbzR4OFkwUXEyOW5aY3JIa3JfOU9xZG9fdGZlcTVzTDE5bmxtLTBKdGh3?oc=5|US and Mexico pledge ongoing joint security efforts during DHS Secretary Mullin visit - AP News>\n• <https://www.theguardian.com/world/2026/may/20/cuba-raul-castro-indictment|US indicts former Cuban president Raúl Castro as it seeks to oust regime>\n• <https://www.theguardian.com/us-news/2026/may/22/marco-rubio-doubtful-diplomacy-cuba-trump-renews-threat-military-action|Rubio doubtful of diplomacy with Cuba as Trump renews threat of military action>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.aljazeera.com/news/2026/5/23/rubio-kicks-off-india-visit-invites-modi-to-the-white-house?traffic_source=rss|US Secretary of State kicks off India visit, invites Modi to White House>\n• <https://www.france24.com/en/americas/20260520-new-york-woman-dies-falling-open-manhole-car|New York woman dies after falling into open manhole after exiting car>\n• <https://www.theguardian.com/world/2026/may/20/bolivia-protests-coup-paz-pereira|Bolivia rocked by protests as US warns of ‘coup d’état’>\n• <https://www.france24.com/en/americas/20260522-police-protesters-clash-in-new-marches-against-bolivian-leader|Bolivian President Paz targeted by new mass protests>\n• <https://www.france24.com/en/cuba-castro-backers-rally-in-front-of-united-states-embassy-in-havana|Cuba: Castro backers rally in front of United States embassy in Havana>\n• <https://www.theguardian.com/world/2026/may/21/cuba-us-attack-raul-castro-indictment|Cubans outraged at US charges against Raúl Castro as fears of military strikes grow>"
       }
     },
     {
