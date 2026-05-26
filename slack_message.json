@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-05-25)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-05-26)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-05-25)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-05-26)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/may/25/first-thing-us-and-iran-inch-closer-to-peace-deal-as-trump-faces-criticism-from-gop-hawks|US and Iran inch closer to peace deal as Trump faces criticism from GOP hawks | First Thing>\n• <https://www.theguardian.com/us-news/2026/may/25/new-jersey-ice-immigration-protest|Protesters clash with ICE agents outside New Jersey detention center>\n• <https://www.france24.com/en/security-and-social-reform-dominate-colombia-s-presidential-race|Security and social reform dominate Colombia’s presidential race>\n• <https://www.theguardian.com/world/2026/may/20/bolivia-protests-coup-paz-pereira|Bolivia rocked by protests as US warns of ‘coup d’état’>\n• <https://www.france24.com/en/cuba-castro-backers-rally-in-front-of-united-states-embassy-in-havana|Cuba: Castro backers rally in front of United States embassy in Havana>\n• <https://www.theguardian.com/world/2026/may/20/cuba-raul-castro-indictment|US indicts former Cuban president Raúl Castro as it seeks to oust regime>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/may/26/alabama-new-congressional-map-struck-down|Federal court blocks new Republican-friendly voting map in Alabama>\n• <https://www.theguardian.com/us-news/2026/may/26/south-carolina-republicans-redistricting|South Carolina Republicans defy Trump again to reject rapid redistricting drive>\n• <https://www.france24.com/en/americas/20260526-bolivian-leader-slash-own-salary-fails-appease-protesters-la-paz|Bolivian leader's move to slash own salary fails to appease protesters in La Paz>\n• <https://www.france24.com/en/bolivian-president-slashes-salary-by-50-to-calm-protests|Bolivian president slashes salary by 50% to calm protests>\n• <https://www.theguardian.com/world/2026/may/20/cuba-raul-castro-indictment|US indicts former Cuban president Raúl Castro as it seeks to oust regime>\n• <https://www.theguardian.com/world/2026/may/21/cuba-us-attack-raul-castro-indictment|Cubans outraged at US charges against Raúl Castro as fears of military strikes grow>"
       }
     },
     {
