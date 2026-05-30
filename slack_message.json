@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-05-29)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-05-30)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-05-29)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-05-30)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/may/28/inflation-increased-april-iran-war-price-rises|US inflation rose at fastest pace in three years in April as Iran war hikes up prices>\n• <https://www.theguardian.com/us-news/2026/may/28/ice-protesters-conspiracy-charges|Federal jury finds army veteran and two other ICE protesters guilty of conspiracy>\n• <https://www.theguardian.com/world/2026/may/29/mexico-senate-election-constitutional-amendment|Alarm at Mexico bill allowing elections to be annulled for ‘foreign interference’>\n• <https://www.aljazeera.com/news/2026/5/29/ice-agent-arrested-over-shooting-of-venezuelan-man-in-us-immigration-raid?traffic_source=rss|ICE agent arrested over shooting of Venezuelan man in US immigration raid>\n• <https://www.theguardian.com/us-news/video/2026/may/29/trump-cuba-invasion-stateside|What if Trump invades Cuba? – Stateside with Kai and Carter>\n• <https://www.theguardian.com/commentisfree/2026/may/28/cuba-castro-indictment-latin-america-violence|The US keeps finding ways to justify state violence against Cuba | Daniel Mendiola>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/may/28/inflation-increased-april-iran-war-price-rises|US inflation rose at fastest pace in three years in April as Iran war hikes up prices>\n• <https://news.google.com/rss/articles/CBMilgFBVV95cUxOcjV5YjNGZU1EQmJyU01Eck5yZTRjcHZUVy1vSDduNDIxMF9TczFRRHllNURLMEt3RW9kc2RiVmZybjR5cE0wZl82cDNEdy1yOUkyNy1xUjB3MzR0SzVWMjlKeks3WVZhUnA5LWhMSG9Bb0c0UVFObmFhTDJVY0s4b1JDOWM3UHVYZi1kZkhFR3l4UWZWSHc?oc=5|Iowa Democrats hoping to flip a US Senate seat are torn over which of 2 hopefuls has the best shot - AP News>\n• <https://www.theguardian.com/world/2026/may/29/mexico-senate-election-constitutional-amendment|Alarm at Mexico bill allowing elections to be annulled for ‘foreign interference’>\n• <https://www.bbc.com/news/articles/czx2zndk7elo?at_medium=RSS&at_campaign=rss|Ecuador accused of meddling in Colombian election with tariff vow>\n• <https://www.theguardian.com/us-news/video/2026/may/29/trump-cuba-invasion-stateside|What if Trump invades Cuba? – Stateside with Kai and Carter>\n• <https://www.theguardian.com/commentisfree/2026/may/28/cuba-castro-indictment-latin-america-violence|The US keeps finding ways to justify state violence against Cuba | Daniel Mendiola>"
       }
     },
     {
