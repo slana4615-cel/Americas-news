@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-01)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-02)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-01)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-02)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/world/2026/jun/01/monday-briefing-does-trumps-18bn-anti-weaponization-fund-signal-a-new-era-of-law-and-disorder|Monday briefing: Does Trump’s $1.8bn ‘anti-weaponization fund’ signal a new era of law and disorder?>\n• <https://www.theguardian.com/business/2026/jun/01/federal-reserve-jerome-powell-kennedy-award|Ex-Federal Reserve chair Jerome Powell sounds alarm over political interference>\n• <https://www.theguardian.com/world/2026/jun/01/trump-admirer-abelardo-de-la-espriella-election-win-blow-to-colombia-conservatives|Trump admirer’s surprise first-round win is a blow to Colombia’s traditional conservatives>\n• <https://www.theguardian.com/world/2026/may/31/colombia-polls-election-outgoing-leaders-ally-pro-trump-candidates|Colombia goes to polls in election pitting outgoing leader’s ally against pro-Trump candidates>\n• <https://www.theguardian.com/us-news/video/2026/may/29/trump-cuba-invasion-stateside|What if Trump invades Cuba? – Stateside with Kai and Carter>\n• <https://news.google.com/rss/articles/CBMipgFBVV95cUxPNWFNMkhCbldXb2tJaWRQNlI2WG5rMEJidGRUdU5UcjBkSnJORGJJVkRSTzhydEFtX3VHaGJWM1NlT25YQVg0aTllZjNYb09SY0RRajRESzdGUGU3Mko5WExlMFZKaVBxZ1NXZDU4aURlVTQxRUZoMmd1S3huSXZ6M1YyUTQ3X09ubjltY25qVU9nNDRqZkdXVloxd0dZemdhUEMwNmhn?oc=5|US commander meets with Cuban military officials as Trump pressures island nation - AP News>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.bbc.com/news/articles/c5y7nnjlrd5o?at_medium=RSS&at_campaign=rss|Mysteriously missing New Jersey congressman receives Trump endorsement>\n• <https://www.bbc.com/news/articles/clypky99g0vo?at_medium=RSS&at_campaign=rss|White House Correspondents' Dinner rescheduled after shooting incident>\n• <https://www.theguardian.com/business/2026/jun/02/trump-administration-brazil-tariffs|Trump administration proposes 25% tariffs on Brazil despite US trade surplus>\n• <https://www.theguardian.com/world/2026/jun/01/trump-admirer-abelardo-de-la-espriella-election-win-blow-to-colombia-conservatives|Trump admirer’s surprise first-round win is a blow to Colombia’s traditional conservatives>\n• <https://www.theguardian.com/us-news/video/2026/may/29/trump-cuba-invasion-stateside|What if Trump invades Cuba? – Stateside with Kai and Carter>\n• <https://www.bbc.com/news/videos/cr5pl7jevyro?at_medium=RSS&at_campaign=rss|‘Long live Raúl!’ - Castro’s supporters in Cuba rally in his defence>"
       }
     },
     {
