@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-03)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-04)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-03)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-04)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/live/2026/jun/03/us-midterm-primaries-politics-donald-trump-california-governor-latest-news-updates|Mitch McConnell statement suggests he considers Bill Pulte unfit for national intelligence director role – US politics live>\n• <https://www.france24.com/en/as-california-votes-in-the-primary-elections-who-are-the-candidates|As California votes in the primary elections, who are the candidates?>\n• <https://www.theguardian.com/us-news/2026/jun/03/north-carolina-judge-deport-teen-murder-victim|Dead but deportable: US immigration judge signed order to eject teen murder victim>\n• <https://www.theguardian.com/world/2026/jun/01/trump-admirer-abelardo-de-la-espriella-election-win-blow-to-colombia-conservatives|Trump admirer’s surprise first-round win is a blow to Colombia’s traditional conservatives>\n• <https://www.theguardian.com/us-news/video/2026/may/29/trump-cuba-invasion-stateside|What if Trump invades Cuba? – Stateside with Kai and Carter>\n• <https://www.france24.com/en/tv-shows/press-review/20260601-trump-s-oil-blockade-on-cuba-aggravates-havana-s-garbage-crisis|Trump's oil blockade on Cuba aggravates Havana's garbage crisis>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/world/video/2026/jun/04/us-house-passes-resolution-trumps-iran-war-powers-video|Cheers as US House passes resolution on Trump's Iran war powers - video>\n• <https://www.bbc.com/news/articles/cn0pl0wvvz0o?at_medium=RSS&at_campaign=rss|Trump hits back at 'unpatriotic' vote after House rebukes him over Iran>\n• <https://www.theguardian.com/us-news/2026/jun/03/north-carolina-judge-deport-teen-murder-victim|Dead but deportable: US immigration judge signed order to eject teen murder victim>\n• <https://www.aljazeera.com/news/2026/6/4/us-defence-secretary-compares-bolivia-protests-to-government-overthrow?traffic_source=rss|US defence secretary compares Bolivia protests to government ‘overthrow’>\n• <https://www.france24.com/en/americas/20260604-us-sanctions-cuban-president-and-castro-relatives-in-latest-pressure-campaign|US sanctions Cuban president and Castro relatives in latest pressure campaign>\n• <https://www.bbc.com/news/videos/cr5pl7jevyro?at_medium=RSS&at_campaign=rss|‘Long live Raúl!’ - Castro’s supporters in Cuba rally in his defence>"
       }
     },
     {
