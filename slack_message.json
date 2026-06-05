@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-04)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-05)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-04)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-05)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/world/video/2026/jun/04/us-house-passes-resolution-trumps-iran-war-powers-video|Cheers as US House passes resolution on Trump's Iran war powers - video>\n• <https://www.bbc.com/news/articles/cn0pl0wvvz0o?at_medium=RSS&at_campaign=rss|Trump hits back at 'unpatriotic' vote after House rebukes him over Iran>\n• <https://www.theguardian.com/us-news/2026/jun/03/north-carolina-judge-deport-teen-murder-victim|Dead but deportable: US immigration judge signed order to eject teen murder victim>\n• <https://www.aljazeera.com/news/2026/6/4/us-defence-secretary-compares-bolivia-protests-to-government-overthrow?traffic_source=rss|US defence secretary compares Bolivia protests to government ‘overthrow’>\n• <https://www.france24.com/en/americas/20260604-us-sanctions-cuban-president-and-castro-relatives-in-latest-pressure-campaign|US sanctions Cuban president and Castro relatives in latest pressure campaign>\n• <https://www.bbc.com/news/videos/cr5pl7jevyro?at_medium=RSS&at_campaign=rss|‘Long live Raúl!’ - Castro’s supporters in Cuba rally in his defence>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/jun/05/us-jobs-market-unemployment|US added 172,000 jobs in May as labor market shows signs of resilience>\n• <https://www.bbc.com/news/articles/c4g4g3zxp79o?at_medium=RSS&at_campaign=rss|US Senate approves $70bn for Trump immigration agencies>\n• <https://www.theguardian.com/us-news/2026/jun/03/north-carolina-judge-deport-teen-murder-victim|Dead but deportable: US immigration judge signed order to eject teen murder victim>\n• <https://www.theguardian.com/world/2026/jun/05/venezuela-opposition-nicolas-maduro-democracy|Out of the shadows: Venezuela’s opposition emerges from hiding but remains on political sidelines>\n• <https://www.france24.com/en/americas/20260604-us-sanctions-cuban-president-and-castro-relatives-in-latest-pressure-campaign|US sanctions Cuban president, Castro relatives in latest pressure campaign>\n• <https://www.theguardian.com/world/2026/jun/05/us-sanctions-cuba-president-castro-family|US imposes new sanctions on Cuban president and Castro family members>"
       }
     },
     {
