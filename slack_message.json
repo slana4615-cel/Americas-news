@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-08)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-09)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-08)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-09)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/live/2026/jun/08/us-politics-latest-news-updates-trump-california-governor-midterm-elections|Adam Schiff calls for Senate to ‘vigorously oppose’ Trump’s effort to make Todd Blanche his permanent attorney general – live>\n• <https://www.theguardian.com/us-news/2026/jun/08/trump-hegseth-vance-henry-nowak-death|How Trump acolytes seized on UK teen’s killing to push anti-immigration agenda>\n• <https://www.theguardian.com/world/2026/jun/07/peru-election-voters-face-straight-left-right-choice-keiko-fujimori|Peru’s discontented voters face straight left-right choice in election runoff>\n• <https://www.france24.com/en/peru-votes-for-its-ninth-president-in-10-years|Peru votes for its ninth president in 10 years>\n• <https://www.france24.com/en/peru-s-polarising-election-neither-candidate-has-strong-majority-in-congress-to-enact-reform|Peru's polarising election: 'Neither candidate has strong majority' in Congress to enact reform>\n• <https://www.aljazeera.com/news/2026/6/8/un-human-rights-leader-calls-for-cuba-sanctions-to-be-lifted-immediately?traffic_source=rss|UN human rights leader calls for Cuba sanctions to be ‘lifted immediately’>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/jun/09/house-immigration-bill-funding|House Republicans approve $70bn bill for Trump’s immigration crackdown>\n• <https://www.theguardian.com/us-news/2026/jun/09/jd-vance-doj-inquiry-tim-walz-minnesota|JD Vance accused of ‘political stunt’ after referring Tim Walz for Minnesota fraud investigation>\n• <https://www.theguardian.com/world/2026/jun/07/peru-election-voters-face-straight-left-right-choice-keiko-fujimori|Peru’s discontented voters face straight left-right choice in election runoff>\n• <https://www.france24.com/en/peru-votes-for-its-ninth-president-in-10-years|Peru votes for its ninth president in 10 years>\n• <https://www.france24.com/en/peru-s-polarising-election-neither-candidate-has-strong-majority-in-congress-to-enact-reform|Peru's polarising election: 'Neither candidate has strong majority' in Congress to enact reform>\n• <https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYW9pSV95c253WmpwZ1BscENQQU1Cdkdvd2VOTDdXcE5BNDRSX2lNSlJWTk9wRGd4aElnTEhKZUVMRjMxZXZlRkZlLTR2WGRFLWE0MFE3R3lxcDRqWV9nbnBKTUttb09jcUhhYWJOVWU3OW5yS1R3ZnhJc0tzMEZFSVBDTURLMDNpWnlIMDlhdHowS2xJSjg3SzNLWWppczlqVTVYUkdnSE5QQQ?oc=5|How Cubans keep going, despite US pressure and fuel blockade - Reuters>"
       }
     },
     {
