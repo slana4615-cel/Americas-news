@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-12)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-13)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-12)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-13)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/jun/12/consumer-sentiment-june-data-gas-prices|US consumer sentiment improves in June due to easing gas prices>\n• <https://www.france24.com/en/americas/20260610-us-congress-approves-70-billion-trump-immigration-crackdown|US Congress approves $70 billion bill to fund Trump’s immigration crackdown>\n• <https://www.france24.com/en/americas/20260609-us-complete-trump-mexico-border-wall-2027|US to complete Trump's long-promised Mexico border wall by late 2027>\n• <https://www.france24.com/en/peruvians-await-results-of-elections-for-ninth-president-in-a-decade|Peruvians await results of elections for ninth president in a decade>\n• <https://www.theguardian.com/us-news/2026/jun/10/hegseth-warns-cuba-weapons-guantanamo-bay|Hegseth warns Cuba against acquiring weapons in visit to Guantánamo Bay>\n• <https://www.france24.com/en/peru-s-polarising-election-neither-candidate-has-strong-majority-in-congress-to-enact-reform|Peru's polarising election: 'Neither candidate has strong majority' in Congress to enact reform>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/jun/13/ice-border-patrol-funding-bill|ICE, borders and DHS: what’s in Trump’s $70bn immigration crackdown bill?>\n• <https://www.theguardian.com/us-news/2026/jun/13/radio-jornalera-new-jersey-immigration-detention-center|‘We’re doing it all for them’: Radio Jornalera NJ exposes conditions faced by immigrants in detention>\n• <https://www.theguardian.com/us-news/2026/jun/12/trump-venezuela-tren-de-aragua-leader-killed|Trump says leader of Venezuelan Tren de Aragua gang killed in US strike>\n• <https://www.france24.com/en/americas/20260613-venezuela-says-leader-of-tren-de-aragua-killed-in-joint-operation-with-us|Venezuela says leader of Tren de Aragua gang killed in 'joint operation' with US>\n• <https://www.theguardian.com/global-development/2026/jun/13/freedivers-leftover-cables-and-bits-of-clay-cuba-gets-inventive-to-save-its-pristine-reefs-amid-us-blockade|Freedivers, leftover cables and bits of clay: Cuba gets inventive to save its pristine reefs amid US blockade>\n• <https://www.theguardian.com/us-news/2026/jun/10/hegseth-warns-cuba-weapons-guantanamo-bay|Hegseth warns Cuba against acquiring weapons in visit to Guantánamo Bay>"
       }
     },
     {
