@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-17)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-18)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-17)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-18)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/world/2026/jun/17/trump-us-iran-war-mou-deal|US releases text of Iran peace plan as Trump says deal averts ‘worldwide depression’>\n• <https://www.theguardian.com/commentisfree/2026/jun/17/trump-voting-rights-midterms|I’ve spent decades fighting for fair elections. Trump is setting the stage for a grim November | David Walbert>\n• <https://www.france24.com/en/brazil-supreme-court-sentences-bolsonaro-s-son-over-us-lobbying|Brazil Supreme Court sentences Bolsonaro's son over US lobbying>\n• <https://www.france24.com/en/americas/20260617-brazil-supreme-court-eduardo-bolsonaro-over-us-sanctions-push|Brazil Supreme Court convicts Bolsonaro's son for courting US help during coup trial>\n• <https://www.france24.com/en/americas/20260617-un-chief-guterres-visits-haiti-as-gang-violence-surges|UN chief Guterres visits Haiti as gang violence surges>\n• <https://www.france24.com/en/americas/20260616-un-chief-guterres-to-visit-haiti-in-show-of-solidarity-as-gang-violence-surges|UN chief Guterres to visit gang-ravaged Haiti>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/jun/18/lisa-cook-legal-security-fees-trump-fed|Fed governor Lisa Cook faced $1.3m in legal and security fees after Trump’s bid to fire her>\n• <https://www.france24.com/en/new-us-fed-chair-vows-reforms-as-central-bank-signals-rate-hikes-on-horizon|New US Fed chair vows reforms as central bank signals rate hikes on horizon>\n• <https://www.france24.com/en/americas/20260618-lula-warns-trump-against-meddling-in-brazil-election|Lula warns Trump against meddling in Brazil election after criticism of judiciary>\n• <https://www.france24.com/en/brazil-supreme-court-sentences-bolsonaro-s-son-over-us-lobbying|Brazil Supreme Court sentences Bolsonaro's son over US lobbying>\n• <https://www.france24.com/en/americas/20260618-raul-castro-backs-sweeping-cuba-reforms-to-revive-struggling-economy|Raul Castro backs sweeping Cuba reforms to revive struggling economy>\n• <https://www.aljazeera.com/news/2026/6/18/cubas-communist-party-approves-opening-economy-in-unprecedented-move?traffic_source=rss|Cuba’s Communist Party approves opening economy in unprecedented move>"
       }
     },
     {
