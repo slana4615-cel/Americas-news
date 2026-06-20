@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-19)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-20)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-19)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-20)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/commentisfree/2026/jun/18/trump-department-of-war-defense|Trump’s ‘Department of War’ may soon become official. What would that mean? | Norman Solomon>\n• <https://www.france24.com/en/new-us-fed-chair-vows-reforms-as-central-bank-signals-rate-hikes-on-horizon|New US Fed chair vows reforms as central bank signals rate hikes on horizon>\n• <https://www.theguardian.com/us-news/2026/jun/18/us-military-boat-strike-pacific-ocean|US military kills three people in boat strike in Pacific Ocean>\n• <https://www.france24.com/en/americas/20260618-lula-warns-trump-against-meddling-in-brazil-election|Lula warns Trump against meddling in Brazil election after criticism of judiciary>\n• <https://www.france24.com/en/cuba-unveils-historic-free-market-reforms-amid-us-pressure|Cuba unveils historic free-market reforms amid US pressure>\n• <https://www.france24.com/en/americas/20260618-raul-castro-backs-sweeping-cuba-reforms-to-revive-struggling-economy|Raul Castro backs sweeping Cuba reforms to revive struggling economy>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/commentisfree/2026/jun/18/trump-department-of-war-defense|Trump’s ‘Department of War’ may soon become official. What would that mean? | Norman Solomon>\n• <https://www.theguardian.com/business/2026/jun/18/lisa-cook-legal-security-fees-trump-fed|Fed governor Lisa Cook faced $1.3m in legal and security fees after Trump’s bid to fire her>\n• <https://www.france24.com/en/americas/20260620-bolivia-declares-state-of-emergency-as-protests-bring-economy-to-a-halt|Bolivian President Paz declares state of emergency over anti-government blockades>\n• <https://www.theguardian.com/world/2026/jun/20/colombia-presidential-election-paramilitary-militia-runoff|Ghost of far-right paramilitaries hovers over Colombia’s presidential runoff vote>\n• <https://www.france24.com/en/cuba-unveils-historic-free-market-reforms-amid-us-pressure|Cuba unveils historic free-market reforms amid US pressure>\n• <https://www.theguardian.com/us-news/2026/jun/14/trump-administration-cuban-deportations|Living in fear of a knock at the door: the Cubans being deported under Trump>"
       }
     },
     {
