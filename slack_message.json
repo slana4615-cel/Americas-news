@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-21)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-22)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-21)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-22)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/commentisfree/2026/jun/21/young-people-voter-registration|Four million Americans will turn 18 this year. Why aren’t we registering them to vote? | Laura W Brill>\n• <https://www.france24.com/en/americas/20260619-us-launches-germany-pharma-pricing-probe-raising-threat-of-new-tariffs|US launches Germany pharma pricing probe, raising threat of new tariffs>\n• <https://www.france24.com/en/bolivia-deploys-army-to-halt-protests-after-declaration-of-state-of-emergency|Bolivia deploys army to halt protests after declaration of state of emergency>\n• <https://www.france24.com/en/americas/20260621-high-stakes-colombia-vote-sees-trump-backed-hardliner-face-leftist-senator|Polls open in Colombia presidential runoff between Trump-backed hardliner, leftist senator>\n• <https://www.france24.com/en/cuba-unveils-historic-free-market-reforms-amid-us-pressure|Cuba unveils historic free-market reforms amid US pressure>\n• <https://news.google.com/rss/articles/CBMitgFBVV95cUxNR3ZrU2U5TU1KdzZwcndsV0Z6b2VzbHVBT2FPTU52ZS15ZFBTNkNueVdKR1Jld3hnbXoyV25zeXVwYWxHajJVRlJvTlFwem9lMHkxUjBiNTlkRk16R3BYNG5kTEVOVnpfYWpqenBfa2VMNDlELUlrdERHeVE2dmVmNnVqVEtqSDM1V3JPUFJzOElZeXRBR0xKT3dsYTUwVUpXTXh2emxlaUlEVnNrZ0JGUXdiRzVtdw?oc=5|Cuba pushes through sweeping free-market reforms in biggest economic shift since the revolution - AP News>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/jun/22/alan-greenspan-obituary|Alan Greenspan obituary>\n• <https://www.bbc.com/news/videos/cq618p80y2eo?at_medium=RSS&at_campaign=rss|Watch: 'I wish him well' - Trump reacts to Starmer's resignation>\n• <https://www.theguardian.com/world/2026/jun/22/election-far-right-leader-fears-democracy-colombia-espriella-trump|‘Institutional threat’: election of far-right leader raises fears for democracy in Colombia>\n• <https://www.france24.com/en/americas/20260622-trump-backed-de-la-espriella-wins-razor-tight-colombian-presidential-election|Trump-backed de la Espriella wins razor-tight Colombian presidential election>\n• <https://www.france24.com/en/americas/20260622-cuba-power-crisis-deepens-havana-residents-speak-out|As Cuba's power crisis deepens, Havana residents speak out>\n• <https://www.france24.com/en/cuba-unveils-historic-free-market-reforms-amid-us-pressure|Cuba unveils historic free-market reforms amid US pressure>"
       }
     },
     {
