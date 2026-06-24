@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-23)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-24)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-23)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-24)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/jun/23/trump-iran-war-powers-resolution|US Senate passes war powers resolution challenging Trump’s Iran war authority>\n• <https://www.aljazeera.com/news/2026/6/23/us-supreme-court-backs-trump-policy-on-green-card-holder-rights?traffic_source=rss|US Supreme Court backs Trump policy on green card holder rights>\n• <https://www.theguardian.com/world/2026/jun/22/election-far-right-leader-fears-democracy-colombia-espriella-trump|‘Institutional threat’: election of far-right leader raises fears for democracy in Colombia>\n• <https://www.theguardian.com/world/2026/jun/23/conviction-chile-washington-dc-car-bomb-attack-1976|Former Pinochet agents convicted over 1976 Washington DC carbomb murder>\n• <https://www.aljazeera.com/economy/2026/6/23/us-supreme-court-oks-exxonmobil-lawsuit-over-castro-era-property-seizure?traffic_source=rss|US Supreme Court OKs ExxonMobil lawsuit over Castro-era property seizure>\n• <https://news.google.com/rss/articles/CBMilgFBVV95cUxOV01EWDVnQk1lZW4zYXVRODBUM1VyR01oUzZsNV9lY0w3aXp4dHFWUnk3cld2T2ZxbFZpSXR2T0psdUJIMVNmWjhfRUloYUh5TlNCRk1ZTHUyV0prc1FFWnM4TmlDX2FkSVdKMGdHbVd3QlNQdnVrT0RTQTRfUWs4eV9rTTdJc2did2luMXFoYUpaZ0RCVVE?oc=5|Supreme Court OKs Exxon Mobil lawsuit over Cuban property seized by Fidel Castro's government - AP News>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/live/2026/jun/24/mamdani-new-york-primaries-midterms-democrats-republicans-trump-250-anniversary-politics-latest-updates|Trump gets in shouting match with Republican senator amid standoff over housing bill and president’s anger at war powers vote - live>\n• <https://www.france24.com/en/americas/20260624-trump-pressures-congressional-republicans-by-delaying-landmark-housing-bill-over-voter-id-law|Trump pressures congressional Republicans by delaying landmark housing bill over voter ID push>\n• <https://www.theguardian.com/world/2026/jun/22/election-far-right-leader-fears-democracy-colombia-espriella-trump|‘Institutional threat’: election of far-right leader raises fears for democracy in Colombia>\n• <https://www.theguardian.com/world/2026/jun/23/conviction-chile-washington-dc-car-bomb-attack-1976|Former Pinochet agents convicted over 1976 Washington DC carbomb murder>\n• <https://news.google.com/rss/articles/CBMilgFBVV95cUxOV01EWDVnQk1lZW4zYXVRODBUM1VyR01oUzZsNV9lY0w3aXp4dHFWUnk3cld2T2ZxbFZpSXR2T0psdUJIMVNmWjhfRUloYUh5TlNCRk1ZTHUyV0prc1FFWnM4TmlDX2FkSVdKMGdHbVd3QlNQdnVrT0RTQTRfUWs4eV9rTTdJc2did2luMXFoYUpaZ0RCVVE?oc=5|Supreme Court OKs Exxon Mobil lawsuit over Cuban property seized by Fidel Castro's government - AP News>\n• <https://www.france24.com/en/americas/20260622-cuba-power-crisis-deepens-havana-residents-speak-out|As Cuba's power crisis deepens, Havana residents speak out>"
       }
     },
     {
