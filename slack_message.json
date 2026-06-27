@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-26)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-27)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-26)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-27)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/commentisfree/2026/jun/25/netanyahu-trump-iran-war|To protect the Iran peace talks, will Trump finally restrain Netanyahu? | Mohamad Bazzi>\n• <https://www.france24.com/en/americas/20260624-trump-pressures-congressional-republicans-by-delaying-landmark-housing-bill-over-voter-id-law|Trump pressures congressional Republicans by delaying landmark housing bill over voter ID push>\n• <https://www.france24.com/en/venezuela-hunts-for-survivors-of-twin-quakes-as-it-waits-for-foreign-aid|Venezuela hunts for survivors of twin quakes as it waits for foreign aid>\n• <https://www.france24.com/en/venezuela-suffers-effects-of-trump-s-aid-foreign-policies-after-deadly-quakes|Venezuela suffers effects of Trump’s aid, foreign policies after deadly quakes>\n• <https://www.theguardian.com/us-news/2026/jun/26/trump-supreme-court-immigration|Trump finds partner in supreme court in his war against immigration>\n• <https://www.france24.com/en/over-a-million-immigrants-risk-deportation-from-us-after-landmark-decision|Over a million immigrants risk deportation from US after landmark decision>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/commentisfree/2026/jun/25/netanyahu-trump-iran-war|To protect the Iran peace talks, will Trump finally restrain Netanyahu? | Mohamad Bazzi>\n• <https://www.theguardian.com/commentisfree/2026/jun/26/tucker-carlson-marjorie-taylor-greene-republican-split|Why did Tucker Carlson and Marjorie Taylor Greene leave the Republican party? | Geoffrey Kabaservice>\n• <https://www.france24.com/en/venezuela-hunts-for-survivors-of-twin-quakes-as-it-waits-for-foreign-aid|Venezuela hunts for survivors of twin quakes as it waits for foreign aid>\n• <https://news.google.com/rss/articles/CBMixgFBVV95cUxQcGNHd2htbXJ1RXhnaFZMMkFNV19tSzNHMTdwelBjVlF5Mks5V3VkYkQxckhoMXAxdzU2NHlDRGhpTF9PSHNnV1M4SVJZYURHcG5vUmFYZkNtcGc2bF9qbW9OOUhCYlRpS1B1T0VNRDlTeUVDMnNRSkxSUEdkUGwyclQwZzhxTXJ3Z0lRdkd5WnRpLVN6UFc1cGdXcjZOVjRRc3ZCVXY1QTZjWFBpdnV1eWJfOUc3NFpjbmpYSXNRRTVhc3lqdkE?oc=5|Catholic bishops call for humane treatment of migrants during US-Mexico border Mass - Reuters>\n• <https://www.theguardian.com/us-news/2026/jun/26/trump-supreme-court-immigration|Trump finds partner in supreme court in his war against immigration>\n• <https://www.france24.com/en/over-a-million-immigrants-risk-deportation-from-us-after-landmark-decision|Over a million immigrants risk deportation from US after landmark decision>"
       }
     },
     {
