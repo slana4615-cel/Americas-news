@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-30)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-01)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-06-30)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-01)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/commentisfree/2026/jun/30/supreme-court-trump-v-slaughter|The supreme court has again undermined the power of Congress | Moira Donegan>\n• <https://www.theguardian.com/commentisfree/2026/jun/30/the-guardian-view-on-the-defence-investment-plan-the-uk-needs-security-not-dependency-on-a-wayward-us|The Guardian view on the defence investment plan: the UK needs security, not dependency on a wayward US | Editorial>\n• <https://www.theguardian.com/commentisfree/2026/jun/30/the-guardian-view-on-colombias-election-trumpism-has-gone-transnational|The Guardian view on Colombia’s election: Trumpism has gone transnational | Editorial>\n• <https://www.theguardian.com/world/2026/jun/30/keiko-fujimori-wins-peru-presidential-election-polls-runoff|Peru’s Keiko Fujimori wins presidential election, in latest victory for Latin American right>\n• <https://www.theguardian.com/commentisfree/2026/jun/29/supreme-court-immigration-rulings-danger|The US supreme court just put the lives of 1.3 million immigrants in danger| Heba Gowayed>\n• <https://www.aljazeera.com/news/2026/6/30/cubas-foreign-minister-observes-no-progress-in-us-negotiations?traffic_source=rss|Cuba’s foreign minister observes ‘no progress’ in US negotiations>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/jul/01/trump-accused-one-billion-dollars-crypto-venture|Trump accused of ‘disgusting’ greed after being paid over $2bn since return to office>\n• <https://www.france24.com/en/trump-not-going-to-give-up-easily-on-bid-to-restrict-birthright-citizenship-despite-scotus-stop|'Trump not going to give up easily' on bid to restrict birthright citizenship despite SCOTUS stop>\n• <https://www.theguardian.com/commentisfree/2026/jun/30/the-guardian-view-on-colombias-election-trumpism-has-gone-transnational|The Guardian view on Colombia’s election: Trumpism has gone transnational | Editorial>\n• <https://www.theguardian.com/artanddesign/2026/jul/01/mads-nissens-best-photograph-didiller-colombia-cocaine|A boy clowning around on a basketball court in a Colombian cocaine corridor: Mads Nissen’s best photograph>\n• <https://caribbeannewsglobal.com/from-pathways-to-investment-tackling-the-usd-6-billion-food-challenge-for-the-caribbean/|From pathways to investment: Tackling the USD 6 billion food challenge for the Caribbean>\n• <https://caribbeannewsglobal.com/jamaica-advances-infrastructure-to-boost-tourism-growth-says-minister-bartlett/|Jamaica advances infrastructure to boost tourism growth, says minister Bartlett>"
       }
     },
     {
