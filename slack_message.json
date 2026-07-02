@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-01)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-02)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-01)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-02)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/jul/01/trump-accused-one-billion-dollars-crypto-venture|Trump accused of ‘disgusting’ greed after being paid over $2bn since return to office>\n• <https://www.france24.com/en/trump-not-going-to-give-up-easily-on-bid-to-restrict-birthright-citizenship-despite-scotus-stop|'Trump not going to give up easily' on bid to restrict birthright citizenship despite SCOTUS stop>\n• <https://www.theguardian.com/commentisfree/2026/jun/30/the-guardian-view-on-colombias-election-trumpism-has-gone-transnational|The Guardian view on Colombia’s election: Trumpism has gone transnational | Editorial>\n• <https://www.theguardian.com/artanddesign/2026/jul/01/mads-nissens-best-photograph-didiller-colombia-cocaine|A boy clowning around on a basketball court in a Colombian cocaine corridor: Mads Nissen’s best photograph>\n• <https://caribbeannewsglobal.com/from-pathways-to-investment-tackling-the-usd-6-billion-food-challenge-for-the-caribbean/|From pathways to investment: Tackling the USD 6 billion food challenge for the Caribbean>\n• <https://caribbeannewsglobal.com/jamaica-advances-infrastructure-to-boost-tourism-growth-says-minister-bartlett/|Jamaica advances infrastructure to boost tourism growth, says minister Bartlett>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/jul/02/trump-hijacked-250-anniversary|Trump hijacked US’s 250 anniversary to serve ‘political ideology and pet projects’, congressional report says>\n• <https://www.theguardian.com/society/video/2026/jul/02/229000-excess-deaths-the-cost-of-us-uk-trade-deal-the-latest|229,000 excess deaths: the cost of US-UK trade deal? - The Latest>\n• <https://www.theguardian.com/commentisfree/2026/jul/02/us-anniversary-250|Let us celebrate America’s birthday. And, despite it all, hope for another 250 years | Francine Pose>\n• <https://www.theguardian.com/commentisfree/2026/jun/30/the-guardian-view-on-colombias-election-trumpism-has-gone-transnational|The Guardian view on Colombia’s election: Trumpism has gone transnational | Editorial>\n• <https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc0hYSVBKdEN0SURsaDFneVFmRHE2WENkWl9LRTJUSThkbTk0ODBxQk43ZlhLeWpiNTlreUp5cUtpRU15VUl1ZFZGYTlFNzhMRGtucVZkaVl3aWx0Mmt0R2IwczN4RWR6a3Vyc0lYeFdkV2dYT1hidnhZMGZrd2xjRVlEdEtQaW41SmlZX1hrMnpUQ3dWTGRPUWJvM3hHekJfQThfLXZ1Vm0?oc=5|Once a source of national pride, Cuba's healthcare system declines as energy shortages deepen crisis - AP News>\n• <https://news.google.com/rss/articles/CBMiWkFVX3lxTE56dXVaR19iemh3VlFYODM0bkVCV2RWd2dvV3A5RkZYM2FQaE4xQVRXMkplbUgxRF9pdFJpQ09VY2JCLVo3OEY4U2o2TFdodnIwOHhvd3lBclphZw?oc=5|Invest NI chief defends silence over US firm's abandoned investment - BBC>"
       }
     },
     {
