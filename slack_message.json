@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-09)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-10)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-09)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-10)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.france24.com/en/usa-at-250-zohran-mamdani-represents-the-new-emerging-wing-of-the-democratic-party|USA at 250: 'Zohran Mamdani 'represents the new emerging wing of the Democratic Party'>\n• <https://www.theguardian.com/business/2026/jul/08/trump-maga-faithful-economy|Trump’s policy mayhem is making even the Maga faithful consider walking away>\n• <https://news.google.com/rss/articles/CBMiuAFBVV95cUxOb0lBaTV6VjczNV9ZNFhtMjB6UzRBNkNzMWhmTENJT2phOS1jRTVSbHZYRDhFSmN0VG9iWnNvbmtVa09wSjFtTHV1bER3OElLaFYtLUJXMGliQTRUX1h4R3lIYWpzSm45bFpJTndlclRDRkF5TjBmTWV3ektqREtVRkFfQjQyLVlMTDl1U2FQR2dqZ2Y2U2MzcVFhak5ZY1FSVENzY2J6c3FPbXJVUnFsSXZrd1Q4emRM?oc=5|Mexico to file criminal complaints in US over deaths of Mexicans in immigration enforcement - Reuters>\n• <https://www.aljazeera.com/news/2026/7/9/mexico-to-seek-us-criminal-complaints-over-ice-related-deaths-of-citizens?traffic_source=rss|Mexico to seek US criminal complaints over ICE-related deaths of citizens>\n• <https://www.theguardian.com/australia-news/audio/2026/jul/08/will-trump-invade-cuba-full-story-podcast|Will Trump invade Cuba? – podcast>\n• <https://www.bbc.co.uk/news/articles/cm20g0d3ry4o?at_medium=RSS&at_campaign=rss|Cubans protest after third nationwide power cut this year>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/live/2026/jul/10/donald-trump-election-commission-republicans-midterms-graham-platner-iran-us-politics-latest-news-updates|Graham Platner formally withdraws from Maine Senate race after sexual assault allegation – US politics live>\n• <https://www.theguardian.com/business/2026/jul/08/trump-maga-faithful-economy|Trump’s policy mayhem is making even the Maga faithful consider walking away>\n• <https://www.aljazeera.com/news/2026/7/10/perus-president-elect-fujimori-says-she-wants-to-restore-ties-with-mexico?traffic_source=rss|Peru’s President-elect Fujimori says she wants to restore ties with Mexico>\n• <https://www.bbc.co.uk/news/articles/c802431ppreo?at_medium=RSS&at_campaign=rss|Mexico to press for criminal charges over deaths in US custody>\n• <https://www.theguardian.com/australia-news/audio/2026/jul/08/will-trump-invade-cuba-full-story-podcast|Will Trump invade Cuba? – podcast>\n• <https://www.bbc.co.uk/news/articles/cm20g0d3ry4o?at_medium=RSS&at_campaign=rss|Cubans protest after third nationwide power cut this year>"
       }
     },
     {
