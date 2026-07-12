@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-11)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-12)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-11)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-12)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/ng-interactive/2026/jul/11/inside-homeland-security-campaign-of-fear|Six-hour polygraphs, forced reassignments: inside homeland security’s campaign of fear>\n• <https://www.theguardian.com/commentisfree/2026/jul/11/trump-administration-scientists-rules|Is the US trying to make scientists’ work so difficult that they simply give up? | Daniel Malinsky>\n• <https://www.bbc.co.uk/news/articles/c802431ppreo?at_medium=RSS&at_campaign=rss|Mexico to press for criminal charges over deaths in US custody>\n• <https://news.google.com/rss/articles/CBMiywFBVV95cUxORkE0LXY1NzZMSC1kVURVTDA0a0NGc3l4aXNreERjdXJhZWlWWDlzVGhKaGhFS2p2WGIyVV9SdzVzcHJXS0w1UG9ZSGpyUFpVUWx5UEVTOTlQYWJmRHBkRlZlSHVsN19zQ3RCUVQxaWhzWTFpYWQtSUY4YWVJcnZmUkk2S3NpcFFUR1dBQU9tRjZqSWE4NGlXenJmVTQzSEo5Vk5qakZ1TDVoSXNyX1pEZFpFcnRrb0ZEZldPQlBuLW5KM2RKUVRPMDVQWQ?oc=5|Venezuela quakes have killed 4,333, injured 16,740, National Assembly president says - Reuters>\n• <https://www.theguardian.com/australia-news/audio/2026/jul/08/will-trump-invade-cuba-full-story-podcast|Will Trump invade Cuba? – podcast>\n• <https://www.bbc.co.uk/news/articles/cm20g0d3ry4o?at_medium=RSS&at_campaign=rss|Cubans protest after third nationwide power cut this year>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/commentisfree/2026/jul/12/stephen-miller-birthright-citizenship-arguments|Stephen Miller is outraged over birthright citizenship. His arguments are nonsense | Sidney Blumenthal>\n• <https://www.theguardian.com/us-news/2026/jul/12/lindsey-graham-quotes-trump-iran|‘Mr President, you’re not far behind God’: Lindsey Graham in his own words>\n• <https://www.aljazeera.com/news/2026/7/12/iraqi-pm-to-meet-us-president-trump-in-washington-to-deepen-strategic-ties?traffic_source=rss|Iraqi PM to meet US President Trump in Washington to deepen strategic ties>\n• <https://www.france24.com/en/americas/20260711-death-toll-in-venezuela-quakes-surpasses-4-000|Death toll in Venezuela quakes surpasses 4,300>\n• <https://www.theguardian.com/australia-news/audio/2026/jul/08/will-trump-invade-cuba-full-story-podcast|Will Trump invade Cuba? – podcast>\n• <https://news.google.com/rss/articles/CBMijwFBVV95cUxPSDM2dE5Jck56TlEtSHVlM1pMUmN1UkpqdVFiSkZteWROMWoxQmduVl9FSnUxTGsxajRKOW9DMFBkMS1DdGU4ZjJ4S3JKcUloSTNSU05WcUFQMnRfNFpYNEJDWXlRNm5peWVnTEhTWjZIM0RVTmdvWjVodzFoMldBVmgtdEhqaHJ2VU1lQks4bw?oc=5|An islandwide blackout strikes Cuba for the second time this week as its grid crumbles - AP News>"
       }
     },
     {
