@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-12)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-13)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-12)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-13)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/commentisfree/2026/jul/12/stephen-miller-birthright-citizenship-arguments|Stephen Miller is outraged over birthright citizenship. His arguments are nonsense | Sidney Blumenthal>\n• <https://www.theguardian.com/us-news/2026/jul/12/lindsey-graham-quotes-trump-iran|‘Mr President, you’re not far behind God’: Lindsey Graham in his own words>\n• <https://www.aljazeera.com/news/2026/7/12/iraqi-pm-to-meet-us-president-trump-in-washington-to-deepen-strategic-ties?traffic_source=rss|Iraqi PM to meet US President Trump in Washington to deepen strategic ties>\n• <https://www.france24.com/en/americas/20260711-death-toll-in-venezuela-quakes-surpasses-4-000|Death toll in Venezuela quakes surpasses 4,300>\n• <https://www.theguardian.com/australia-news/audio/2026/jul/08/will-trump-invade-cuba-full-story-podcast|Will Trump invade Cuba? – podcast>\n• <https://news.google.com/rss/articles/CBMijwFBVV95cUxPSDM2dE5Jck56TlEtSHVlM1pMUmN1UkpqdVFiSkZteWROMWoxQmduVl9FSnUxTGsxajRKOW9DMFBkMS1DdGU4ZjJ4S3JKcUloSTNSU05WcUFQMnRfNFpYNEJDWXlRNm5peWVnTEhTWjZIM0RVTmdvWjVodzFoMldBVmgtdEhqaHJ2VU1lQks4bw?oc=5|An islandwide blackout strikes Cuba for the second time this week as its grid crumbles - AP News>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/jul/13/us-congress-reconvenes-trump-legislation|Republicans return to Capitol Hill with agenda complicated by Graham death>\n• <https://www.aljazeera.com/news/2026/7/13/trump-administration-vows-to-disable-international-criminal-court?traffic_source=rss|Trump administration vows to ‘disable’ International Criminal Court>\n• <https://www.theguardian.com/us-news/2026/jul/13/maine-ice-shooting-death|ICE agents kill man in Maine as senator says victim not target of arrest>\n• <https://www.theguardian.com/us-news/live/2026/jul/13/congress-capitol-lindsey-graham-trump-republicans-democrats-us-politics-latest-news-updates|ICE fatally shoots 26-year-old Colombian man in Maine during immigration operation – live>\n• <https://www.theguardian.com/australia-news/audio/2026/jul/08/will-trump-invade-cuba-full-story-podcast|Will Trump invade Cuba? – podcast>\n• <https://www.france24.com/en/despite-power-returning-to-cuba-blackouts-are-still-a-regular-occurrence|Despite power returning to Cuba, blackouts are still a regular occurrence>"
       }
     },
     {
