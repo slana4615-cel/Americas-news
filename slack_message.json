@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-13)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-14)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-13)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-14)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/jul/13/us-congress-reconvenes-trump-legislation|Republicans return to Capitol Hill with agenda complicated by Graham death>\n• <https://www.aljazeera.com/news/2026/7/13/trump-administration-vows-to-disable-international-criminal-court?traffic_source=rss|Trump administration vows to ‘disable’ International Criminal Court>\n• <https://www.theguardian.com/us-news/2026/jul/13/maine-ice-shooting-death|ICE agents kill man in Maine as senator says victim not target of arrest>\n• <https://www.theguardian.com/us-news/live/2026/jul/13/congress-capitol-lindsey-graham-trump-republicans-democrats-us-politics-latest-news-updates|ICE fatally shoots 26-year-old Colombian man in Maine during immigration operation – live>\n• <https://www.theguardian.com/australia-news/audio/2026/jul/08/will-trump-invade-cuba-full-story-podcast|Will Trump invade Cuba? – podcast>\n• <https://www.france24.com/en/despite-power-returning-to-cuba-blackouts-are-still-a-regular-occurrence|Despite power returning to Cuba, blackouts are still a regular occurrence>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/live/2026/jul/14/ice-shooting-maine-texas-trump-immigration-politics|Donald Trump suggests there was no foul play in Lindsey Graham’s death amid conspiracies – live>\n• <https://www.theguardian.com/us-news/2026/jul/14/trump-defense-bill-vote-iran-war|Senate Democrats block advancement of defense bill to protest Trump’s hostilities with Iran>\n• <https://www.theguardian.com/commentisfree/2026/jul/14/the-guardian-view-on-brazils-sovereignty-trump-turns-autonomy-into-a-trade-offence|The Guardian view on Brazil’s sovereignty: Trump turns autonomy into a trade offence | Editorial>\n• <https://www.france24.com/en/americas/20260714-trump-administration-orders-ice-to-halt-traffic-stops-after-maine-shooting-us-media-reports|Trump administration orders ICE to halt traffic stops after Maine shooting, US media reports>\n• <https://www.theguardian.com/australia-news/audio/2026/jul/08/will-trump-invade-cuba-full-story-podcast|Will Trump invade Cuba? – podcast>\n• <https://news.google.com/rss/articles/CBMiWkFVX3lxTE1hYjZCdXhSdUxZSzY3LXFuT3ExS0hfcmU4aG8yVlc1UUhkaFRFdTRoVWgxZk5ubXd0NXJoZDYxRHBaMmVob1M2X2tVcE11czFqMFNuSXp1MXB3QQ?oc=5|Cuba tourism collapses as US pressure campaign bites - BBC>"
       }
     },
     {
