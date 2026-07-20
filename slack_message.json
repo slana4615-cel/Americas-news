@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-19)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-20)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-19)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-20)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/jul/19/trump-official-iran-war-oil-flow-strait-hormuz|Mission in Iran war has pivoted toward ensuring oil flow, Trump official says>\n• <https://www.theguardian.com/business/2026/jul/19/us-interest-rates-businesses|Why a modest US interest rate rise won’t change much for most businesses>\n• <https://www.theguardian.com/commentisfree/2026/jul/19/the-guardian-view-on-perceptions-of-superpowers-the-world-isnt-chinamaxxing-its-america-avoidant|The Guardian view on perceptions of superpowers: the world isn’t Chinamaxxing, it’s America-avoidant | Editorial>\n• <https://www.france24.com/en/video/20260718-why-is-latin-america-shifting-to-the-right|Why is Latin America shifting to the right?>\n• <https://www.theguardian.com/world/2026/jul/18/cuba-edges-toward-breakdown-as-power-cuts-and-us-meddling-push-society-to-brink|Cuba edges toward breakdown as power cuts and US meddling push society to brink>\n• <https://www.bbc.co.uk/news/articles/cx2k77p2r1xo?at_medium=RSS&at_campaign=rss|Cuban dissident Luis Manuel Otero Alcántara goes into exile in US>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/jul/19/us-interest-rates-businesses|Why a modest US interest rate rise won’t change much for most businesses>\n• <https://www.theguardian.com/business/2026/jul/18/trump-crypto-us-economy|Trump has normalized crypto. Is it the path to the next financial collapse? | Eduardo Porter>\n• <https://www.theguardian.com/world/2026/jul/20/nicaraguas-president-says-country-will-not-hold-any-more-elections|Nicaragua’s president says country will not hold any more elections>\n• <https://www.theguardian.com/commentisfree/2026/jul/19/the-guardian-view-on-perceptions-of-superpowers-the-world-isnt-chinamaxxing-its-america-avoidant|The Guardian view on perceptions of superpowers: the world isn’t Chinamaxxing, it’s America-avoidant | Editorial>\n• <https://www.theguardian.com/world/2026/jul/18/cuba-edges-toward-breakdown-as-power-cuts-and-us-meddling-push-society-to-brink|Cuba edges toward breakdown as power cuts and US meddling push society to brink>\n• <https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana|Huge search operation after passenger ferry sinks off coast of Guyana>"
       }
     },
     {
