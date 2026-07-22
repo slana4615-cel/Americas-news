@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-21)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-22)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-21)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-22)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/jul/19/us-interest-rates-businesses|Why a modest US interest rate rise won’t change much for most businesses>\n• <https://www.theguardian.com/global/live/2026/jul/21/burnham-cuts-vat-electricity-bills-uk-borrowing-debt-economy-news-latest|Oil price rises above $90 as US and Iran exchange fire and Houthis threaten naval blockade in Saudi Arabia - as it happened>\n• <https://www.theguardian.com/world/2026/jul/20/nicaraguas-president-says-country-will-not-hold-any-more-elections|Nicaragua’s president says country will not hold any more elections>\n• <https://www.theguardian.com/commentisfree/2026/jul/19/the-guardian-view-on-perceptions-of-superpowers-the-world-isnt-chinamaxxing-its-america-avoidant|The Guardian view on perceptions of superpowers: the world isn’t Chinamaxxing, it’s America-avoidant | Editorial>\n• <https://www.theguardian.com/world/2026/jul/21/us-state-department-report-cuba|US claims of Cuba’s ‘unique threat’ jar with reality of hunger and blackouts>\n• <https://www.theguardian.com/world/2026/jul/20/us-state-department-list-leftists-cuba|‘Front groups and fellow travelers’: state department attacks US left over Cuba>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/jul/22/us-house-defense-bill-iran-war|House passes $1.15tn defense bill despite standoff over Israel and Trump’s voter agenda>\n• <https://www.theguardian.com/commentisfree/2026/jul/22/democrats-trump-corruption-midterm-elections|Democrats need to hammer Trump on his unprecedented corruption | Steven Greenhouse>\n• <https://www.theguardian.com/world/2026/jul/22/nicaragua-daniel-ortega-congress-work-plan-suspend-elections|Nicaragua’s congress announces ‘work plan’ to suspend elections>\n• <https://www.theguardian.com/world/2026/jul/20/nicaraguas-president-says-country-will-not-hold-any-more-elections|Nicaragua’s president says country will not hold any more elections>\n• <https://www.theguardian.com/world/2026/jul/21/us-state-department-report-cuba|US claims of Cuba’s ‘unique threat’ jar with reality of hunger and blackouts>\n• <https://www.theguardian.com/world/2026/jul/20/us-state-department-list-leftists-cuba|‘Front groups and fellow travelers’: state department attacks US left over Cuba>"
       }
     },
     {
