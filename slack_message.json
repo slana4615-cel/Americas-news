@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-25)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-26)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-25)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-26)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/jul/25/court-rejects-trump-mail-in-voting|Appeals court rejects Trump bid to curb mail-in voting in 23 states>\n• <https://www.theguardian.com/us-news/2026/jul/24/trump-h1b-visa-fee|Appeals court denies Trump’s bid to allow $100,000 fee on new H-1B visas>\n• <https://news.google.com/rss/articles/CBMivAFBVV95cUxPckxuQXRhUEJ6VVhqLXVsYmo1NHVhamMyVUJ5dEdMMHNRTTdnNVU0bkl1RGhzZmtBbTdpb3NZcEZ2Z3kwbno5SV9KQ2UySzZ5UDF0NWg0cWNpc3V0bWNkaWNXT1lXcE1yY3hlR2JMbW1xUkRhSTIwQUhPWXctMDE3NXp3NGlLdVRJOVhXU3d6THI2Q240ejRNV1VJS1lCY0tZOWFIQkRBRURrRWFFVGpwS1A4UU93Rm1XS0h2WA?oc=5|Brazil says US tariffs related to forced labor are 'arbitrary' and 'unjustified' - Reuters>\n• <https://www.france24.com/en/americas/20260725-crisis-hit-flavio-bolsonaro-launches-presidential-candidacy-in-brazil|Flavio Bolsonaro launches presidential bid in Brazil despite challenges>\n• <https://www.theguardian.com/world/2026/jul/21/us-state-department-report-cuba|US claims of Cuba’s ‘unique threat’ jar with reality of hunger and blackouts>\n• <https://www.theguardian.com/world/2026/jul/25/colombian-islands-san-andres-providence-fishers-us-strikes-boats|How English-speaking Colombian islands have been caught up in Trump’s ‘drug war’ airstrikes>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/jul/25/court-rejects-trump-mail-in-voting|Appeals court rejects Trump bid to curb mail-in voting in 23 states>\n• <https://www.theguardian.com/commentisfree/2026/jul/26/how-to-defeat-authoritarianism-building-community|How do we defeat authoritarianism? By building a sense of belonging | Julie Fernandes and Katrina Gamble>\n• <https://www.theguardian.com/us-news/2026/jul/26/lawsuit-csi-aviation-globalx-cecot-deportation|Venezuelan men sue aviation firms who flew them to notorious Salvadorian jail>\n• <https://news.google.com/rss/articles/CBMinwFBVV95cUxNOERMYjhmR2VIUUtiVF9uZE1tUjdFMHZ3SUlKS2taYWhHSkJMLVBZZEg4NkxtRFJORk5qaFhsbjRaY2xMemQ4NXIxU1hXbkxMTDN0WU1IaGU3TnUwTDlqM1Z6U0Zqem8wVWJ1dkFxTko0MjFSQ2pMV05LY2taZEktaG8wazVrbldzcExqWkNXM29FOVZXM2NFS2Y0S2M5cGM?oc=5|Brazil’s government denies visas to US officials over upcoming elections - AP News>\n• <https://www.aljazeera.com/news/2026/7/26/cuban-president-accuses-us-of-genocide-seeking-takeover?traffic_source=rss|Cuban president accuses US of genocide, seeking takeover>\n• <https://www.theguardian.com/world/2026/jul/25/colombian-islands-san-andres-providence-fishers-us-strikes-boats|How English-speaking Colombian islands have been caught up in Trump’s ‘drug war’ airstrikes>"
       }
     },
     {
