@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-28)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-29)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-28)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-07-29)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/jul/28/trump-administration-fauci-scientists|Trump administration needs to stop ‘public harassment’ of Fauci and scientists, open letter says>\n• <https://www.france24.com/en/for-the-first-time-since-iran-war-trump-and-netanyahu-meet-amid-fraying-ties|For the first time since Iran war, Trump and Netanyahu meet amid fraying ties>\n• <https://www.theguardian.com/us-news/2026/jul/26/lawsuit-csi-aviation-globalx-cecot-deportation|Venezuelan men sue aviation firms who flew them to notorious Salvadorian jail>\n• <https://www.france24.com/en/americas/20260728-peru-s-fujimori-vows-military-led-crackdown-on-crime-after-taking-office|Peru's Fujimori vows military-led crackdown on crime after taking office>\n• <https://www.france24.com/en/americas/20260727-haiti-sets-december-presidential-election-despite-security-concerns|Haiti schedules December presidential election despite security concerns>\n• <https://www.theguardian.com/us-news/2026/jul/26/haitians-temporary-protected-status|‘We’re human beings’: Haitians in the US fear family separation and deportation to violence>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/jul/29/federal-reserve-interest-rates|Fed holds interest rates steady despite Trump’s renewed calls to lower them>\n• <https://www.france24.com/en/for-the-first-time-since-iran-war-trump-and-netanyahu-meet-amid-fraying-ties|For the first time since Iran war, Trump and Netanyahu meet amid fraying ties>\n• <https://www.france24.com/en/peru-takes-ultraconservative-turn-as-fujimori-becomes-president|Peru takes ultraconservative turn as Fujimori becomes president>\n• <https://www.france24.com/en/americas/20260728-peru-s-fujimori-vows-military-led-crackdown-on-crime-after-taking-office|Peru's newly inaugurated President Fujimori vows military-led crackdown on crime>\n• <https://www.france24.com/en/americas/20260727-haiti-sets-december-presidential-election-despite-security-concerns|Haiti schedules December presidential election despite security concerns>\n• <https://www.theguardian.com/world/2026/jul/25/colombian-islands-san-andres-providence-fishers-us-strikes-boats|How English-speaking Colombian islands have been caught up in Trump’s ‘drug war’ airstrikes>"
       }
     },
     {
