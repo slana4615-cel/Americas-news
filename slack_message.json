@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-07)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-08)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-07)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-08)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/commentisfree/2026/aug/07/trump-scientific-research-universities|With their assault on science, Trumpists aren’t just harming America – they’re harming themselves | Jan-Werner Müller>\n• <https://www.theguardian.com/business/2026/aug/07/trump-lisa-cook-fed-firing-scotus-ruling|Trump renews bid to fire Fed governor Lisa Cook despite supreme court ruling>\n• <https://www.theguardian.com/us-news/2026/aug/07/chad-eberle-arrested-police-killings|US police officer accused of killing three people in Mexico arrested at border>\n• <https://www.france24.com/en/video/20260807-colombia-s-abelardo-de-la-espriella-takes-office-vows-war-on-guerrillas|Colombia's Abelardo de la Espriella takes office, vows war on guerrillas>\n• <https://www.theguardian.com/us-news/2026/aug/07/haitians-us-deportation-tps-immigration|Haitians face arrest and deportation after US removes TPS protections>\n• <https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps|Judge approves Trump effort to end South Sudan TPS protections>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/aug/08/government-shutdown-vote-senate-funding-bill|Senate passes funding bill to prevent shutdown through US midterms>\n• <https://www.theguardian.com/commentisfree/2026/aug/07/trump-scientific-research-universities|With their assault on science, Trumpists aren’t just harming America – they’re harming themselves | Jan-Werner Müller>\n• <https://www.theguardian.com/world/2026/aug/08/us-promises-1bn-in-security-aid-to-colombia-as-new-rightwing-president-pledges-drugs-crackdown|US promises $1bn in security aid to Colombia as new rightwing president pledges drugs crackdown>\n• <https://www.theguardian.com/us-news/2026/aug/07/chad-eberle-arrested-police-killings|US police officer accused of killing three people in Mexico arrested at border>\n• <https://www.theguardian.com/us-news/2026/aug/07/haitians-us-deportation-tps-immigration|Haitians face arrest and deportation after US removes TPS protections>\n• <https://www.france24.com/en/cuba-no-power-no-fuel-no-internet|Cuba: No power, no fuel, no internet>"
       }
     },
     {
