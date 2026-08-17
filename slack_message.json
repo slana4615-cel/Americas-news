@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-16)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-17)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-16)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-17)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/aug/16/interest-rate-dilemma-for-central-banks-as-inflation-rises-but-growth-slows|Interest rate dilemma for central banks as inflation rises but growth slows>\n• <https://www.theguardian.com/commentisfree/2026/aug/14/donald-trump-iran-nigel-farage-bin-populists-losers|Donald Trump can’t beat Iran and Nigel Farage can only beat a bin. When it counts, these populists are just losers | Jonathan Freedland>\n• <https://www.france24.com/en/americas/20260816-colombia-s-new-president-asks-trump-to-suspend-tariffs-after-deadly-earthquake|Colombia's new president asks Trump to suspend tariffs after deadly earthquake>\n• <https://www.theguardian.com/world/2026/aug/16/lula-brazil-president-fourth-term-jair-flavio-bolsonaro|Brazil’s Lula launches historic fourth term bid – but son of jailed Bolsonaro stands in his way>\n• <https://www.theguardian.com/commentisfree/2026/aug/16/marco-rubio-power-peace-world-us-diplomat|Marco Rubio has unique power to promote peace, but he hasn’t. He is almost as bad for the world as Trump | Simon Tisdall>\n• <https://www.france24.com/en/americas/20260813-raul-castro-makes-rare-public-appearance-at-fidel-centenary-event|Cuba's ex-president Raul Castro makes rare public appearance after US indictment>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/aug/16/interest-rate-dilemma-for-central-banks-as-inflation-rises-but-growth-slows|Interest rate dilemma for central banks as inflation rises but growth slows>\n• <https://www.theguardian.com/business/2026/aug/15/trump-big-beautiful-bill-millionaires|Donald Trump doesn’t just love billionaires, he loves multimillionaires too>\n• <https://www.france24.com/en/americas/20260816-colombia-s-new-president-asks-trump-to-suspend-tariffs-after-deadly-earthquake|Colombia's new president asks Trump to suspend tariffs after deadly earthquake>\n• <https://www.theguardian.com/world/2026/aug/16/lula-brazil-president-fourth-term-jair-flavio-bolsonaro|Brazil’s Lula launches historic fourth term bid – but son of jailed Bolsonaro stands in his way>\n• <https://www.theguardian.com/commentisfree/2026/aug/16/marco-rubio-power-peace-world-us-diplomat|Marco Rubio has unique power to promote peace, but he hasn’t. He is almost as bad for the world as Trump | Simon Tisdall>\n• <https://www.france24.com/en/americas/20260813-raul-castro-makes-rare-public-appearance-at-fidel-centenary-event|Cuba's ex-president Raul Castro makes rare public appearance after US indictment>"
       }
     },
     {
