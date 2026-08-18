@@ -1,25 +1,25 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-17)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-18)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-17)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-18)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/aug/16/interest-rate-dilemma-for-central-banks-as-inflation-rises-but-growth-slows|Interest rate dilemma for central banks as inflation rises but growth slows>\n• <https://www.theguardian.com/business/2026/aug/15/trump-big-beautiful-bill-millionaires|Donald Trump doesn’t just love billionaires, he loves multimillionaires too>\n• <https://www.france24.com/en/americas/20260816-colombia-s-new-president-asks-trump-to-suspend-tariffs-after-deadly-earthquake|Colombia's new president asks Trump to suspend tariffs after deadly earthquake>\n• <https://www.theguardian.com/world/2026/aug/16/lula-brazil-president-fourth-term-jair-flavio-bolsonaro|Brazil’s Lula launches historic fourth term bid – but son of jailed Bolsonaro stands in his way>\n• <https://www.theguardian.com/commentisfree/2026/aug/16/marco-rubio-power-peace-world-us-diplomat|Marco Rubio has unique power to promote peace, but he hasn’t. He is almost as bad for the world as Trump | Simon Tisdall>\n• <https://www.france24.com/en/americas/20260813-raul-castro-makes-rare-public-appearance-at-fidel-centenary-event|Cuba's ex-president Raul Castro makes rare public appearance after US indictment>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/aug/17/trump-mail-vote-florida-republican-primary|Trump reportedly casts mail-in ballot in Florida Republican primary>\n• <https://www.theguardian.com/us-news/live/2026/aug/18/donald-trump-florida-alaska-wyoming-primaries-midterms-white-house-ballroom-iran-cnn-latest-news-updates|Jon Ossoff blasts ‘draft-dodging, crook president’ in latest war of words with Trump – US politics live>\n• <https://www.theguardian.com/us-news/2026/aug/18/kilmar-abrego-garcia-trump-charges|Trump administration pursues Kilmar Ábrego García on previously dismissed charges>\n• <https://www.france24.com/en/americas/20260816-colombia-s-new-president-asks-trump-to-suspend-tariffs-after-deadly-earthquake|Colombia's new president asks Trump to suspend tariffs after deadly earthquake>\n• <https://www.theguardian.com/commentisfree/2026/aug/16/marco-rubio-power-peace-world-us-diplomat|Marco Rubio has unique power to promote peace, but he hasn’t. He is almost as bad for the world as Trump | Simon Tisdall>\n• <https://insightcrime.org/news/ketamine-trafficking-expands-across-latin-america/|Ketamine Trafficking Expands Across Latin America>"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*抓取统计*: 共抓取 25 条\n\n🔗 <https://slana4615-cel.github.io/Americas-news/|打开 HTML 卡片视图>\n📰 <https://github.com/slana4615-cel/Americas-news|GitHub 仓库>"
+        "text": "*抓取统计*: 共抓取 23 条\n\n🔗 <https://slana4615-cel.github.io/Americas-news/|打开 HTML 卡片视图>\n📰 <https://github.com/slana4615-cel/Americas-news|GitHub 仓库>"
       }
     },
     {
