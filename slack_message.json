@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-20)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-21)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-20)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-21)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/aug/20/us-national-debt-republicans|‘Starve the beast’? The $40tn cost of Republicans’ false promises to cut spending>\n• <https://www.theguardian.com/business/2026/aug/19/us-treasury-doubles-debt-buyback-bond-market|US treasury doubles debt buyback to steady bond market amid inflation fears>\n• <https://www.bbc.co.uk/news/articles/cwy45lxry14o?at_medium=RSS&at_campaign=rss|ICE arrests captain in New York Harbor boat accident that killed mother and infant>\n• <https://www.theguardian.com/us-news/2026/aug/20/trump-oil-drilling-world-heritage-site-new-mexico|Trump plan to allow drilling near US world heritage site sparks alarm>\n• <https://www.aljazeera.com/news/2026/8/20/us-pummels-cuban-economy-with-new-sanctions-on-mining-construction?traffic_source=rss|US pummels Cuban economy with new sanctions on mining, construction>\n• <https://news.google.com/rss/articles/CBMilAFBVV95cUxQTVp3TkxRTlg1ZnZiYzUxM0hZWDZYM056SlNRdDVjYl9fcHB5ZkdhNHVjcXVacWRyOVdxbFBGR2xvYXAtcHg5ZFQyUER5LWNhT2xWUjhucFc4R3FYZ3Z2YlZLMUUwTG5GczVWS05xY0Z1dzdzMk1RUmt6VWFzMHZqSnBILUlqVXROOWUzUUFtMEdmdm5h?oc=5|US ramps up Cuba sanctions and detentions of Americans returning from the island - AP News>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/live/2026/aug/21/democrats-progressive-election-politics-live|Editor of military news outlet that first revealed US aircraft carrier crisis says he was fired over interview – live>\n• <https://www.theguardian.com/business/2026/aug/20/us-national-debt-republicans|‘Starve the beast’? The $40tn cost of Republicans’ false promises to cut spending>\n• <https://www.theguardian.com/world/2026/aug/19/fernando-cerimedo-adviser-far-right-latin-american-leaders-arrested-allegedly-plotting-kill-girlfriend|Adviser to far-right Latin American leaders arrested for allegedly plotting to kill girlfriend>\n• <https://news.google.com/rss/articles/CBMiugFBVV95cUxNc01tajd2ZGpXcDUtdzc1TDNMN2J6TzdRUUU3eUh3MHhMbkpnNHFNdk9acHUxNVVVblRJOXh2S2o0Umw1U2VsVXYzTmNfMTI3UFo0YnlRM2hfVFdPMWhIR25tZ3k2a3l1S21CanFoX3VhMGttZEFPYkxENzlzYVhXLU1GM3BjbHJqaFctYXMwcU1kOXNaUEstU1FNR3VDX0lXTnlhNWh0UFBjYlRpYjVvU0lEamdzeUhiLUE?oc=5|US Treasury sanctions Ecuador-to-US cocaine trafficking network - AP News>\n• <https://www.theguardian.com/us-news/2026/aug/21/haiti-deportation-tps|First deportation flight lands in Haiti after TPS suspension>\n• <https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VV3VPSDlyQU1QQmdfSlpMX2ZHNEZpR24xN1hVSWNHdEZVeEZPc0N6NC1mTTBJRXg5eVJTTU1kYWVPUlRPQS1DZFlvOUotX205ZGhmcjhFc1lQN2FacUxyYzFYdGFPVDZ6?oc=5|Trump administration moves to calm bond market haven’t worked so far, US ramps up Cuba sanctions - AP News>"
       }
     },
     {
