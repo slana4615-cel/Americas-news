@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-22)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-23)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-22)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-23)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.france24.com/en/americas/20260822-contrary-to-law-us-judge-strikes-down-trump-s-75-country-visa-ban|'Contrary to law': US judge strikes down Trump's 75-country visa ban>\n• <https://www.theguardian.com/us-news/2026/aug/21/trump-strait-of-hormuz-american-territory|Trump says he views strait of Hormuz as ‘American territory’>\n• <https://news.google.com/rss/articles/CBMiugFBVV95cUxNc01tajd2ZGpXcDUtdzc1TDNMN2J6TzdRUUU3eUh3MHhMbkpnNHFNdk9acHUxNVVVblRJOXh2S2o0Umw1U2VsVXYzTmNfMTI3UFo0YnlRM2hfVFdPMWhIR25tZ3k2a3l1S21CanFoX3VhMGttZEFPYkxENzlzYVhXLU1GM3BjbHJqaFctYXMwcU1kOXNaUEstU1FNR3VDX0lXTnlhNWh0UFBjYlRpYjVvU0lEamdzeUhiLUE?oc=5|US Treasury sanctions Ecuador-to-US cocaine trafficking network - AP News>\n• <https://www.theguardian.com/world/2026/aug/19/fernando-cerimedo-adviser-far-right-latin-american-leaders-arrested-allegedly-plotting-kill-girlfriend|Adviser to far-right Latin American leaders arrested for allegedly plotting to kill girlfriend>\n• <https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VV3VPSDlyQU1QQmdfSlpMX2ZHNEZpR24xN1hVSWNHdEZVeEZPc0N6NC1mTTBJRXg5eVJTTU1kYWVPUlRPQS1DZFlvOUotX205ZGhmcjhFc1lQN2FacUxyYzFYdGFPVDZ6?oc=5|Trump administration moves to calm bond market haven’t worked so far, US ramps up Cuba sanctions - AP News>\n• <https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVmViNTZsMXdXQlRxbm1mZmowM0s4c2NQb2dqanl4SFlyTXh6Rk96b0F0Y1dVWnlEazhVSWpQUWdGX19IR3dvUFpsQkFjYWRIUGdKeV9NMElrWmtGQ050VDF3OTluQXpLMU1XcldGZDBXUXpTYTFhX0htWnFhVDlRQnktcEdKblpyOENvWmp2bkxNS05hV2lJNUdvSVIzMHZIcjJzTk5NbGh5UFNFamRLU3l5UmhwcHBnbGh2am9La01odVIxalhfZld3aDFrbzJXUFFlNm5DUzllWEdpUUowSzhR?oc=5|Quake aftermath, Brazil election campaigns and other top photos from Latin America and the Caribbean - AP News>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.france24.com/en/americas/20260822-contrary-to-law-us-judge-strikes-down-trump-s-75-country-visa-ban|'Contrary to law': US judge strikes down Trump's 75-country visa ban>\n• <https://www.theguardian.com/world/2026/aug/23/iran-new-security-chief-trump-economic-war-enemies-mohsen-rezaei|Iran’s foreign minister calls threat of new US economic sanctions ‘desperate’>\n• <https://news.google.com/rss/articles/CBMiugFBVV95cUxNc01tajd2ZGpXcDUtdzc1TDNMN2J6TzdRUUU3eUh3MHhMbkpnNHFNdk9acHUxNVVVblRJOXh2S2o0Umw1U2VsVXYzTmNfMTI3UFo0YnlRM2hfVFdPMWhIR25tZ3k2a3l1S21CanFoX3VhMGttZEFPYkxENzlzYVhXLU1GM3BjbHJqaFctYXMwcU1kOXNaUEstU1FNR3VDX0lXTnlhNWh0UFBjYlRpYjVvU0lEamdzeUhiLUE?oc=5|US Treasury sanctions Ecuador-to-US cocaine trafficking network - AP News>\n• <https://www.theguardian.com/world/2026/aug/19/fernando-cerimedo-adviser-far-right-latin-american-leaders-arrested-allegedly-plotting-kill-girlfriend|Adviser to far-right Latin American leaders arrested for allegedly plotting to kill girlfriend>\n• <https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VV3VPSDlyQU1QQmdfSlpMX2ZHNEZpR24xN1hVSWNHdEZVeEZPc0N6NC1mTTBJRXg5eVJTTU1kYWVPUlRPQS1DZFlvOUotX205ZGhmcjhFc1lQN2FacUxyYzFYdGFPVDZ6?oc=5|Trump administration moves to calm bond market haven’t worked so far, US ramps up Cuba sanctions - AP News>\n• <https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ250NWFMUGRrRjdVeUgxS19IcUo3OHBuMG5LSHNFS3VXZnExT2h2d2pjY21FUUV0X1p0X3hQTkxwd1JraEk2empldzZHYlJyMVdPMU1ObktnN2JvWUY4ZHhuTlNMUlFYRnZSMjJOOTc2eTd1VEZKV05UR2djdGc5ZkUwNlJjMG9GTjdPZEF0cDM3X3ZIVGwzR1luN0RmS1o2cU03amhR?oc=5|Cuba says US sanctions are blocking its efforts to open the economy to private investment - AP News>"
       }
     },
     {
