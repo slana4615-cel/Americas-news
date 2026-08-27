@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-25)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-27)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-25)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-27)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/commentisfree/2026/aug/25/trump-justice-department-presidents-accountability|Trump’s justice department has found a new way for presidents to avoid accountability | Claire Finkelstein>\n• <https://www.theguardian.com/us-news/2026/aug/25/hakeem-jeffries-defends-jared-kushner-meeting|Hakeem Jeffries defends his meeting with Trump envoy Jared Kushner>\n• <https://www.theguardian.com/us-news/2026/aug/25/soldier-wife-deported-honduras|Wife of US soldier deported after Trump rollback on military family protections>\n• <https://www.france24.com/en/presidential-campaign-heats-up-in-brazil-as-lula-and-f-bolsonaro-hold-rival-rallies|Presidential campaign heats up in Brazil, as Lula and F. Bolsonaro hold rival rallies>\n• <https://www.france24.com/en/americas/20260825-haiti-gang-members-kill-40-displaced-people-church-attack|Haiti gangs kill at least 47 people in attack near the capital>\n• <https://news.google.com/rss/articles/CBMingFBVV95cUxQLVd0VXhHMlRJWHJwYjhiQ2xJZ3hOaDk4eVdEeThNMWY0RXlucm9jM1d3Q05ld0VLdHpZLXRqMmZTd05iTEM5TnhId2dzLThTUHhBWDdsNGMxM2kycWVObEJ4U2tBVlpQTDA4SEttYmRqUFFDYi10NnIyZmVuM29EVjY3WXFDSUQycnNnTmlLajJCZmtJMmpIOHEzNXpsQQ?oc=5|Haiti gang raid leaves 47 dead, as residents demand stronger protections - Reuters>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/aug/26/is-the-trump-treasury-panicking-over-the-level-of-us-debt|Is the Trump Treasury panicking over the level of US debt?>\n• <https://www.theguardian.com/us-news/2026/aug/26/pro-israel-democrats-house-foreign-affairs-committee|Three pro-Israel Democrats given key roles on House foreign affairs panel>\n• <https://www.theguardian.com/us-news/2026/aug/25/soldier-wife-deported-honduras|Wife of US soldier deported after Trump rollback on military family protections>\n• <https://www.aljazeera.com/news/2026/8/26/brazils-flavio-bolsonaro-to-institute-debt-ceiling-if-elected-president?traffic_source=rss|Brazil’s Flavio Bolsonaro to institute debt ceiling if elected president>\n• <https://www.theguardian.com/us-news/live/2026/aug/26/darline-graham-lindsey-south-carolina-gop-post-office-voting-senate-midterms-donald-trump-latest-news-updates|Democratic states sue to block postal service from carrying out Trump’s mail-in voting order – as it happened>\n• <https://www.theguardian.com/world/2026/aug/26/us-military-kills-four-boat-strike-caribbean|US military kills four in strike on alleged drug smuggling boat in Caribbean>"
       }
     },
     {
