@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-27)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-28)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-27)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-28)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/aug/26/is-the-trump-treasury-panicking-over-the-level-of-us-debt|Is the Trump Treasury panicking over the level of US debt?>\n• <https://www.theguardian.com/us-news/2026/aug/26/pro-israel-democrats-house-foreign-affairs-committee|Three pro-Israel Democrats given key roles on House foreign affairs panel>\n• <https://www.theguardian.com/us-news/2026/aug/25/soldier-wife-deported-honduras|Wife of US soldier deported after Trump rollback on military family protections>\n• <https://www.aljazeera.com/news/2026/8/26/brazils-flavio-bolsonaro-to-institute-debt-ceiling-if-elected-president?traffic_source=rss|Brazil’s Flavio Bolsonaro to institute debt ceiling if elected president>\n• <https://www.theguardian.com/us-news/live/2026/aug/26/darline-graham-lindsey-south-carolina-gop-post-office-voting-senate-midterms-donald-trump-latest-news-updates|Democratic states sue to block postal service from carrying out Trump’s mail-in voting order – as it happened>\n• <https://www.theguardian.com/world/2026/aug/26/us-military-kills-four-boat-strike-caribbean|US military kills four in strike on alleged drug smuggling boat in Caribbean>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/technology/2026/aug/28/us-court-rules-pentagon-anthropic-ban-illegal-trump-claude-ai|Pentagon’s blacklisting of Anthropic was unlawful, US judge rules>\n• <https://www.theguardian.com/us-news/2026/aug/27/trump-iran-war-navy-budget|Trump’s war on Iran is rapidly draining US navy budget, documents and interviews reveal>\n• <https://www.theguardian.com/us-news/2026/aug/25/soldier-wife-deported-honduras|Wife of US soldier deported after Trump rollback on military family protections>\n• <https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN0hOZkl1azdCY1ZrY1V6R21wN2JQNHUxLXRhd0FyVGF0NkEwVnBoamVkY3JmMzkyTWV3cmZ5MHBLeGZwMncxeEZybWJkMGp0WXZCWlFIRUR6SzFTV19WaHluQkg4QTFKVUxGUndTRXpjSlZEVDI1Tm5pSFk2QzZRTFNLZlc5d2xDTXVDTlRQSU1RMmx0dElaekFOV1hKOGcxQjhCclZBWTRuMjJVYjR2Q2tiX2dVLVhZVUVTeWx5RlE?oc=5|Trump administration discusses taking stake in Venezuela oil, Axios reports - Reuters>\n• <https://www.theguardian.com/world/2026/aug/26/us-military-kills-four-boat-strike-caribbean|US military kills four in strike on alleged drug smuggling boat in Caribbean>\n• <https://www.aljazeera.com/news/2026/8/27/haiti-police-confront-public-frustration-after-deadly-gang-attack-kills-47?traffic_source=rss|Haiti police confront public frustration after deadly gang attack kills 47>"
       }
     },
     {
