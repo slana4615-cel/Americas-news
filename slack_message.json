@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-28)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-29)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-28)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-29)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/technology/2026/aug/28/us-court-rules-pentagon-anthropic-ban-illegal-trump-claude-ai|Pentagon’s blacklisting of Anthropic was unlawful, US judge rules>\n• <https://www.theguardian.com/us-news/2026/aug/27/trump-iran-war-navy-budget|Trump’s war on Iran is rapidly draining US navy budget, documents and interviews reveal>\n• <https://www.theguardian.com/us-news/2026/aug/25/soldier-wife-deported-honduras|Wife of US soldier deported after Trump rollback on military family protections>\n• <https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN0hOZkl1azdCY1ZrY1V6R21wN2JQNHUxLXRhd0FyVGF0NkEwVnBoamVkY3JmMzkyTWV3cmZ5MHBLeGZwMncxeEZybWJkMGp0WXZCWlFIRUR6SzFTV19WaHluQkg4QTFKVUxGUndTRXpjSlZEVDI1Tm5pSFk2QzZRTFNLZlc5d2xDTXVDTlRQSU1RMmx0dElaekFOV1hKOGcxQjhCclZBWTRuMjJVYjR2Q2tiX2dVLVhZVUVTeWx5RlE?oc=5|Trump administration discusses taking stake in Venezuela oil, Axios reports - Reuters>\n• <https://www.theguardian.com/world/2026/aug/26/us-military-kills-four-boat-strike-caribbean|US military kills four in strike on alleged drug smuggling boat in Caribbean>\n• <https://www.aljazeera.com/news/2026/8/27/haiti-police-confront-public-frustration-after-deadly-gang-attack-kills-47?traffic_source=rss|Haiti police confront public frustration after deadly gang attack kills 47>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/aug/28/kevin-warsh-federal-reserve-inflation|Fed chair says delivering ‘stable prices’ is central bank’s job as inflation persists>\n• <https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&at_campaign=rss|Fed has 'work to do' if price rises don't ease for Americans, Warsh says>\n• <https://www.theguardian.com/world/2026/aug/28/us-venezuela-oil-gas-stake|Venezuelan opposition up in arms over reports US wants big stake in oil and gas>\n• <https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss|Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil>\n• <https://www.theguardian.com/world/2026/aug/26/us-military-kills-four-boat-strike-caribbean|US military kills four in strike on alleged drug smuggling boat in Caribbean>\n• <https://www.france24.com/en/shockwaves-throughout-the-country-following-gruesome-killings-in-haitian-mountain-retreat|‘Shockwaves throughout the country’ following ‘gruesome’ killings in Haitian mountain retreat>"
       }
     },
     {

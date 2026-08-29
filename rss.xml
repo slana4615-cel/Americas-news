@@ -5,29 +5,22 @@
     <link>https://slana4615-cel.github.io/Americas-news/</link>
     <description>本文件由程序根据公开 RSS 新闻源自动抓取生成，仅用于研究团队初步筛选。新闻价值、事实核验和最终采用由人工判断。</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 28 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://slana4615-cel.github.io/Americas-news/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Pentagon’s blacklisting of Anthropic was unlawful, US judge rules</title>
-      <link>https://www.theguardian.com/technology/2026/aug/28/us-court-rules-pentagon-anthropic-ban-illegal-trump-claude-ai</link>
-      <description>地区分类：美国；来源：The Guardian；来源级别：Tier 1；评分：177；原标题：Pentagon’s blacklisting of Anthropic was unlawful, US judge rules</description>
-      <guid>https://www.theguardian.com/technology/2026/aug/28/us-court-rules-pentagon-anthropic-ban-illegal-trump-claude-ai</guid>
-      <pubDate>Fri, 28 Aug 2026 03:34:35 +0000</pubDate>
+      <title>Fed chair says delivering ‘stable prices’ is central bank’s job as inflation persists</title>
+      <link>https://www.theguardian.com/business/2026/aug/28/kevin-warsh-federal-reserve-inflation</link>
+      <description>地区分类：美国；来源：The Guardian；来源级别：Tier 1；评分：181；原标题：Fed chair says delivering ‘stable prices’ is central bank’s job as inflation persists</description>
+      <guid>https://www.theguardian.com/business/2026/aug/28/kevin-warsh-federal-reserve-inflation</guid>
+      <pubDate>Fri, 28 Aug 2026 15:48:57 +0000</pubDate>
     </item>
     <item>
-      <title>Trump’s war on Iran is rapidly draining US navy budget, documents and interviews reveal</title>
-      <link>https://www.theguardian.com/us-news/2026/aug/27/trump-iran-war-navy-budget</link>
-      <description>地区分类：美国；来源：The Guardian；来源级别：Tier 1；评分：177；原标题：Trump’s war on Iran is rapidly draining US navy budget, documents and interviews reveal</description>
-      <guid>https://www.theguardian.com/us-news/2026/aug/27/trump-iran-war-navy-budget</guid>
-      <pubDate>Thu, 27 Aug 2026 17:00:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>We surveyed 6,000 Americans. Here is the winning message for Democrats | Dustin Guastella</title>
-      <link>https://www.theguardian.com/commentisfree/2026/aug/27/democrats-survey-populism-economy</link>
-      <description>地区分类：美国；来源：The Guardian；来源级别：Tier 1；评分：176；原标题：We surveyed 6,000 Americans. Here is the winning message for Democrats | Dustin Guastella</description>
-      <guid>https://www.theguardian.com/commentisfree/2026/aug/27/democrats-survey-populism-economy</guid>
-      <pubDate>Thu, 27 Aug 2026 12:00:13 +0000</pubDate>
+      <title>Fed has 'work to do' if price rises don't ease for Americans, Warsh says</title>
+      <link>https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>地区分类：美国；来源：BBC；来源级别：Tier 1；评分：176；原标题：Fed has 'work to do' if price rises don't ease for Americans, Warsh says</description>
+      <guid>https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&amp;at_campaign=rss</guid>
+      <pubDate>Fri, 28 Aug 2026 15:15:26 +0000</pubDate>
     </item>
     <item>
       <title>Is the Trump Treasury panicking over the level of US debt?</title>
@@ -37,67 +30,81 @@
       <pubDate>Wed, 26 Aug 2026 05:00:34 +0000</pubDate>
     </item>
     <item>
-      <title>Trump sends Saudi civil nuclear agreement to Congress for review</title>
-      <link>https://www.france24.com/en/americas/20260826-trump-saudi-civil-nuclear-agreement-congress</link>
-      <description>地区分类：美国；来源：France 24；来源级别：Tier 1；评分：164；原标题：Trump sends Saudi civil nuclear agreement to Congress for review</description>
-      <guid>https://www.france24.com/en/americas/20260826-trump-saudi-civil-nuclear-agreement-congress</guid>
-      <pubDate>Wed, 26 Aug 2026 03:17:31 +0000</pubDate>
+      <title>We surveyed 6,000 Americans. Here is the winning message for Democrats | Dustin Guastella</title>
+      <link>https://www.theguardian.com/commentisfree/2026/aug/27/democrats-survey-populism-economy</link>
+      <description>地区分类：美国；来源：The Guardian；来源级别：Tier 1；评分：173；原标题：We surveyed 6,000 Americans. Here is the winning message for Democrats | Dustin Guastella</description>
+      <guid>https://www.theguardian.com/commentisfree/2026/aug/27/democrats-survey-populism-economy</guid>
+      <pubDate>Thu, 27 Aug 2026 12:00:13 +0000</pubDate>
     </item>
     <item>
-      <title>US issues security alert in Mexican border city and suspends consular activities - AP News</title>
-      <link>https://news.google.com/rss/articles/CBMilwFBVV95cUxQbk8xZ2tfYjA1Tml5Z3hqdG1tMXBvS25ZRGF5UVRaLVZfRml5SmhLcjVUN0dKUlVxTDljUGJlczJYNzdSMnJJdUJKNk90SEQ5Vk9VS2M4Ri0xSGZnNEpIQnZtRmJVdklKckt0ZEszNWktMUd6d0tCX09NU3BTRFFKY2hwRDRWOHN2YXY0WXBUMDdHeGNfeU5F?oc=5</link>
-      <description>地区分类：美国；来源：AP News；来源级别：Tier 1；评分：160；原标题：US issues security alert in Mexican border city and suspends consular activities - AP News</description>
-      <guid>https://news.google.com/rss/articles/CBMilwFBVV95cUxQbk8xZ2tfYjA1Tml5Z3hqdG1tMXBvS25ZRGF5UVRaLVZfRml5SmhLcjVUN0dKUlVxTDljUGJlczJYNzdSMnJJdUJKNk90SEQ5Vk9VS2M4Ri0xSGZnNEpIQnZtRmJVdklKckt0ZEszNWktMUd6d0tCX09NU3BTRFFKY2hwRDRWOHN2YXY0WXBUMDdHeGNfeU5F?oc=5</guid>
-      <pubDate>Wed, 26 Aug 2026 00:32:00 +0000</pubDate>
+      <title>Fed has 'work to do' if price rises don't ease for Americans, Warsh says - BBC</title>
+      <link>https://news.google.com/rss/articles/CBMiWkFVX3lxTE5OWnNkcmpDX2puSWhLUktFSWNzSjJlU0l4dEM4UjF1bDBUNlFPVXRRMkJGUFd0RlpEWXc5UndqUmFLeTl6V2loWE1MUXRIcDRZRG41akZjR1VsQQ?oc=5</link>
+      <description>地区分类：美国；来源：BBC；来源级别：Tier 1；评分：164；原标题：Fed has 'work to do' if price rises don't ease for Americans, Warsh says - BBC</description>
+      <guid>https://news.google.com/rss/articles/CBMiWkFVX3lxTE5OWnNkcmpDX2puSWhLUktFSWNzSjJlU0l4dEM4UjF1bDBUNlFPVXRRMkJGUFd0RlpEWXc5UndqUmFLeTl6V2loWE1MUXRIcDRZRG41akZjR1VsQQ?oc=5</guid>
+      <pubDate>Fri, 28 Aug 2026 15:15:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>US-hosted G20 finance meeting to target growth, imbalances, Iran sanctions, Treasury official says - Reuters</title>
+      <link>https://news.google.com/rss/articles/CBMivAFBVV95cUxNNW43Vk95endNOWY5dnh3SUs0amx5SDJXVEFuWTRoX0F0Vnl6azdkM3NYWmRMZXZPZ0pIRkpZTmZrcExyVG9GWVYyaHlXeFR6aVR1dS15RWcyNmxWZVNDNTBmRXRQSU9ESG1BcHE2YWU0d0M5MW1fcDgtUFFQYnZRTDYxMEp6S2l1c1ZaS3hodWRnSnlPR3hBLVFSLWlCUXR4SlFrb0Z6dnpCVFZneS1CZzVPR2JoRUJ5am0zdw?oc=5</link>
+      <description>地区分类：美国；来源：Reuters；来源级别：Tier 1；评分：163；原标题：US-hosted G20 finance meeting to target growth, imbalances, Iran sanctions, Treasury official says - Reuters</description>
+      <guid>https://news.google.com/rss/articles/CBMivAFBVV95cUxNNW43Vk95endNOWY5dnh3SUs0amx5SDJXVEFuWTRoX0F0Vnl6azdkM3NYWmRMZXZPZ0pIRkpZTmZrcExyVG9GWVYyaHlXeFR6aVR1dS15RWcyNmxWZVNDNTBmRXRQSU9ESG1BcHE2YWU0d0M5MW1fcDgtUFFQYnZRTDYxMEp6S2l1c1ZaS3hodWRnSnlPR3hBLVFSLWlCUXR4SlFrb0Z6dnpCVFZneS1CZzVPR2JoRUJ5am0zdw?oc=5</guid>
+      <pubDate>Fri, 28 Aug 2026 00:29:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Venezuelan opposition up in arms over reports US wants big stake in oil and gas</title>
+      <link>https://www.theguardian.com/world/2026/aug/28/us-venezuela-oil-gas-stake</link>
+      <description>地区分类：拉丁美洲；来源：The Guardian；来源级别：Tier 1；评分：182；原标题：Venezuelan opposition up in arms over reports US wants big stake in oil and gas</description>
+      <guid>https://www.theguardian.com/world/2026/aug/28/us-venezuela-oil-gas-stake</guid>
+      <pubDate>Fri, 28 Aug 2026 17:41:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil</title>
+      <link>https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>地区分类：拉丁美洲；来源：BBC；来源级别：Tier 1；评分：173；原标题：Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil</description>
+      <guid>https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&amp;at_campaign=rss</guid>
+      <pubDate>Sat, 29 Aug 2026 02:42:27 +0000</pubDate>
     </item>
     <item>
       <title>Wife of US soldier deported after Trump rollback on military family protections</title>
       <link>https://www.theguardian.com/us-news/2026/aug/25/soldier-wife-deported-honduras</link>
-      <description>地区分类：拉丁美洲；来源：The Guardian；来源级别：Tier 1；评分：179；原标题：Wife of US soldier deported after Trump rollback on military family protections</description>
+      <description>地区分类：拉丁美洲；来源：The Guardian；来源级别：Tier 1；评分：173；原标题：Wife of US soldier deported after Trump rollback on military family protections</description>
       <guid>https://www.theguardian.com/us-news/2026/aug/25/soldier-wife-deported-honduras</guid>
       <pubDate>Tue, 25 Aug 2026 20:23:55 +0000</pubDate>
     </item>
     <item>
       <title>Trump administration discusses taking stake in Venezuela oil, Axios reports - Reuters</title>
       <link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN0hOZkl1azdCY1ZrY1V6R21wN2JQNHUxLXRhd0FyVGF0NkEwVnBoamVkY3JmMzkyTWV3cmZ5MHBLeGZwMncxeEZybWJkMGp0WXZCWlFIRUR6SzFTV19WaHluQkg4QTFKVUxGUndTRXpjSlZEVDI1Tm5pSFk2QzZRTFNLZlc5d2xDTXVDTlRQSU1RMmx0dElaekFOV1hKOGcxQjhCclZBWTRuMjJVYjR2Q2tiX2dVLVhZVUVTeWx5RlE?oc=5</link>
-      <description>地区分类：拉丁美洲；来源：Reuters；来源级别：Tier 1；评分：173；原标题：Trump administration discusses taking stake in Venezuela oil, Axios reports - Reuters</description>
+      <description>地区分类：拉丁美洲；来源：Reuters；来源级别：Tier 1；评分：170；原标题：Trump administration discusses taking stake in Venezuela oil, Axios reports - Reuters</description>
       <guid>https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN0hOZkl1azdCY1ZrY1V6R21wN2JQNHUxLXRhd0FyVGF0NkEwVnBoamVkY3JmMzkyTWV3cmZ5MHBLeGZwMncxeEZybWJkMGp0WXZCWlFIRUR6SzFTV19WaHluQkg4QTFKVUxGUndTRXpjSlZEVDI1Tm5pSFk2QzZRTFNLZlc5d2xDTXVDTlRQSU1RMmx0dElaekFOV1hKOGcxQjhCclZBWTRuMjJVYjR2Q2tiX2dVLVhZVUVTeWx5RlE?oc=5</guid>
       <pubDate>Thu, 27 Aug 2026 21:18:09 +0000</pubDate>
     </item>
     <item>
       <title>Colombia's new president approves extradition of rebel leaders to US</title>
       <link>https://www.bbc.co.uk/news/articles/cvgy45zv8e2o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>地区分类：拉丁美洲；来源：BBC；来源级别：Tier 1；评分：170；原标题：Colombia's new president approves extradition of rebel leaders to US</description>
+      <description>地区分类：拉丁美洲；来源：BBC；来源级别：Tier 1；评分：167；原标题：Colombia's new president approves extradition of rebel leaders to US</description>
       <guid>https://www.bbc.co.uk/news/articles/cvgy45zv8e2o?at_medium=RSS&amp;at_campaign=rss</guid>
       <pubDate>Thu, 27 Aug 2026 20:10:30 +0000</pubDate>
     </item>
     <item>
-      <title>Colombia's new president approves extradition of rebel leaders to US - BBC</title>
-      <link>https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OODNFd1cwTDhnWThwdlhjMUJ6Rm12M1h5Q28xcEN4TzZDR0xYV3lxRF84S1YwNHlZUzBEa0JCZnd2YWRzWTRZYUF4SXd3QmxLSVg4ekdiWTZtUQ?oc=5</link>
-      <description>地区分类：拉丁美洲；来源：BBC；来源级别：Tier 1；评分：164；原标题：Colombia's new president approves extradition of rebel leaders to US - BBC</description>
-      <guid>https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OODNFd1cwTDhnWThwdlhjMUJ6Rm12M1h5Q28xcEN4TzZDR0xYV3lxRF84S1YwNHlZUzBEa0JCZnd2YWRzWTRZYUF4SXd3QmxLSVg4ekdiWTZtUQ?oc=5</guid>
-      <pubDate>Thu, 27 Aug 2026 20:10:30 +0000</pubDate>
+      <title>Colombia’s new president faces backlash over ‘inhumane’ deportation policy</title>
+      <link>https://www.aljazeera.com/news/2026/8/28/colombias-new-president-faces-backlash-over-inhumane-deportation-policy?traffic_source=rss</link>
+      <description>地区分类：拉丁美洲；来源：Al Jazeera；来源级别：Tier 1；评分：165；原标题：Colombia’s new president faces backlash over ‘inhumane’ deportation policy</description>
+      <guid>https://www.aljazeera.com/news/2026/8/28/colombias-new-president-faces-backlash-over-inhumane-deportation-policy?traffic_source=rss</guid>
+      <pubDate>Fri, 28 Aug 2026 19:26:15 +0000</pubDate>
     </item>
     <item>
-      <title>US nears deal to secure stake in Venezuelan oil fields, insiders say</title>
-      <link>https://www.aljazeera.com/news/2026/8/28/us-nears-deal-to-secure-stake-in-venezuelan-oil-fields-insiders-say?traffic_source=rss</link>
-      <description>地区分类：拉丁美洲；来源：Al Jazeera；来源级别：Tier 1；评分：159；原标题：US nears deal to secure stake in Venezuelan oil fields, insiders say</description>
-      <guid>https://www.aljazeera.com/news/2026/8/28/us-nears-deal-to-secure-stake-in-venezuelan-oil-fields-insiders-say?traffic_source=rss</guid>
-      <pubDate>Fri, 28 Aug 2026 02:32:15 +0000</pubDate>
+      <title>Trump says US is taking partial control of Venezuela's vast oil reserves - Reuters</title>
+      <link>https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDBRX1E5WWItYWoycXJDSUZhMWJaZUthYmJUcTFqcTA3MGJLZnVPS1dQcWZyeW1FbW9wYnRBNS1OSlVyM0VXN3BIV01IVl8tMmdjQzByaGxIcmVQSnRDSjRiTXdtdEkza1hkdDJQcGNzYXY4OGkzOGZpS1pFMUtyaVFXenBXalpHUTNnZGhZUl92bklLcUg5OVhVMWkzaWxvYWN6S05oN0w3dw?oc=5</link>
+      <description>地区分类：拉丁美洲；来源：Reuters；来源级别：Tier 1；评分：164；原标题：Trump says US is taking partial control of Venezuela's vast oil reserves - Reuters</description>
+      <guid>https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDBRX1E5WWItYWoycXJDSUZhMWJaZUthYmJUcTFqcTA3MGJLZnVPS1dQcWZyeW1FbW9wYnRBNS1OSlVyM0VXN3BIV01IVl8tMmdjQzByaGxIcmVQSnRDSjRiTXdtdEkza1hkdDJQcGNzYXY4OGkzOGZpS1pFMUtyaVFXenBXalpHUTNnZGhZUl92bklLcUg5OVhVMWkzaWxvYWN6S05oN0w3dw?oc=5</guid>
+      <pubDate>Fri, 28 Aug 2026 22:55:00 +0000</pubDate>
     </item>
     <item>
-      <title>Colombia’s armed groups recruit children and train them in drone warfare, rights group says - AP News</title>
-      <link>https://news.google.com/rss/articles/CBMipgFBVV95cUxQWU9RWTZqWGpWcFNuV214VXlNYkhjd0RVOElxTDRUcl9pOE5ld21uTExsXzdvVzFqS2toejVUT2VPUmt0Qm1va2E4XzJkWk9JdnJ4TlkybV9fZGZ3ejFKYVNjaGlkY3h5ZVJNWld0VW1McDZGUWNvc3VETG84U01TTm01cDNzV0JsM3Q5c1cya1NzdTdOSVAzSUplbFBOdkcwaWJPSk9n?oc=5</link>
-      <description>地区分类：拉丁美洲；来源：AP News；来源级别：Tier 1；评分：156；原标题：Colombia’s armed groups recruit children and train them in drone warfare, rights group says - AP News</description>
-      <guid>https://news.google.com/rss/articles/CBMipgFBVV95cUxQWU9RWTZqWGpWcFNuV214VXlNYkhjd0RVOElxTDRUcl9pOE5ld21uTExsXzdvVzFqS2toejVUT2VPUmt0Qm1va2E4XzJkWk9JdnJ4TlkybV9fZGZ3ejFKYVNjaGlkY3h5ZVJNWld0VW1McDZGUWNvc3VETG84U01TTm01cDNzV0JsM3Q5c1cya1NzdTdOSVAzSUplbFBOdkcwaWJPSk9n?oc=5</guid>
-      <pubDate>Mon, 24 Aug 2026 17:21:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Argentina, Chile revive cross-border mining framework for investment - Reuters</title>
-      <link>https://news.google.com/rss/articles/CBMitAFBVV95cUxNaFhZUTQ4OFUxdjl0MlRRUTR3ZmdHVjJGdHRhRDNRaE5XeVU5STNUcU9QZWZsUGJZSHRsd3dYSElHRnZUR3NYMXpCWGxYNlRaY2oxeUhYYzBnMk5EM1ZXcjRuaHBvUFNlUE1EMHZUN1RfMXZaM24zRGJVaFlaVWM5bnVURXRxQXZRbDB5aHRjSy10MjFoX2NXOUIyNFBSbm0wSi1ZMmktaWE4QndSeEVKQ1phbmM?oc=5</link>
-      <description>地区分类：拉丁美洲；来源：Reuters；来源级别：Tier 1；评分：155；原标题：Argentina, Chile revive cross-border mining framework for investment - Reuters</description>
-      <guid>https://news.google.com/rss/articles/CBMitAFBVV95cUxNaFhZUTQ4OFUxdjl0MlRRUTR3ZmdHVjJGdHRhRDNRaE5XeVU5STNUcU9QZWZsUGJZSHRsd3dYSElHRnZUR3NYMXpCWGxYNlRaY2oxeUhYYzBnMk5EM1ZXcjRuaHBvUFNlUE1EMHZUN1RfMXZaM24zRGJVaFlaVWM5bnVURXRxQXZRbDB5aHRjSy10MjFoX2NXOUIyNFBSbm0wSi1ZMmktaWE4QndSeEVKQ1phbmM?oc=5</guid>
-      <pubDate>Thu, 27 Aug 2026 20:22:03 +0000</pubDate>
+      <title>Chevron to complete deal in Venezuela to migrate, expand oil projects, sources say - Reuters</title>
+      <link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNjVMaGVWd1ZWUVUzYU15cjREcHFta0RvNVpwYlFoZXNhUlhyUndZdUU2Tk9UQXFET0JyLWE2Qi0yR1AtYVp2ZEQ3QlJKWTZSNjZGSmd0S2NCV09DdnY4WTBEaU5MczZ3aWpyZUFXYlI1Q3FKdURvUzEzeFFJWDQ2ckh2Nm11RDROVWI0Y0E3SXhHZGhudmhMbWNCWl9qcWlQYTE0Y2RqWWRrcGVPa1BVaTZobVp1c1FLNk95Y3J3MUo?oc=5</link>
+      <description>地区分类：拉丁美洲；来源：Reuters；来源级别：Tier 1；评分：162；原标题：Chevron to complete deal in Venezuela to migrate, expand oil projects, sources say - Reuters</description>
+      <guid>https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNjVMaGVWd1ZWUVUzYU15cjREcHFta0RvNVpwYlFoZXNhUlhyUndZdUU2Tk9UQXFET0JyLWE2Qi0yR1AtYVp2ZEQ3QlJKWTZSNjZGSmd0S2NCV09DdnY4WTBEaU5MczZ3aWpyZUFXYlI1Q3FKdURvUzEzeFFJWDQ2ckh2Nm11RDROVWI0Y0E3SXhHZGhudmhMbWNCWl9qcWlQYTE0Y2RqWWRrcGVPa1BVaTZobVp1c1FLNk95Y3J3MUo?oc=5</guid>
+      <pubDate>Fri, 28 Aug 2026 21:13:43 +0000</pubDate>
     </item>
     <item>
       <title>US military kills four in strike on alleged drug smuggling boat in Caribbean</title>
@@ -107,13 +114,6 @@
       <pubDate>Wed, 26 Aug 2026 04:00:46 +0000</pubDate>
     </item>
     <item>
-      <title>Haiti police confront public frustration after deadly gang attack kills 47</title>
-      <link>https://www.aljazeera.com/news/2026/8/27/haiti-police-confront-public-frustration-after-deadly-gang-attack-kills-47?traffic_source=rss</link>
-      <description>地区分类：加勒比地区；来源：Al Jazeera；来源级别：Tier 1；评分：175；原标题：Haiti police confront public frustration after deadly gang attack kills 47</description>
-      <guid>https://www.aljazeera.com/news/2026/8/27/haiti-police-confront-public-frustration-after-deadly-gang-attack-kills-47?traffic_source=rss</guid>
-      <pubDate>Thu, 27 Aug 2026 22:51:44 +0000</pubDate>
-    </item>
-    <item>
       <title>‘Shockwaves throughout the country’ following ‘gruesome’ killings in Haitian mountain retreat</title>
       <link>https://www.france24.com/en/shockwaves-throughout-the-country-following-gruesome-killings-in-haitian-mountain-retreat</link>
       <description>地区分类：加勒比地区；来源：France 24；来源级别：Tier 1；评分：175；原标题：‘Shockwaves throughout the country’ following ‘gruesome’ killings in Haitian mountain retreat</description>
@@ -121,25 +121,32 @@
       <pubDate>Wed, 26 Aug 2026 15:45:21 +0000</pubDate>
     </item>
     <item>
+      <title>US military says it killed four in strike on alleged drug-smuggling boat in the Caribbean - AP News</title>
+      <link>https://news.google.com/rss/articles/CBMioAFBVV95cUxON3FWU0xMa0p2bDRZRnp0ZU83dzVLTEF0ZjNETDZUUVZmMlkzMUlBa0FjY3lQMHJDLTltNkxKYjNYbVI1SUJHQk5uMlA5S1JsaGtfWGp0YWtKcFJZZjFUZGVZczU3dE9jNElCbko3bU54M2ozQk5DYk1zOFhiRmN3MVE3YUVMZVlzMUZKa0p6cTVBTHdIQ2MycnBRNWxsZjhP?oc=5</link>
+      <description>地区分类：加勒比地区；来源：AP News；来源级别：Tier 1；评分：168；原标题：US military says it killed four in strike on alleged drug-smuggling boat in the Caribbean - AP News</description>
+      <guid>https://news.google.com/rss/articles/CBMioAFBVV95cUxON3FWU0xMa0p2bDRZRnp0ZU83dzVLTEF0ZjNETDZUUVZmMlkzMUlBa0FjY3lQMHJDLTltNkxKYjNYbVI1SUJHQk5uMlA5S1JsaGtfWGp0YWtKcFJZZjFUZGVZczU3dE9jNElCbko3bU54M2ozQk5DYk1zOFhiRmN3MVE3YUVMZVlzMUZKa0p6cTVBTHdIQ2MycnBRNWxsZjhP?oc=5</guid>
+      <pubDate>Wed, 26 Aug 2026 01:18:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Haiti's conflict in numbers as gangs inflict another night of terror - Reuters</title>
+      <link>https://news.google.com/rss/articles/CBMirgFBVV95cUxOM0Q4UWpZb3VUVjVRaG5PNjNDT0ZRMFVrdDdVWFlEYVJLZGFnYjlaQzQxVUxEWmFfTjlwUHg2d0NnRC1zTkd2N2hGcnJmZlY3eUVBMUVsUXZSY0tWaG9aUmtteXI1ZDBEYUJkT01SVFJtMG82a1VqSzFUei1aNUhBWVlDRmVKSkpkeHpyMVpSWXYzTDZHM09QellzdXhMd3dzdEhPMzVNY3BFenU5NFE?oc=5</link>
+      <description>地区分类：加勒比地区；来源：Reuters；来源级别：Tier 1；评分：166；原标题：Haiti's conflict in numbers as gangs inflict another night of terror - Reuters</description>
+      <guid>https://news.google.com/rss/articles/CBMirgFBVV95cUxOM0Q4UWpZb3VUVjVRaG5PNjNDT0ZRMFVrdDdVWFlEYVJLZGFnYjlaQzQxVUxEWmFfTjlwUHg2d0NnRC1zTkd2N2hGcnJmZlY3eUVBMUVsUXZSY0tWaG9aUmtteXI1ZDBEYUJkT01SVFJtMG82a1VqSzFUei1aNUhBWVlDRmVKSkpkeHpyMVpSWXYzTDZHM09QellzdXhMd3dzdEhPMzVNY3BFenU5NFE?oc=5</guid>
+      <pubDate>Wed, 26 Aug 2026 18:02:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Haiti: Gang coalition unleashes violent new attack</title>
       <link>https://www.france24.com/en/video/20260825-haiti-gang-coalition-unleashes-violent-new-attack</link>
-      <description>地区分类：加勒比地区；来源：France 24；来源级别：Tier 1；评分：169；原标题：Haiti: Gang coalition unleashes violent new attack</description>
+      <description>地区分类：加勒比地区；来源：France 24；来源级别：Tier 1；评分：163；原标题：Haiti: Gang coalition unleashes violent new attack</description>
       <guid>https://www.france24.com/en/video/20260825-haiti-gang-coalition-unleashes-violent-new-attack</guid>
       <pubDate>Tue, 25 Aug 2026 10:52:58 +0000</pubDate>
     </item>
     <item>
       <title>In Haiti, dozens die in gang coalition attack on a farming community</title>
       <link>https://www.france24.com/en/in-haitin-dozens-die-in-gang-coalition-attack-on-a-farming-community</link>
-      <description>地区分类：加勒比地区；来源：France 24；来源级别：Tier 1；评分：169；原标题：In Haiti, dozens die in gang coalition attack on a farming community</description>
+      <description>地区分类：加勒比地区；来源：France 24；来源级别：Tier 1；评分：163；原标题：In Haiti, dozens die in gang coalition attack on a farming community</description>
       <guid>https://www.france24.com/en/in-haitin-dozens-die-in-gang-coalition-attack-on-a-farming-community</guid>
       <pubDate>Tue, 25 Aug 2026 08:47:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anger mounts in Haiti as new attack shows power held by gang coalition</title>
-      <link>https://www.france24.com/en/anger-mounts-in-haiti-as-new-attack-shows-power-held-by-gang-coalition</link>
-      <description>地区分类：加勒比地区；来源：France 24；来源级别：Tier 1；评分：166；原标题：Anger mounts in Haiti as new attack shows power held by gang coalition</description>
-      <guid>https://www.france24.com/en/anger-mounts-in-haiti-as-new-attack-shows-power-held-by-gang-coalition</guid>
-      <pubDate>Tue, 25 Aug 2026 13:53:31 +0000</pubDate>
     </item>
     <item>
       <title>Haiti gangs kill at least 47 people in attack near the capital</title>
@@ -149,13 +156,6 @@
       <pubDate>Tue, 25 Aug 2026 02:25:09 +0000</pubDate>
     </item>
     <item>
-      <title>US sanctions more Cuban companies and officials</title>
-      <link>https://www.bbc.co.uk/news/articles/cgq5x9l7054o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>地区分类：加勒比地区；来源：BBC；来源级别：Tier 1；评分：159；原标题：US sanctions more Cuban companies and officials</description>
-      <guid>https://www.bbc.co.uk/news/articles/cgq5x9l7054o?at_medium=RSS&amp;at_campaign=rss</guid>
-      <pubDate>Fri, 21 Aug 2026 02:06:28 +0000</pubDate>
-    </item>
-    <item>
       <title>Implications for the OAS Foreign Ministers’ Meeting on Nicaragua</title>
       <link>https://thedialogue.org/blogs/2026/08/implications-for-the-oas-foreign-ministers-meeting-on-nicaragua</link>
       <description>地区分类：智库；来源：Inter-American Dialogue；来源级别：Tier 2；评分：162；原标题：Implications for the OAS Foreign Ministers’ Meeting on Nicaragua</description>
@@ -163,25 +163,25 @@
       <pubDate>Wed, 26 Aug 2026 16:53:33 +0000</pubDate>
     </item>
     <item>
-      <title>The Code and the Content</title>
-      <link>https://thedialogue.org/blogs/2026/08/the-code-and-the-content</link>
-      <description>地区分类：智库；来源：Inter-American Dialogue；来源级别：Tier 2；评分：154；原标题：The Code and the Content</description>
-      <guid>https://thedialogue.org/blogs/2026/08/the-code-and-the-content</guid>
-      <pubDate>Tue, 25 Aug 2026 14:22:46 +0000</pubDate>
+      <title>Who’s Who in Brazil’s Historic Bank Master Fraud Case?</title>
+      <link>https://insightcrime.org/news/whos-who-in-brazils-historic-bank-master-fraud-case/</link>
+      <description>地区分类：智库；来源：InSight Crime；来源级别：Tier 2；评分：151；原标题：Who’s Who in Brazil’s Historic Bank Master Fraud Case?</description>
+      <guid>https://insightcrime.org/news/whos-who-in-brazils-historic-bank-master-fraud-case/</guid>
+      <pubDate>Thu, 27 Aug 2026 20:17:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Security Council LIVE: Deadly gang attacks spike in Haiti</title>
+      <link>https://news.un.org/feed/view/en/story/2026/08/1168222</link>
+      <description>地区分类：国际组织；来源：UN News - Global perspective Human stories；来源级别：Tier 2；评分：149；原标题：Security Council LIVE: Deadly gang attacks spike in Haiti</description>
+      <guid>https://news.un.org/feed/view/en/story/2026/08/1168222</guid>
+      <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Haiti ramps up the fight against gangs in the capital, but violence spreads elsewhere</title>
       <link>https://news.un.org/feed/view/en/story/2026/08/1168203</link>
-      <description>地区分类：国际组织；来源：UN News - Global perspective Human stories；来源级别：Tier 2；评分：141；原标题：Haiti ramps up the fight against gangs in the capital, but violence spreads elsewhere</description>
+      <description>地区分类：国际组织；来源：UN News - Global perspective Human stories；来源级别：Tier 2；评分：135；原标题：Haiti ramps up the fight against gangs in the capital, but violence spreads elsewhere</description>
       <guid>https://news.un.org/feed/view/en/story/2026/08/1168203</guid>
       <pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Latin America and the Caribbean Can Thrive in a New Geopolitical Era - Comisión Económica para América Latina y el Caribe</title>
-      <link>https://news.google.com/rss/articles/CBMimgFBVV95cUxPTDUxUWhGZURjQjFHb1BQcXo1T3lnZFBBd2dBMGZ2ZVQ1VXhSV0VNS193Q2VQYW8tRzdaREI4VnVIbjFPVGRlVWZQYkZCVnlVdzZIWjh2MEFNeWh0SFU0NkJNbDFwWl9WUWk2ZFRvZTd1YVJZVDNMcVROaEpBQ2dtbG52NkdheW9zR3hWbEI0V3BJY2FHQ3lBY0tn?oc=5</link>
-      <description>地区分类：国际组织；来源：Comisión Económica para América Latina y el Caribe；来源级别：Tier 2；评分：137；原标题：How Latin America and the Caribbean Can Thrive in a New Geopolitical Era - Comisión Económica para América Latina y el Caribe</description>
-      <guid>https://news.google.com/rss/articles/CBMimgFBVV95cUxPTDUxUWhGZURjQjFHb1BQcXo1T3lnZFBBd2dBMGZ2ZVQ1VXhSV0VNS193Q2VQYW8tRzdaREI4VnVIbjFPVGRlVWZQYkZCVnlVdzZIWjh2MEFNeWh0SFU0NkJNbDFwWl9WUWk2ZFRvZTd1YVJZVDNMcVROaEpBQ2dtbG52NkdheW9zR3hWbEI0V3BJY2FHQ3lBY0tn?oc=5</guid>
-      <pubDate>Wed, 26 Aug 2026 15:49:24 +0000</pubDate>
     </item>
   </channel>
 </rss>
