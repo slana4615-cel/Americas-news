@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-29)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-31)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-29)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-08-31)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/aug/29/michigan-senate-candidate-mike-rogers-osama-bin-laden|Michigan Senate candidate Mike Rogers says he saw Bin Laden’s body with his ‘own eyes’. He did not>\n• <https://www.theguardian.com/us-news/2026/aug/29/democrats-uncommitted-movement-midterms|Democrats ignored the uncommitted movement for Gaza in 2024. Now, it’s winning elections>\n• <https://www.theguardian.com/world/2026/aug/28/us-venezuela-oil-gas-stake|Venezuelan opposition up in arms over reports US wants big stake in oil and gas>\n• <https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN0hOZkl1azdCY1ZrY1V6R21wN2JQNHUxLXRhd0FyVGF0NkEwVnBoamVkY3JmMzkyTWV3cmZ5MHBLeGZwMncxeEZybWJkMGp0WXZCWlFIRUR6SzFTV19WaHluQkg4QTFKVUxGUndTRXpjSlZEVDI1Tm5pSFk2QzZRTFNLZlc5d2xDTXVDTlRQSU1RMmx0dElaekFOV1hKOGcxQjhCclZBWTRuMjJVYjR2Q2tiX2dVLVhZVUVTeWx5RlE?oc=5|Trump administration discusses taking stake in Venezuela oil, Axios reports - Reuters>\n• <https://www.theguardian.com/world/2026/aug/26/us-military-kills-four-boat-strike-caribbean|US military kills four in strike on alleged drug smuggling boat in Caribbean>\n• <https://www.aljazeera.com/news/2026/8/29/haitian-gangs-release-13-captives-after-mass-kidnapping-in-kenscoff?traffic_source=rss|Haitian gangs release 13 captives after mass kidnapping in Kenscoff>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/aug/29/michigan-senate-candidate-mike-rogers-osama-bin-laden|Michigan Senate candidate Mike Rogers says he saw Bin Laden’s body with his ‘own eyes’. He did not>\n• <https://www.theguardian.com/business/2026/aug/28/kevin-warsh-federal-reserve-inflation|Fed chair says delivering ‘stable prices’ is central bank’s job as inflation persists>\n• <https://www.theguardian.com/world/2026/aug/30/venezuela-delcy-rodriguez-says-oil-deal-with-trump-has-endless-benefits|Venezuela’s Delcy Rodríguez defends ‘endless’ benefits of her oil deal with Trump>\n• <https://www.theguardian.com/world/2026/aug/28/us-venezuela-oil-gas-stake|Venezuelan opposition up in arms over reports US wants big stake in oil and gas>\n• <https://www.theguardian.com/world/2026/aug/26/us-military-kills-four-boat-strike-caribbean|US military kills four in strike on alleged drug smuggling boat in Caribbean>\n• <https://news.google.com/rss/articles/CBMimgFBVV95cUxOSi00WEMwa2RfWDZxYlVvYmxmdnpNTkZXeHBkaVMwME5lTGJlcDBNc2VjTkI4MU5LbnB3TXdEeER6VGFBaWs3c3VkemZheFJUNENjUGMtblVINm9GTkRWS0ZqUFBzaFB6X3MzMjFVRXlDazRsdEQtRXA5bHo0eHlycWNzcGxzZmpsX09PWVpFOXdqM3F1MUhLbUlR?oc=5|Hundreds attend funeral in Haiti for 4 victims of brutal gang attack that killed 47 - AP News>"
       }
     },
     {
