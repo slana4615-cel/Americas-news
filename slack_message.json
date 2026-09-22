@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-09-20)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-09-22)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-09-20)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-09-22)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.france24.com/en/americas/20260918-early-voting-begins-in-us-midterms-that-could-see-republicans-lose-control-of-congress|Early voting begins in US midterms that could see Republicans lose control of Congress>\n• <https://www.theguardian.com/business/2026/sep/19/kevin-warsh-interest-rate-hike|Kevin Warsh may be the adult in the room. But can he calm the US economy?>\n• <https://www.theguardian.com/world/2026/sep/15/brazil-supreme-court-presidential-election|Ferocious fight among Brazil’s supreme court erupts on eve of presidential election>\n• <https://news.google.com/rss/articles/CBMioAFBVV95cUxNR21zV2xTNEI1b1BNbHhQSWZRMklLSmZza0tUMGgtVHhDcG0wLWhmdFdJVzlaWjU3QTFZUEI4b3FRMWVPcmxlYzVqYU5DbGgxMDEwLU5JWmkxcG4xN2ZIemVoOHNwT005V1lBVFpmMWxmcVlJaXplQXpDR0Q0eWNOTHNJVVhjNDlDYV9QMDlOdXZXT214Zi13RUZKYmNhckxv?oc=5|Trump to meet acting Venezuelan President Delcy Rodríguez in New York next week, White House says - AP News>\n• <https://www.theguardian.com/world/2026/sep/20/more-than-a-dozen-arrested-in-connection-with-assassination-of-haitian-president|More than a dozen arrested in connection with 2021 assassination of Haitian president>\n• <https://news.google.com/rss/articles/CBMioAFBVV95cUxOTEZWWk9aYllZSnhGUXMzR3otZjAwZ2EwYi1lWGpQdC1IaXhCdFdnTEVJTVRFWDdBQmJTbTQ4S28xbXl6TmxDWlltQ2hDdW9rQXFmU1ZkOXdIeDl3Ykc5WXo5bDJRaGFDcnZjY1Azdi1VbXplS3oyby16VlJ0WXZQS05Jb2gyNlhOWGNXbGZnMko1WGFPcktGaWQ2WUtpLVFo?oc=5|US military says it killed four in strike on alleged drug-smuggling boat in the Caribbean - AP News>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/sep/21/democrats-joe-biden-kamala-harris-book-gaza|Democrats’ Gaza reckoning: how failing to give Palestinians a voice came back to bite the party>\n• <https://www.france24.com/en/midterm-elections-trump-looms-large-over-2026-vote-as-democrats-eye-gains|Midterm elections: Trump looms large over 2026 vote as Democrats eye gains>\n• <https://www.bbc.co.uk/news/videos/cj1dl26vrl6no?at_medium=RSS&at_campaign=rss|'I am frustrated' - Protesters take to the streets after Austin ICE shooting>\n• <https://www.france24.com/en/video/20260921-deportation-project-72-journalists-investigate-us-treatment-of-migrants-1|Deportation project: 72 journalists investigate US treatment of migrants>\n• <https://www.theguardian.com/world/2026/sep/21/us-boat-strikes-crime-against-humanity|US strikes on alleged drug boats may constitute ‘crimes against humanity’, UN expert says>\n• <https://www.theguardian.com/world/2026/sep/20/more-than-a-dozen-arrested-in-connection-with-assassination-of-haitian-president|More than a dozen arrested in connection with 2021 assassination of Haitian president>"
       }
     },
     {
