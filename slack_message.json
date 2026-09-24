@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-09-22)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-09-24)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-09-22)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-09-24)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/sep/22/florida-republican-byron-donalds-donald-trump|Another Florida Republican distances himself from Donald Trump before midterms>\n• <https://www.theguardian.com/us-news/2026/sep/22/aoc-senate-election-chuck-schumer|AOC refuses to rule out run against Senate leader Chuck Schumer>\n• <https://www.theguardian.com/us-news/2026/sep/22/texas-democrat-visit-ice-detention-camp-east-montana|Democrat says ICE restricted her oversight visit to country’s largest detention camp>\n• <https://www.bbc.co.uk/news/videos/cj1dl26vrl6no?at_medium=RSS&at_campaign=rss|'I am frustrated' - Protesters take to the streets after Austin ICE shooting>\n• <https://www.france24.com/en/americas/20260922-iran-ai-and-the-icc-trump-makes-threats-touts-policies-un-general-assembly|Iran, AI and the ICC: Trump makes threats, touts policies at UN General Assembly>\n• <https://www.theguardian.com/world/2026/sep/21/us-boat-strikes-crime-against-humanity|US strikes on alleged drug boats may constitute ‘crimes against humanity’, UN expert says>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/sep/23/trump-republicans-midterms|Republican jitters grow as unpopular Trump fuels midterm ‘bloodbath’ fears>\n• <https://www.theguardian.com/us-news/2026/sep/23/doj-trump-media-ban|DoJ defends Trump media ban: ‘Access to the White House is a privilege’>\n• <https://www.bbc.co.uk/news/videos/cj1dl26vrl6no?at_medium=RSS&at_campaign=rss|'I am frustrated' - Protesters take to the streets after Austin ICE shooting>\n• <https://www.theguardian.com/us-news/live/2026/sep/23/donald-trump-xi-jinping-ai-china-us-politics-latest-news-updates|Senator confirms ‘eight suicide attempts’ by US navy personnel assigned to USS Abraham Lincoln carrier group – live>\n• <https://www.france24.com/en/americas/20260922-iran-ai-and-the-icc-trump-makes-threats-touts-policies-un-general-assembly|Iran, AI and the ICC: Trump makes threats, touts policies at UN General Assembly>\n• <https://www.theguardian.com/world/2026/sep/21/us-boat-strikes-crime-against-humanity|US strikes on alleged drug boats may constitute ‘crimes against humanity’, UN expert says>"
       }
     },
     {
