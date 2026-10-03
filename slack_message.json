@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-02)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-03)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-02)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-03)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/commentisfree/2026/oct/01/taxpayer-funded-pro-trump-ads|Americans are paying millions for a batch of pro-Trump ads | Margaret Sullivan>\n• <https://www.theguardian.com/business/2026/sep/30/inflation-report-interest-rates-fed|Good news in US inflation report boosts chances Fed won’t hike rates>\n• <https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund|Trump administration diverts human rights funds to push far-right agenda abroad>\n• <https://www.theguardian.com/world/2026/oct/01/brazil-attorney-general-election-meddling-trump-funding-plans|Brazil attorney general says meddling ‘cannot be tolerated’ after Trump funding plans revealed>\n• <https://news.google.com/rss/articles/CBMiwgFBVV95cUxNX21CUmMyUXJZWXJ0U3BuOTUydzVtQjNpZ0VJTmhfY0xyazVEc21oNnBocEhmTkVEbEIzejZJUEtaMHNoaW8xZ2RNc0hrOU5DMm95UGtUbS1LREEwaVFZLUVFTXdqOVlPaVpEVXBtV3E1eXdiczM4X1RJQXpDbzRaN243NVRoQ3VBcjhHRXV3c2pZV2ZhcElVYy1oOTIzWGRZMnBiM2dXVVdXb1JPX1ROT1R1WWFpQk13Z1FRVDctQWU3UQ?oc=5|Cuba's top trade official says US impeding reforms, denies talks with Trump associates - Reuters>\n• <https://news.google.com/rss/articles/CBMizwFBVV95cUxOY29wdFd4NXRhVDRxelJaOHNUd1lLWWY4SFRhRmlTUmpxOU9WQmJhbS1WbUk0dExyeVZTdml5b3ZjNnN4T0tja2E5cFVRRlE1Y01oYTFkeG5ETDJEZEktZkNEelhlU2oyc21SckpkQ0xxbWFwM0M2Y002Y0Nfd0JoTkVmcllVcTZsTURCd29wMHBDYzRhdGNaZm93aXZ4NFdMbi1XWFUweFUxemI5TlJnS1Y5QW5Fc1VucHY2OTVXSVJmQmZvQ0t4Z1pMb21uU0k?oc=5|Photos of Cuba’s ballet dancers persevering through blackouts and shortages - AP News>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/live/2026/oct/02/cornell-university-leticia-james-christa-pike-death-penalty-donald-trump-us-jobs-latest-news-updates|Trump threatens to double tariffs on South Korea if they do not pay for Alaska natural gas pipeline – US politics live>\n• <https://www.theguardian.com/business/2026/oct/02/doj-fed-chair-jerome-powell-investigation|DoJ declines to reopen investigation into former Fed chair Jay Powell>\n• <https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund|Trump administration diverts human rights funds to push far-right agenda abroad>\n• <https://www.france24.com/en/tv-shows/reporters/20261002-paraguay-a-tax-and-political-haven-for-brazil-s-far-right|Paraguay, a tax and political haven for Brazil's far right>\n• <https://www.bbc.co.uk/news/articles/cmy0z00wr14xo?at_medium=RSS&at_campaign=rss|More than 5,000 people killed or injured in Haiti due to gang violence this year, UN says>\n• <https://www.bbc.co.uk/news/articles/ckrerylrlg9vo?at_medium=RSS&at_campaign=rss|The wealthy Cuban Americans ready and waiting for Havana to fall>"
       }
     },
     {
