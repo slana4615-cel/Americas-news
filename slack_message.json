@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-09)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-10)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-09)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-10)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/live/2026/oct/08/uss-lincoln-san-diego-donald-trump-republicans-democrats-us-politics-latest-news|Hegseth falsely claims Obama called 2009 Fort Hood attack ‘workplace violence’ – US politics live>\n• <https://www.theguardian.com/business/2026/oct/08/economy-midterm-elections-tell-us|Send us your questions on how the US economy is shaping the midterm elections>\n• <https://www.theguardian.com/commentisfree/2026/oct/06/pinochet-chile-trump-midterms|I witnessed the Pinochet regime’s fall. It offers hope – and a warning – for the US | Ariel Dorfman>\n• <https://www.theguardian.com/world/2026/oct/06/keeping-up-with-the-bolsonaros-flavios-surprise-first-round-election-win-heralds-rise-of-a-political-dynasty|Flávio’s surprise first-round election win highlights rapid rise of Brazil’s House of Bolsonaro>\n• <https://www.france24.com/en/americas/20261007-haiti-postpones-elections-indefinitely-as-gang-violence-hampers-preparations|Haiti postpones elections indefinitely amid gang violence>\n• <https://news.google.com/rss/articles/CBMioAFBVV95cUxOY2phYXNQSjFSbkdlOUlkT0lkQUUzWW5PWDd5N3lNeWdqVk1DaW9NMi1pb05hN2tLVTRVQnJPVjQ2LTd2RU5GOFdqUW1uRFJaS2NKeGgxVEFLZ2dHV0NDNWlEM2FTeVFGQV9RRkprNzRRWUNGZkF5Unh1NzNPOEtvQlJoakk4TlVHY0xWLXV0dGVOLUZxTWF3bHNqQVE0dXc5?oc=5|US military says latest strike on alleged drug-smuggling boat in the Caribbean kills 4 - AP News>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/oct/09/trump-investigate-lisa-cook-fed-governor|Trump establishes committee to investigate Fed governor Lisa Cook>\n• <https://www.theguardian.com/us-news/2026/oct/09/federal-judge-rules-against-trump-push-state-voter-rolls|Federal judge rules against Trump DoJ’s policy of collecting state voter rolls>\n• <https://www.bbc.co.uk/news/videos/c3eweld0nddeo?at_medium=RSS&at_campaign=rss|Why has Brazil accused the US of election interference?>\n• <https://www.theguardian.com/australia-news/2026/oct/09/jake-callum-robinson-australian-surfers-carter-rhoad-mexico-murder-trial-ntwnfb|Men accused of shooting Australian surfer brothers and US friend dead in Mexico to learn fate as trial concludes>\n• <https://www.france24.com/en/americas/20261007-haiti-postpones-elections-indefinitely-as-gang-violence-hampers-preparations|Haiti postpones elections indefinitely amid gang violence>\n• <https://www.bbc.co.uk/news/articles/ckrerylrlg9vo?at_medium=RSS&at_campaign=rss|The wealthy Cuban Americans ready and waiting for Havana to fall>"
       }
     },
     {
