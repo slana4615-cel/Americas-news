@@ -1,6 +1,6 @@
 # 美洲新闻自动抓取结果｜Daily Americas News Collection
 
-- **生成日期**：2026-10-10
+- **生成日期**：2026-10-11
 - **自动更新**：每日 22:00 UTC
 - **输出说明**：本文件由程序根据公开 RSS 新闻源自动抓取生成，仅用于研究团队初步筛选。新闻价值、事实核验和最终采用由人工判断。
 
@@ -11,41 +11,14 @@
 
 ## 美国
 
-- **原标题**：Trump establishes committee to investigate Fed governor Lisa Cook
+- **原标题**：‘People are pissed’: union decries TSA’s removal of chairs for checkpoint staff
   - **来源**：The Guardian
   - **来源级别**：Tier 1
-  - **评分**：183
-  - **发布时间**：Fri, 09 Oct 2026 18:05:12 GMT
+  - **评分**：176
+  - **发布时间**：Sat, 10 Oct 2026 11:00:55 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/business/2026/oct/09/trump-investigate-lisa-cook-fed-governor
-  - **原文摘要**：US president renews his efforts to oust Cook despite supreme court ruling that her firing was unconstitutional Donald Trump announced on Friday that he is establishing a committee to investigate Lisa Cook, the US Federal Reserve governor, over allegations that she committed mortgage fraud, renewing his efforts to oust her despite a June supreme court ruling that her earlier firing was unconstitutional. Trump said a committee will consult with justice department officials to decide whether there is “cause” for her removal. The White House will hold an in-person hearing on 5 November to consider the allegations against Cook, which will be closed to the public but transcribed and published. Cook will be able to submit a written statement to present her own evidence and will be subject to examination from White House and her own legal counsel. Continue reading...
-
-- **原标题**：Federal judge rules against Trump DoJ’s policy of collecting state voter rolls
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：179
-  - **发布时间**：Fri, 09 Oct 2026 20:08:10 GMT
-  - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/us-news/2026/oct/09/federal-judge-rules-against-trump-push-state-voter-rolls
-  - **原文摘要**：Judge says justice department policy of checking state voter rolls against a federal immigration database is unlawful A federal judge ruled on Friday that the US justice department’s policy of collecting states’ unredacted voter rolls to check them against a federal immigration database is unlawful. The ruling, by the US district judge Sparkle Sooknanan, was a setback for Donald Trump , who has pushed his administration to ramp up investigations into non-citizen voting ahead of the November midterm elections , with control of Congress at stake. Continue reading...
-
-- **原标题**：Stop talking about the US ‘Jewish vote’. It's not that simple | Judith Levine
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：178
-  - **发布时间**：Fri, 09 Oct 2026 13:00:28 GMT
-  - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/commentisfree/2026/oct/09/jewish-vote-israel
-  - **原文摘要**：Political parties vie for Jewish support based on false assumptions about a single issue: Israel Everybody wants the Jewish vote. As if there were one. Jews are educated, generally liberal. Although they comprise only about 2% of the electorate, they vote in high numbers, overwhelmingly for Democrats. In 2024, 79% chose Kamala Harris. They are also assumed to be steadfast friends of Israel, no matter what it does. Republicans, waging a fake war on antisemitism while courting white supremacists, consider Jews increasingly up for grabs. Nationally, Jewish Americans are concentrated in a few bright blue spots. A 2020 map from the Jewish Electorate Institute showed a third of Jews living in 20 congressional districts – out of 435 – most of them in New York, New Jersey, California and (purple) Florida. Of these, only one sent a Republican to Washington. Continue reading...
-
-- **原标题**：US imposes new sanctions on international criminal court
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：177
-  - **发布时间**：Fri, 09 Oct 2026 16:13:13 GMT
-  - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/us-news/2026/oct/09/sanctions-icc-trump
-  - **原文摘要**：Trump administration says US ‘doesn’t need’ ICC after accusing court of unfairly targeting Americans for war crime charges The United States was accused of launching “an assault” on the world’s legal order after imposing more sanctions on the international criminal court (ICC) . Unveiling the Trump administration’s latest escalation against the court, which it has accused of politicization and unfairly targeting Americans for war crime charges, Marco Rubio, the US secretary of state, declared: “Either the ICC will end its threats, or we will end the ICC.” Continue reading...
+  - **原文链接**：https://www.theguardian.com/us-news/2026/oct/10/tsa-union-agency-checkpoints-chairs
+  - **原文摘要**：Order for workers to remain standing to ‘reinforce professionalism’ draws rebuke amid plunging morale Union officials have launched a campaign to allow airport security staff to sit once more after the Trump administration unilaterally removed all the chairs for Transportation Security Administration (TSA) staff at checkpoints. “People are pissed,” said Johnny Jones, secretary-treasurer of American Federation of Government Employees (AFGE) TSA council 100 and president of AFGE local 1040, which represents TSA workers in Dallas-Fort Worth. Continue reading...
 
 - **原标题**：Send us your questions on how the US economy is shaping the midterm elections
   - **来源**：The Guardian
@@ -56,28 +29,46 @@
   - **原文链接**：https://www.theguardian.com/business/2026/oct/08/economy-midterm-elections-tell-us
   - **原文摘要**：Our business, labor and consumer rights reporters will answer your questions in a live Q&A on Thursday 15 October The US economy is top of voters’ minds ahead of the November midterms with food and gas prices remaining high, the job market unstable, consumers angrier than ever , and a new Fed chair, Kevin Warsh , in place. We’ll be hosting a live midterm election Q&A on Thursday 15 October 2026 at 12pm EDT on the Guardian US site with a panel of our business, labor and consumer rights reporters: Lauren Aratani , Michael Sainato , Heather Timmons and Gaya Gupta . The team will cover cost of living challenges, tariffs , inflation and new federal policy proposals from local candidates. Will the Iran war cost Trump in the US midterm elections? Your questions answered Who are the groups financially backing the candidates in the midterms? The makeup of the Democratic party, plus key races to watch Continue reading...
 
-- **原标题**：Watch: 'I am Jane Doe' protests across US call for end to sexual violence
+- **原标题**：Stop talking about the US ‘Jewish vote’. It's not that simple | Judith Levine
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：175
+  - **发布时间**：Fri, 09 Oct 2026 13:00:28 GMT
+  - **地区分类**：美国
+  - **原文链接**：https://www.theguardian.com/commentisfree/2026/oct/09/jewish-vote-israel
+  - **原文摘要**：Political parties vie for Jewish support based on false assumptions about a single issue: Israel Everybody wants the Jewish vote. As if there were one. Jews are educated, generally liberal. Although they comprise only about 2% of the electorate, they vote in high numbers, overwhelmingly for Democrats. In 2024, 79% chose Kamala Harris. They are also assumed to be steadfast friends of Israel, no matter what it does. Republicans, waging a fake war on antisemitism while courting white supremacists, consider Jews increasingly up for grabs. Nationally, Jewish Americans are concentrated in a few bright blue spots. A 2020 map from the Jewish Electorate Institute showed a third of Jews living in 20 congressional districts – out of 435 – most of them in New York, New Jersey, California and (purple) Florida. Of these, only one sent a Republican to Washington. Continue reading...
+
+- **原标题**：Nine killed in shooting in US state of Pennsylvania, including two children
+  - **来源**：Al Jazeera
+  - **来源级别**：Tier 1
+  - **评分**：169
+  - **发布时间**：Sat, 10 Oct 2026 17:48:45 +0000
+  - **地区分类**：美国
+  - **原文链接**：https://www.aljazeera.com/news/2026/10/10/nine-killed-in-shooting-in-us-state-of-pennsylvania-including-two-children?traffic_source=rss
+  - **原文摘要**：The shooting in Erie, Pennsylvania happened on Friday, according to state officials. The attacker is among the dead.
+
+- **原标题**：US immigration officials defend ICE agents who shot man in same car as child
   - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：159
-  - **发布时间**：Fri, 09 Oct 2026 16:19:36 GMT
+  - **评分**：169
+  - **发布时间**：Sat, 10 Oct 2026 00:13:12 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.bbc.co.uk/news/videos/cmy83pp3904vo?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：Protests against sexual violence took place across more than 40 US states on 8 October.
+  - **原文链接**：https://www.bbc.co.uk/news/articles/cq78px5y1zmzo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：Oscar Belgal, the 28-year-old man, survived the shooting and is now being held at a detention facility outside of New York, officials said.
+
+- **原标题**：Nobel peace laureate says US sanctions on ICC 'unacceptable'
+  - **来源**：BBC
+  - **来源级别**：Tier 1
+  - **评分**：165
+  - **发布时间**：Sat, 10 Oct 2026 15:23:47 GMT
+  - **地区分类**：美国
+  - **原文链接**：https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：Navi Pillay says the Trump administrations' sweeping penalties on the international tribunal were "unheard of".
 
 
 
 ---
 ## 拉丁美洲
-
-- **原标题**：Why has Brazil accused the US of election interference?
-  - **来源**：BBC
-  - **来源级别**：Tier 1
-  - **评分**：179
-  - **发布时间**：Sat, 03 Oct 2026 13:52:13 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.bbc.co.uk/news/videos/c3eweld0nddeo?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：The Latin American country will vote for its next president, as Lula da Silva and Bolsonaro clash over sovereignty, security and ties with Washington.
 
 - **原标题**：Men accused of shooting Australian surfer brothers and US friend dead in Mexico to learn fate as trial concludes
   - **来源**：The Guardian
@@ -97,6 +88,33 @@
   - **原文链接**：https://www.france24.com/en/americas/20261008-us-files-new-torture-charges-venezuela-nicolas-maduro-cilia-flores
   - **原文摘要**：The United States on Thursday charged ousted Venezuelan president Nicolas Maduro and his wife Cilia Flores with conspiracy to commit torture, adding to drug trafficking and firearms charges. Prosecutors allege detainees, including US citizens, suffered waterboarding, rape and beatings. The pair remain in US custody following a January military raid.
 
+- **原标题**：New Brazil Congress poses risk to environmental legislation, campaign group says - Reuters
+  - **来源**：Reuters
+  - **来源级别**：Tier 1
+  - **评分**：173
+  - **发布时间**：Thu, 08 Oct 2026 21:34:12 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://news.google.com/rss/articles/CBMizgFBVV95cUxQVmRlS0VkbU5OelZIRHJHQ2RKaS1Rc1RselVBYzItejBlLTgyczBHcWhlOWtGTzRVejlVVDVid1FUejdSWHN3WXZfanZfLXluWHdndERQa0xIdHMyYzRNNVF1cVJhR3VadDcwQWJ1NUM5Tkh5Sm44MFpVR1diaE50R2pJWXM5TkozM21GVmZYTTZPNzlHaWFPOU5uMnBwMDQ5Sl9hYXpyUDd2MTl5eUpBR2psbHFWbzBndXhfWDlNT1V1Z2piY0Vfa0JWdVloQQ?oc=5
+  - **原文摘要**：New Brazil Congress poses risk to environmental legislation, campaign group says Reuters
+
+- **原标题**：Return of the Bolsonaros: Why the far-right surge in Brazilian elections?
+  - **来源**：France 24
+  - **来源级别**：Tier 1
+  - **评分**：173
+  - **发布时间**：Mon, 05 Oct 2026 18:44:35 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.france24.com/en/tv-shows/the-debate/20261005-return-of-the-bolsonaros-why-the-far-right-surge-in-brazilian-elections
+  - **原文摘要**：Do voters care about attempted coups? Brazil's Flavio Bolsonaro is on the cusp of unseating Luiz Inacio Lula da Silva in the country's October 25 presidential runoff. Bolsonaro's father was jailed over the Brazilian version of the January 6 storming of the US Capitol. Up and down the ballot, other Bolsonaros have been elected in the first round as the far right surges. Is it about incumbent fatigue? Do Brazilians subscribe to Bolsonaro's "God, Homeland, Family" mantra?
+
+- **原标题**：Nicolás Maduro and his wife indicted for alleged torture of US citizens
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：170
+  - **发布时间**：Thu, 08 Oct 2026 18:04:16 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.theguardian.com/world/2026/oct/08/cilia-flores-nicolas-maduro-new-york-court
+  - **原文摘要**：Ousted Venezuelan president and Cilia Flores have been in jail in New York since early January The deposed Venezuelan president Nicolás Maduro and his wife, Cilia Flores, have been indicted for alleged conspiracy to commit torture, according to Manhattan federal court papers unsealed on Thursday. The superseding indictment was unsealed shortly before Flores appeared at court in her ongoing push for pretrial release – which was denied by Judge Alvin Hellerstein. Maduro and Flores have been jailed in New York City since early January. Continue reading...
+
 - **原标题**：Brazil 'has moved to the right progressively over the last two decades', expert says
   - **来源**：France 24
   - **来源级别**：Tier 1
@@ -106,46 +124,37 @@
   - **原文链接**：https://www.france24.com/en/tv-shows/a-propos/20261006-brazil-has-moved-to-the-right-progressively-over-the-last-two-decades-expert-says
   - **原文摘要**：Senator Flavio Bolsonaro received on Monday endorsements ​from Ronaldo Caiado and Romeu Zema, two right-wing politicians who ran against him in Sunday's first-round vote, ​for ‌the runoff against President Luiz ⁠Inacio Lula da Silva later this month. Speaking with FRANCE 24's Sharon Gaffney, Anthony Pereira, Executive Director of the Stone Center for Latin American Studies at Tulane University, says that "Lula's path to victory lies in mobilising voters who didn't vote in the first round" while Flavio Bolsonaro "will probably benefit from the voters who voted for other right-wing candidates and who will simply migrate to him, so it looks a lot easier for Flavio to win the second round than it does for Lula".
 
+- **原标题**：How the trial of murdered Australian brothers and US friend unfolded
+  - **来源**：BBC
+  - **来源级别**：Tier 1
+  - **评分**：168
+  - **发布时间**：Sat, 10 Oct 2026 06:04:35 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.bbc.co.uk/news/videos/cr86z34vz95yo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：The mother of two Australian surfers murdered in Mexico two years ago with their American friend said "accountability matters".
+
 - **原标题**：Powerful 7.6 magnitude quake shakes Panama, triggering tsunami warnings
   - **来源**：France 24
   - **来源级别**：Tier 1
-  - **评分**：168
+  - **评分**：165
   - **发布时间**：Fri, 09 Oct 2026 18:39:03 GMT
   - **地区分类**：拉丁美洲
   - **原文链接**：https://www.france24.com/en/americas/20261009-powerful-7-6-magnitude-quake-shakes-panama-triggering-tsunami-warning
   - **原文摘要**：A strong 7.6 magnitude earthquake struck near the southern ​coast ‌of Panama ⁠on Friday at a 10 km depth, ‌according to the US Geological ⁠Survey, shaking buildings as far away as the capital and prompting evacuations. The US Tsunami Warning ​System showed potential tsunami threats across much of Central America's Pacific ​coast.
 
-- **原标题**：Thousands protest Brazilian presidential candidate Flavio Bolsonaro, fearing far-right return
-  - **来源**：France 24
-  - **来源级别**：Tier 1
-  - **评分**：167
-  - **发布时间**：Wed, 07 Oct 2026 22:01:02 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.france24.com/en/americas/20261007-thousands-protest-flavio-bolsonaro-far-right-brazil
-  - **原文摘要**：Thousands of people joined a student march in downtown Rio de Janeiro on Wednesday to protest against presidential candidate Flavio Bolsonaro ahead of Brazil's October 25 presidential runoff. Bolsonaro led Sunday's first-round vote, prompting demonstrators to rally behind incumbent President Luiz Inacio Lula da Silva and oppose the far right's return to power.
-
-- **原标题**：Three men found guilty of murdering two Australian surfer brothers and US friend in Mexico
-  - **来源**：BBC
-  - **来源级别**：Tier 1
-  - **评分**：164
-  - **发布时间**：Fri, 09 Oct 2026 21:55:51 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.bbc.co.uk/news/articles/cj5ynwnye009o?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：The bodies of Jake and Callum Robinson and their friend Carter Rhoad were found at the bottom of a well.
-
-- **原标题**：Brazil's Flavio Bolsonaro wins support of third-place candidate in presidential race
-  - **来源**：France 24
-  - **来源级别**：Tier 1
-  - **评分**：164
-  - **发布时间**：Fri, 09 Oct 2026 02:34:06 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.france24.com/en/americas/20261009-brazil-flavio-bolsonaro-third-place-candidate-lula
-  - **原文摘要**：Brazil's right-wing presidential candidate Flavio Bolsonaro secured third-place finisher Augusto Cury's endorsement on Thursday, strengthening his position against incumbent President Luiz Inacio Lula da Silva ahead of the runoff. Cury won nearly three percent in Sunday's first round. A Datafolha poll put Bolsonaro ahead with 52 percent against Lula's 48 percent.
-
 
 
 ---
 ## 加勒比地区
+
+- **原标题**：Candlelit theatre in Havana – in pictures
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：171
+  - **发布时间**：Fri, 09 Oct 2026 12:15:00 GMT
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://www.theguardian.com/world/gallery/2026/oct/09/candlelit-theatre-havana-in-pictures
+  - **原文摘要**：Widespread blackouts have become increasingly common in Cuba since the US imposed energy sanctions in January. Outages frequently surpass 24 hours as the ageing grid fails. The Impulso theatre group has had to adapt as power cuts pose severe challenges for the performing arts Continue reading...
 
 - **原标题**：Haiti postpones elections indefinitely amid gang violence
   - **来源**：France 24
@@ -168,34 +177,34 @@
 - **原标题**：Report offers new insight into Haitian gangs as general election looms - AP News
   - **来源**：AP News
   - **来源级别**：Tier 1
-  - **评分**：151
+  - **评分**：145
   - **发布时间**：Wed, 07 Oct 2026 21:17:00 GMT
   - **地区分类**：加勒比地区
   - **原文链接**：https://news.google.com/rss/articles/CBMioAFBVV95cUxPa1ZlTkc1MDRsTnJOQkVHaU1taG9tdEVnbHU2WjNVaWZ6dHVORFJ4Q3YyMTlTeGdmRjNPQjN2WXJsS1dPdFVmTzc1NnVrLXJaSF9TRW9SSkJHcDRib0g4Zk9weHV6VGZnMk91YS15Ui1jd0p0aENlSFVjekxWWndvN2Q5S3dVUllzYlBNWTNRSEowUFp5RE5IbzJHcllIUXBs?oc=5
   - **原文摘要**：Report offers new insight into Haitian gangs as general election looms AP News
-
-- **原标题**：Global News Podcast | US military execution to be livestreamed - BBC
-  - **来源**：BBC
-  - **来源级别**：Tier 1
-  - **评分**：150
-  - **发布时间**：Fri, 09 Oct 2026 05:35:04 GMT
-  - **地区分类**：加勒比地区
-  - **原文链接**：https://news.google.com/rss/articles/CBMiUEFVX3lxTE9RdUZ1SDFhdDZJVXR0ZE5jU2x3LXlCeEdmR1dURWc3RnBNb3dhRTdsT3ZPT1RDSHhUOXE0aHhuQ29HZ3owR1hnT0lnQlI5LXU1?oc=5
-  - **原文摘要**：Global News Podcast | US military execution to be livestreamed BBC
 
 
 
 ---
 ## 智库
 
-- **原标题**：Three Reasons Why It Matters to Exert Proportional Pressure on Nicaragua
+- **原标题**：This Sunday, Brazil Is Choosing More Than Its Next President
   - **来源**：Inter-American Dialogue
   - **来源级别**：Tier 2
-  - **评分**：140
-  - **发布时间**：Thu, 01 Oct 2026 13:57:37 +0000
+  - **评分**：150
+  - **发布时间**：Thu, 01 Oct 2026 21:09:36 +0000
   - **地区分类**：智库
-  - **原文链接**：https://thedialogue.org/blogs/2026/10/three-reasons-why-it-matters-to-exert-proportional-pressure-on-nicaragua
-  - **原文摘要**：Ahead of September 2026's OAS meeting of foreign ministers, this blog by Manuel Orozco examines the legal and diplomatic options available to hold Nicaragua accountable for its authoritarian rule and cross-border aggression, without violating the principle of nonintervention.
+  - **原文链接**：https://thedialogue.org/blogs/2026/10/this-sunday-brazil-is-choosing-more-than-its-next-president
+  - **原文摘要**：Brazil's 2026 election has been largely framed around the presidential race, and understandably so: this month, Brazilians choose between candidates whose platforms differ sharply.
+
+- **原标题**：How Bukele’s War on Gangs Transformed El Salvador
+  - **来源**：InSight Crime
+  - **来源级别**：Tier 2
+  - **评分**：148
+  - **发布时间**：Mon, 28 Sep 2026 15:36:53 +0000
+  - **地区分类**：智库
+  - **原文链接**：https://insightcrime.org/news/how-bukele-war-gangs-transformed-el-salvador/
+  - **原文摘要**：How Bukele’s War on Gangs Transformed El Salvador El Salvador President Nayib Bukele’s offensive against gangs severely weakened the Mara Salvatrucha (MS13) and Barrio 18 and turned his security strategy into a model replicated in other Latin American countries. But at what cost? The post How Bukele’s War on Gangs Transformed El Salvador appeared first on InSight Crime .
 
 - **原标题**：Two Years After Mexico’s Judicial Reform: What Has Changed—and Why It Matters for the United States
   - **来源**：Inter-American Dialogue
@@ -215,15 +224,6 @@
   - **原文链接**：https://insightcrime.org/news/r1s-arrest-exposes-the-cjngs-network-of-r-commanders/
   - **原文摘要**：R1’s Arrest Exposes the CJNG’s Network of ‘R’ Commanders After the murder of a mayor in central Mexico and an influencer in a neighboring state, Mexican authorities say they have their suspect in custody: Ramón Álvarez Ayala, alias "R1," the alleged leader of the R’s, part of Mexico’s feared CJNG. The post R1’s Arrest Exposes the CJNG’s Network of ‘R’ Commanders appeared first on InSight Crime .
 
-- **原标题**：Fito’s Wife and Daughter Captured in Colombia | On the Radar
-  - **来源**：InSight Crime
-  - **来源级别**：Tier 2
-  - **评分**：135
-  - **发布时间**：Wed, 30 Sep 2026 15:01:37 +0000
-  - **地区分类**：智库
-  - **原文链接**：https://insightcrime.org/news/fitos-wife-and-daughter-captured-in-colombia-on-the-radar/
-  - **原文摘要**：Fito’s Wife and Daughter Captured in Colombia | On the Radar Ecuadorian and Colombian authorities captured the wife and daughter of former Choneros leader alias "Fito" in Santander, Colombia, the most recent strike against his family network. The post Fito’s Wife and Daughter Captured in Colombia | On the Radar appeared first on InSight Crime .
-
 
 
 ---
@@ -232,7 +232,7 @@
 - **原标题**：Cuba warns against ‘law of the jungle’ as Foreign Minister denounces US pressure
   - **来源**：UN News - Global perspective Human stories
   - **来源级别**：Tier 2
-  - **评分**：150
+  - **评分**：145
   - **发布时间**：Sat, 26 Sep 2026 12:00:00 +0000
   - **地区分类**：国际组织
   - **原文链接**：https://news.un.org/feed/view/en/story/2026/09/1168458
@@ -247,14 +247,14 @@
   - **原文链接**：https://news.google.com/rss/articles/CBMinwFBVV95cUxQOS1ZZUVxSkFXbGxmNDZoaGdxZ190OWJSLWx5RFNHS05DNmNDLWpjV25ITjFBRUZQVHRqNDZKZkVkTDEzR01CUDZjWm1BX0pXOVBUQTFhNHhrWDBfd3NoUzlnNFN1WURCck10S0VtYzNsSWFZRHNyQXZGNXlLQ3ZhUDcwX0g0NnZGUGIweEhERElTdXU4R0R6X0I1b1owaEk?oc=5
   - **原文摘要**：Latin America and the Caribbean Holds Steady While Top Performers Show a Path to Higher Growth World Bank Group
 
-- **原标题**：What If Caribbean Policymakers Could Track GDP in Real Time? - IDB | Inter American Development Bank
-  - **来源**：IDB | Inter American Development Bank
-  - **来源级别**：Tier 2
+- **原标题**：AI could boost LatAm, Caribbean economy 5.1% over a decade but wages may fall, IDB says - Reuters
+  - **来源**：Reuters
+  - **来源级别**：Tier 1
   - **评分**：134
-  - **发布时间**：Tue, 06 Oct 2026 17:38:31 GMT
+  - **发布时间**：Mon, 21 Sep 2026 07:00:00 GMT
   - **地区分类**：国际组织
-  - **原文链接**：https://news.google.com/rss/articles/CBMipgFBVV95cUxQZVp2YXM1SkpNVWNYUmx4SVdqQXhyR2pjV3FKNFVsWWEwa0w5eVlNc0g3RE9MSWdfLUI1UXRWVDBDc215YUZsRXB0TURFTk5pVDRhYVgwVmV3MEFtSVhZTHJIZzN5UURvTE9HUjVFR3FCNUJuZHZzNEJCeVZfQXZudUJRQzFJVDhFT21YWEpTc21kS0w1ZlRRZ2NBZW9UX3pOcVdDRU9B?oc=5
-  - **原文摘要**：What If Caribbean Policymakers Could Track GDP in Real Time? IDB | Inter American Development Bank
+  - **原文链接**：https://news.google.com/rss/articles/CBMisgFBVV95cUxQVi05aHpLMlNmUWw4ekwzTlpCdVBzVzJQaFNCZkM1OTNfNWViRTh2SThXLUtDV0FTbXBWN0tNVkNhTkNoSE9rZlVoVDhtM1NlYk10czhvclNaa1Rzb2dpQVkyRk5UU0wxTzd1Q0FyS0NpdzhWVWN2SFgzOV9aeDlWWXVwaHRIckFJVzRVUGswMFlCa2k0aWVJbEdJNEROSGtGZE45T1BXSEVDRjA5bVBPOHlR?oc=5
+  - **原文摘要**：AI could boost LatAm, Caribbean economy 5.1% over a decade but wages may fall, IDB says Reuters
 
 
 

@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-10)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-11)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-10)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-11)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/oct/09/trump-investigate-lisa-cook-fed-governor|Trump establishes committee to investigate Fed governor Lisa Cook>\n• <https://www.theguardian.com/us-news/2026/oct/09/federal-judge-rules-against-trump-push-state-voter-rolls|Federal judge rules against Trump DoJ’s policy of collecting state voter rolls>\n• <https://www.bbc.co.uk/news/videos/c3eweld0nddeo?at_medium=RSS&at_campaign=rss|Why has Brazil accused the US of election interference?>\n• <https://www.theguardian.com/australia-news/2026/oct/09/jake-callum-robinson-australian-surfers-carter-rhoad-mexico-murder-trial-ntwnfb|Men accused of shooting Australian surfer brothers and US friend dead in Mexico to learn fate as trial concludes>\n• <https://www.france24.com/en/americas/20261007-haiti-postpones-elections-indefinitely-as-gang-violence-hampers-preparations|Haiti postpones elections indefinitely amid gang violence>\n• <https://www.bbc.co.uk/news/articles/ckrerylrlg9vo?at_medium=RSS&at_campaign=rss|The wealthy Cuban Americans ready and waiting for Havana to fall>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/oct/10/tsa-union-agency-checkpoints-chairs|‘People are pissed’: union decries TSA’s removal of chairs for checkpoint staff>\n• <https://www.theguardian.com/business/2026/oct/08/economy-midterm-elections-tell-us|Send us your questions on how the US economy is shaping the midterm elections>\n• <https://www.theguardian.com/australia-news/2026/oct/09/jake-callum-robinson-australian-surfers-carter-rhoad-mexico-murder-trial-ntwnfb|Men accused of shooting Australian surfer brothers and US friend dead in Mexico to learn fate as trial concludes>\n• <https://www.france24.com/en/americas/20261008-us-files-new-torture-charges-venezuela-nicolas-maduro-cilia-flores|US files new torture charges against  Venezuela's Nicolas Maduro and wife Cilia Flores>\n• <https://www.theguardian.com/world/gallery/2026/oct/09/candlelit-theatre-havana-in-pictures|Candlelit theatre in Havana – in pictures>\n• <https://www.france24.com/en/americas/20261007-haiti-postpones-elections-indefinitely-as-gang-violence-hampers-preparations|Haiti postpones elections indefinitely amid gang violence>"
       }
     },
     {
