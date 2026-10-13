@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-12)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-13)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-12)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-13)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/business/2026/oct/09/trump-investigate-lisa-cook-fed-governor|Trump establishes committee to investigate Fed governor Lisa Cook>\n• <https://www.theguardian.com/commentisfree/2026/oct/09/jewish-vote-israel|Stop talking about the US ‘Jewish vote’. It's not that simple | Judith Levine>\n• <https://www.france24.com/en/americas/20261011-brazil-lula-accuses-social-media-giant-meta-election-interference-amid-tight-run-campaign|Brazil's Lula accuses social media giant Meta of election interference amid tight run-off campaign>\n• <https://www.france24.com/en/concerns-of-us-interference-weigh-on-brazil-vote|Concerns of US interference weigh on Brazil vote>\n• <https://www.theguardian.com/world/gallery/2026/oct/09/candlelit-theatre-havana-in-pictures|Candlelit theatre in Havana – in pictures>\n• <https://www.france24.com/en/americas/20261007-haiti-postpones-elections-indefinitely-as-gang-violence-hampers-preparations|Haiti postpones elections indefinitely amid gang violence>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.france24.com/en/americas/20261012-us-federal-agents-raid-home-of-democratic-congresswoman-and-trump-critic-ilhan-omar|US federal agents raid home of Democratic congresswoman and Trump critic Ilhan Omar>\n• <https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan|US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy>\n• <https://www.theguardian.com/us-news/2026/oct/12/georgia-gwinnett-county-midterm-elections|This Georgia county is one of the US’s most diverse – and that could flip multiple elections>\n• <https://www.theguardian.com/us-news/2026/oct/12/fugitive-venezuela-bribery-case|Fugitive businessman taken into US custody in Venezuela bribery case>\n• <https://www.aljazeera.com/economy/2026/10/12/cuba-forges-ahead-with-renewable-energy-plans-amid-us-oil-blockade?traffic_source=rss|Cuba forges ahead with renewable energy plans amid US oil blockade>\n• <https://www.theguardian.com/commentisfree/2026/oct/12/super-el-nino-farms-prepare|A super el Niño threatens our food system. Here’s how farms can prepare | Liz Carlisle>"
       }
     },
     {
