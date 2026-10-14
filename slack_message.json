@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-13)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-14)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-13)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-14)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.france24.com/en/americas/20261012-us-federal-agents-raid-home-of-democratic-congresswoman-and-trump-critic-ilhan-omar|US federal agents raid home of Democratic congresswoman and Trump critic Ilhan Omar>\n• <https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan|US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy>\n• <https://www.theguardian.com/us-news/2026/oct/12/georgia-gwinnett-county-midterm-elections|This Georgia county is one of the US’s most diverse – and that could flip multiple elections>\n• <https://www.theguardian.com/us-news/2026/oct/12/fugitive-venezuela-bribery-case|Fugitive businessman taken into US custody in Venezuela bribery case>\n• <https://www.aljazeera.com/economy/2026/10/12/cuba-forges-ahead-with-renewable-energy-plans-amid-us-oil-blockade?traffic_source=rss|Cuba forges ahead with renewable energy plans amid US oil blockade>\n• <https://www.theguardian.com/commentisfree/2026/oct/12/super-el-nino-farms-prepare|A super el Niño threatens our food system. Here’s how farms can prepare | Liz Carlisle>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/oct/13/elon-musk-political-donor-midterm-elections|Elon Musk becomes biggest donor of US midterms cycle with $366m spent>\n• <https://www.theguardian.com/news/video/2026/oct/13/i-will-not-be-silenced-trump-critic-ilhan-omar-defiant-after-home-raided-the-latest|‘I will not be silenced’: Trump critic Ilhan Omar defiant after home raided - The Latest>\n• <https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe|Latin American organised crime ‘may operate in 16 European countries’>\n• <https://www.theguardian.com/world/2026/oct/13/scandal-brazil-court-jair-flavio-bolsonaro-power-election-moraes-lula|How a scandal engulfing Brazil’s top court could return the Bolsonaros to power>\n• <https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ21qSmpyZzRDaFJwUUh1Zldnb25yMGphSVlOa0NiN3hPdDVXcThHVzlEdTM2U0NhdkwwSFdnanZ2VENlYVhDZWF3UlA4eVBGRms1clZabHdJbnJQeVpOWEd4NkkyWkVPbzQxRG8xQnFhWGVfVEpseXhfOURzLUI0SVptcW9KNWxjUGlLT1N6Nkh0cVRrMmdmQ2xoS09NbVBQa3RzWFgtWnRFQkZlUnMwekl0U0NJTm5wM2o3QURySFpJNldySHgzUjNzOVhRZw?oc=5|IMF cuts Latin America, Caribbean growth forecasts on energy shock, little AI boost - Reuters>\n• <https://www.theguardian.com/commentisfree/2026/oct/12/super-el-nino-farms-prepare|A super el Niño threatens our food system. Here’s how farms can prepare | Liz Carlisle>"
       }
     },
     {

@@ -1,6 +1,6 @@
 # 美洲新闻自动抓取结果｜Daily Americas News Collection
 
-- **生成日期**：2026-10-13
+- **生成日期**：2026-10-14
 - **自动更新**：每日 22:00 UTC
 - **输出说明**：本文件由程序根据公开 RSS 新闻源自动抓取生成，仅用于研究团队初步筛选。新闻价值、事实核验和最终采用由人工判断。
 
@@ -11,82 +11,91 @@
 
 ## 美国
 
-- **原标题**：US federal agents raid home of Democratic congresswoman and Trump critic Ilhan Omar
-  - **来源**：France 24
+- **原标题**：Elon Musk becomes biggest donor of US midterms cycle with $366m spent
+  - **来源**：The Guardian
   - **来源级别**：Tier 1
   - **评分**：179
-  - **发布时间**：Mon, 12 Oct 2026 15:13:20 GMT
+  - **发布时间**：Tue, 13 Oct 2026 17:13:50 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.france24.com/en/americas/20261012-us-federal-agents-raid-home-of-democratic-congresswoman-and-trump-critic-ilhan-omar
-  - **原文摘要**：US federal agents on Monday launched a raid on ‌the Washington home of Democratic representative Ilhan Omar, an outspoken critic of US President Donald ⁠Trump, officials said. The raid followed a criminal fraud ‌investigation into the Somali-born lawmaker's immigration paperwork submitted by her late father when she ⁠was a child, Fox News reported.
+  - **原文链接**：https://www.theguardian.com/us-news/2026/oct/13/elon-musk-political-donor-midterm-elections
+  - **原文摘要**：Musk’s midterm donations, mostly for rightwing candidates and causes, surpass his contributions to Trump in 2024 Send us your questions on how the US economy is shaping the midterm elections Elon Musk has become the biggest political donor of the 2026 US midterm elections cycle, funneling about $366m into political groups and campaigns as he backs conservative candidates and rightwing causes. The world’s richest person has poured more than $276m into politics since July alone, some of the most rapid political spending in US history. He’s targeting key races that will determine which party controls the US Senate. The New York Times first reported the spending numbers, which will be released in a federal filing on Thursday. Musk’s spending outpaces his 2024 presidential election contributions, in which he sunk nearly $300m into Donald Trump’s re-election campaign. Continue reading...
 
-- **原标题**：US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy
+- **原标题**：‘I will not be silenced’: Trump critic Ilhan Omar defiant after home raided - The Latest
   - **来源**：The Guardian
   - **来源级别**：Tier 1
-  - **评分**：174
-  - **发布时间**：Sun, 11 Oct 2026 11:00:25 GMT
+  - **评分**：176
+  - **发布时间**：Tue, 13 Oct 2026 16:24:23 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/business/2026/oct/11/trump-ai-economy-reagan
-  - **原文摘要**：‘Even if AI supercharged the economy, its impact on the government’s finances would be muted’ Back through political history to the age of Ronald Reagan , Republicans have repeatedly promised the US public that tax cuts would pay for themselves, firing up economic growth and filling the government’s coffers. The promise never really panned out. From the Gipper’s day on, the Republicans’ tax cuts inevitably increased the budget deficit. Despite its failure, though, the promise is back, coated in a fine new layer of artificial intelligence pixie dust. It will fail again. Continue reading...
+  - **原文链接**：https://www.theguardian.com/news/video/2026/oct/13/i-will-not-be-silenced-trump-critic-ilhan-omar-defiant-after-home-raided-the-latest
+  - **原文摘要**：Democrats have described a raid on the home of Congresswoman Ilhan Omar as “deeply disturbing” and a “rogue abuse of power” by the Trump administration. The Democratic representative for Minnesota has long been a target of highly personal attacks by Donald Trump, who claims he was not involved in ordering the Justice Department raid. Omar criticised the raid as an attempt to “weaponize law enforcement” as part of a “campaign of political intimidation” against her. Lucy Hough speaks to Guardian US political reporter Shrai Popat – watch on YouTube Continue reading...
 
-- **原标题**：Trump establishes committee to investigate Fed governor Lisa Cook
-  - **来源**：The Guardian
+- **原标题**：US economists win Nobel for research helping policymakers navigate crises
+  - **来源**：France 24
   - **来源级别**：Tier 1
-  - **评分**：174
-  - **发布时间**：Fri, 09 Oct 2026 18:05:12 GMT
+  - **评分**：176
+  - **发布时间**：Tue, 13 Oct 2026 10:04:59 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/business/2026/oct/09/trump-investigate-lisa-cook-fed-governor
-  - **原文摘要**：US president renews his efforts to oust Cook despite supreme court ruling that her firing was unconstitutional Donald Trump announced on Friday that he is establishing a committee to investigate Lisa Cook, the US Federal Reserve governor, over allegations that she committed mortgage fraud, renewing his efforts to oust her despite a June supreme court ruling that her earlier firing was unconstitutional. Trump said a committee will consult with justice department officials to decide whether there is “cause” for her removal. The White House will hold an in-person hearing on 5 November to consider the allegations against Cook, which will be closed to the public but transcribed and published. Cook will be able to submit a written statement to present her own evidence and will be subject to examination from White House and her own legal counsel. Continue reading...
+  - **原文链接**：https://www.france24.com/en/us-economists-win-nobel-for-research-helping-policymakers-navigate-crises
+  - **原文摘要**：Two American economists, Robert E. Hall of Stanford University and Michael Woodford of Columbia University, have won the Nobel Memorial Prize in Economic Sciences for their work on economic stabilisation. Their research helps policymakers and central banks better understand economic fluctuations, manage recessions and inflation, and account for public expectations when shaping economic policy. The prize money, worth around $1.2 million, will be shared equally between the two laureates.
 
-- **原标题**：Ilhan Omar says she will not be silenced after federal agents raid her home
-  - **来源**：The Guardian
+- **原标题**：Trump’s use of Russian diesel fuel, at Ukraine’s expense, sparks controversy in the US
+  - **来源**：France 24
   - **来源级别**：Tier 1
   - **评分**：172
-  - **发布时间**：Mon, 12 Oct 2026 16:20:42 GMT
+  - **发布时间**：Tue, 13 Oct 2026 13:26:21 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/us-news/2026/oct/12/federal-agents-ilhan-omar-home-raid
-  - **原文摘要**：Trump and key allies have accused Omar of immigration fraud, and have called to expel her from the country Federal agents searched Representative Ilhan Omar ’s home on Monday morning as part of a criminal investigation, according to the Department of Justice and reports in the Associated Press and Fox News. In a social media post later on Monday, Omar criticized the raid as an attempt by the Trump administration “to target political enemies and weaponize law enforcement” and said she would “not be silenced”. Continue reading...
+  - **原文链接**：https://www.france24.com/en/trump-s-use-of-russian-diesel-fuel-at-ukraine-s-expense-sparks-controversy-in-the-us
+  - **原文摘要**：Donald Trump’s plan to import Russian diesel despite Western sanctions has sparked fierce criticism in Washington, including from Republicans, as high fuel prices and the upcoming midterm elections put pressure on his administration. His approach to the Ukraine war has also drawn controversy, with calls for Kyiv to hold elections and claims of an energy ceasefire announced without clear agreement from the parties involved. FRANCE 24's Douglas Herbert has the analysis.
 
-- **原标题**：US justice department investigates TV networks over Trump pool coverage
+- **原标题**：BBC on the scene as agents search Congresswoman Ilhan Omar's home
   - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：162
-  - **发布时间**：Sun, 11 Oct 2026 05:05:43 GMT
+  - **评分**：166
+  - **发布时间**：Mon, 12 Oct 2026 16:20:23 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：The White House had blocked access for CNN, MS Now and Politico, leading them to restrict pool coverage.
+  - **原文链接**：https://www.bbc.co.uk/news/videos/c6gqw9q1qk2jo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：The BBC's Ione Wells reports from outside the Minnesota representative's home as several immigration agents were seen carrying boxes from the house to a van.
 
-- **原标题**：Nobel peace laureate says US sanctions on ICC 'unacceptable'
+- **原标题**：American ranchers wrestle with soaring costs - and their loyalty to Trump
   - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：162
-  - **发布时间**：Sat, 10 Oct 2026 15:23:47 GMT
+  - **评分**：165
+  - **发布时间**：Sun, 11 Oct 2026 23:13:51 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：Navi Pillay says the Trump administrations' sweeping penalties on the international tribunal were "unheard of".
+  - **原文链接**：https://www.bbc.co.uk/news/articles/c6d7q5z17gp5o?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：Many farmers in states that backed the president say they are being hit from all sides, with the crucial midterm elections just weeks away.
 
 
 
 ---
 ## 拉丁美洲
 
-- **原标题**：This Georgia county is one of the US’s most diverse – and that could flip multiple elections
+- **原标题**：Latin American organised crime ‘may operate in 16 European countries’
   - **来源**：The Guardian
   - **来源级别**：Tier 1
   - **评分**：188
-  - **发布时间**：Mon, 12 Oct 2026 11:00:54 GMT
+  - **发布时间**：Tue, 13 Oct 2026 07:00:18 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.theguardian.com/us-news/2026/oct/12/georgia-gwinnett-county-midterm-elections
-  - **原文摘要**：Gwinnett county is home to many immigrants and other newcomers, and how it votes could be decisive for Congress Johanna Park might just be an ambassador for Gwinnett county, Georgia, one of the 10 most ethnically diverse counties in the United States. Park owns Cafe Amico at Suwanee Town Center, one of her three Italian coffee shops in the area just north of Atlanta. She was born in Korea and lived much of her life in Argentina and Peru. She’s been in Gwinnett for more than 20 years, part of an early wave of Korean immigration that’s built Korean American car dealerships, banks, insurance agencies, supermarkets and restaurants like her own. It’s also a population that’s increasing in influence and not just numbers . Continue reading...
+  - **原文链接**：https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe
+  - **原文摘要**：Cocaine seizures in Europe are up more than fivefold in 10 years as a host of cartels take root. A four-month Guardian investigation reveals the true scale of a continent-wide shift A four-month investigation by the Guardian has revealed that the surge in cocaine trafficking to Europe is directly linked to the expanding presence of Latin American criminal networks in Europe, where they have forged close ties with local mafia organisations. The investigation, utilising databases, police and intelligence agencies, along with interviews with judges, prosecutors and experts from eight countries, shows that cartels and factions from Colombia, Brazil, Ecuador, Venezuela, Mexico and the US are active in at least 12 European countries. Between 2014 and 2024, there was a 471% rise in the quantity of cocaine seized and more local laboratories processing cocaine derivatives were dismantled. Continue reading...
+
+- **原标题**：How a scandal engulfing Brazil’s top court could return the Bolsonaros to power
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：184
+  - **发布时间**：Tue, 13 Oct 2026 10:00:05 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.theguardian.com/world/2026/oct/13/scandal-brazil-court-jair-flavio-bolsonaro-power-election-moraes-lula
+  - **原文摘要**：The judge who helped convict Jair Bolsonaro is caught up in a crisis that could benefit his son and damage Lula Marina Silva on Flávio Bolsonaro: He will try to finish his father’s ‘perverse project’ to destroy the Amazon Thundering to a crowd of thousands of far-right supporters in São Paulo on 7 September, Brazil’s Independence Day, the senator Flávio Bolsonaro focused less on his opponent in the presidential election , the leftist president Luiz Inácio Lula da Silva, than on someone who is not running at all. “Whoever votes for Lula is voting for Alexandre de Moraes ,” Bolsonaro shouted, referring to the shaven-headed supreme court justice once described as “Voldemort” by Elon Musk. Continue reading...
 
 - **原标题**：Fugitive businessman taken into US custody in Venezuela bribery case
   - **来源**：The Guardian
   - **来源级别**：Tier 1
-  - **评分**：181
+  - **评分**：178
   - **发布时间**：Mon, 12 Oct 2026 13:14:14 GMT
   - **地区分类**：拉丁美洲
   - **原文链接**：https://www.theguardian.com/us-news/2026/oct/12/fugitive-venezuela-bribery-case
-  - **原文摘要**：A businessman wanted in the US for allegedly bribing top Venezuelan officials has been taken into custody A businessman wanted for years in the US for allegedly paying bribes to top Venezuelan officials in exchange for lucrative state contracts in Venezuela has been taken into custody. Alvaro Pulido was indicted in Miami federal court in 2019 and again in 2021 as part of an investigation into his longtime business partner, Alex Saab, a one-time ally of ousted Venezuelan president Nicolás Maduro . The US Drug Enforcement Administration (DEA) and the state department had been offering a reward of up to $10m for information leading to his arrest. Continue reading...
+  - **原文摘要**：A businessman wanted in the US for allegedly bribing top Venezuelan officials has been taken into custody A businessman wanted for years in the US for allegedly paying bribes to top Venezuelan officials in exchange for lucrative state contracts in Venezuela has been taken into custody. Alvaro Pulido was indicted in Miami federal court in 2019 and again in 2021 as part of an investigation into his longtime business partner, Alex Saab, a one-time ally of the ousted Venezuelan president Nicolás Maduro . The US Drug Enforcement Administration (DEA) and the state department had been offering a reward of up to $10m for information leading to his arrest. Continue reading...
 
 - **原标题**：Why has Brazil accused the US of election interference?
   - **来源**：BBC
@@ -106,64 +115,55 @@
   - **原文链接**：https://www.france24.com/en/americas/20261011-brazil-lula-accuses-social-media-giant-meta-election-interference-amid-tight-run-campaign
   - **原文摘要**：Social media platform Meta has 48 hours to respond to claims by Brazil's leftwing candidate and incumbent President Luiz Inacio Lula da Silva's campaign accusing the tech platform of blocking content on the company's platforms. Brazil's Superior Electoral Court on Saturday gave the social media giant 48 hours to clarify whether it reduced the reach of posts by Lula's campaign ahead of the tight October 25 run-off against rightwing candidate Flavio Bolsonaro.
 
-- **原标题**：Brazil 'has moved to the right progressively over the last two decades', expert says
+- **原标题**：In Brazil, thousands march fearing return of Bolsonaro presidency
   - **来源**：France 24
   - **来源级别**：Tier 1
-  - **评分**：170
-  - **发布时间**：Tue, 06 Oct 2026 17:05:39 GMT
+  - **评分**：169
+  - **发布时间**：Tue, 13 Oct 2026 14:59:30 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.france24.com/en/tv-shows/a-propos/20261006-brazil-has-moved-to-the-right-progressively-over-the-last-two-decades-expert-says
-  - **原文摘要**：Senator Flavio Bolsonaro received on Monday endorsements ​from Ronaldo Caiado and Romeu Zema, two right-wing politicians who ran against him in Sunday's first-round vote, ​for ‌the runoff against President Luiz ⁠Inacio Lula da Silva later this month. Speaking with FRANCE 24's Sharon Gaffney, Anthony Pereira, Executive Director of the Stone Center for Latin American Studies at Tulane University, says that "Lula's path to victory lies in mobilising voters who didn't vote in the first round" while Flavio Bolsonaro "will probably benefit from the voters who voted for other right-wing candidates and who will simply migrate to him, so it looks a lot easier for Flavio to win the second round than it does for Lula".
+  - **原文链接**：https://www.france24.com/en/in-brazil-thousands-march-fearing-return-of-bolsonaro-presidency
+  - **原文摘要**：Thousands of young Brazilians have taken to the streets to support President Luiz Inácio Lula da Silva and voice fears of a return to power for the Bolsonaro political movement, amid a closely watched presidential race. Many protesters say they are worried about their future, particularly the impact a far-right government could have on universities and education. FRANCE 24’s Jan Onoszko reports from Brazil.
 
-- **原标题**：How the trial of murdered Australian brothers and US friend unfolded
+- **原标题**：Argentina targets UK in legal claim over Falklands oil exploration
   - **来源**：BBC
   - **来源级别**：Tier 1
   - **评分**：165
-  - **发布时间**：Sat, 10 Oct 2026 06:04:35 GMT
+  - **发布时间**：Tue, 13 Oct 2026 17:36:43 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.bbc.co.uk/news/videos/cr86z34vz95yo?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：The mother of two Australian surfers murdered in Mexico two years ago with their American friend said "accountability matters".
+  - **原文链接**：https://www.bbc.co.uk/news/articles/cmp3g14p3z2ko?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：The action filed with an international maritime tribunal is the latest development in an escalating row over the Falkland Islands.
 
-- **原标题**：Storms leave 2 dead in Mexico as flash-flood risk from Rachel lingers across the Southwest US - AP News
-  - **来源**：AP News
-  - **来源级别**：Tier 1
-  - **评分**：164
-  - **发布时间**：Tue, 13 Oct 2026 00:01:00 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://news.google.com/rss/articles/CBMinwFBVV95cUxPN3d0Y2c1elRlVnk2WlA2Y2RxWDlMb0pSSVNoeXFUdmNnWUhLd1lUWHpiZFpZUXIyRTQtNGtwaW9Vdk85dkxIMDE4d0o3aGJwVGxHY0V3ODZrUmJTcU5PTG5KNWtaYkhZaUxXWE4xM28zVndyZVJhdTBGaWphR2ZjLWYwLVNPZWRaTlV3WXQ5UEVCVVRaUFBCMGVCOFNzbnc?oc=5
-  - **原文摘要**：Storms leave 2 dead in Mexico as flash-flood risk from Rachel lingers across the Southwest US AP News
-
-- **原标题**：Thousands protest Brazilian presidential candidate Flavio Bolsonaro, fearing far-right return
+- **原标题**：Powerful 7.6 magnitude quake shakes Panama, triggering tsunami warnings
   - **来源**：France 24
   - **来源级别**：Tier 1
-  - **评分**：161
-  - **发布时间**：Wed, 07 Oct 2026 22:01:02 GMT
+  - **评分**：159
+  - **发布时间**：Fri, 09 Oct 2026 18:39:03 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.france24.com/en/americas/20261007-thousands-protest-flavio-bolsonaro-far-right-brazil
-  - **原文摘要**：Thousands of people joined a student march in downtown Rio de Janeiro on Wednesday to protest against presidential candidate Flavio Bolsonaro ahead of Brazil's October 25 presidential runoff. Bolsonaro led Sunday's first-round vote, prompting demonstrators to rally behind incumbent President Luiz Inacio Lula da Silva and oppose the far right's return to power.
+  - **原文链接**：https://www.france24.com/en/americas/20261009-powerful-7-6-magnitude-quake-shakes-panama-triggering-tsunami-warning
+  - **原文摘要**：A strong 7.6 magnitude earthquake struck near the southern ​coast ‌of Panama ⁠on Friday at a 10 km depth, ‌according to the US Geological ⁠Survey, shaking buildings as far away as the capital and prompting evacuations. The US Tsunami Warning ​System showed potential tsunami threats across much of Central America's Pacific ​coast.
 
 
 
 ---
 ## 加勒比地区
 
-- **原标题**：Cuba forges ahead with renewable energy plans amid US oil blockade
-  - **来源**：Al Jazeera
+- **原标题**：IMF cuts Latin America, Caribbean growth forecasts on energy shock, little AI boost - Reuters
+  - **来源**：Reuters
   - **来源级别**：Tier 1
-  - **评分**：180
-  - **发布时间**：Mon, 12 Oct 2026 18:52:40 +0000
+  - **评分**：176
+  - **发布时间**：Tue, 13 Oct 2026 02:09:00 GMT
   - **地区分类**：加勒比地区
-  - **原文链接**：https://www.aljazeera.com/economy/2026/10/12/cuba-forges-ahead-with-renewable-energy-plans-amid-us-oil-blockade?traffic_source=rss
-  - **原文摘要**：Cuban energy minister denies link to fuel shipments intercepted by US, says oil imports by private firms insufficient.
+  - **原文链接**：https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ21qSmpyZzRDaFJwUUh1Zldnb25yMGphSVlOa0NiN3hPdDVXcThHVzlEdTM2U0NhdkwwSFdnanZ2VENlYVhDZWF3UlA4eVBGRms1clZabHdJbnJQeVpOWEd4NkkyWkVPbzQxRG8xQnFhWGVfVEpseXhfOURzLUI0SVptcW9KNWxjUGlLT1N6Nkh0cVRrMmdmQ2xoS09NbVBQa3RzWFgtWnRFQkZlUnMwekl0U0NJTm5wM2o3QURySFpJNldySHgzUjNzOVhRZw?oc=5
+  - **原文摘要**：IMF cuts Latin America, Caribbean growth forecasts on energy shock, little AI boost Reuters
 
 - **原标题**：A super el Niño threatens our food system. Here’s how farms can prepare | Liz Carlisle
   - **来源**：The Guardian
   - **来源级别**：Tier 1
-  - **评分**：179
+  - **评分**：176
   - **发布时间**：Mon, 12 Oct 2026 13:00:55 GMT
   - **地区分类**：加勒比地区
   - **原文链接**：https://www.theguardian.com/commentisfree/2026/oct/12/super-el-nino-farms-prepare
-  - **原文摘要**：Planting cover crops or perennial plants can protect soil amid potential flooding. Congress must act to protect these practices As forecasters warn that this year’s El Niño could become the strongest on record , concerns are growing about its effect on agriculture and food security. The United States will not be hit nearly as hard as Central and South America, the Caribbean, and southern Africa , but severe weather could cause significant crop loss in some parts of the country. Liz Carlisle is associate professor of Environmental Studies at UC Santa Barbara. She is the author of Healing Grounds: Climate, Justice, and the Deep Roots of Regenerative Farming and co-editor of Living Roots: The Promise of Perennial Foods Continue reading...
+  - **原文摘要**：Planting cover crops or perennial plants can protect soil amid potential flooding. Congress must act to protect these practices As forecasters warn that this year’s El Niño could become the strongest on record , concerns are growing about its effect on agriculture and food security. The United States will not be hit nearly as hard as Central and South America, the Caribbean and southern Africa , but severe weather could cause significant crop loss in some parts of the country. Liz Carlisle is associate professor of environmental studies at UC Santa Barbara. She is the author of Healing Grounds: Climate, Justice, and the Deep Roots of Regenerative Farming and co-editor of Living Roots: The Promise of Perennial Foods Continue reading...
 
 - **原标题**：Haiti postpones elections indefinitely amid gang violence
   - **来源**：France 24
@@ -174,14 +174,23 @@
   - **原文链接**：https://www.france24.com/en/americas/20261007-haiti-postpones-elections-indefinitely-as-gang-violence-hampers-preparations
   - **原文摘要**：Haiti has indefinitely postponed elections scheduled for December and February, the electoral council said Tuesday, citing technical and operational requirements as gang violence continues to disrupt preparations. The delay leaves Haitians without a democratic process as authorities struggle to register voters and secure areas needed for the poll.
 
-- **原标题**：The wealthy Cuban Americans ready and waiting for Havana to fall
+- **原标题**：EXCLUSIVE: Guyana may scale back LNG plans as Exxon needs more gas for its wells, sources say - Reuters
+  - **来源**：Reuters
+  - **来源级别**：Tier 1
+  - **评分**：146
+  - **发布时间**：Tue, 13 Oct 2026 18:22:59 GMT
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://news.google.com/rss/articles/CBMixAFBVV95cUxQSkd0M3A4dTZ1QlJ5dW9YclRZZEMwLVJEc3N0UFpPY1Y3S0FNYjdQTFZULUJBdVVKWmx0czJiQjNONzNKUGhfakZadEZtbFRnSGtYQ1ZidUpFT3JsdW9RdDg0d0ZvNE83c1pWd2d6bFdDalFLNmdYUi1JNjBZb1VDQUQtYl9mNmhoLVRSa0I3eTB3XzVrU1RIeVYxdEQxR2ZKZWo0MzBPVEZRV2dEQ1dnVnpjTU9aR0U2VGJZeDBZWFVrYkFK?oc=5
+  - **原文摘要**：EXCLUSIVE: Guyana may scale back LNG plans as Exxon needs more gas for its wells, sources say Reuters
+
+- **原标题**：The Global Story | Was World War Two worth it? Some US conservatives have doubts - BBC
   - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：155
-  - **发布时间**：Thu, 01 Oct 2026 23:00:05 GMT
+  - **评分**：145
+  - **发布时间**：Tue, 13 Oct 2026 09:12:11 GMT
   - **地区分类**：加勒比地区
-  - **原文链接**：https://www.bbc.co.uk/news/articles/ckrerylrlg9vo?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：Cuban exiles in Florida are increasingly hopeful that regime change in Cuba is now on the horizon.
+  - **原文链接**：https://news.google.com/rss/articles/CBMiUEFVX3lxTE03RkJkTlFWVlNDdklhcnp0eGoxSVhwd2NSMVkyQlBPSFBPbUROc183YmhSemtvdWlmZXpRZmNqNWp3a1N4R2JodlJXckEwenpr?oc=5
+  - **原文摘要**：The Global Story | Was World War Two worth it? Some US conservatives have doubts BBC
 
 
 
@@ -197,23 +206,23 @@
   - **原文链接**：https://insightcrime.org/news/garifunas-fight-land-honduras-cocaine-coast/
   - **原文摘要**：The Garífuna’s Fight for Land on Honduras’ Cocaine Coast The overlapping presence of drug trafficking and powerful economic interests remains one of the main obstacles to implementing the IACtHR rulings in Punta Piedra and three other Garífuna communities. The state, meanwhile, has shifted from failing to protect the Garífuna’s land rights to accusing their leaders of organized crime. The post The Garífuna’s Fight for Land on Honduras’ Cocaine Coast appeared first on InSight Crime .
 
-- **原标题**：Two Years On, the Sinaloa Cartel War Changes Shape | The InSight Take
-  - **来源**：InSight Crime
+- **原标题**：This Sunday, Brazil Is Choosing More Than Its Next President
+  - **来源**：Inter-American Dialogue
   - **来源级别**：Tier 2
-  - **评分**：135
-  - **发布时间**：Thu, 08 Oct 2026 16:36:22 +0000
+  - **评分**：150
+  - **发布时间**：Thu, 01 Oct 2026 21:09:36 +0000
   - **地区分类**：智库
-  - **原文链接**：https://insightcrime.org/uncategorized/sinaloa-cartel-war-culiacan-two-years/
-  - **原文摘要**：Two Years On, the Sinaloa Cartel War Changes Shape | The InSight Take Two years after Ismael Zambada Garcia, alias "El Mayo," was handed over to US authorities in what was deemed a traitorous act by one faction against another, the war between the Chapitos and the Mayiza factions of the Sinaloa Cartel continues to roil the area. The conflict has implications for the criminal superstructure throughout the country. InSight Crime's Victoria Dittmar and co-director Steven Dudley were recently in Culiacán, Sinaloa, where they interviewed drug producers, residents, and local sources. They found a city where the war is less visible than it was but no less present. The post Two Years On, the Sinaloa Cartel War Changes Shape | The InSight Take appeared first on InSight Crime .
+  - **原文链接**：https://thedialogue.org/blogs/2026/10/this-sunday-brazil-is-choosing-more-than-its-next-president
+  - **原文摘要**：Brazil's 2026 election has been largely framed around the presidential race, and understandably so: this month, Brazilians choose between candidates whose platforms differ sharply.
 
-- **原标题**：Social Media is Fertile Ground for Illegal Mining Players in Peru
+- **原标题**：How Bukele’s War on Gangs Transformed El Salvador
   - **来源**：InSight Crime
   - **来源级别**：Tier 2
-  - **评分**：135
-  - **发布时间**：Tue, 06 Oct 2026 20:36:44 +0000
+  - **评分**：143
+  - **发布时间**：Mon, 28 Sep 2026 15:36:53 +0000
   - **地区分类**：智库
-  - **原文链接**：https://insightcrime.org/news/social-media-is-fertile-ground-for-illegal-mining-players-in-peru/
-  - **原文摘要**：Social Media is Fertile Ground for Illegal Mining Players in Peru Posing as a would-be miner, InSight Crime answered a Facebook advert offering land with mining permits in Peru's Madre de Dios region. The permits are meant to help informal miners go legal, but experts say they are often used as a front for illegal mining, and to launder black-market gold. The post Social Media is Fertile Ground for Illegal Mining Players in Peru appeared first on InSight Crime .
+  - **原文链接**：https://insightcrime.org/news/how-bukele-war-gangs-transformed-el-salvador/
+  - **原文摘要**：How Bukele’s War on Gangs Transformed El Salvador El Salvador President Nayib Bukele’s offensive against gangs severely weakened the Mara Salvatrucha (MS13) and Barrio 18 and turned his security strategy into a model replicated in other Latin American countries. But at what cost? The post How Bukele’s War on Gangs Transformed El Salvador appeared first on InSight Crime .
 
 - **原标题**：Three Reasons Why It Matters to Exert Proportional Pressure on Nicaragua
   - **来源**：Inter-American Dialogue
@@ -237,15 +246,6 @@
   - **地区分类**：国际组织
   - **原文链接**：https://news.un.org/feed/view/en/story/2026/09/1168458
   - **原文摘要**：Cuba’s Foreign Minister warned the UN General Assembly on Saturday that escalating military and economic pressure in Latin America and the Caribbean was threatening international law, while accusing the United States of intensifying a decades-long campaign to isolate and weaken his country.
-
-- **原标题**：Latin America and the Caribbean Holds Steady While Top Performers Show a Path to Higher Growth - World Bank Group
-  - **来源**：World Bank Group
-  - **来源级别**：Tier 2
-  - **评分**：139
-  - **发布时间**：Tue, 06 Oct 2026 13:36:00 GMT
-  - **地区分类**：国际组织
-  - **原文链接**：https://news.google.com/rss/articles/CBMinwFBVV95cUxQOS1ZZUVxSkFXbGxmNDZoaGdxZ190OWJSLWx5RFNHS05DNmNDLWpjV25ITjFBRUZQVHRqNDZKZkVkTDEzR01CUDZjWm1BX0pXOVBUQTFhNHhrWDBfd3NoUzlnNFN1WURCck10S0VtYzNsSWFZRHNyQXZGNXlLQ3ZhUDcwX0g0NnZGUGIweEhERElTdXU4R0R6X0I1b1owaEk?oc=5
-  - **原文摘要**：Latin America and the Caribbean Holds Steady While Top Performers Show a Path to Higher Growth World Bank Group
 
 - **原标题**：AI could boost LatAm, Caribbean economy 5.1% over a decade but wages may fall, IDB says - Reuters
   - **来源**：Reuters
