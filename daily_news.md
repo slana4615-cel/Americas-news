@@ -11,41 +11,23 @@
 
 ## 美国
 
-- **原标题**：Trump’s appearance at Georgia rally disrupted by anti-ICE protesters – US politics live
+- **原标题**：Elon Musk agrees to settle lawsuits over 2024 election lottery
   - **来源**：The Guardian
   - **来源级别**：Tier 1
-  - **评分**：181
-  - **发布时间**：Fri, 16 Oct 2026 23:44:34 GMT
+  - **评分**：179
+  - **发布时间**：Sat, 17 Oct 2026 14:42:11 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/us-news/live/2026/oct/16/trump-texas-senate-race-midterms-paxton-talarico-zacharia-ukraine-starlink-diesel-oregon-latest-news-updates
-  - **原文摘要**：The unpopular president is rallying to support Republican nominees ahead of midterms Sign up for the Breaking News US email In Maine, Troy Jackson , the Democratic nominee for US Senate, and Susan Collins , the five-term Republican incumbent traded barbs on Thursday in their final debate ahead of the November midterms. This was the fourth showdown between the pair. Collins has tried to cast Jackson as an inexperienced state lawmaker, and attempted to yoke him to the former nominee, Graham Platner , who dropped out of the race earlier this year following allegations of rape and sexual assault (which he still denies). Meanwhile, Jackson accused his opponent of corruption, and castigated her for her “moderate” persona in Congress. Continue reading...
+  - **原文链接**：https://www.theguardian.com/technology/2026/oct/17/elon-musk-2024-million-dollar-promise-lawsuit
+  - **原文摘要**：Trump-boosting billionaire was sued over promise to give away $1m per day to random signatories of petition Elon Musk and his ⁠America Pac political action committee said recently that they agreed to settle two ⁠proposed class ⁠actions ​alleging the billionaire entrepreneur defrauded residents in closely contested states before the ⁠2024 US election by promising voters a lottery-style daily $1m giveaway. The plaintiffs, Musk and America Pac ​told the ‌judge overseeing the two ‌related lawsuits in federal court in Austin, Texas, ‌on Thursday that they have reached settlements subject to court approval. Continue reading...
 
-- **原标题**：The raid on Ilhan Omar’s house is dangerous political theater | Moira Donegan
-  - **来源**：The Guardian
+- **原标题**：Trump waives fresh sanctions against Russia in new low for Ukraine ties
+  - **来源**：France 24
   - **来源级别**：Tier 1
-  - **评分**：178
-  - **发布时间**：Wed, 14 Oct 2026 10:00:04 GMT
+  - **评分**：171
+  - **发布时间**：Thu, 15 Oct 2026 11:47:24 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/commentisfree/2026/oct/14/ilhan-omar-raid-dangerous-opinion
-  - **原文摘要**：The raid is meant to cast an air of suspicion and criminality over Democratic candidates who, like Omar, are facing the voters in a matter of weeks On Monday, federal agents from the Department of Homeland Security raided the Washington DC area home of Ilhan Omar, a Minnesota congresswoman and a progressive Democrat, in the latest instance of Donald Trump’s effort to weaponize the national security state to harass, punish and embarrass his political opponents. The raid, which was approved by a judge after a reportedly extensive back-and-forth with federal security officials, was nominally carried out in connection with a spurious criminal investigation into Omar’s childhood immigration to the US. Moira Donegan is a Guardian US columnist Continue reading...
-
-- **原标题**：How Iran messaging highlights cost of war ahead of US midterm elections
-  - **来源**：Al Jazeera
-  - **来源级别**：Tier 1
-  - **评分**：172
-  - **发布时间**：Fri, 16 Oct 2026 18:21:43 +0000
-  - **地区分类**：美国
-  - **原文链接**：https://www.aljazeera.com/news/2026/10/16/how-iran-messaging-highlights-cost-of-war-ahead-of-us-midterm-elections?traffic_source=rss
-  - **原文摘要**：Through statements in English, Iranian officials are emphasising gas prices and issues with the US economy.
-
-- **原标题**：Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander
-  - **来源**：BBC
-  - **来源级别**：Tier 1
-  - **评分**：169
-  - **发布时间**：Fri, 16 Oct 2026 11:41:58 GMT
-  - **地区分类**：美国
-  - **原文链接**：https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：A teacher was also killed in the attack at the Silver Rail Elementary School in the city of Bend, Oregon, police say.
+  - **原文链接**：https://www.france24.com/en/americas/20261015-trump-waives-fresh-sanctions-against-russia-in-new-low-for-ukraine-ties
+  - **原文摘要**：US President Donald Trump on Friday put a sweeping package of sanctions and tariffs targeting Russian energy revenues on hold, saying the waiver was in the country's national interest. The relationship between Washington and Kyiv has been fraying since Trump struck a deal with Moscow to ease sanctions in exchange for Russia flooding the global market with diesel to bring down fuel costs.
 
 - **原标题**：US economists win Nobel for research helping policymakers navigate crises
   - **来源**：France 24
@@ -56,10 +38,28 @@
   - **原文链接**：https://www.france24.com/en/us-economists-win-nobel-for-research-helping-policymakers-navigate-crises
   - **原文摘要**：Two American economists, Robert E. Hall of Stanford University and Michael Woodford of Columbia University, have won the Nobel Memorial Prize in Economic Sciences for their work on economic stabilisation. Their research helps policymakers and central banks better understand economic fluctuations, manage recessions and inflation, and account for public expectations when shaping economic policy. The prize money, worth around $1.2 million, will be shared equally between the two laureates.
 
-- **原标题**：US police identify remains of man found in barrel in shrinking reservoir
+- **原标题**：Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander
   - **来源**：BBC
   - **来源级别**：Tier 1
   - **评分**：166
+  - **发布时间**：Fri, 16 Oct 2026 11:41:58 GMT
+  - **地区分类**：美国
+  - **原文链接**：https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：A teacher was also killed in the attack at the Silver Rail Elementary School in the city of Bend, Oregon, police say.
+
+- **原标题**：Photos: No Kings rallies in US urge midterm voters to cast ballots early
+  - **来源**：Al Jazeera
+  - **来源级别**：Tier 1
+  - **评分**：163
+  - **发布时间**：Sat, 17 Oct 2026 21:08:10 +0000
+  - **地区分类**：美国
+  - **原文链接**：https://www.aljazeera.com/gallery/2026/10/17/photos-no-kings-rallies-in-us-urge-midterm-voters-to-cast-ballots-early?traffic_source=rss
+  - **原文摘要**：Thousands gathered at events throughout the country on Saturday, building on two years of No Kings marches.
+
+- **原标题**：US police identify remains of man found in barrel in shrinking reservoir
+  - **来源**：BBC
+  - **来源级别**：Tier 1
+  - **评分**：163
   - **发布时间**：Fri, 16 Oct 2026 01:35:40 GMT
   - **地区分类**：美国
   - **原文链接**：https://www.bbc.co.uk/news/articles/c670pnlgzq7po?at_medium=RSS&at_campaign=rss
@@ -70,15 +70,6 @@
 ---
 ## 拉丁美洲
 
-- **原标题**：Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：182
-  - **发布时间**：Fri, 16 Oct 2026 19:37:53 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election
-  - **原文摘要**：Forest clearance at smallest total since records began in 1988 in success for Lula ahead of presidential run-off Deforestation in the Brazilian Amazon has fallen to its lowest level since records began, new government data shows. But whether this globally important success is maintained or reversed is on a knife edge ahead of a presidential election run-off on 25 October between two candidates with sharply different visions for the future of the rainforest and how that affects relations with the US under Donald Trump. Continue reading...
-
 - **原标题**：Nicolás Maduro tells New York court new torture allegations are ‘false’
   - **来源**：The Guardian
   - **来源级别**：Tier 1
@@ -87,6 +78,24 @@
   - **地区分类**：拉丁美洲
   - **原文链接**：https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores
   - **原文摘要**：Rewritten indictment accuses ex-Venezuela president and wife Cilia Flores of leading campaign of torture Nicolás Maduro insisted on Thursday during an appearance in a New York court that torture allegations in a rewritten drug trafficking indictment against the deposed Venezuelan president and his wife were “false accusations”. Maduro, shackled at the ankles, was brought to court to face the new charges accusing the couple of leading a state-sponsored campaign of repression that tortured scores of victims, including three Americans. Continue reading...
+
+- **原标题**：Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：179
+  - **发布时间**：Fri, 16 Oct 2026 19:37:53 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election
+  - **原文摘要**：Forest clearance at smallest total since records began in 1988 in success for Lula ahead of presidential run-off Deforestation in the Brazilian Amazon has fallen to its lowest level since records began, new government data shows. But whether this globally important success is maintained or reversed is on a knife edge ahead of a presidential election run-off on 25 October between two candidates with sharply different visions for the future of the rainforest and how that affects relations with the US under Donald Trump. Continue reading...
+
+- **原标题**：FAA bars unauthorized drones along US-Mexico border, citing security concerns - Reuters
+  - **来源**：Reuters
+  - **来源级别**：Tier 1
+  - **评分**：179
+  - **发布时间**：Fri, 16 Oct 2026 19:12:47 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSHp6X2ozTTdxd1F5T19PYTFQT2daeFoyOHJ1TnhkMjJSTTVUb2taS1dTN19KdFp5QTFSN1oxWkdwVFhzazk2VFExZVR6WU5JQ2M5Q0czOGtxaXVfcnFBZG5NZ1BpS3hsWENqRHN1VXN2RmhxUkdzb1pURlNlTnVYS0l6LTFtVElWeWFXYTYwazdxRzR1Ri1jN2VfYmpxcE9MRG5sMXUxYXBJVjJvU1BuTXQ1cFEwMUE2cW9sLUJXX0xCZm8yR24wUFhqRTlyZGdNX043YzVB?oc=5
+  - **原文摘要**：FAA bars unauthorized drones along US-Mexico border, citing security concerns Reuters
 
 - **原标题**：Brazil cuts work week to 40 hours in win for Lula ahead of runoff
   - **来源**：The Guardian
@@ -106,41 +115,32 @@
   - **原文链接**：https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe
   - **原文摘要**：Cocaine seizures in Europe are up more than fivefold in 10 years as a host of cartels take root. A four-month Guardian investigation reveals the true scale of a continent-wide shift A four-month investigation by the Guardian has revealed that the surge in cocaine trafficking to Europe is directly linked to the expanding presence of Latin American criminal networks in Europe, where they have forged close ties with local mafia organisations. The investigation, utilising databases, police and intelligence agencies, along with interviews with judges, prosecutors and experts from eight countries, shows that cartels and factions from Colombia, Brazil, Ecuador, Venezuela, Mexico and the US are active in at least 12 European countries. Between 2014 and 2024, there was a 471% rise in the quantity of cocaine seized and more local laboratories processing cocaine derivatives were dismantled. Continue reading...
 
-- **原标题**：Why has Brazil accused the US of election interference?
+- **原标题**：Brazil's Congress approves shorter working week in win for Lula
   - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：173
-  - **发布时间**：Sat, 03 Oct 2026 13:52:13 GMT
+  - **评分**：176
+  - **发布时间**：Thu, 15 Oct 2026 10:05:17 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.bbc.co.uk/news/videos/c3eweld0nddeo?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：The Latin American country will vote for its next president, as Lula da Silva and Bolsonaro clash over sovereignty, security and ties with Washington.
+  - **原文链接**：https://www.bbc.co.uk/news/articles/cmwy43pp08elo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：Lula's supporters hope the measure will boost his popularity ahead of a presidential run-off in 10 days.
 
-- **原标题**：FAA bars unauthorized drones along US-Mexico border, citing security concerns - Reuters
+- **原标题**：How a scandal engulfing Brazil’s top court could return the Bolsonaros to power
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：175
+  - **发布时间**：Tue, 13 Oct 2026 10:00:05 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.theguardian.com/world/2026/oct/13/scandal-brazil-court-jair-flavio-bolsonaro-power-election-moraes-lula
+  - **原文摘要**：The judge who helped convict Jair Bolsonaro is caught up in a crisis that could benefit his son and damage Lula Marina Silva on Flávio Bolsonaro: He will try to finish his father’s ‘perverse project’ to destroy the Amazon Thundering to a crowd of thousands of far-right supporters in São Paulo on 7 September, Brazil’s Independence Day, the senator Flávio Bolsonaro focused less on his opponent in the presidential election , the leftist president Luiz Inácio Lula da Silva, than on someone who is not running at all. “Whoever votes for Lula is voting for Alexandre de Moraes ,” Bolsonaro shouted, referring to the shaven-headed supreme court justice once described as “Voldemort” by Elon Musk. Continue reading...
+
+- **原标题**：Brazil's incoming right-wing Congress takes aim at judge who jailed Bolsonaro - Reuters
   - **来源**：Reuters
   - **来源级别**：Tier 1
-  - **评分**：172
-  - **发布时间**：Fri, 16 Oct 2026 19:12:47 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSHp6X2ozTTdxd1F5T19PYTFQT2daeFoyOHJ1TnhkMjJSTTVUb2taS1dTN19KdFp5QTFSN1oxWkdwVFhzazk2VFExZVR6WU5JQ2M5Q0czOGtxaXVfcnFBZG5NZ1BpS3hsWENqRHN1VXN2RmhxUkdzb1pURlNlTnVYS0l6LTFtVElWeWFXYTYwazdxRzR1Ri1jN2VfYmpxcE9MRG5sMXUxYXBJVjJvU1BuTXQ1cFEwMUE2cW9sLUJXX0xCZm8yR24wUFhqRTlyZGdNX043YzVB?oc=5
-  - **原文摘要**：FAA bars unauthorized drones along US-Mexico border, citing security concerns Reuters
-
-- **原标题**：Thousands of Colombians march against new right-wing president's policies
-  - **来源**：France 24
-  - **来源级别**：Tier 1
   - **评分**：170
-  - **发布时间**：Thu, 15 Oct 2026 01:57:26 GMT
+  - **发布时间**：Fri, 16 Oct 2026 10:37:00 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.france24.com/en/americas/20261015-thousands-protest-colombia-right-wing-president
-  - **原文摘要**：Thousands of Colombians protested peacefully across the country on Wednesday against right-wing President Abelardo de la Espriella, in the opposition’s first major demonstrations since he took office in August. Former leftist president Gustavo Petro led a rally in Bogota joined by trade unionists, Indigenous groups, students and feminist activists.
-
-- **原标题**：Brazil’s Senate approves a shorter workweek in major win for Lula ahead of runoff - AP News
-  - **来源**：AP News
-  - **来源级别**：Tier 1
-  - **评分**：170
-  - **发布时间**：Thu, 15 Oct 2026 01:55:00 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://news.google.com/rss/articles/CBMipwFBVV95cUxObnVEWElSRXpOUmlXck11bDFCalZydGhnSFNSSFVBV3FjZlhmTDl4RXNPbWlLSnBNNF9XQndRVzVnRDZrWmZid0xLSldiTDRFRTdqeWdObTNkTXlkYjNxZk14YVhkcHgySlQ1SFh4ekFPeGxZWDQ3MjN6cXZjTHlER3FKTGVoLUp2VTlGYzF3OFdlV2laczBSQzVFd2M3Vlk5Tk12eWJLYw?oc=5
-  - **原文摘要**：Brazil’s Senate approves a shorter workweek in major win for Lula ahead of runoff AP News
+  - **原文链接**：https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ25KVzRSa0dodlV0cmRiQWsteWFXeGFWS1JyUnc0Qk5tc0xjS0ZmN0hyWjQtNUVzUTJYcy1PWE4wdzNZa1VvZ0RoUExIR3MxdnhoNE1LYkl2UzRKVmpmNU8zMVpVV1NnMmpBMks2WjNzb0N3VXB6ZlZOUF9IeEdDeGJtU3dxYTZPRFBfWjdpYXdHaFRnb2oxWjJOZ194VEdLc1loeDdiQ1BQdFBZQlBpOEZVQU0yX3RJbGRhaUFTeHBIUQ?oc=5
+  - **原文摘要**：Brazil's incoming right-wing Congress takes aim at judge who jailed Bolsonaro Reuters
 
 
 
@@ -156,23 +156,23 @@
   - **原文链接**：https://www.france24.com/en/tv-shows/the-observers/20261015-haiti-capoeira-classes-promote-peace
   - **原文摘要**：An association in Haiti is organising capoeira classes – an Afro-Brazilian martial art – in an attempt to reduce community violence and promote social reintegration. The Observers team spoke to its founder, Rodney Jean Marc, who said their doors are open to everyone, “even children in armed gangs”. The initiative takes place as the country's security situation has worsened in recent years.
 
-- **原标题**：EXCLUSIVE: Guyana may scale back LNG plans as Exxon needs more gas for its wells, sources say - Reuters
-  - **来源**：Reuters
-  - **来源级别**：Tier 1
-  - **评分**：137
-  - **发布时间**：Tue, 13 Oct 2026 18:22:59 GMT
-  - **地区分类**：加勒比地区
-  - **原文链接**：https://news.google.com/rss/articles/CBMixAFBVV95cUxQSkd0M3A4dTZ1QlJ5dW9YclRZZEMwLVJEc3N0UFpPY1Y3S0FNYjdQTFZULUJBdVVKWmx0czJiQjNONzNKUGhfakZadEZtbFRnSGtYQ1ZidUpFT3JsdW9RdDg0d0ZvNE83c1pWd2d6bFdDalFLNmdYUi1JNjBZb1VDQUQtYl9mNmhoLVRSa0I3eTB3XzVrU1RIeVYxdEQxR2ZKZWo0MzBPVEZRV2dEQ1dnVnpjTU9aR0U2VGJZeDBZWFVrYkFK?oc=5
-  - **原文摘要**：EXCLUSIVE: Guyana may scale back LNG plans as Exxon needs more gas for its wells, sources say Reuters
-
-- **原标题**：“The UN has more reason to exist every day”, Uruguay's president said two days after Milei
+- **原标题**：Uruguay ranks third in Latin America for international air passengers per capita
   - **来源**：MercoPress
   - **来源级别**：Tier 3
-  - **评分**：91
-  - **发布时间**：Fri, 25 Sep 2026 10:41:00 GMT
+  - **评分**：97
+  - **发布时间**：Sat, 03 Oct 2026 09:40:00 GMT
   - **地区分类**：加勒比地区
-  - **原文链接**：https://en.mercopress.com/2026/09/25/the-un-has-more-reason-to-exist-every-day-uruguay-s-president-said-two-days-after-milei?utm_source=feed&utm_medium=rss&utm_content=latin-america&utm_campaign=rss
-  - **原文摘要**：Uruguayan President Yamandú Orsi defended the United Nations' relevance and condemned the economic embargo on Cuba before the General Assembly on Thursday, in an address of just under twenty minutes that contrasted with that of his Argentine counterpart, Javier Milei, two days earlier from the same podium.
+  - **原文链接**：https://en.mercopress.com/2026/10/03/uruguay-ranks-third-in-latin-america-for-international-air-passengers-per-capita?utm_source=feed&utm_medium=rss&utm_content=latin-america&utm_campaign=rss
+  - **原文摘要**：Uruguay ranked third in Latin America and the Caribbean in 2025 for international air passengers per inhabitant, according to Airports Council International figures presented in Lima this week, despite its small share of the region's total traffic.
+
+- **原标题**：Latin American airports will need US$178 billion to nearly double their traffic
+  - **来源**：MercoPress
+  - **来源级别**：Tier 3
+  - **评分**：96
+  - **发布时间**：Tue, 29 Sep 2026 07:30:00 GMT
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://en.mercopress.com/2026/09/29/latin-american-airports-will-need-us-178-billion-to-nearly-double-their-traffic?utm_source=feed&utm_medium=rss&utm_content=latin-america&utm_campaign=rss
+  - **原文摘要**：Airports in Latin America and the Caribbean will require investment of around US$178 billion over the next thirty years to handle demand that would rise from 809 million passengers this year to around 1.5 billion in 2045, according to projections presented in Lima at the annual assembly of Airports Council International.
 
 
 
@@ -247,14 +247,14 @@
   - **原文链接**：https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYlY0azJhdlRvVGxPdzNmdVM5M0tQWVJKa2ptUXBfT0dFLTRucG9vT1I4eHpLTzd5TVhLVW9oaHJYY2lUaF8wWlQtUTZJTmZfX0NTV1NqaFRTYTE2dG8zRng3cUZHV1lCb3FNVEltcF9hRmlFTjlZYUtaOVVUU3BBeDdYVEw5cmtacTBzZVQ0SDJlRkhZTUpiNGtBc001SFRQbW9adW1wSTNSM01ZdGRBZHBNRG1MZi1CWTAwdXlOeEVubDM5SFprbmhvY1h0TlMzTlhWQQ?oc=5
   - **原文摘要**：Connecting Markets, Powering Growth: The Digital Trade Opportunity for Latin America and the Caribbean Inter-American Development Bank
 
-- **原标题**：Haiti sanctions renewed: Starving the gangs of bullets
-  - **来源**：UN News - Global perspective Human stories
-  - **来源级别**：Tier 2
+- **原标题**：AI could boost LatAm, Caribbean economy 5.1% over a decade but wages may fall, IDB says - Reuters
+  - **来源**：Reuters
+  - **来源级别**：Tier 1
   - **评分**：129
-  - **发布时间**：Wed, 14 Oct 2026 12:00:00 +0000
+  - **发布时间**：Mon, 21 Sep 2026 07:00:00 GMT
   - **地区分类**：国际组织
-  - **原文链接**：https://news.un.org/feed/view/en/story/2026/10/1168598
-  - **原文摘要**：Haiti is living through one of the world’s most acute security crises. Armed gangs control large parts of the capital, Port-au-Prince, and are pushing into rural areas, terrorising communities, killing people, committing rape and other sexual assaults, kidnapping for ransom and extorting individuals and businesses.
+  - **原文链接**：https://news.google.com/rss/articles/CBMisgFBVV95cUxQVi05aHpLMlNmUWw4ekwzTlpCdVBzVzJQaFNCZkM1OTNfNWViRTh2SThXLUtDV0FTbXBWN0tNVkNhTkNoSE9rZlVoVDhtM1NlYk10czhvclNaa1Rzb2dpQVkyRk5UU0wxTzd1Q0FyS0NpdzhWVWN2SFgzOV9aeDlWWXVwaHRIckFJVzRVUGswMFlCa2k0aWVJbEdJNEROSGtGZE45T1BXSEVDRjA5bVBPOHlR?oc=5
+  - **原文摘要**：AI could boost LatAm, Caribbean economy 5.1% over a decade but wages may fall, IDB says Reuters
 
 
 
