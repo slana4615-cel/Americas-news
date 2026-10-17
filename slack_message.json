@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-15)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-17)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-15)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-17)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/commentisfree/2026/oct/14/americans-forced-to-work-standing-up-trump-tsa|Why are so many Americans forced to work standing up – unlike their president? | Arwa Mahdawi>\n• <https://www.theguardian.com/us-news/live/2026/oct/15/donald-trump-midterms-rallies-iran-ukraine-starlink-intelligence-fuel-gas-cost-of-living-latest-news-updates|Pentagon says Trump and Hegseth ‘completely aligned’ on decision to cancel livestream of firing squad execution – live>\n• <https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe|Latin American organised crime ‘may operate in 16 European countries’>\n• <https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores|Nicolás Maduro tells New York court new torture allegations are ‘false’>\n• <https://www.france24.com/en/tv-shows/the-observers/20261015-haiti-capoeira-classes-promote-peace|Haiti: Capoeira classes aim to promote peace>\n• <https://news.google.com/rss/articles/CBMixAFBVV95cUxQSkd0M3A4dTZ1QlJ5dW9YclRZZEMwLVJEc3N0UFpPY1Y3S0FNYjdQTFZULUJBdVVKWmx0czJiQjNONzNKUGhfakZadEZtbFRnSGtYQ1ZidUpFT3JsdW9RdDg0d0ZvNE83c1pWd2d6bFdDalFLNmdYUi1JNjBZb1VDQUQtYl9mNmhoLVRSa0I3eTB3XzVrU1RIeVYxdEQxR2ZKZWo0MzBPVEZRV2dEQ1dnVnpjTU9aR0U2VGJZeDBZWFVrYkFK?oc=5|EXCLUSIVE: Guyana may scale back LNG plans as Exxon needs more gas for its wells, sources say - Reuters>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/live/2026/oct/16/trump-texas-senate-race-midterms-paxton-talarico-zacharia-ukraine-starlink-diesel-oregon-latest-news-updates|Trump’s appearance at Georgia rally disrupted by anti-ICE protesters – US politics live>\n• <https://www.theguardian.com/commentisfree/2026/oct/14/ilhan-omar-raid-dangerous-opinion|The raid on Ilhan Omar’s house is dangerous political theater | Moira Donegan>\n• <https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election|Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms>\n• <https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores|Nicolás Maduro tells New York court new torture allegations are ‘false’>\n• <https://www.france24.com/en/tv-shows/the-observers/20261015-haiti-capoeira-classes-promote-peace|Haiti: Capoeira classes aim to promote peace>\n• <https://news.google.com/rss/articles/CBMixAFBVV95cUxQSkd0M3A4dTZ1QlJ5dW9YclRZZEMwLVJEc3N0UFpPY1Y3S0FNYjdQTFZULUJBdVVKWmx0czJiQjNONzNKUGhfakZadEZtbFRnSGtYQ1ZidUpFT3JsdW9RdDg0d0ZvNE83c1pWd2d6bFdDalFLNmdYUi1JNjBZb1VDQUQtYl9mNmhoLVRSa0I3eTB3XzVrU1RIeVYxdEQxR2ZKZWo0MzBPVEZRV2dEQ1dnVnpjTU9aR0U2VGJZeDBZWFVrYkFK?oc=5|EXCLUSIVE: Guyana may scale back LNG plans as Exxon needs more gas for its wells, sources say - Reuters>"
       }
     },
     {
