@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-17)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-18)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-17)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-18)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/technology/2026/oct/17/elon-musk-2024-million-dollar-promise-lawsuit|Elon Musk agrees to settle lawsuits over 2024 election lottery>\n• <https://www.france24.com/en/americas/20261015-trump-waives-fresh-sanctions-against-russia-in-new-low-for-ukraine-ties|Trump waives fresh sanctions against Russia in new low for Ukraine ties>\n• <https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores|Nicolás Maduro tells New York court new torture allegations are ‘false’>\n• <https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election|Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms>\n• <https://www.france24.com/en/tv-shows/the-observers/20261015-haiti-capoeira-classes-promote-peace|Haiti: Capoeira classes aim to promote peace>\n• <https://en.mercopress.com/2026/10/03/uruguay-ranks-third-in-latin-america-for-international-air-passengers-per-capita?utm_source=feed&utm_medium=rss&utm_content=latin-america&utm_campaign=rss|Uruguay ranks third in Latin America for international air passengers per capita>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video|'No Kings' protesters rally across the US – video>\n• <https://www.theguardian.com/us-news/ng-interactive/2026/oct/18/trump-justice-department-us-midterms|How Trump’s justice department is shattering practice of political neutrality as midterms loom>\n• <https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election|Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms>\n• <https://www.france24.com/en/americas/20261014-lula-party-meta-election-interference-brazil-runoff|Lula's party to file complaint against Meta over Brazil election interference>\n• <https://www.france24.com/en/tv-shows/the-observers/20261015-haiti-capoeira-classes-promote-peace|Haiti: Capoeira classes aim to promote peace>\n• <https://en.mercopress.com/2026/09/25/the-un-has-more-reason-to-exist-every-day-uruguay-s-president-said-two-days-after-milei?utm_source=feed&utm_medium=rss&utm_content=latin-america&utm_campaign=rss|“The UN has more reason to exist every day”, Uruguay's president said two days after Milei>"
       }
     },
     {

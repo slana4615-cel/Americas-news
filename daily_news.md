@@ -1,6 +1,6 @@
 # 美洲新闻自动抓取结果｜Daily Americas News Collection
 
-- **生成日期**：2026-10-17
+- **生成日期**：2026-10-18
 - **自动更新**：每日 22:00 UTC
 - **输出说明**：本文件由程序根据公开 RSS 新闻源自动抓取生成，仅用于研究团队初步筛选。新闻价值、事实核验和最终采用由人工判断。
 
@@ -11,23 +11,50 @@
 
 ## 美国
 
-- **原标题**：Elon Musk agrees to settle lawsuits over 2024 election lottery
+- **原标题**：'No Kings' protesters rally across the US – video
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：181
+  - **发布时间**：Sun, 18 Oct 2026 15:20:57 GMT
+  - **地区分类**：美国
+  - **原文链接**：https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video
+  - **原文摘要**：Protesters held rallies across the US as part of the 'No Kings' movement, voicing opposition to the Trump administration and calling for early voting ahead of November's midterm elections. The rallies coincide with heightened legal battles surrounding voting rules, including a recent federal lawsuit filed against California regarding mail-in ballots and warnings from the justice department concerning ballot processing. Current opinion polls suggest Democrats will win the House of Representatives in the upcoming midterms, while the Senate remains too close to call Continue reading...
+
+- **原标题**：How Trump’s justice department is shattering practice of political neutrality as midterms loom
   - **来源**：The Guardian
   - **来源级别**：Tier 1
   - **评分**：179
-  - **发布时间**：Sat, 17 Oct 2026 14:42:11 GMT
+  - **发布时间**：Sun, 18 Oct 2026 17:18:14 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/technology/2026/oct/17/elon-musk-2024-million-dollar-promise-lawsuit
-  - **原文摘要**：Trump-boosting billionaire was sued over promise to give away $1m per day to random signatories of petition Elon Musk and his ⁠America Pac political action committee said recently that they agreed to settle two ⁠proposed class ⁠actions ​alleging the billionaire entrepreneur defrauded residents in closely contested states before the ⁠2024 US election by promising voters a lottery-style daily $1m giveaway. The plaintiffs, Musk and America Pac ​told the ‌judge overseeing the two ‌related lawsuits in federal court in Austin, Texas, ‌on Thursday that they have reached settlements subject to court approval. Continue reading...
+  - **原文链接**：https://www.theguardian.com/us-news/ng-interactive/2026/oct/18/trump-justice-department-us-midterms
+  - **原文摘要**：From the attorney general stumping for Republican candidates to federal agents raiding the home of a Democratic congresswoman up for re-election, the department is violating longstanding norms Donald Trump’s justice department has aggressively inserted itself into the midterm elections in the contest’s final weeks, shattering the department’s longstanding practice of political neutrality and leaving little doubt about the department’s willingness to help should the president attempt to subvert elections where his party is forecasted to lose seats and ultimately control of Congress. In the last few weeks, federal agents have raided the home of a Democratic congresswoman up for re-election. It has touted criminal charges and arrests of non-citizens charged with voter fraud. The attorney general has hit the campaign trail to stump for Republican candidates. And the department gave California election officials 48 hours to investigate the citizenship of 20,000 people, and then sued the state when it refused to comply. The FBI also recently published a video criticizing Michigan senate candidate Abdul El-Sayed and other Democrats , drawing an immediate rebuke from one watchdog, who said the video “has no place in a democratic society”. Continue reading...
 
-- **原标题**：Trump waives fresh sanctions against Russia in new low for Ukraine ties
-  - **来源**：France 24
+- **原标题**：Getaway cars, affairs, Dubai fugitives: Trump’s pick Ken Paxton brings baggage to Senate race in Texas
+  - **来源**：The Guardian
   - **来源级别**：Tier 1
-  - **评分**：171
-  - **发布时间**：Thu, 15 Oct 2026 11:47:24 GMT
+  - **评分**：177
+  - **发布时间**：Sun, 18 Oct 2026 09:00:56 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.france24.com/en/americas/20261015-trump-waives-fresh-sanctions-against-russia-in-new-low-for-ukraine-ties
-  - **原文摘要**：US President Donald Trump on Friday put a sweeping package of sanctions and tariffs targeting Russian energy revenues on hold, saying the waiver was in the country's national interest. The relationship between Washington and Kyiv has been fraying since Trump struck a deal with Moscow to ease sanctions in exchange for Russia flooding the global market with diesel to bring down fuel costs.
+  - **原文链接**：https://www.theguardian.com/us-news/2026/oct/18/ken-paxton-texas-senate-scandal-midterms
+  - **原文摘要**：The Republican state attorney general appears uniquely ill-chosen as a candidate – but he is a political survivor who could yet frustrate Democratic dreams Depending how you look at the situation, it is either predictable that Ken Paxton , Texas ’s attorney general and Republican candidate for US Senate , is struggling in the polls – or impressive that he is not doing worse. Beloved by hardcore Maga voters and regarded with skepticism by the broader voting public, Paxton is also puzzlingly bland. Recently, Donald Trump told a crowd of supporters that the 63-year-old Paxton “may not dress right, he may not talk exactly perfectly, and he may not be the best-looking guy I’ve ever seen”. The president was endorsing him. Yet it is Paxton’s ability to attract – and somehow scrape through – scandal that makes him a less charismatic, perhaps, but still kindred spirit of “ Teflon Don ”: nothing sticks. He has survived state prosecution (on securities-related charges that he settled without admitting guilt), impeachment by the Republican -led Texas legislature (on abuse-of-office charges of which he was later acquitted), and so many controversies that it can be difficult to pin down the most outrageous. Continue reading...
+
+- **原标题**：Blunder in, abandon allies and court a dictator: it’s the Trump doctrine, now playing out in Myanmar | Steve Bloomfield
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：177
+  - **发布时间**：Sun, 18 Oct 2026 05:00:50 GMT
+  - **地区分类**：美国
+  - **原文链接**：https://www.theguardian.com/commentisfree/2026/oct/18/myanmar-donald-trump-dictator-rare-earths-china
+  - **原文摘要**：The US condemned the genocide and military rule there, but now that Trump craves its rare earths, that’s all changed. For democracy activists, that’s a disaster Marco Rubio was once adamant that the US had to do everything in its power to end what he described as the “ethnic cleansing” of the Rohingya in Myanmar. In a 2017 letter he signed along with 20 other US senators , Rubio called for “strong multilateral sanctions against specific senior Burmese military officials associated with the gross human rights abuses”. Those responsible for the atrocities should be prosecuted, he argued. In the years since, the Myanmar military’s crimes have only increased. What was then deemed ethnic cleansing of the Rohingya is now widely viewed, including by the US, as genocide. What little democracy existed in Myanmar was eradicated in 2021 when Aung San Suu Kyi was arrested and imprisoned and her party’s election victory overturned, and the military took full control. Continue reading...
+
+- **原标题**：Trump ‘border czar’ says Ilhan Omar could be ‘of course’ denaturalized and deported
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：176
+  - **发布时间**：Sun, 18 Oct 2026 17:16:02 GMT
+  - **地区分类**：美国
+  - **原文链接**：https://www.theguardian.com/us-news/2026/oct/18/tom-homan-trump-ilhan-omar-citizenship-deportation
+  - **原文摘要**：Officials allege congresswoman, whose home was raided by federal agents, or family violated law to obtain citizenship Tom Homan , Donald Trump’s “border czar”, has said that the Republican presidential administration could “of course” strip Democratic congresswoman Ilhan Omar of her citizenship and deport her. Homan’s comments during a Saturday appearance on Fox News were the first remarks explicitly mentioning denaturalization and deportation in connection with Omar that were attributed by name to a top Trump administration official since federal agents raided the Minnesota US House representative’s home on 12 October. Continue reading...
 
 - **原标题**：US economists win Nobel for research helping policymakers navigate crises
   - **来源**：France 24
@@ -38,46 +65,10 @@
   - **原文链接**：https://www.france24.com/en/us-economists-win-nobel-for-research-helping-policymakers-navigate-crises
   - **原文摘要**：Two American economists, Robert E. Hall of Stanford University and Michael Woodford of Columbia University, have won the Nobel Memorial Prize in Economic Sciences for their work on economic stabilisation. Their research helps policymakers and central banks better understand economic fluctuations, manage recessions and inflation, and account for public expectations when shaping economic policy. The prize money, worth around $1.2 million, will be shared equally between the two laureates.
 
-- **原标题**：Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander
-  - **来源**：BBC
-  - **来源级别**：Tier 1
-  - **评分**：166
-  - **发布时间**：Fri, 16 Oct 2026 11:41:58 GMT
-  - **地区分类**：美国
-  - **原文链接**：https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：A teacher was also killed in the attack at the Silver Rail Elementary School in the city of Bend, Oregon, police say.
-
-- **原标题**：Photos: No Kings rallies in US urge midterm voters to cast ballots early
-  - **来源**：Al Jazeera
-  - **来源级别**：Tier 1
-  - **评分**：163
-  - **发布时间**：Sat, 17 Oct 2026 21:08:10 +0000
-  - **地区分类**：美国
-  - **原文链接**：https://www.aljazeera.com/gallery/2026/10/17/photos-no-kings-rallies-in-us-urge-midterm-voters-to-cast-ballots-early?traffic_source=rss
-  - **原文摘要**：Thousands gathered at events throughout the country on Saturday, building on two years of No Kings marches.
-
-- **原标题**：US police identify remains of man found in barrel in shrinking reservoir
-  - **来源**：BBC
-  - **来源级别**：Tier 1
-  - **评分**：163
-  - **发布时间**：Fri, 16 Oct 2026 01:35:40 GMT
-  - **地区分类**：美国
-  - **原文链接**：https://www.bbc.co.uk/news/articles/c670pnlgzq7po?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：Edward "Buddy" Jackson's body was found stuffed in a barrel in 2022, with a gunshot wound to the head. Police say he likely was killed four decades ago.
-
 
 
 ---
 ## 拉丁美洲
-
-- **原标题**：Nicolás Maduro tells New York court new torture allegations are ‘false’
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：180
-  - **发布时间**：Thu, 15 Oct 2026 16:38:32 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores
-  - **原文摘要**：Rewritten indictment accuses ex-Venezuela president and wife Cilia Flores of leading campaign of torture Nicolás Maduro insisted on Thursday during an appearance in a New York court that torture allegations in a rewritten drug trafficking indictment against the deposed Venezuelan president and his wife were “false accusations”. Maduro, shackled at the ankles, was brought to court to face the new charges accusing the couple of leading a state-sponsored campaign of repression that tortured scores of victims, including three Americans. Continue reading...
 
 - **原标题**：Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms
   - **来源**：The Guardian
@@ -88,59 +79,68 @@
   - **原文链接**：https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election
   - **原文摘要**：Forest clearance at smallest total since records began in 1988 in success for Lula ahead of presidential run-off Deforestation in the Brazilian Amazon has fallen to its lowest level since records began, new government data shows. But whether this globally important success is maintained or reversed is on a knife edge ahead of a presidential election run-off on 25 October between two candidates with sharply different visions for the future of the rainforest and how that affects relations with the US under Donald Trump. Continue reading...
 
-- **原标题**：FAA bars unauthorized drones along US-Mexico border, citing security concerns - Reuters
-  - **来源**：Reuters
-  - **来源级别**：Tier 1
-  - **评分**：179
-  - **发布时间**：Fri, 16 Oct 2026 19:12:47 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSHp6X2ozTTdxd1F5T19PYTFQT2daeFoyOHJ1TnhkMjJSTTVUb2taS1dTN19KdFp5QTFSN1oxWkdwVFhzazk2VFExZVR6WU5JQ2M5Q0czOGtxaXVfcnFBZG5NZ1BpS3hsWENqRHN1VXN2RmhxUkdzb1pURlNlTnVYS0l6LTFtVElWeWFXYTYwazdxRzR1Ri1jN2VfYmpxcE9MRG5sMXUxYXBJVjJvU1BuTXQ1cFEwMUE2cW9sLUJXX0xCZm8yR24wUFhqRTlyZGdNX043YzVB?oc=5
-  - **原文摘要**：FAA bars unauthorized drones along US-Mexico border, citing security concerns Reuters
-
-- **原标题**：Brazil cuts work week to 40 hours in win for Lula ahead of runoff
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：179
-  - **发布时间**：Thu, 15 Oct 2026 02:45:42 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff
-  - **原文摘要**：Congress approves constitutional amendment that bans six-day workweeks, which could affect up to 30 million Brazil’s congress has approved a constitutional amendment to shorten the working week to a maximum of 40 hours, a move that could affect 30 million workers and that will hand a political victory to the leftist president Luiz Inácio Lula da Silva ahead of the presidential runoff in under two weeks. In an attempt to overturn the first-round lead secured by his opponent, far-right senator Flávio Bolsonaro, Lula has strongly championed the amendment, which will give some workers an extra day off each week. Continue reading...
-
-- **原标题**：Latin American organised crime ‘may operate in 16 European countries’
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：179
-  - **发布时间**：Tue, 13 Oct 2026 07:00:18 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe
-  - **原文摘要**：Cocaine seizures in Europe are up more than fivefold in 10 years as a host of cartels take root. A four-month Guardian investigation reveals the true scale of a continent-wide shift A four-month investigation by the Guardian has revealed that the surge in cocaine trafficking to Europe is directly linked to the expanding presence of Latin American criminal networks in Europe, where they have forged close ties with local mafia organisations. The investigation, utilising databases, police and intelligence agencies, along with interviews with judges, prosecutors and experts from eight countries, shows that cartels and factions from Colombia, Brazil, Ecuador, Venezuela, Mexico and the US are active in at least 12 European countries. Between 2014 and 2024, there was a 471% rise in the quantity of cocaine seized and more local laboratories processing cocaine derivatives were dismantled. Continue reading...
-
-- **原标题**：Brazil's Congress approves shorter working week in win for Lula
-  - **来源**：BBC
-  - **来源级别**：Tier 1
-  - **评分**：176
-  - **发布时间**：Thu, 15 Oct 2026 10:05:17 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.bbc.co.uk/news/articles/cmwy43pp08elo?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：Lula's supporters hope the measure will boost his popularity ahead of a presidential run-off in 10 days.
-
-- **原标题**：How a scandal engulfing Brazil’s top court could return the Bolsonaros to power
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：175
-  - **发布时间**：Tue, 13 Oct 2026 10:00:05 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.theguardian.com/world/2026/oct/13/scandal-brazil-court-jair-flavio-bolsonaro-power-election-moraes-lula
-  - **原文摘要**：The judge who helped convict Jair Bolsonaro is caught up in a crisis that could benefit his son and damage Lula Marina Silva on Flávio Bolsonaro: He will try to finish his father’s ‘perverse project’ to destroy the Amazon Thundering to a crowd of thousands of far-right supporters in São Paulo on 7 September, Brazil’s Independence Day, the senator Flávio Bolsonaro focused less on his opponent in the presidential election , the leftist president Luiz Inácio Lula da Silva, than on someone who is not running at all. “Whoever votes for Lula is voting for Alexandre de Moraes ,” Bolsonaro shouted, referring to the shaven-headed supreme court justice once described as “Voldemort” by Elon Musk. Continue reading...
-
-- **原标题**：Brazil's incoming right-wing Congress takes aim at judge who jailed Bolsonaro - Reuters
-  - **来源**：Reuters
+- **原标题**：Lula's party to file complaint against Meta over Brazil election interference
+  - **来源**：France 24
   - **来源级别**：Tier 1
   - **评分**：170
-  - **发布时间**：Fri, 16 Oct 2026 10:37:00 GMT
+  - **发布时间**：Wed, 14 Oct 2026 23:52:58 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ25KVzRSa0dodlV0cmRiQWsteWFXeGFWS1JyUnc0Qk5tc0xjS0ZmN0hyWjQtNUVzUTJYcy1PWE4wdzNZa1VvZ0RoUExIR3MxdnhoNE1LYkl2UzRKVmpmNU8zMVpVV1NnMmpBMks2WjNzb0N3VXB6ZlZOUF9IeEdDeGJtU3dxYTZPRFBfWjdpYXdHaFRnb2oxWjJOZ194VEdLc1loeDdiQ1BQdFBZQlBpOEZVQU0yX3RJbGRhaUFTeHBIUQ?oc=5
-  - **原文摘要**：Brazil's incoming right-wing Congress takes aim at judge who jailed Bolsonaro Reuters
+  - **原文链接**：https://www.france24.com/en/americas/20261014-lula-party-meta-election-interference-brazil-runoff
+  - **原文摘要**：Brazilian President Luiz Inacio Lula da Silva’s party plans to file a complaint against Meta with the Organisation of American States alleging election interference, his campaign said Wednesday. The party accuses Meta of restricting Lula’s online content ahead of the October 25 presidential runoff against far-right Senator Flavio Bolsonaro. Meta denies the allegations.
+
+- **原标题**：Why has Brazil accused the US of election interference?
+  - **来源**：BBC
+  - **来源级别**：Tier 1
+  - **评分**：168
+  - **发布时间**：Sat, 03 Oct 2026 13:52:13 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.bbc.co.uk/news/videos/c3eweld0nddeo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：The Latin American country will vote for its next president, as Lula da Silva and Bolsonaro clash over sovereignty, security and ties with Washington.
+
+- **原标题**：Brazil sees record fall in Amazon deforestation as key election looms
+  - **来源**：BBC
+  - **来源级别**：Tier 1
+  - **评分**：165
+  - **发布时间**：Sat, 17 Oct 2026 02:33:09 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.
+
+- **原标题**：In Brazil, thousands march fearing return of Bolsonaro presidency
+  - **来源**：France 24
+  - **来源级别**：Tier 1
+  - **评分**：165
+  - **发布时间**：Tue, 13 Oct 2026 14:59:30 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.france24.com/en/in-brazil-thousands-march-fearing-return-of-bolsonaro-presidency
+  - **原文摘要**：Thousands of young Brazilians have taken to the streets to support President Luiz Inácio Lula da Silva and voice fears of a return to power for the Bolsonaro political movement, amid a closely watched presidential race. Many protesters say they are worried about their future, particularly the impact a far-right government could have on universities and education. FRANCE 24’s Jan Onoszko reports from Brazil.
+
+- **原标题**：Thousands of Colombians march against new right-wing president's policies
+  - **来源**：France 24
+  - **来源级别**：Tier 1
+  - **评分**：164
+  - **发布时间**：Thu, 15 Oct 2026 01:57:26 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.france24.com/en/americas/20261015-thousands-protest-colombia-right-wing-president
+  - **原文摘要**：Thousands of Colombians protested peacefully across the country on Wednesday against right-wing President Abelardo de la Espriella, in the opposition’s first major demonstrations since he took office in August. Former leftist president Gustavo Petro led a rally in Bogota joined by trade unionists, Indigenous groups, students and feminist activists.
+
+- **原标题**：Three men jailed for 158 years each for murdering Australian and US surfers in Mexico
+  - **来源**：BBC
+  - **来源级别**：Tier 1
+  - **评分**：159
+  - **发布时间**：Sat, 17 Oct 2026 03:11:10 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：Brothers Jake and Callum Robinson and their friend Carter Rhoad were killed on a surfing trip in an apparent botched robbery.
+
+- **原标题**：Argentina targets UK in legal claim over Falklands oil exploration
+  - **来源**：BBC
+  - **来源级别**：Tier 1
+  - **评分**：156
+  - **发布时间**：Tue, 13 Oct 2026 17:36:43 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.bbc.co.uk/news/articles/cmp3g14p3z2ko?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：The action filed with an international maritime tribunal is the latest development in an escalating row over the Falkland Islands.
 
 
 
@@ -150,43 +150,52 @@
 - **原标题**：Haiti: Capoeira classes aim to promote peace
   - **来源**：France 24
   - **来源级别**：Tier 1
-  - **评分**：156
+  - **评分**：150
   - **发布时间**：Thu, 15 Oct 2026 14:25:49 GMT
   - **地区分类**：加勒比地区
   - **原文链接**：https://www.france24.com/en/tv-shows/the-observers/20261015-haiti-capoeira-classes-promote-peace
   - **原文摘要**：An association in Haiti is organising capoeira classes – an Afro-Brazilian martial art – in an attempt to reduce community violence and promote social reintegration. The Observers team spoke to its founder, Rodney Jean Marc, who said their doors are open to everyone, “even children in armed gangs”. The initiative takes place as the country's security situation has worsened in recent years.
 
-- **原标题**：Uruguay ranks third in Latin America for international air passengers per capita
+- **原标题**：“The UN has more reason to exist every day”, Uruguay's president said two days after Milei
   - **来源**：MercoPress
   - **来源级别**：Tier 3
-  - **评分**：97
-  - **发布时间**：Sat, 03 Oct 2026 09:40:00 GMT
+  - **评分**：91
+  - **发布时间**：Fri, 25 Sep 2026 10:41:00 GMT
   - **地区分类**：加勒比地区
-  - **原文链接**：https://en.mercopress.com/2026/10/03/uruguay-ranks-third-in-latin-america-for-international-air-passengers-per-capita?utm_source=feed&utm_medium=rss&utm_content=latin-america&utm_campaign=rss
-  - **原文摘要**：Uruguay ranked third in Latin America and the Caribbean in 2025 for international air passengers per inhabitant, according to Airports Council International figures presented in Lima this week, despite its small share of the region's total traffic.
+  - **原文链接**：https://en.mercopress.com/2026/09/25/the-un-has-more-reason-to-exist-every-day-uruguay-s-president-said-two-days-after-milei?utm_source=feed&utm_medium=rss&utm_content=latin-america&utm_campaign=rss
+  - **原文摘要**：Uruguayan President Yamandú Orsi defended the United Nations' relevance and condemned the economic embargo on Cuba before the General Assembly on Thursday, in an address of just under twenty minutes that contrasted with that of his Argentine counterpart, Javier Milei, two days earlier from the same podium.
 
-- **原标题**：Latin American airports will need US$178 billion to nearly double their traffic
-  - **来源**：MercoPress
+- **原标题**：CAF seeks startups to advance financial inclusion in the silver economy
+  - **来源**：Caribbean News Global
   - **来源级别**：Tier 3
-  - **评分**：96
-  - **发布时间**：Tue, 29 Sep 2026 07:30:00 GMT
+  - **评分**：62
+  - **发布时间**：Thu, 27 Aug 2026 20:46:45 +0000
   - **地区分类**：加勒比地区
-  - **原文链接**：https://en.mercopress.com/2026/09/29/latin-american-airports-will-need-us-178-billion-to-nearly-double-their-traffic?utm_source=feed&utm_medium=rss&utm_content=latin-america&utm_campaign=rss
-  - **原文摘要**：Airports in Latin America and the Caribbean will require investment of around US$178 billion over the next thirty years to handle demand that would rise from 809 million passengers this year to around 1.5 billion in 2045, according to projections presented in Lima at the annual assembly of Airports Council International.
+  - **原文链接**：https://caribbeannewsglobal.com/caf-seeks-startups-to-advance-financial-inclusion-in-the-silver-economy/
+  - **原文摘要**：The eighth edition of the CAF Financial Inclusion Lab (LIF) will select up to eight projects, which will gain access to acceleration and investment-readiness programs, as well as opportunities to connect with investors, financial institutions and other strategic partners BOGOTA, Colombia – Development Bank of Latin America and the Caribbean – has launched the call […]
 
 
 
 ---
 ## 智库
 
-- **原标题**：The Garífuna’s Fight for Land on Honduras’ Cocaine Coast
+- **原标题**：Ex-OFAC Official: The Cartel Risk Companies Can’t See | The InSight Take
   - **来源**：InSight Crime
   - **来源级别**：Tier 2
-  - **评分**：145
-  - **发布时间**：Fri, 02 Oct 2026 20:03:20 +0000
+  - **评分**：156
+  - **发布时间**：Thu, 15 Oct 2026 17:54:17 +0000
   - **地区分类**：智库
-  - **原文链接**：https://insightcrime.org/news/garifunas-fight-land-honduras-cocaine-coast/
-  - **原文摘要**：The Garífuna’s Fight for Land on Honduras’ Cocaine Coast The overlapping presence of drug trafficking and powerful economic interests remains one of the main obstacles to implementing the IACtHR rulings in Punta Piedra and three other Garífuna communities. The state, meanwhile, has shifted from failing to protect the Garífuna’s land rights to accusing their leaders of organized crime. The post The Garífuna’s Fight for Land on Honduras’ Cocaine Coast appeared first on InSight Crime .
+  - **原文链接**：https://insightcrime.org/news/ex-ofac-official-the-cartel-risk-companies-cant-see-the-insight-take/
+  - **原文摘要**：Ex-OFAC Official: The Cartel Risk Companies Can’t See | The InSight Take Claire McCleskey, former head of compliance at the US Treasury’s OFAC, on what the cartel terrorist designations really change for companies — and why counter-terrorism tools may not fit criminal groups embedded in legitimate business. The post Ex-OFAC Official: The Cartel Risk Companies Can’t See | The InSight Take appeared first on InSight Crime .
+
+- **原标题**：Why Ecuador Is Losing Its Fight Against Organized Crime
+  - **来源**：InSight Crime
+  - **来源级别**：Tier 2
+  - **评分**：156
+  - **发布时间**：Thu, 15 Oct 2026 15:09:57 +0000
+  - **地区分类**：智库
+  - **原文链接**：https://insightcrime.org/news/why-ecuador-is-losing-its-fight-against-organized-crime/
+  - **原文摘要**：Why Ecuador Is Losing Its Fight Against Organized Crime Ecuador’s militarized organized crime crackdown has failed to translate into a sustained reduction in violence. Three years in, President Daniel Noboa’s government is now making tentative moves toward a more holistic approach while at the same time embracing the new hyper-militaristic security paradigm of the United States and its regional allies. The post Why Ecuador Is Losing Its Fight Against Organized Crime appeared first on InSight Crime .
 
 - **原标题**：How Bukele’s War on Gangs Transformed El Salvador
   - **来源**：InSight Crime
@@ -197,23 +206,14 @@
   - **原文链接**：https://insightcrime.org/news/how-bukele-war-gangs-transformed-el-salvador/
   - **原文摘要**：How Bukele’s War on Gangs Transformed El Salvador El Salvador President Nayib Bukele’s offensive against gangs severely weakened the Mara Salvatrucha (MS13) and Barrio 18 and turned his security strategy into a model replicated in other Latin American countries. But at what cost? The post How Bukele’s War on Gangs Transformed El Salvador appeared first on InSight Crime .
 
-- **原标题**：This Sunday, Brazil Is Choosing More Than Its Next President
-  - **来源**：Inter-American Dialogue
+- **原标题**：The Garífuna’s Fight for Land on Honduras’ Cocaine Coast
+  - **来源**：InSight Crime
   - **来源级别**：Tier 2
   - **评分**：140
-  - **发布时间**：Thu, 01 Oct 2026 21:09:36 +0000
+  - **发布时间**：Fri, 02 Oct 2026 20:03:20 +0000
   - **地区分类**：智库
-  - **原文链接**：https://thedialogue.org/blogs/2026/10/this-sunday-brazil-is-choosing-more-than-its-next-president
-  - **原文摘要**：Brazil's 2026 election has been largely framed around the presidential race, and understandably so: this month, Brazilians choose between candidates whose platforms differ sharply.
-
-- **原标题**：Two Years After Mexico’s Judicial Reform: What Has Changed—and Why It Matters for the United States
-  - **来源**：Inter-American Dialogue
-  - **来源级别**：Tier 2
-  - **评分**：135
-  - **发布时间**：Mon, 28 Sep 2026 19:17:58 +0000
-  - **地区分类**：智库
-  - **原文链接**：https://thedialogue.org/blogs/2026/09/two-years-after-mexicos-judicial-reform-what-has-changed-and-why-it-matters-for-the-united-states
-  - **原文摘要**：In September 2024, Mexico embarked on one of the most radical judicial transformations undertaken by a contemporary democracy. Promoted by outgoing President Andrés Manuel López Obrador and backed by his successor, Claudia Sheinbaum, a constitutional reform established the direct popular election of Supreme Court justices, federal judges, electoral magistrates, and members of a newly created […]
+  - **原文链接**：https://insightcrime.org/news/garifunas-fight-land-honduras-cocaine-coast/
+  - **原文摘要**：The Garífuna’s Fight for Land on Honduras’ Cocaine Coast The overlapping presence of drug trafficking and powerful economic interests remains one of the main obstacles to implementing the IACtHR rulings in Punta Piedra and three other Garífuna communities. The state, meanwhile, has shifted from failing to protect the Garífuna’s land rights to accusing their leaders of organized crime. The post The Garífuna’s Fight for Land on Honduras’ Cocaine Coast appeared first on InSight Crime .
 
 
 
@@ -229,32 +229,32 @@
   - **原文链接**：https://news.un.org/feed/view/en/story/2026/09/1168458
   - **原文摘要**：Cuba’s Foreign Minister warned the UN General Assembly on Saturday that escalating military and economic pressure in Latin America and the Caribbean was threatening international law, while accusing the United States of intensifying a decades-long campaign to isolate and weaken his country.
 
-- **原标题**：Latin America and the Caribbean Holds Steady While Top Performers Show a Path to Higher Growth - World Bank Group
-  - **来源**：World Bank Group
+- **原标题**：Haiti sanctions renewed: Starving the gangs of bullets
+  - **来源**：UN News - Global perspective Human stories
   - **来源级别**：Tier 2
-  - **评分**：133
-  - **发布时间**：Tue, 06 Oct 2026 07:00:00 GMT
+  - **评分**：123
+  - **发布时间**：Wed, 14 Oct 2026 12:00:00 +0000
   - **地区分类**：国际组织
-  - **原文链接**：https://news.google.com/rss/articles/CBMinwFBVV95cUxQOS1ZZUVxSkFXbGxmNDZoaGdxZ190OWJSLWx5RFNHS05DNmNDLWpjV25ITjFBRUZQVHRqNDZKZkVkTDEzR01CUDZjWm1BX0pXOVBUQTFhNHhrWDBfd3NoUzlnNFN1WURCck10S0VtYzNsSWFZRHNyQXZGNXlLQ3ZhUDcwX0g0NnZGUGIweEhERElTdXU4R0R6X0I1b1owaEk?oc=5
-  - **原文摘要**：Latin America and the Caribbean Holds Steady While Top Performers Show a Path to Higher Growth World Bank Group
+  - **原文链接**：https://news.un.org/feed/view/en/story/2026/10/1168598
+  - **原文摘要**：Haiti is living through one of the world’s most acute security crises. Armed gangs control large parts of the capital, Port-au-Prince, and are pushing into rural areas, terrorising communities, killing people, committing rape and other sexual assaults, kidnapping for ransom and extorting individuals and businesses.
 
-- **原标题**：Connecting Markets, Powering Growth: The Digital Trade Opportunity for Latin America and the Caribbean - Inter-American Development Bank
-  - **来源**：Inter-American Development Bank
+- **原标题**：Colombia: UN independent experts call for Ecopetrol to provide reparations to victims of armed conflict
+  - **来源**：UN News - Global perspective Human stories
   - **来源级别**：Tier 2
-  - **评分**：133
-  - **发布时间**：Wed, 30 Sep 2026 07:00:00 GMT
+  - **评分**：116
+  - **发布时间**：Wed, 14 Oct 2026 12:00:00 +0000
   - **地区分类**：国际组织
-  - **原文链接**：https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYlY0azJhdlRvVGxPdzNmdVM5M0tQWVJKa2ptUXBfT0dFLTRucG9vT1I4eHpLTzd5TVhLVW9oaHJYY2lUaF8wWlQtUTZJTmZfX0NTV1NqaFRTYTE2dG8zRng3cUZHV1lCb3FNVEltcF9hRmlFTjlZYUtaOVVUU3BBeDdYVEw5cmtacTBzZVQ0SDJlRkhZTUpiNGtBc001SFRQbW9adW1wSTNSM01ZdGRBZHBNRG1MZi1CWTAwdXlOeEVubDM5SFprbmhvY1h0TlMzTlhWQQ?oc=5
-  - **原文摘要**：Connecting Markets, Powering Growth: The Digital Trade Opportunity for Latin America and the Caribbean Inter-American Development Bank
+  - **原文链接**：https://news.un.org/feed/view/en/story/2026/10/1168597
+  - **原文摘要**：UN independent experts welcomed on Wednesday a recent landmark corporate accountability ruling involving the Ecopetrol oil company by Colombia’s Special Jurisdiction for Peace, calling for reparations for victims.
 
-- **原标题**：AI could boost LatAm, Caribbean economy 5.1% over a decade but wages may fall, IDB says - Reuters
-  - **来源**：Reuters
-  - **来源级别**：Tier 1
-  - **评分**：129
-  - **发布时间**：Mon, 21 Sep 2026 07:00:00 GMT
+- **原标题**：Trump defends military action against Iran, Venezuela, and calls for rebrand of AI
+  - **来源**：UN News - Global perspective Human stories
+  - **来源级别**：Tier 2
+  - **评分**：111
+  - **发布时间**：Tue, 22 Sep 2026 12:00:00 +0000
   - **地区分类**：国际组织
-  - **原文链接**：https://news.google.com/rss/articles/CBMisgFBVV95cUxQVi05aHpLMlNmUWw4ekwzTlpCdVBzVzJQaFNCZkM1OTNfNWViRTh2SThXLUtDV0FTbXBWN0tNVkNhTkNoSE9rZlVoVDhtM1NlYk10czhvclNaa1Rzb2dpQVkyRk5UU0wxTzd1Q0FyS0NpdzhWVWN2SFgzOV9aeDlWWXVwaHRIckFJVzRVUGswMFlCa2k0aWVJbEdJNEROSGtGZE45T1BXSEVDRjA5bVBPOHlR?oc=5
-  - **原文摘要**：AI could boost LatAm, Caribbean economy 5.1% over a decade but wages may fall, IDB says Reuters
+  - **原文链接**：https://news.un.org/feed/view/en/story/2026/09/1168397
+  - **原文摘要**：US President Donald Trump used his address to the UN General Assembly on Tuesday to defend recent military action against Iran, urging countries to maintain economic pressure on Tehran – and declaring that he now faces a choice between making a deal, or taking far more drastic steps.
 
 
 
