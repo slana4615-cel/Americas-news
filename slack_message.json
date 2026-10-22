@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-21)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-22)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-21)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-22)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/commentisfree/2026/oct/19/saudi-arabia-trump-relationship|Saudi Arabia is learning the hard way: they can’t count on Trump for protection | Mohamad Bazzi>\n• <https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video|'No Kings' protesters rally across the US – video>\n• <https://www.france24.com/en/americas/20261020-lula-campaign-seeks-disqualify-bolsonoro-from-brazil-presidential-vote-over-meta-interference|Lula's campaign seeks to disqualify Bolsonoro from Brazil presidential vote over Meta 'interference'>\n• <https://www.theguardian.com/global-development/2026/oct/20/the-finger-cutter-and-the-brazilian-escobar-the-men-accused-of-bringing-cocaine-cartels-to-europe|The ‘Finger cutter’ and the ‘Brazilian Escobar’: the men accused of bringing cocaine cartels to Europe>\n• <https://news.google.com/rss/articles/CBMilAFBVV95cUxQMnAzMmN1M2s2LWtuaGhmamlhV1AzSERJOHhnR1RTdHRTbkxqTUVrV2Y5dWNpSE50TFNibzNzeU5FWUdoV3c0c2hzVTJuc1dPVk14UmRYbXAyc2dTTHpjYWc5TUpQUTgyWVBFTW92VG85Tlg4di1XZTlZOGFCRktfZlpJRFFXdzU5bFNuWkNDdUJXUTRF?oc=5|US and Cuba clash at UN as Washington seeks to sway annual vote on economic embargo - AP News>\n• <https://news.google.com/rss/articles/CBMinAFBVV95cUxPd2Z4eF9VQkszcjYzUUF1S2tZYWdRcGpuWGZjLUY0ejVwMGRYdlJWUkMyVmxzdmEtdGhnaC0zZHlWTENFeFdsbm9YLVFqVVcxd2dPMmpzS1FiNU9fYy1FS2ZDSjNIdnJzcXNSX3pCbTVhZ1BMRGZ5UUtUVnF3SnhMdFBHVWw1UUdEd1hNQ3J2WVVYQWNQSDFzazNDTUo?oc=5|Gangs in Haiti target foreign troops in the biggest attack since a new force began operations - AP News>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/live/2026/oct/21/donald-trump-south-carolina-data-centers-midterms-ukraine-witkoff-russia-latest-news-updates|Trump praises supporter for allegedly punching protester during rally for Darline Graham in South Carolina – live>\n• <https://www.theguardian.com/commentisfree/2026/oct/21/the-guardian-view-on-the-republicans-midterms-struggle-trump-has-circuses-but-voters-also-want-bread|The Guardian view on the Republicans’ midterms struggle: Trump has circuses, but voters also want bread | Editorial>\n• <https://www.theguardian.com/world/2026/oct/21/battle-meta-alleged-bolsonaro-bias-intensifies-days-before-brazil-presidential-runoff|Battle over Meta’s alleged Bolsonaro bias intensifies days before Brazil presidential runoff>\n• <https://www.france24.com/en/americas/20261019-brazil-lula-bolsonaro-debate-election-runoff|Brazil's Lula, Bolsonaro clash in bitter debate ahead of election run-off>\n• <https://www.bbc.co.uk/news/articles/crp3gvpek8njo?at_medium=RSS&at_campaign=rss|Haitian migrants changed this US town - Trump's deportation drive is reshaping it again>\n• <https://www.aljazeera.com/news/2026/10/21/cuba-accuses-us-of-threatening-countries-ahead-of-un-embargo-vote?traffic_source=rss|Cuba accuses US of threatening countries ahead of UN embargo vote>"
       }
     },
     {

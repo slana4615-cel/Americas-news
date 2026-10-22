@@ -1,6 +1,6 @@
 # 美洲新闻自动抓取结果｜Daily Americas News Collection
 
-- **生成日期**：2026-10-21
+- **生成日期**：2026-10-22
 - **自动更新**：每日 22:00 UTC
 - **输出说明**：本文件由程序根据公开 RSS 新闻源自动抓取生成，仅用于研究团队初步筛选。新闻价值、事实核验和最终采用由人工判断。
 
@@ -11,82 +11,64 @@
 
 ## 美国
 
-- **原标题**：Saudi Arabia is learning the hard way: they can’t count on Trump for protection | Mohamad Bazzi
+- **原标题**：Trump praises supporter for allegedly punching protester during rally for Darline Graham in South Carolina – live
   - **来源**：The Guardian
   - **来源级别**：Tier 1
-  - **评分**：178
-  - **发布时间**：Mon, 19 Oct 2026 11:00:55 GMT
+  - **评分**：179
+  - **发布时间**：Thu, 22 Oct 2026 00:06:07 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/commentisfree/2026/oct/19/saudi-arabia-trump-relationship
-  - **原文摘要**：After Houthis escalated their attacks on Saudi Arabia, the US turned down calls from MBS for help For years, Saudi Arabia’s crown prince, Mohammed bin Salman, cultivated a close relationship with Donald Trump and his son-in-law and former top adviser, Jared Kushner. The prince understood the president’s transactional approach to power: he signed deals to buy billions of dollars’ worth of US weapons and invested billions more in American companies. Days after Trump returned to the White House in January 2025, Prince Mohammed pledged to expand investment and trade with the US by $600bn over four years. He later promised to increase that investment to nearly $1tn, although it wasn’t entirely clear how Saudi Arabia would manage to plough a sum close to the kingdom’s entire annual GDP into a foreign economy over a few years. Mohamad Bazzi is a Guardian US columnist. He is also director of the Hagop Kevorkian Center for Near Eastern Studies and a journalism professor at New York University Continue reading...
+  - **原文链接**：https://www.theguardian.com/us-news/live/2026/oct/21/donald-trump-south-carolina-data-centers-midterms-ukraine-witkoff-russia-latest-news-updates
+  - **原文摘要**：‘That was great, man. Wow. Man, I loved that,’ the president says from podium as multiple protesters interrupt his remarks Sign up for Breaking News US email Send us your questions about immigration and the midterms Reporting from Jerusalem The Israeli military has detained about 80 US, Israeli and British volunteers helping Palestinians harvest olives near Bethlehem, including the New York Democratic congressional nominee Brad Lander, several rabbis and Israel’s former deputy attorney general. Continue reading...
 
-- **原标题**：'No Kings' protesters rally across the US – video
+- **原标题**：The Guardian view on the Republicans’ midterms struggle: Trump has circuses, but voters also want bread | Editorial
   - **来源**：The Guardian
   - **来源级别**：Tier 1
-  - **评分**：178
-  - **发布时间**：Sun, 18 Oct 2026 15:20:57 GMT
+  - **评分**：179
+  - **发布时间**：Wed, 21 Oct 2026 17:54:16 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/us-news/video/2026/oct/18/no-kings-protesters-rally-across-the-us-video
-  - **原文摘要**：Protesters held rallies across the US as part of the 'No Kings' movement, voicing opposition to the Trump administration and calling for early voting ahead of November's midterm elections. The rallies coincide with heightened legal battles surrounding voting rules, including a recent federal lawsuit filed against California regarding mail-in ballots and warnings from the justice department concerning ballot processing. Current opinion polls suggest Democrats will win the House of Representatives in the upcoming midterms, while the Senate remains too close to call Continue reading...
+  - **原文链接**：https://www.theguardian.com/commentisfree/2026/oct/21/the-guardian-view-on-the-republicans-midterms-struggle-trump-has-circuses-but-voters-also-want-bread
+  - **原文摘要**：As prices keep rising, more of the president’s supporters are asking what happened to the economic good times he promised It is no great revelation that Donald Trump is enriching himself as president. He raked in $2.2bn in 2025, with his position and his personal interests frequently overlapping. Yet this week’s poll finding that 34% of Republicans (and 66% of all American voters) think that he is using his position to make himself rich merits attention . Separately, voters in a Fox News poll last week put government corruption at the top of their list of concerns – just ahead of inflation and high prices. Mr Trump pledged that people would be better off if they voted for him. Billionaires are; not the rest. He promised to lower grocery costs (they have risen) and to cut the price of gasoline to below $2 a gallon. It’s more than double that, thanks to his illegal war on Iran. Tariffs haven’t helped. Incumbents struggle when life feels unaffordable, and polling for the Guardian has shown the disenchantment of key voting groups. The gulf between his own prosperity and the lives of his base now looks less like an inspiration and more like an insult. Cash offers seem unlikely to help much. Continue reading...
 
-- **原标题**：DoJ’s suspected non-citizens list includes ‘high percentage’ of those born in US, LA officials say
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：177
-  - **发布时间**：Tue, 20 Oct 2026 19:46:38 GMT
-  - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/us-news/2026/oct/20/doj-non-citizens-la
-  - **原文摘要**：The statement revealed in court papers raises questions about the reliability of the list of 20,000 people in California The justice department’s list of suspected non-citizens in California includes a “high percentage” of people born in the United States, Los Angeles election officials said on Tuesday. The statement, made in court papers , raises further questions about the reliability of a list of 20,000 people the justice department provided to election officials in Los Angeles last week. The department sent the county and California secretary of state the list last week and gave them a 48-hour deadline to segregate ballots cast from anyone on the list unless they could verify their citizenship. California election officials refused and the Department of Justice sued them on Thursday. Continue reading...
-
-- **原标题**：Republicans push back on Donald Trump’s wavering support for Ukraine
+- **原标题**：How will Trump’s mass deportation agenda shape the US midterm elections? Our reporters answer your questions
   - **来源**：The Guardian
   - **来源级别**：Tier 1
   - **评分**：177
-  - **发布时间**：Tue, 20 Oct 2026 17:32:57 GMT
+  - **发布时间**：Wed, 21 Oct 2026 22:35:17 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/us-news/2026/oct/20/republicans-push-back-trump-ukraine-russia
-  - **原文摘要**：GOP lawmakers threaten to pull support for president’s agenda after Russia diesel deal and sanctions pause US politics live – latest updates A handful of Republicans have spoken out against Donald Trump ’s softening stance on Russia , threatening to pull financial support for his agenda over his “embarrassing” handling of the Ukraine war. Don Bacon, an outgoing congressman in Nebraska, condemned Trump’s actions – which include a stunning agreement to buy Russian diesel and the pausing of sanctions on Moscow – as “absolutely disgraceful” and accused the US president of cozying up to a “war criminal” in Vladimir Putin, his Russian counterpart. Continue reading...
+  - **原文链接**：https://www.theguardian.com/us-news/live/2026/oct/21/immigration-ice-mass-deportation-trump-midterm-elections
+  - **原文摘要**：With ICE arrests and detentions at their highest levels, immigration remains a key issue for voters less than two weeks before election day Sign in or sign up to join the conversation From mass raids to quiet crackdown: a timeline of Trump’s strategic ICE pivot It’s our last US midterms live Q&A before election day on 3 November, and our reporters are answering your immigration questions. Since Donald Trump began his second term , ICE arrests have reached record levels , operations have become deadly , and immigration raids have hit politicians’ homes . Our reporting has documented the experiences of those directly affected by the harsh conditions in detention centers and resistance to ICE agents on the ground. The makeup of the Democratic party, plus key races to watch Who are the groups financially backing the candidates in the midterms? Will the Iran war cost Trump in the US midterm elections? Your questions answered Will Trump’s economy sink Republicans in the US midterm elections? Our reporters answered your questions Continue reading...
 
-- **原标题**：Trump says he will have spent $400m to support Republicans in midterms – US politics live
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：176
-  - **发布时间**：Tue, 20 Oct 2026 23:49:04 GMT
-  - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/us-news/live/2026/oct/20/donald-trump-midterms-republicans-democrats-north-carolina-latest-updates
-  - **原文摘要**：President also announces incentive program for people to report fraud, as administration continues attack on Minnesota Sign up for the Breaking News US email Send us your questions about immigration and the midterms A new survey reveals a widening “empathy gap” between Republicans and white evangelicals and the rest of the American public. On Tuesday, the nonpartisan Public Religion Research Institute released its annual American Values Survey. The survey found that white evangelical Protestants are the only religious group in which a majority does not agree that empathy is foundational moral value (42%). Instead, a majority (54%) say empathy can be dangerous when it leads people away from a society guided by God’s truth, PRRI said. Continue reading...
-
-- **原标题**：Trump commits more than $400m ahead of high-stakes midterm elections
+- **原标题**：Will Russia’s diesel shipment to the US lower prices before midterms?
   - **来源**：Al Jazeera
   - **来源级别**：Tier 1
-  - **评分**：166
-  - **发布时间**：Tue, 20 Oct 2026 21:27:38 +0000
+  - **评分**：163
+  - **发布时间**：Wed, 21 Oct 2026 20:54:27 +0000
   - **地区分类**：美国
-  - **原文链接**：https://www.aljazeera.com/news/2026/10/20/trump-commits-more-than-400m-ahead-of-high-stakes-midterm-elections?traffic_source=rss
-  - **原文摘要**：The president's Republican Party seeks to maintain its hold over both chambers of Congress, despite declining polls.
+  - **原文链接**：https://www.aljazeera.com/economy/2026/10/21/will-russias-diesel-shipment-to-the-us-lower-prices-before-midterms?traffic_source=rss
+  - **原文摘要**：Moscow dispatches its inaugural diesel shipment to the US, aiming to ease fuel shortages as midterm elections loom.
+
+- **原标题**：Trump asks US Supreme Court to allow Big Bend border wall construction - Reuters
+  - **来源**：Reuters
+  - **来源级别**：Tier 1
+  - **评分**：161
+  - **发布时间**：Wed, 21 Oct 2026 22:13:58 GMT
+  - **地区分类**：美国
+  - **原文链接**：https://news.google.com/rss/articles/CBMivAFBVV95cUxPZGlrcWpDamtUOXlwXzhMZmtubm0yQnJPZG11SkZHVzFiT0pLQjBscEV3aHBBV3M5Zk5MQ1hTTXFnNWNaekgzamU0eC1JMmN5ekdFT1o0SzBZMmxyeVZhUzB0c1pZdnVpcFNKRGFQZjlGRmlKR3padVZGTWlBM1FtWFVoQUtGVlpwbWVGQlY5YXk3QWVHZ3FXTU40b0NRUmVJSnJoNWdfa0xyNlc2M01tSEthWkVrbkZCWVFQZw?oc=5
+  - **原文摘要**：Trump asks US Supreme Court to allow Big Bend border wall construction Reuters
 
 
 
 ---
 ## 拉丁美洲
 
-- **原标题**：Lula's campaign seeks to disqualify Bolsonoro from Brazil presidential vote over Meta 'interference'
-  - **来源**：France 24
-  - **来源级别**：Tier 1
-  - **评分**：182
-  - **发布时间**：Tue, 20 Oct 2026 20:59:51 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.france24.com/en/americas/20261020-lula-campaign-seeks-disqualify-bolsonoro-from-brazil-presidential-vote-over-meta-interference
-  - **原文摘要**：President Luiz Inácio Lula da Silva’s campaign is preparing to request the annulment of right-wing rival Flavio Bolsonaro's candidacy over alleged social media interference from US tech giant Meta as Brazil’s presidential race intensifies ahead of Sunday’s runoff. The petition that will be submitted to the country's top electoral court claims "algorithmic manipulation" by Meta to suppress Lula's campaign content and boost Bolsonaro.
-
-- **原标题**：The ‘Finger cutter’ and the ‘Brazilian Escobar’: the men accused of bringing cocaine cartels to Europe
+- **原标题**：Battle over Meta’s alleged Bolsonaro bias intensifies days before Brazil presidential runoff
   - **来源**：The Guardian
   - **来源级别**：Tier 1
-  - **评分**：178
-  - **发布时间**：Tue, 20 Oct 2026 06:00:19 GMT
+  - **评分**：179
+  - **发布时间**：Wed, 21 Oct 2026 05:00:00 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.theguardian.com/global-development/2026/oct/20/the-finger-cutter-and-the-brazilian-escobar-the-men-accused-of-bringing-cocaine-cartels-to-europe
-  - **原文摘要**：A Belgian criminal organisation’s links with a Brazilian cocaine gang have been the focus of a major trial in Brussels, where smuggling links have been alleged between European players and the drug cartels of Latin America In the early hours of 7 September, a convoy of heavily armed police swept through the sleeping streets of central Brussels towards the Haren district, on the city’s north-eastern outskirts. They made their way to 22 Avenue du Bourget, a militarised bunker-like complex that was the former headquarters of Nato. The modernist complex, with its austere and functional architecture, was hastily built in 1967 and houses the Justitia courtroom, where Belgium’s federal trials are now held. It was here that the perpetrators and accomplices of the 2015 Paris terrorist attacks and the 2016 Brussels attacks were tried in 2022. Continue reading...
+  - **原文链接**：https://www.theguardian.com/world/2026/oct/21/battle-meta-alleged-bolsonaro-bias-intensifies-days-before-brazil-presidential-runoff
+  - **原文摘要**：Lula’s supporters suspect tech firm meddling on behalf of US president Donald Trump, who has close ties to Bolsonaro family Five days after his defeat in the first round of the Brazilian presidential election, leftwing president Luiz Inácio Lula da Silva spent almost 24 hours unable to boost his Instagram posts, while his opponent, far-right senator Flávio Bolsonaro, could. Lula’s lawyers included the episode in a list of incidents that they submitted to the electoral court and international observers as “evidence” that Meta, Instagram’s owner, was actively trying to interfere in Brazil’s election in Bolsonaro’s favour. Continue reading...
 
 - **原标题**：Brazil's Lula, Bolsonaro clash in bitter debate ahead of election run-off
   - **来源**：France 24
@@ -97,23 +79,32 @@
   - **原文链接**：https://www.france24.com/en/americas/20261019-brazil-lula-bolsonaro-debate-election-runoff
   - **原文摘要**：Brazilian President Luiz Inacio Lula da Silva and right-wing senator Flavio Bolsonaro traded personal attacks in a heated presidential debate on Sunday, a week before a closely contested run-off. The rivals accused each other of lying and corruption while clashing over the economy, security and healthcare ahead of the October 25 vote.
 
-- **原标题**：FAA bars unauthorized drones along US-Mexico border, citing security concerns - Reuters
-  - **来源**：Reuters
-  - **来源级别**：Tier 1
-  - **评分**：173
-  - **发布时间**：Fri, 16 Oct 2026 19:12:47 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSHp6X2ozTTdxd1F5T19PYTFQT2daeFoyOHJ1TnhkMjJSTTVUb2taS1dTN19KdFp5QTFSN1oxWkdwVFhzazk2VFExZVR6WU5JQ2M5Q0czOGtxaXVfcnFBZG5NZ1BpS3hsWENqRHN1VXN2RmhxUkdzb1pURlNlTnVYS0l6LTFtVElWeWFXYTYwazdxRzR1Ri1jN2VfYmpxcE9MRG5sMXUxYXBJVjJvU1BuTXQ1cFEwMUE2cW9sLUJXX0xCZm8yR24wUFhqRTlyZGdNX043YzVB?oc=5
-  - **原文摘要**：FAA bars unauthorized drones along US-Mexico border, citing security concerns Reuters
-
-- **原标题**：Lula's party to file complaint against Meta over Brazil election interference
+- **原标题**：Brazil’s presidential candidates push to have one another disqualified ahead of run-off
   - **来源**：France 24
   - **来源级别**：Tier 1
-  - **评分**：170
-  - **发布时间**：Wed, 14 Oct 2026 23:52:58 GMT
+  - **评分**：176
+  - **发布时间**：Tue, 20 Oct 2026 20:59:51 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.france24.com/en/americas/20261014-lula-party-meta-election-interference-brazil-runoff
-  - **原文摘要**：Brazilian President Luiz Inacio Lula da Silva’s party plans to file a complaint against Meta with the Organisation of American States alleging election interference, his campaign said Wednesday. The party accuses Meta of restricting Lula’s online content ahead of the October 25 presidential runoff against far-right Senator Flavio Bolsonaro. Meta denies the allegations.
+  - **原文链接**：https://www.france24.com/en/americas/20261020-lula-campaign-seeks-disqualify-bolsonoro-from-brazil-presidential-vote-over-meta-interference
+  - **原文摘要**：Both candidates in Brazil's presidential election called for their rival's disqualification Tuesday over allegations of social media malfeasance, according to court filings. Left-wing President Luiz Inacio Lula da Silva’s campaign said they will request the annulment of right-wing rival Flavio Bolsonaro's candidacy over alleged election interference by tech giant Meta, while Bolsonaro's team is accusing Lula of "abuse of power" in the mass sharing of government postings on WhatsApp.
+
+- **原标题**：The ‘Finger cutter’ and the ‘Brazilian Escobar’: the men accused of bringing cocaine cartels to Europe
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：175
+  - **发布时间**：Tue, 20 Oct 2026 06:00:19 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.theguardian.com/global-development/2026/oct/20/the-finger-cutter-and-the-brazilian-escobar-the-men-accused-of-bringing-cocaine-cartels-to-europe
+  - **原文摘要**：A Belgian criminal organisation’s links with a Brazilian cocaine gang have been the focus of a major trial in Brussels, where smuggling links have been alleged between European players and the drug cartels of Latin America In the early hours of 7 September, a convoy of heavily armed police swept through the sleeping streets of central Brussels towards the Haren district, on the city’s north-eastern outskirts. They made their way to 22 Avenue du Bourget, a militarised bunker-like complex that was the former headquarters of Nato. The modernist complex, with its austere and functional architecture, was hastily built in 1967 and houses the Justitia courtroom, where Belgium’s federal trials are now held. It was here that the perpetrators and accomplices of the 2015 Paris terrorist attacks and the 2016 Brussels attacks were tried in 2022. Continue reading...
+
+- **原标题**：Some Brazilians long associated with the left now shift towards Flavio Bolsonaro
+  - **来源**：France 24
+  - **来源级别**：Tier 1
+  - **评分**：168
+  - **发布时间**：Wed, 21 Oct 2026 15:28:09 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.france24.com/en/video/20261021-some-brazilians-long-associated-with-the-left-now-shift-towards-flavio-bolsonaro
+  - **原文摘要**：In the first round of Brazil’s presidential elections, Flavio Bolsonaro got the most votes in 15 electoral districts in the North Zone of Rio de Janeiro, compared with 9 for Lula. This part of the city, long associated with the left and the social policies of Lula’s Workers’ Party, is now shifting towards former president Jair Bolsonaro’s son.
 
 - **原标题**：Why has Brazil accused the US of election interference?
   - **来源**：BBC
@@ -124,82 +115,100 @@
   - **原文链接**：https://www.bbc.co.uk/news/videos/c3eweld0nddeo?at_medium=RSS&at_campaign=rss
   - **原文摘要**：The Latin American country will vote for its next president, as Lula da Silva and Bolsonaro clash over sovereignty, security and ties with Washington.
 
-- **原标题**：Thousands of Colombians march against new right-wing president's policies
-  - **来源**：France 24
+- **原标题**：Ex-prosecutor charged with treason in Mexico over US drug raid
+  - **来源**：BBC
+  - **来源级别**：Tier 1
+  - **评分**：167
+  - **发布时间**：Wed, 21 Oct 2026 20:19:51 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.bbc.co.uk/news/articles/ckx2qpw4rjd7o?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：César Jáuregui Moreno is accused of allowing US agents to join a raid on a suspected drugs lab in April.
+
+- **原标题**：Mexico charges prosecutor with treason over US involvement in drug raid
+  - **来源**：Al Jazeera
   - **来源级别**：Tier 1
   - **评分**：164
-  - **发布时间**：Thu, 15 Oct 2026 01:57:26 GMT
+  - **发布时间**：Wed, 21 Oct 2026 21:25:21 +0000
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.france24.com/en/americas/20261015-thousands-protest-colombia-right-wing-president
-  - **原文摘要**：Thousands of Colombians protested peacefully across the country on Wednesday against right-wing President Abelardo de la Espriella, in the opposition’s first major demonstrations since he took office in August. Former leftist president Gustavo Petro led a rally in Bogota joined by trade unionists, Indigenous groups, students and feminist activists.
-
-- **原标题**：Brazil’s love affair with cellphones turns theft into an election flashpoint - Reuters
-  - **来源**：Reuters
-  - **来源级别**：Tier 1
-  - **评分**：162
-  - **发布时间**：Tue, 20 Oct 2026 19:21:17 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://news.google.com/rss/articles/CBMixAFBVV95cUxOWFRwNFpvcXBQUEZCZHJxMHlzQzN4ZG5sQ3dIdnVzZFZ4VlhqZERwdVFVNGJ4TjhuMWdoVDE2cngxRlJuVUstTjNxQ3hXdktjOWhQZ2c2QjMwQzZWUkdyN0hfb1F1WGwxR3lMbVNuSVJVY0pfczBNTEl1WUFseWJNU3NFS2EwQW83VjEwT0lOcEthOTNRY3hZNUpTdUd1WDJGaDB1cEctUk5aYXlmeHNQckFjaDdIRjN5d0VnTUhGTlNWeWhw?oc=5
-  - **原文摘要**：Brazil’s love affair with cellphones turns theft into an election flashpoint Reuters
+  - **原文链接**：https://www.aljazeera.com/news/2026/10/21/mexico-charges-prosecutor-with-treason-over-us-involvement-in-drug-raid?traffic_source=rss
+  - **原文摘要**：The participation of US agents in an April drug operation has raised questions about whether Mexico's laws were upheld.
 
 
 
 ---
 ## 加勒比地区
 
-- **原标题**：US and Cuba clash at UN as Washington seeks to sway annual vote on economic embargo - AP News
-  - **来源**：AP News
+- **原标题**：Haitian migrants changed this US town - Trump's deportation drive is reshaping it again
+  - **来源**：BBC
+  - **来源级别**：Tier 1
+  - **评分**：182
+  - **发布时间**：Wed, 21 Oct 2026 02:37:13 GMT
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://www.bbc.co.uk/news/articles/crp3gvpek8njo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：The president thrust Springfield, Ohio, into the spotlight with a false pet-eating claim - years later, it remains at the heart of the immigration debate.
+
+- **原标题**：Cuba accuses US of threatening countries ahead of UN embargo vote
+  - **来源**：Al Jazeera
   - **来源级别**：Tier 1
   - **评分**：176
-  - **发布时间**：Mon, 19 Oct 2026 20:59:12 GMT
+  - **发布时间**：Wed, 21 Oct 2026 19:51:29 +0000
   - **地区分类**：加勒比地区
-  - **原文链接**：https://news.google.com/rss/articles/CBMilAFBVV95cUxQMnAzMmN1M2s2LWtuaGhmamlhV1AzSERJOHhnR1RTdHRTbkxqTUVrV2Y5dWNpSE50TFNibzNzeU5FWUdoV3c0c2hzVTJuc1dPVk14UmRYbXAyc2dTTHpjYWc5TUpQUTgyWVBFTW92VG85Tlg4di1XZTlZOGFCRktfZlpJRFFXdzU5bFNuWkNDdUJXUTRF?oc=5
-  - **原文摘要**：US and Cuba clash at UN as Washington seeks to sway annual vote on economic embargo AP News
+  - **原文链接**：https://www.aljazeera.com/news/2026/10/21/cuba-accuses-us-of-threatening-countries-ahead-of-un-embargo-vote?traffic_source=rss
+  - **原文摘要**：Havana says Washington is threatening countries with retaliation if they refuse to vote against condemning its embargo.
+
+- **原标题**：Top Cuban diplomat accuses US of threatening countries that vote with Cuba at UN - Reuters
+  - **来源**：Reuters
+  - **来源级别**：Tier 1
+  - **评分**：176
+  - **发布时间**：Wed, 21 Oct 2026 17:38:55 GMT
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://news.google.com/rss/articles/CBMiyAFBVV95cUxNS3JjaDJmX3M3N2FwWVZrOTRaYk93cXBtTkpGMlZLV0p2cXJRQmRZMUhaVF9CTlJaOUo3T201eUZCYnctWXA3V1ZfQm03Uy1GNElxeExkZFNMcGlHc1ZmSUsza0E3WTlMV2xMdXlfVjBGMGpEQXRla1pfaGNSVE91Q2ZXVjVGY3Z0ODhqUzBhcWE5RV9tTVllUXVyd3kta3lSTEN3VTZ1Q2xSY296aGJNMDM5Zm5xdFJtU2hhem9FQ0dSX2RmY3dVYw?oc=5
+  - **原文摘要**：Top Cuban diplomat accuses US of threatening countries that vote with Cuba at UN Reuters
+
+- **原标题**：US, Cuba trade barbs at UN ahead of sanctions vote - Reuters
+  - **来源**：Reuters
+  - **来源级别**：Tier 1
+  - **评分**：176
+  - **发布时间**：Mon, 19 Oct 2026 21:05:43 GMT
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://news.google.com/rss/articles/CBMimgFBVV95cUxOU0VYTGZPd2RmZlZvZWJBZmRHbEsxWFdtYXF3b1ZJVU9FZmRncmoxSERRWldzS0Z0TTJsbVRoLThDT2FfZi1XVHB2QkhmemJGX0M2S3RsUVBTSnN1engtaURsamc3TGxRa0E2RmpVaEJOdVFCQlVhaDJWaG5qQzVCNkRYckxRMmdOZElvLU1zZjROb1p2X1AxYUVB?oc=5
+  - **原文摘要**：US, Cuba trade barbs at UN ahead of sanctions vote Reuters
+
+- **原标题**：El Salvador’s Bukele announces military operation to rescue hostages held by gangs in Haiti - AP News
+  - **来源**：AP News
+  - **来源级别**：Tier 1
+  - **评分**：171
+  - **发布时间**：Wed, 21 Oct 2026 21:49:00 GMT
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://news.google.com/rss/articles/CBMioAFBVV95cUxNOHFRSkVUWHdzeTEzM1RTTVJ1ejhtVTJ2OUdWODMwbi0yOElxVFoyMlB5a1hoa0EwdGNETWg4VVp6UFhnWk1jUUxOZ2JnY0t2N2dVc28xUzhiWGJLcm81aGFkb2ZlTFZTZUp1cV9PYUVDZWlIOTQwZDV0QzhVMC1pUmlqTkJrSHlQTEdEc0VnWUxock5TUmp5Uk5ja25GVU5C?oc=5
+  - **原文摘要**：El Salvador’s Bukele announces military operation to rescue hostages held by gangs in Haiti AP News
+
+- **原标题**：As King Charles heads to the Caribbean, he should know that Winston Churchill admitted to imperial plunder 90 years ago | Kenneth Mohammed
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：171
+  - **发布时间**：Sat, 17 Oct 2026 05:00:21 GMT
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://www.theguardian.com/global-development/2026/oct/17/king-charles-caribbean-winston-churchill-empire-britain-wealth
+  - **原文摘要**：Modern politicians play on tales of empire to exaggerate what Britain left behind, but the monarch should consider a historical speech on imperial plunder For us in the Caribbean, there is something surreal about Britain’s renewed nostalgia over empire. As Britain’s monarch prepares to visit the Caribbean , and at a time when we in the former colonies are demanding to have a serious reckoning with slavery and reparations , UK politicians are invoking a dumbed-down distortion of history. Rewriting the facts: the Reform MP Robert Jenrick has argued that colonies owed Britain a “ debt of gratitude ” for the institutions empire bequeathed them. Jacob Rees-Mogg, a former minister in a Conservative government, has described British colonialism as “one of the greatest civilising, prosperity-creating forces the world has ever seen”. The opposition leader, Kemi Badenoch, has disputed colonialism’s contribution to Britain’s prosperity. Then there is Suella Braverman. The Reform MP suggested in July that rather than Britain paying reparations, former colonies should repay Britain for the investment and infrastructure provided under empire. This prompted Mia Mottley, the prime minister of Barbados, to call that proposition “asinine”. At best it is historical amnesia. At its worse it is an insidious misrepresentation of facts. Continue reading...
+
+- **原标题**：El Salvador says Haiti gangs holding 4 force members hostage, announces new rescue mission - Reuters
+  - **来源**：Reuters
+  - **来源级别**：Tier 1
+  - **评分**：168
+  - **发布时间**：Wed, 21 Oct 2026 20:10:21 GMT
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWXFZb1FxUlowcWMwdURfWXIyRlQ0Q09mOWltdHd1bVR5V2I4Mlg4LTNKbmNCQ2RURk90MjMwVXlSRFYxZVJ0ZEJMN0JMRlNiNS1qOEZITmtNRjdkU204QUtEV2ZkVlEzdUR5T2pHSENXcjFzN0pkelBfRV9DZXE1RU9waFlRVVJLYXcwcnNnZ1RFelNwSW83ZVBLRE9YbDdLblhveDJwTVZic1RGOWMxWUZhZ3V2Y3JLa0tVdUQ4VzZjeVk?oc=5
+  - **原文摘要**：El Salvador says Haiti gangs holding 4 force members hostage, announces new rescue mission Reuters
 
 - **原标题**：Gangs in Haiti target foreign troops in the biggest attack since a new force began operations - AP News
   - **来源**：AP News
   - **来源级别**：Tier 1
-  - **评分**：166
+  - **评分**：163
   - **发布时间**：Tue, 20 Oct 2026 05:18:00 GMT
   - **地区分类**：加勒比地区
   - **原文链接**：https://news.google.com/rss/articles/CBMinAFBVV95cUxPd2Z4eF9VQkszcjYzUUF1S2tZYWdRcGpuWGZjLUY0ejVwMGRYdlJWUkMyVmxzdmEtdGhnaC0zZHlWTENFeFdsbm9YLVFqVVcxd2dPMmpzS1FiNU9fYy1FS2ZDSjNIdnJzcXNSX3pCbTVhZ1BMRGZ5UUtUVnF3SnhMdFBHVWw1UUdEd1hNQ3J2WVVYQWNQSDFzazNDTUo?oc=5
   - **原文摘要**：Gangs in Haiti target foreign troops in the biggest attack since a new force began operations AP News
-
-- **原标题**：Haiti: Capoeira classes aim to promote peace
-  - **来源**：France 24
-  - **来源级别**：Tier 1
-  - **评分**：165
-  - **发布时间**：Thu, 15 Oct 2026 14:25:49 GMT
-  - **地区分类**：加勒比地区
-  - **原文链接**：https://www.france24.com/en/tv-shows/the-observers/20261015-haiti-capoeira-classes-promote-peace
-  - **原文摘要**：An association in Haiti is organising capoeira classes – an Afro-Brazilian martial art – in an attempt to reduce community violence and promote social reintegration. The Observers team spoke to its founder, Rodney Jean Marc, who said their doors are open to everyone, “even children in armed gangs”. The initiative takes place as the country's security situation has worsened in recent years.
-
-- **原标题**：Four Salvadoran air force members missing after gang ambush in Haiti - Reuters
-  - **来源**：Reuters
-  - **来源级别**：Tier 1
-  - **评分**：163
-  - **发布时间**：Mon, 19 Oct 2026 19:09:22 GMT
-  - **地区分类**：加勒比地区
-  - **原文链接**：https://news.google.com/rss/articles/CBMixwFBVV95cUxOeDI0TFhMejhZSEJta3lTcS1OZUtlU2UwTkRxTDRlb2FyTzNVajdTMzNyS3JTbGw0SnpXR3lIMEVXUFlNUTk2WVVWX1hQQzkyLVV5SjlXREVSMFlkY1l2d3pkYjNjd29aT3RyTVVKdHlUNi0tMEIwUWN0VGZVU19nUkpfRUw2UlFHUTNjZEVUVHllbEQyeUlyQ085MDRIdXNMdG5UQ1h2UVlXTGxyMHBtakhFMGMzSWluSFBiUGh0US1tT3VPWjlv?oc=5
-  - **原文摘要**：Four Salvadoran air force members missing after gang ambush in Haiti Reuters
-
-- **原标题**：Cuba accuses US of letting terrorists operate with impunity after speedboat raid - Reuters
-  - **来源**：Reuters
-  - **来源级别**：Tier 1
-  - **评分**：148
-  - **发布时间**：Tue, 20 Oct 2026 00:50:00 GMT
-  - **地区分类**：加勒比地区
-  - **原文链接**：https://news.google.com/rss/articles/CBMixwFBVV95cUxOZVlrd2ZUN2tTTmJpa1ZUbHZlV2hsWXJmc3Z2NWRBWC1HY1JRa1dMS2NFQmwwZEs5YlU1c0JSTlFPOElRb2Z3Y1R4SUNJY1VDNzVCeElwWVVKM3I2ZDVSdUhCUVFKOFBWYnJIWW1TZ19hcmtKbXpmWGwyby11UWpUTlBhUWVZcV8zZlZDNG0xVHZSbjc2UXpINWUxdUlKZHBnYWNYQ2JXak1UNkJwTmswQm84cEM3UDBwR0ZHc3UzMVNkb0lFV3hr?oc=5
-  - **原文摘要**：Cuba accuses US of letting terrorists operate with impunity after speedboat raid Reuters
-
-- **原标题**：Florida brings more charges against former Cuba President Raul Castro - AP News
-  - **来源**：AP News
-  - **来源级别**：Tier 1
-  - **评分**：146
-  - **发布时间**：Tue, 20 Oct 2026 00:19:00 GMT
-  - **地区分类**：加勒比地区
-  - **原文链接**：https://news.google.com/rss/articles/CBMilgFBVV95cUxOZncyTkFTWkJQMTVtb2xKRWRLWmQ1bTVza2Z3bDE2cW43TzJNN3dXY1g4SXZEZUc0SzVnLWV3QUhDM085bThRaEpnejZ5OWpaeFRPaUViZ2RLZllCX1RNbXBxcVdveGVTNm1rblBYaTR5Rnl0dzVfNmNUdkZjR3NkbmNMT0tWYVF3N2Yxd0R5ak5MNF91WXc?oc=5
-  - **原文摘要**：Florida brings more charges against former Cuba President Raul Castro AP News
 
 
 
@@ -224,15 +233,6 @@
   - **原文链接**：https://insightcrime.org/news/tiguerones-leader-willy-spain/
   - **原文摘要**：Tiguerones Leader ‘Willy’ Is Living Free in Spain William Joffre Alcívar Bautista, alias "Willy," the alleged leader of the Tiguerones, one of the most powerful gangs in Ecuador and a US-designated Foreign Terrorist Organization (FTO), is living free in Spain, despite still being pursued by Ecuadorian authorities. The post Tiguerones Leader ‘Willy’ Is Living Free in Spain appeared first on InSight Crime .
 
-- **原标题**：The Garífuna’s Fight for Land on Honduras’ Cocaine Coast
-  - **来源**：InSight Crime
-  - **来源级别**：Tier 2
-  - **评分**：145
-  - **发布时间**：Fri, 02 Oct 2026 20:03:20 +0000
-  - **地区分类**：智库
-  - **原文链接**：https://insightcrime.org/news/garifunas-fight-land-honduras-cocaine-coast/
-  - **原文摘要**：The Garífuna’s Fight for Land on Honduras’ Cocaine Coast The overlapping presence of drug trafficking and powerful economic interests remains one of the main obstacles to implementing the IACtHR rulings in Punta Piedra and three other Garífuna communities. The state, meanwhile, has shifted from failing to protect the Garífuna’s land rights to accusing their leaders of organized crime. The post The Garífuna’s Fight for Land on Honduras’ Cocaine Coast appeared first on InSight Crime .
-
 
 
 ---
@@ -250,7 +250,7 @@
 - **原标题**：Why Isn't Renewable Energy Investment Taking Off in Latin America and the Caribbean? - Inter-American Development Bank
   - **来源**：Inter-American Development Bank
   - **来源级别**：Tier 2
-  - **评分**：145
+  - **评分**：147
   - **发布时间**：Tue, 20 Oct 2026 14:24:58 GMT
   - **地区分类**：国际组织
   - **原文链接**：https://news.google.com/rss/articles/CBMiugFBVV95cUxOV1BRRExHYy1RdGR4eW0tUjBiUmdkdTI0WlRXc3ZGOGhZMzJFTEhVVGxGRVdaUW5jQXBrRGNZUGVmS25CVnlySEJwQlJNTzMxbm5iSWd3N2VsdFhZZlFBaTROdkZEdDJpZldQNDZkX2ZDMVdKZVNsdWNScmF6TE51aWdNX2NUcHdYMjc0RWw4bnVwNnR4bHpYZktPQ1hkMkdSdTJCUzRxSmpHcEdaVjFDN0l4TmJIX3IwdVE?oc=5
