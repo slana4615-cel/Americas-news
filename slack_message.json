@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-22)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-23)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-22)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-23)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/live/2026/oct/21/donald-trump-south-carolina-data-centers-midterms-ukraine-witkoff-russia-latest-news-updates|Trump praises supporter for allegedly punching protester during rally for Darline Graham in South Carolina – live>\n• <https://www.theguardian.com/commentisfree/2026/oct/21/the-guardian-view-on-the-republicans-midterms-struggle-trump-has-circuses-but-voters-also-want-bread|The Guardian view on the Republicans’ midterms struggle: Trump has circuses, but voters also want bread | Editorial>\n• <https://www.theguardian.com/world/2026/oct/21/battle-meta-alleged-bolsonaro-bias-intensifies-days-before-brazil-presidential-runoff|Battle over Meta’s alleged Bolsonaro bias intensifies days before Brazil presidential runoff>\n• <https://www.france24.com/en/americas/20261019-brazil-lula-bolsonaro-debate-election-runoff|Brazil's Lula, Bolsonaro clash in bitter debate ahead of election run-off>\n• <https://www.bbc.co.uk/news/articles/crp3gvpek8njo?at_medium=RSS&at_campaign=rss|Haitian migrants changed this US town - Trump's deportation drive is reshaping it again>\n• <https://www.aljazeera.com/news/2026/10/21/cuba-accuses-us-of-threatening-countries-ahead-of-un-embargo-vote?traffic_source=rss|Cuba accuses US of threatening countries ahead of UN embargo vote>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.france24.com/en/americas/20261022-georgia-on-democrats-minds-powering-up-black-vote-counter-trump-meddling|Georgia on Democrats’ minds: Powering up the Black vote to counter Trump's meddling>\n• <https://www.theguardian.com/us-news/2026/oct/22/trump-administration-noncitizen-voting-investigation-ruling|US judge orders Trump administration to halt noncitizen voting investigation>\n• <https://www.theguardian.com/world/2026/oct/21/battle-meta-alleged-bolsonaro-bias-intensifies-days-before-brazil-presidential-runoff|Battle over Meta’s alleged Bolsonaro bias intensifies days before Brazil presidential runoff>\n• <https://www.france24.com/en/americas/20261020-lula-campaign-seeks-disqualify-bolsonoro-from-brazil-presidential-vote-over-meta-interference|Brazil’s presidential candidates push to have one another disqualified ahead of run-off>\n• <https://www.bbc.co.uk/news/articles/cq33xpjekve4o?at_medium=RSS&at_campaign=rss|El Salvador's president threatens Haitian gangs over military hostages>\n• <https://www.bbc.co.uk/news/articles/crp3gvpek8njo?at_medium=RSS&at_campaign=rss|Haitian migrants changed this US town - Trump's deportation drive is reshaping it again>"
       }
     },
     {
