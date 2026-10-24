@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-23)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-24)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-23)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-24)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.france24.com/en/americas/20261022-georgia-on-democrats-minds-powering-up-black-vote-counter-trump-meddling|Georgia on Democrats’ minds: Powering up the Black vote to counter Trump's meddling>\n• <https://www.theguardian.com/us-news/2026/oct/22/trump-administration-noncitizen-voting-investigation-ruling|US judge orders Trump administration to halt noncitizen voting investigation>\n• <https://www.theguardian.com/world/2026/oct/21/battle-meta-alleged-bolsonaro-bias-intensifies-days-before-brazil-presidential-runoff|Battle over Meta’s alleged Bolsonaro bias intensifies days before Brazil presidential runoff>\n• <https://www.france24.com/en/americas/20261020-lula-campaign-seeks-disqualify-bolsonoro-from-brazil-presidential-vote-over-meta-interference|Brazil’s presidential candidates push to have one another disqualified ahead of run-off>\n• <https://www.bbc.co.uk/news/articles/cq33xpjekve4o?at_medium=RSS&at_campaign=rss|El Salvador's president threatens Haitian gangs over military hostages>\n• <https://www.bbc.co.uk/news/articles/crp3gvpek8njo?at_medium=RSS&at_campaign=rss|Haitian migrants changed this US town - Trump's deportation drive is reshaping it again>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/oct/23/trump-doj-lawsuit-alaska-senate-dan-sullivan|Trump says he ordered DoJ to file lawsuit to block Alaska Senate results certification>\n• <https://www.theguardian.com/us-news/live/2026/oct/23/trump-florida-midterms-ramaswamy-latest-updates|Ramaswamy accuses Acton of ‘lying’ about attack ad, but court records contradict mother’s claim – live>\n• <https://www.theguardian.com/world/2026/oct/23/brazil-indigenous-groups-fear-bolsonaro-voters-amazon-towns|‘This is a lethal threat’: Indigenous groups fear Bolsonaro’s hold on voters in Brazil’s Amazon towns>\n• <https://www.theguardian.com/world/2026/oct/21/battle-meta-alleged-bolsonaro-bias-intensifies-days-before-brazil-presidential-runoff|Battle over Meta’s alleged Bolsonaro bias intensifies days before Brazil presidential runoff>\n• <https://www.bbc.co.uk/news/articles/crp3gvpek8njo?at_medium=RSS&at_campaign=rss|Haitian migrants changed this US town - Trump's deportation drive is reshaping it again>\n• <https://www.bbc.co.uk/news/articles/cq33xpjekve4o?at_medium=RSS&at_campaign=rss|El Salvador's president threatens Haitian gangs over military hostages>"
       }
     },
     {
