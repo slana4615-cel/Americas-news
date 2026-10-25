@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-24)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-25)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-24)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-10-25)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/live/2026/oct/24/obama-abdul-el-sayed-midterms-rally-michigan-live-updates|‘Change is in the air’: Obama praises El-Sayed and attacks Trump at Michigan rally – US politics live>\n• <https://www.theguardian.com/us-news/2026/oct/24/epstein-files-midterms|Epstein files take back seat in midterms but experts say issue has not gone away>\n• <https://www.france24.com/en/americas/20261023-lula-bolsonaro-strike-calmer-tone-in-final-brazil-election-debate|Lula, Bolsonaro clash on living costs, corruption in final Brazil election debate>\n• <https://www.theguardian.com/world/2026/oct/23/brazil-indigenous-groups-fear-bolsonaro-voters-amazon-towns|‘This is a lethal threat’: Indigenous groups fear Bolsonaro’s hold on voters in Brazil’s Amazon towns>\n• <https://www.theguardian.com/commentisfree/2026/oct/24/donald-trump-world-three-summit-vladimir-putin-xi-jinping|As Trump’s time runs out, this could be his most dangerous legacy: a world divided into three | Steve Bloomfield>\n• <https://www.bbc.co.uk/news/articles/cq33xpjekve4o?at_medium=RSS&at_campaign=rss|El Salvador's president threatens Haitian gangs over military hostages>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.france24.com/en/obama-hits-campaign-trail-for-democrats|Obama hits campaign trail for democrats>\n• <https://www.theguardian.com/us-news/2026/oct/25/todd-blanche-doj-lawsuit-alaska-senate-election-results|Blanche defends DoJ’s pre-emptive suit to block Alaska Senate results certification>\n• <https://www.france24.com/en/americas/20261025-live-voting-under-way-across-brazil-in-tight-presidential-run-off-between-lula-and-bolsonaro|With half of the votes counted, Lula overturns the results in Brazil and takes the lead again>\n• <https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula|Brazil runoff live updates: ballot count resumes after two-hour voting extension>\n• <https://www.bbc.co.uk/news/articles/c8ly097zw1xwo?at_medium=RSS&at_campaign=rss|El Salvador president says bodies found in Haiti are not those of hostages>\n• <https://www.theguardian.com/us-news/2026/oct/23/marco-rubio-cuba-trump|Rubio tells Cubans ‘now is the time’ to act to see political change>"
       }
     },
     {
