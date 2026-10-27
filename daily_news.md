@@ -1,6 +1,6 @@
 # 美洲新闻自动抓取结果｜Daily Americas News Collection
 
-- **生成日期**：2026-10-25
+- **生成日期**：2026-10-27
 - **自动更新**：每日 22:00 UTC
 - **输出说明**：本文件由程序根据公开 RSS 新闻源自动抓取生成，仅用于研究团队初步筛选。新闻价值、事实核验和最终采用由人工判断。
 
@@ -11,195 +11,186 @@
 
 ## 美国
 
-- **原标题**：Obama hits campaign trail for democrats
-  - **来源**：France 24
-  - **来源级别**：Tier 1
-  - **评分**：181
-  - **发布时间**：Sun, 25 Oct 2026 11:36:56 GMT
-  - **地区分类**：美国
-  - **原文链接**：https://www.france24.com/en/obama-hits-campaign-trail-for-democrats
-  - **原文摘要**：With less than two weeks to go before the US midterm elections, former President Barack Obama has hit the campaign trail, rallying support for Democratic candidates in the key states of Michigan and Ohio. He criticised the Trump administration, blaming the White House for rising living costs, a major concern for voters. Democrats are hoping to regain control of Congress, with polls showing several closely contested races. Ophelie Jacobson has more.
-
-- **原标题**：Blanche defends DoJ’s pre-emptive suit to block Alaska Senate results certification
+- **原标题**：Justice department charges ex-FBI director James Comey for third time
   - **来源**：The Guardian
   - **来源级别**：Tier 1
-  - **评分**：179
-  - **发布时间**：Sun, 25 Oct 2026 16:48:41 GMT
+  - **评分**：177
+  - **发布时间**：Mon, 26 Oct 2026 22:17:09 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/us-news/2026/oct/25/todd-blanche-doj-lawsuit-alaska-senate-election-results
-  - **原文摘要**：US attorney general calls CNN ‘crazy’ for suggesting Trump’s attempt to overturn election could lead to January 6 repeat Sign up for The Stakes 2026: your weekly guide to the US midterms Todd Blanche , Donald Trump ’s attorney general, lashed out during an interview on Sunday while defending the justice department’s pre-emptive lawsuit to block certification of Alaska ’s US Senate results if the GOP incumbent loses, calling a TV host’s question “crazy”. The testy repartee unfolded on CNN’s State of the Union over the DoJ’s unprecedented legal action, which alleges that there could be “voter confusion” due to two candidates named Dan Sullivan on Alaska’s ballot. Trump told reporters , “I’m the one that said do it” when asked about the suit. Continue reading...
+  - **原文链接**：https://www.theguardian.com/us-news/2026/oct/26/james-comey-charged-doj
+  - **原文摘要**：Comey, an outspoken critic of Donald Trump, accused of leaking information related to US national defense The justice department charged former FBI director James Comey on Monday with two counts of leaking information related to national defense, the third time the Trump administration has filed criminal charges against one of Donald Trump’s most despised foes. The charges, filed in federal court in Washington DC, provide few details about what Comey is alleged to have leaked. The government alleges that the former FBI director leaked the information in 2016 and conspired with an unnamed person to give the information to a national news outlet. Continue reading...
 
-- **原标题**：FDR made it a blue bastion – now it’s Trump’s stronghold in California. Is it forever lost?
+- **原标题**：Pennsylvania ‘lookback’ bill for child sexual assault survivors again stalled
   - **来源**：The Guardian
   - **来源级别**：Tier 1
-  - **评分**：175
-  - **发布时间**：Sun, 25 Oct 2026 13:00:03 GMT
+  - **评分**：172
+  - **发布时间**：Mon, 26 Oct 2026 13:56:01 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/us-news/ng-interactive/2026/oct/25/democrats-california-shasta-county-trump
-  - **原文摘要**：Shasta has embraced the Maga movement with gusto – can Democrats ever win back the rural, working-class voters they once relied upon? A crucial election was approaching and the country was desperate. Despite promises that economic conditions were improving, nearly a quarter of the US was out of work as voters headed to the polls in 1932. It was the darkest time since the civil war, a period so dire that in California’s capital people fought each other for work. In early 1931, a crowd of 200 men scuffled over a handful of temporary jobs moving back-breaking loads of granite, the Sacramento Bee reported. Continue reading...
+  - **原文链接**：https://www.theguardian.com/us-news/2026/oct/26/pennsylvania-lookback-bill-survivors-stalled
+  - **原文摘要**：Law would open two-year window for child sexual abuse victims to file lawsuits beyond statute of limitations Child sexual assault survivors in Pennsylvania are on the verge of being denied the opportunity to sue their attackers after a bill to temporarily waive filing deadlines stalled again in the state’s legislature. Democrats have accused the Republican senate majority of playing politics with the bipartisan move to amend the state constitution and open a two-year window for victims to file molestation claims from years ago. Continue reading...
 
-- **原标题**：Trump administration sues to block certification of upcoming Alaska election
+- **原标题**：Five ways Trump has changed immigration in the US
   - **来源**：BBC
   - **来源级别**：Tier 1
   - **评分**：172
-  - **发布时间**：Fri, 23 Oct 2026 18:49:14 GMT
+  - **发布时间**：Mon, 26 Oct 2026 11:29:02 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.bbc.co.uk/news/articles/c678pv4krx37o?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：The justice department has filed a lawsuit arguing that the inclusion of two candidates named Dan Sullivan could confuse voters.
+  - **原文链接**：https://www.bbc.co.uk/news/articles/c9203k1jrmpvo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：This is how his signature policy has played out after returning to power promising a closed border and mass deportations.
 
-- **原标题**：Home distillers rejoice as US Supreme Court considers whether to finally legalise moonshine
+- **原标题**：If Democrats win big, will they learn the right lessons from their victory? | Jan-Werner Mueller
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：168
+  - **发布时间**：Mon, 26 Oct 2026 10:00:28 GMT
+  - **地区分类**：美国
+  - **原文链接**：https://www.theguardian.com/commentisfree/2026/oct/26/democrats-win-victory-lessons
+  - **原文摘要**：No election outcome ever interprets itself. So how will Democrats interpret these results once they are known? Whichever metaphor one prefers – landslide, earthquake, wave – it seems increasingly like the Democrats can expect a significant victory in the midterms . As the joke goes, every gas station display of prices has become an ad for Democrats; what’s more, some of them have managed to connect the relatively abstract issue of corruption to the daily misery of many Americans. Continue reading...
+
+- **原标题**：Could the midterms change US military support for Israel?
+  - **来源**：Al Jazeera
+  - **来源级别**：Tier 1
+  - **评分**：167
+  - **发布时间**：Mon, 26 Oct 2026 18:05:12 +0000
+  - **地区分类**：美国
+  - **原文链接**：https://www.aljazeera.com/video/newsfeed/2026/10/26/could-the-midterms-change-americas-military-support-for-israel?traffic_source=rss
+  - **原文摘要**：From Texas to Michigan, Senate candidates are challenging US weapons transfers to Israel.
+
+- **原标题**：Alaska's Democratic Senate candidate pauses midterms campaigning after car crash
   - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：163
-  - **发布时间**：Fri, 23 Oct 2026 15:24:35 GMT
+  - **评分**：166
+  - **发布时间**：Mon, 26 Oct 2026 13:53:18 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.bbc.co.uk/news/articles/cv98zn0ye4kpo?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：The Supreme Court will consider in the new year whether the 1868 legislation forbidding home distilling should be overturned.
-
-- **原标题**：Are California voters about to impose 'world's first' tax on billionaires?
-  - **来源**：BBC
-  - **来源级别**：Tier 1
-  - **评分**：152
-  - **发布时间**：Fri, 23 Oct 2026 23:11:31 GMT
-  - **地区分类**：美国
-  - **原文链接**：https://www.bbc.co.uk/news/articles/ck4g1jg4n9dno?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：Voters are about to decide if the mega-rich among them should hand over billions of dollars to pay for improvements to healthcare.
+  - **原文链接**：https://www.bbc.co.uk/news/articles/cky93gep3gyeo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：Mary Peltola, who suffered minor injuries, is running in one of the most closely watched races in the upcoming elections.
 
 
 
 ---
 ## 拉丁美洲
 
-- **原标题**：With half of the votes counted, Lula overturns the results in Brazil and takes the lead again
+- **原标题**：Reader Q&A: After Lula’s sensational victory in Brazil’s presidential election, post your questions for the Guardian’s Latin America correspondent
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：190
+  - **发布时间**：Tue, 27 Oct 2026 00:00:03 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.theguardian.com/world/live/2026/oct/27/brazil-election-reader-questions-lula-bolsonaro
+  - **原文摘要**：Having lost the first round of Brazil’s presidential election to far right rival Flávio Bolsonaro, incumbent Luiz Inácio Lula da Silva spectacularly triumphed in the second. What comes next for Brazil? The Guardian’s Tom Phillips will be answering your questions from 15:00 GMT today. Ask a question: log in or sign up here to comment, or email conversations@theguardian.com After losing the first round of Brazil’s presidential election to far right rival Flávio Bolsonaro, incumbent Luiz Inácio Lula da Silva, better known simply as Lula, pulled off the most stunning political fightback in modern Brazilian history by winning the second, in so doing securing a fourth presidential term. It will see him become the country’s longest-serving leader. The result – 51.79% to Lula, 48.21% to Bolsonaro – was delivered after a supreme court judge had extended polling time by two hours, and after Lula’s camp accused their opponents of sabotaging public transport in an attempt to keep their voters from the polls. It was the first time in Brazilian electoral history that a first-round verdict had been overturned. Continue reading...
+
+- **原标题**：The Guardian view on Lula’s comeback: a victory for Brazil and the world, as well as a Trump rebuff | Editorial
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：190
+  - **发布时间**：Mon, 26 Oct 2026 18:40:14 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.theguardian.com/commentisfree/2026/oct/26/the-guardian-view-on-lulas-comeback-a-victory-for-brazil-and-the-world-as-well-as-a-trump-rebuff
+  - **原文摘要**：A fourth presidential victory gives Lula another chance to defend democracy, protect the Amazon and deliver for Brazil’s working people Luiz Inácio Lula da Silva’s win in Brazil’s presidential election is a triumph for him, his country and the world. The 80-year-old incumbent snatched victory from the jaws of defeat, blocked the rise of the far right and saved the planetary air-conditioning system of the Amazon from irreparable destruction . Known universally as Lula, he made history by becoming the first candidate to win a presidential run-off after finishing second in the opening round. In triumphing against Flávio Bolsonaro, the leftist stopped what could have been the most dangerous consolidation of authoritarian rule in Brazil since military rule ended. A Bolsonaro presidency could have used a rightwing Congress to extend presidential terms and pack the supreme court, entrenching power for generations. Lula seemed to have been energised by his first-round defeat by Mr Bolsonaro. The three-time president initially pitted his extraordinary life and record against a 45-year-old senator married to controversy . But voters wanted answers to economic insecurity, rising prices and poor public services. Lula reversed course in the second round, offering immediate relief from everyday costs and indebtedness – including to the rising number of self-employed voters whom his rightwing opponent had been courting. Popular mobilisation transformed the runoff into a race to stop a Bolsonaro restoration with student protests , mass demonstrations and a 10 million-strong “ Lula’s Army ” WhatsApp channel. It seemed to work. Nearly 5 million more people voted in the second round of the Brazilian election than the first. Continue reading...
+
+- **原标题**：'Lula accustomed to negotiating tough bargains': Campaign promises collide with right-wing Congress
   - **来源**：France 24
   - **来源级别**：Tier 1
   - **评分**：188
-  - **发布时间**：Sun, 25 Oct 2026 12:46:02 GMT
+  - **发布时间**：Mon, 26 Oct 2026 16:54:22 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.france24.com/en/americas/20261025-live-voting-under-way-across-brazil-in-tight-presidential-run-off-between-lula-and-bolsonaro
-  - **原文摘要**：The recount resumed at 7:00 p.m. Brasilia time, after the Supreme Court ordered voting to be postponed for two more hours following a complaint filed by President Luiz Inácio Lula da Silva’s campaign. Both Lula and Senator Flavio Bolsonaro complained of delays in transportation for voters.
+  - **原文链接**：https://www.france24.com/en/lula-accustomed-to-negotiating-tough-bargains-campaign-promises-collide-with-right-wing-congress
+  - **原文摘要**：Erin Ogunkeye is pleased to welcome Christopher Sabatini, Director of Chatham House's Latin America Programme. Sabatini examines how Lula's campaign reinvention, youth mobilisation, and the changing dynamics of Bolsonarismo are reshaping Brazil's political landscape. By embracing social media, mobilising younger voters, and shifting attention from his historical achievements to the economic anxieties of ordinary Brazilians, Lula managed to transform the electoral contest. As Sabatini explains, voters were no longer satisfied with hearing about the past. They wanted an answer to a more immediate question: "What are you going to do for us now?
 
-- **原标题**：Brazil runoff live updates: ballot count resumes after two-hour voting extension
-  - **来源**：The Guardian
+- **原标题**：Bolsonaro's refusal to concede underscores ‘serious’ challenges to Brazil's democratic institutions
+  - **来源**：France 24
   - **来源级别**：Tier 1
-  - **评分**：187
-  - **发布时间**：Sun, 25 Oct 2026 23:35:47 GMT
+  - **评分**：185
+  - **发布时间**：Mon, 26 Oct 2026 13:53:15 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula
-  - **原文摘要**：Polls officially close after Brazilian ⁠supreme court ordered the extension Sunday as Flávio Bolsonaro and Luiz Inácio Lula da Silva await results The local electoral court ordered the immediate restoration of 100% of the bus fleet and ordered the arrest of the municipal transport secretary, Pablo Souza, on suspicion of an electoral offence and disobeying court orders. The arrest warrant could not be carried out, however, because he is in Paris on what the city government described as an “official mission”, and is not expected to return to Brazil until Monday. Late in the afternoon, Flávio Bolsonaro also filed requests for voting to be extended by two hours in cities in the states of São Paulo, Paraná and Santa Catarina, but because of heavy rain that he said had prevented voters from turning out. Continue reading...
+  - **原文链接**：https://www.france24.com/en/bolsonaro-s-refusal-to-concede-underscores-serious-challenges-to-brazil-s-democratic-institutions
+  - **原文摘要**：Annette Young is pleased to welcome Dr Pedro Perfeito da Silva, Latin American specialist at the University of Exeter. For Dr Perfeito da Silva, Lula's stunning success reflects the convergence of digital organizing, grassroots mobilization, targeted socioeconomic appeals and an effective effort to mobilise opposition to the Bolsonaro political project. As he explains, Lula assembled a coalition that "not only energized his supporters but also attracted voters from groups that had been somewhat skeptical of the government in the first round."
+
+- **原标题**：Lula wins Brazil election but faces uphill battle to govern
+  - **来源**：France 24
+  - **来源级别**：Tier 1
+  - **评分**：185
+  - **发布时间**：Mon, 26 Oct 2026 13:38:09 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.france24.com/en/americas/20261026-lula-wins-brazil-election-but-faces-uphill-battle-to-govern
+  - **原文摘要**：Luiz Inacio Lula da Silva's narrow election victory on Sunday has dealt a blow to Brazil's far right, but deep political divisions remain. The newly re-elected president must tackle economic and security concerns at home while navigating international tensions with US President Donald Trump.
+
+- **原标题**：Lula beats Bolsonaro in Brazil runoff: What does it mean for Donald Trump?
+  - **来源**：France 24
+  - **来源级别**：Tier 1
+  - **评分**：185
+  - **发布时间**：Mon, 26 Oct 2026 11:50:55 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.france24.com/en/video/20261026-lula-beats-bolsonaro-in-brazil-runoff-what-does-it-mean-for-donald-trump
+  - **原文摘要**：Lula defeated on Sunday (October 25) Flavio Bolsonaro in Brazil’s presidential election. But rather than conceding, Bolsonaro called for the result to be annulled. As the US midterms approach, the result raises questions about Trump’s influence and how his political allies respond when voters reject them. FRANCE 24's International Affairs Editor, Douglas Herbert, gives us his analysis.
+
+- **原标题**：Flavio Bolsonaro vows to lead opposition after Brazil court imposes travel ban
+  - **来源**：France 24
+  - **来源级别**：Tier 1
+  - **评分**：182
+  - **发布时间**：Mon, 26 Oct 2026 23:56:24 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.france24.com/en/americas/20261026-flavio-bolsonaro-opposition-brazil-court-travel-ban
+  - **原文摘要**：Brazilian presidential candidate Flavio Bolsonaro said on Monday a Supreme Court justice had barred him from leaving the country after he narrowly lost to incumbent Luiz Inacio Lula da Silva. Bolsonaro, who refused to concede defeat, denounced the order as intimidation and vowed to challenge the election results.
 
 - **原标题**：Presidential runoff under way in Brazil
   - **来源**：France 24
   - **来源级别**：Tier 1
-  - **评分**：185
+  - **评分**：182
   - **发布时间**：Sun, 25 Oct 2026 13:52:44 GMT
   - **地区分类**：拉丁美洲
   - **原文链接**：https://www.france24.com/en/presidential-runoff-under-way-in-brazil
   - **原文摘要**：Brazil is also heading to the polls today for a run-off vote that will decide who leads the country. The race is on a knife edge between incumbent left-wing President Luiz Inácio Lula da Silva and right-wing Senator Flávio Bolsonaro. The son of former president Jair Bolsonaro, Flávio scored a major upset in the first round earlier this month, taking the lead in the vote. The campaign has been dominated by corruption scandals, economic difficulties and allegations of US interference, which Washington has denied. France 24 correspondent Jan Onoszko reports the latest from Rio de Janeiro.
-
-- **原标题**：How to build a police state | William Wheeler
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：182
-  - **发布时间**：Sun, 25 Oct 2026 13:00:03 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.theguardian.com/us-news/ng-interactive/2026/oct/25/trump-bukele-el-salvador-police-state
-  - **原文摘要**：To understand where Trump is trying to take the US, we should look to the authoritarian playbook of his favorite ally: El Salvador’s Nayib Bukele One afternoon last year, Donald Trump welcomed “a friend” to the White House – El Salvador’s Nayib Bukele, the world’s most popular authoritarian. “I knew him as a very young man,” the US president said before the cameras. “He’s done a fantastic job. Mr President, it’s an honor to have you.” Since March 2022, when gangs in El Salvador murdered 87 people over a weekend, Bukele has maintained a state of emergency in which key civil liberties are suspended and 2% of the adult population has been jailed – about 100,000 people, at least half of whom are probably not gang members, say local rights groups. The narrative of “the Bukele miracle” – that he swiftly dismantled fearsome gangs and restored order – has made him an icon across Latin America, where a new host of rightwing leaders have sought to replicate his heavy-handed tactics. And in the US, Bukele’s overnight success as a strongman has made him a hero of the American right. Continue reading...
-
-- **原标题**：Trump’s tariff pause angers some US ranchers, boosts Brazilian beef imports
-  - **来源**：Al Jazeera
-  - **来源级别**：Tier 1
-  - **评分**：179
-  - **发布时间**：Sun, 25 Oct 2026 16:42:33 +0000
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.aljazeera.com/economy/2026/10/25/trumps-tariff-pause-angers-some-us-ranchers-boosts-brazil-beef-imports?traffic_source=rss
-  - **原文摘要**：Just as American cattle went to market, Trump's action added unease to an industry already facing uncertainty.
-
-- **原标题**：Lula, Bolsonaro clash on living costs, corruption in final Brazil election debate
-  - **来源**：France 24
-  - **来源级别**：Tier 1
-  - **评分**：178
-  - **发布时间**：Fri, 23 Oct 2026 02:20:53 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.france24.com/en/americas/20261023-lula-bolsonaro-strike-calmer-tone-in-final-brazil-election-debate
-  - **原文摘要**：Brazilian President Luiz Inácio Lula da Silva and right-wing senator Flavio Bolsonaro faced off Friday in their second and final debate ahead of Sunday's presidential runoff election. The two candidates repeated their campaign proposals, focusing on the cost of living and security, while exchanging ⁠allegations of corruption.
-
-- **原标题**：Ten days that could shake the world: democratic norms at stake in four pivotal elections
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：176
-  - **发布时间**：Sun, 25 Oct 2026 07:00:56 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.theguardian.com/world/ng-interactive/2026/oct/25/ten-days-shake-world-democratic-norms-pivotal-elections-brazil-israel-serbia-us
-  - **原文摘要**：Brazil, Israel, Serbia and the US are holding elections within the space of 10 days. Will the authoritarian right cement its global gains, or can pro-democracy forces make a comeback? Four elections on four continents within 10 days could profoundly reshape global politics, propelling the world further along its current authoritarian trajectory or marking a limited comeback for democratic norms. In all four contests, basic democratic norms are at stake at a time when autocracy is advancing worldwide at an alarming rate. According to the Sweden-based V-Dem Institute , which uses multivariable assessment tools, the democratic freedoms enjoyed by the average global citizen are down to levels last seen in 1978 – long before the fall of the Berlin Wall and the collapse of communism in Europe. Continue reading...
-
-- **原标题**：Polls open in Brazil presidential runoff
-  - **来源**：France 24
-  - **来源级别**：Tier 1
-  - **评分**：174
-  - **发布时间**：Sun, 25 Oct 2026 11:40:38 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.france24.com/en/polls-open-in-brazil-presidential-runoff
-  - **原文摘要**：Brazilian President Luiz Inácio Lula da Silva and sight-wing senator Flavio Bolsonaro faced off Friday in their second and final debate ahead of Sunday's presidential runoff election. The two candidates repeated their campaign proposals, focusing on the cost of living and security, while exchanging ⁠allegations of corruption. France 24 Jan Onoszko telles us the latest from Rio de Janeiro.
 
 
 
 ---
 ## 加勒比地区
 
-- **原标题**：El Salvador president says bodies found in Haiti are not those of hostages
-  - **来源**：BBC
-  - **来源级别**：Tier 1
-  - **评分**：171
-  - **发布时间**：Sun, 25 Oct 2026 10:55:33 GMT
-  - **地区分类**：加勒比地区
-  - **原文链接**：https://www.bbc.co.uk/news/articles/c8ly097zw1xwo?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：Nayib Bukele says bodies delivered to soldiers are "not our men" amid search for Salvadorans abducted last week.
-
-- **原标题**：Rubio tells Cubans ‘now is the time’ to act to see political change
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：171
-  - **发布时间**：Sat, 24 Oct 2026 00:30:02 GMT
-  - **地区分类**：加勒比地区
-  - **原文链接**：https://www.theguardian.com/us-news/2026/oct/23/marco-rubio-cuba-trump
-  - **原文摘要**：US secretary of state makes comments after Trump tells US rally warships could intervene on return from Iran Marco Rubio urged Cubans seeking political change in their country to act, saying “now is the time” moments after Donald Trump told a Friday rally for candidates in south Florida that US warships could intervene in Cuba on their way back from the Iran war. The US secretary of state, in his social media post addressed “to those who seek to create positive change”, urged Cubans to capitalize on Trump’s plans. “The disappointment of failed promises, corruption, and the privileged lives of only a few; seize this opportunity to create the change you desire through a discrete [sic] partnership with the CIA,” Rubio said. Continue reading...
-
-- **原标题**：US seeks to topple Cuba's government
-  - **来源**：France 24
-  - **来源级别**：Tier 1
-  - **评分**：170
-  - **发布时间**：Sat, 24 Oct 2026 11:43:13 GMT
-  - **地区分类**：加勒比地区
-  - **原文链接**：https://www.france24.com/en/us-seeks-to-topple-cuba-s-government
-  - **原文摘要**：And now, in a rather surprising development, US Secretary of State Marco Rubio is directly urging Cubans to cooperate with the CIA. Havana has responded by mocking what it calls the Trump administration’s “desperation”.
-
 - **原标题**：El Salvador president says bodies found in Haiti are not those of hostages - BBC
   - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：168
+  - **评分**：165
   - **发布时间**：Sun, 25 Oct 2026 10:55:33 GMT
   - **地区分类**：加勒比地区
   - **原文链接**：https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1U0pxcUtibWd2TUtoQkx5aFk5eFVXdVBGd3lHT3k0em55MmVtcUxVY1RrZ0s2ZTFPbnRuYXJmZ05MeW5HQ1M4d25uM3dlRnJmeWNUeXM1VnJZUVU?oc=5
   - **原文摘要**：El Salvador president says bodies found in Haiti are not those of hostages BBC
 
-- **原标题**：Bukele says military operation launched to rescue Salvadorans held by gangs in Haiti - AP News
+- **原标题**：El Salvador president says bodies found in Haiti are not those of hostages
+  - **来源**：BBC
+  - **来源级别**：Tier 1
+  - **评分**：163
+  - **发布时间**：Sun, 25 Oct 2026 10:55:33 GMT
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://www.bbc.co.uk/news/articles/c8ly097zw1xwo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：Nayib Bukele says bodies delivered to soldiers are "not our men" amid search for Salvadorans abducted last week.
+
+- **原标题**：Demand for UK government action 10 months after British man’s death in Grenada
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：162
+  - **发布时间**：Sun, 25 Oct 2026 11:00:01 GMT
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://www.theguardian.com/world/2026/oct/25/demand-uk-government-action-after-british-man-death-grenada
+  - **原文摘要**：Police closed case of Andrew Frederick despite autopsy report ruling his death a homicide A time-critical investigation into the death of a British father whose body was found in a ransacked property on the Caribbean island of Grenada has stalled because of diplomatic delays between the two countries. Charity workers supporting the family of Andrew Frederick are demanding immediate government intervention to clear the path for a full investigation to begin almost 10 months after his death, which has been ruled a homicide by a pathologist. Continue reading...
+
+- **原标题**：Why the King's Caribbean tour could be 'biggest risk of his reign'
+  - **来源**：BBC
+  - **来源级别**：Tier 1
+  - **评分**：143
+  - **发布时间**：Sat, 24 Oct 2026 23:03:09 GMT
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://www.bbc.co.uk/news/articles/ckzd6gvg1r2jo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：The meticulously-planned visit takes in three countries in nine days - but is not without jeopardy.
+
+- **原标题**：Trump at South Florida rally revives the idea of military intervention in Cuba after Iran - AP News
   - **来源**：AP News
   - **来源级别**：Tier 1
-  - **评分**：155
-  - **发布时间**：Thu, 22 Oct 2026 01:35:00 GMT
+  - **评分**：143
+  - **发布时间**：Sat, 24 Oct 2026 01:04:00 GMT
   - **地区分类**：加勒比地区
-  - **原文链接**：https://news.google.com/rss/articles/CBMioAFBVV95cUxNOHFRSkVUWHdzeTEzM1RTTVJ1ejhtVTJ2OUdWODMwbi0yOElxVFoyMlB5a1hoa0EwdGNETWg4VVp6UFhnWk1jUUxOZ2JnY0t2N2dVc28xUzhiWGJLcm81aGFkb2ZlTFZTZUp1cV9PYUVDZWlIOTQwZDV0QzhVMC1pUmlqTkJrSHlQTEdEc0VnWUxock5TUmp5Uk5ja25GVU5C?oc=5
-  - **原文摘要**：Bukele says military operation launched to rescue Salvadorans held by gangs in Haiti AP News
-
-- **原标题**：Cuba's public transport plunges to all-time low amid US fuel blockade, minister says - Reuters
-  - **来源**：Reuters
-  - **来源级别**：Tier 1
-  - **评分**：152
-  - **发布时间**：Thu, 22 Oct 2026 11:29:25 GMT
-  - **地区分类**：加勒比地区
-  - **原文链接**：https://news.google.com/rss/articles/CBMiygFBVV95cUxOM21xcHF5QXAwekVIZWJYZ1hOMkxHRFVqd3BzZGZlMUJaU1Iyek82dDRfNmQwS3RMYmxfZ191MTYzdjdZaEpiNi1aUHlsNzF2aHd5T283V3hXclZtQzJQcWZGTlVxYlh6T1Vha0pOU0I1WDFON1dQVVlLMGpVUlpjVWRZSVFkV3VIdUJjWmpGXzN5RDVIc2hqM1FqcTJnXzk3WDNvY0tDTW8zeW1GRXctOVByZVV5eERpWW5hMlF4LVZNY1BVYmJZVFZR?oc=5
-  - **原文摘要**：Cuba's public transport plunges to all-time low amid US fuel blockade, minister says Reuters
+  - **原文链接**：https://news.google.com/rss/articles/CBMimwFBVV95cUxNWFM2WGlGZ2t1U3U3M3JjOWs4UGV5VXhDeUstU1ZuUTVFMFJ0WDgyeEtTc2dTeXp0OUpVS01rVlk2WG1Sekt4X043Y3lpb3liQlhORlNyTGxZQUI5cWpHRWJWUTNReFFZUzkyWFFWS2lwSnpqbjc3eXJUc3VuY3dsWnN1R01qWWNnRHVkLTlOdG0zWU44YVhFeFB4TQ?oc=5
+  - **原文摘要**：Trump at South Florida rally revives the idea of military intervention in Cuba after Iran AP News
 
 
 
@@ -209,7 +200,7 @@
 - **原标题**：Organized Crime Postponed Democracy in Haiti, Again
   - **来源**：InSight Crime
   - **来源级别**：Tier 2
-  - **评分**：155
+  - **评分**：149
   - **发布时间**：Fri, 23 Oct 2026 17:10:09 +0000
   - **地区分类**：智库
   - **原文链接**：https://insightcrime.org/news/organized-crime-postponed-democracy-in-haiti-again/
@@ -218,7 +209,7 @@
 - **原标题**：Ex-OFAC Official: The Cartel Risk Companies Can’t See | The InSight Take
   - **来源**：InSight Crime
   - **来源级别**：Tier 2
-  - **评分**：150
+  - **评分**：145
   - **发布时间**：Thu, 15 Oct 2026 17:54:17 +0000
   - **地区分类**：智库
   - **原文链接**：https://insightcrime.org/news/ex-ofac-official-the-cartel-risk-companies-cant-see-the-insight-take/
@@ -227,7 +218,7 @@
 - **原标题**：Why Ecuador Is Losing Its Fight Against Organized Crime
   - **来源**：InSight Crime
   - **来源级别**：Tier 2
-  - **评分**：150
+  - **评分**：140
   - **发布时间**：Thu, 15 Oct 2026 15:09:57 +0000
   - **地区分类**：智库
   - **原文链接**：https://insightcrime.org/news/why-ecuador-is-losing-its-fight-against-organized-crime/
@@ -241,20 +232,29 @@
 - **原标题**：IMF cuts Latin America, Caribbean growth forecasts on energy shock, little AI boost - Reuters
   - **来源**：Reuters
   - **来源级别**：Tier 1
-  - **评分**：161
+  - **评分**：156
   - **发布时间**：Mon, 12 Oct 2026 07:00:00 GMT
   - **地区分类**：国际组织
   - **原文链接**：https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ21qSmpyZzRDaFJwUUh1Zldnb25yMGphSVlOa0NiN3hPdDVXcThHVzlEdTM2U0NhdkwwSFdnanZ2VENlYVhDZWF3UlA4eVBGRms1clZabHdJbnJQeVpOWEd4NkkyWkVPbzQxRG8xQnFhWGVfVEpseXhfOURzLUI0SVptcW9KNWxjUGlLT1N6Nkh0cVRrMmdmQ2xoS09NbVBQa3RzWFgtWnRFQkZlUnMwekl0U0NJTm5wM2o3QURySFpJNldySHgzUjNzOVhRZw?oc=5
   - **原文摘要**：IMF cuts Latin America, Caribbean growth forecasts on energy shock, little AI boost Reuters
 
-- **原标题**：Cuba warns against ‘law of the jungle’ as Foreign Minister denounces US pressure
-  - **来源**：UN News - Global perspective Human stories
-  - **来源级别**：Tier 2
-  - **评分**：145
-  - **发布时间**：Sat, 26 Sep 2026 12:00:00 +0000
+- **原标题**：IMF urges Latin America to cut debt, lift productivity while tailwinds last - Reuters
+  - **来源**：Reuters
+  - **来源级别**：Tier 1
+  - **评分**：147
+  - **发布时间**：Thu, 15 Oct 2026 07:00:00 GMT
   - **地区分类**：国际组织
-  - **原文链接**：https://news.un.org/feed/view/en/story/2026/09/1168458
-  - **原文摘要**：Cuba’s Foreign Minister warned the UN General Assembly on Saturday that escalating military and economic pressure in Latin America and the Caribbean was threatening international law, while accusing the United States of intensifying a decades-long campaign to isolate and weaken his country.
+  - **原文链接**：https://news.google.com/rss/articles/CBMiugFBVV95cUxOcVBJUU5iQTRsZFktRGYwLU1NU2U2OEJFX1pOMllrQzlKUmUxemF3aFNPRXFianRFNElGdDRXOHRwR0pnTE1LazVuaEVKck9ualFEYjM3b3dhcjVxRDlkVkN5SGo2SjBxb2RVRFc5TVNvZWdURFkwcHY1Z043YVNGa3lfZEZEZVE0clVPOE9xWDZHYW5FdWlxMDVCRzZXbnN6S3JiQjB4TjFVajNVd2ZHMjM5SW9qNVpjSmc?oc=5
+  - **原文摘要**：IMF urges Latin America to cut debt, lift productivity while tailwinds last Reuters
+
+- **原标题**：Connecting Markets, Powering Growth: The Digital Trade Opportunity for Latin America and the Caribbean - IDB | Inter American Development Bank
+  - **来源**：IDB | Inter American Development Bank
+  - **来源级别**：Tier 2
+  - **评分**：136
+  - **发布时间**：Wed, 30 Sep 2026 07:00:00 GMT
+  - **地区分类**：国际组织
+  - **原文链接**：https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYlY0azJhdlRvVGxPdzNmdVM5M0tQWVJKa2ptUXBfT0dFLTRucG9vT1I4eHpLTzd5TVhLVW9oaHJYY2lUaF8wWlQtUTZJTmZfX0NTV1NqaFRTYTE2dG8zRng3cUZHV1lCb3FNVEltcF9hRmlFTjlZYUtaOVVUU3BBeDdYVEw5cmtacTBzZVQ0SDJlRkhZTUpiNGtBc001SFRQbW9adW1wSTNSM01ZdGRBZHBNRG1MZi1CWTAwdXlOeEVubDM5SFprbmhvY1h0TlMzTlhWQQ?oc=5
+  - **原文摘要**：Connecting Markets, Powering Growth: The Digital Trade Opportunity for Latin America and the Caribbean IDB | Inter American Development Bank
 
 
 
