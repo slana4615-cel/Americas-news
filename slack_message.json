@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-11-01)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-11-02)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-11-01)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-11-02)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/oct/31/americans-voters-midterm-election-key-issues|Affordability, AI and Iran: Americans on the key issues guiding their midterm votes>\n• <https://www.theguardian.com/commentisfree/2026/oct/30/trump-tariffs-inflation-election-promise|Trump vowed to reduce prices, but his policies have fueled US inflation  | Steven Greenhouse>\n• <https://www.theguardian.com/world/2026/oct/29/bolsonaro-defeat-trump-orange-wave|Flávio Bolsonaro’s defeat is a major blow to Trump and his orange wave>\n• <https://www.theguardian.com/world/2026/oct/29/brazil-victory-planet-democracy-lessons-lula-win|Brazil’s victory for the planet and democracy: seven lessons from Lula’s win>\n• <https://www.bbc.co.uk/news/articles/c574p7z1xm8wo?at_medium=RSS&at_campaign=rss|Many Cubans voted for Trump - now they're turning on Republican immigration policies>\n• <https://www.bbc.co.uk/news/articles/cq398y0zj9rpo?at_medium=RSS&at_campaign=rss|King to address slavery during Commonwealth speech in Antigua on final leg of Caribbean tour>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/commentisfree/2026/nov/01/the-guardian-view-on-the-us-midterms-and-election-interference-trumps-attempted-heist-is-already-under-way|The Guardian view on the US midterms and election interference: Trump’s attempted heist is already under way | Editorial>\n• <https://www.theguardian.com/us-news/live/2026/nov/01/trump-midterm-rallies-iowa-kansas|Trump praises Haley Stevens while rallying in Iowa in final push before election day – follow live>\n• <https://www.theguardian.com/world/2026/oct/29/bolsonaro-defeat-trump-orange-wave|Flávio Bolsonaro’s defeat is a major blow to Trump and his orange wave>\n• <https://www.theguardian.com/world/video/2026/oct/30/maria-corina-machado-thanks-donald-trump-and-marco-rubio-for-their-actions-in-venezuela-video|María Corina Machado thanks Donald Trump and Marco Rubio for their actions in Venezuela - video>\n• <https://www.bbc.co.uk/news/articles/cq398y0zj9rpo?at_medium=RSS&at_campaign=rss|King to address slavery in Antigua as PM says he is open to possible UK apology>\n• <https://www.bbc.co.uk/news/articles/c574p7z1xm8wo?at_medium=RSS&at_campaign=rss|Many Cubans voted for Trump - now they're turning on Republican immigration policies>"
       }
     },
     {
