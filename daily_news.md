@@ -1,6 +1,6 @@
 # 美洲新闻自动抓取结果｜Daily Americas News Collection
 
-- **生成日期**：2026-11-05
+- **生成日期**：2026-11-06
 - **自动更新**：每日 22:00 UTC
 - **输出说明**：本文件由程序根据公开 RSS 新闻源自动抓取生成，仅用于研究团队初步筛选。新闻价值、事实核验和最终采用由人工判断。
 
@@ -11,205 +11,214 @@
 
 ## 美国
 
-- **原标题**：Democrats’ triumph deals devastating blow to Trump - The Latest
+- **原标题**：US midterm voters responded in a thunderous voice. This is just the beginning | Betsy Reed
   - **来源**：The Guardian
   - **来源级别**：Tier 1
-  - **评分**：183
-  - **发布时间**：Wed, 04 Nov 2026 18:37:24 GMT
+  - **评分**：181
+  - **发布时间**：Thu, 05 Nov 2026 19:09:42 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/news/video/2026/nov/04/democrats-triumph-deals-devastating-blow-to-trump-the-latest
-  - **原文摘要**：Democrats have won a historic sweep in the US midterm elections, winning back control of Congress in a major setback for Donald Trump. Senate seats went blue in traditional Republican strongholds such as Texas, South Carolina and Kansas, where the Democrats had their first win since 1932. Voters have sent a strong message of discontent to the Trump administration over the economy, the cost of living and rising gas prices. Trump is now a lame-duck president for the rest of his term. Lucy Hough speaks to our Washington editor, Ankita Rao Continue reading...
+  - **原文链接**：https://www.theguardian.com/us-news/2026/nov/05/us-midterm-election-free-press
+  - **原文摘要**：A note from our US editor: A reckoning is coming, but make no mistake: Trump is still president – we’ll need a free press in 2027 as much as we did in darker days. Please help today if you are able Betsy Reed is US editor of the Guardian Over the past two years, millions of people all over the world have watched Donald Trump’s destructive reign unfold with one question in their minds: Is there no check on his power? This week, voters deciding who controls Congress responded in a thunderous voice: there must be a check on the president’s power. From Texas to Ohio to South Carolina, Americans surged to the polls to register their opposition to Donald Trump – and to show their support for the kind of leaders who will look out for the interests of everyday people rather than those of a corrupt ruling elite. And now many people are looking at politics with a new and unfamiliar feeling of hope. Continue reading...
 
-- **原标题**：Democrats warn Trump camp to ‘lawyer up’ as anger over corruption drives midterms wipeout
+- **原标题**：A progressive understanding of Christianity won in the US elections | Bill McKibben
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：178
+  - **发布时间**：Thu, 05 Nov 2026 12:00:23 GMT
+  - **地区分类**：美国
+  - **原文链接**：https://www.theguardian.com/commentisfree/2026/nov/05/james-talarico-adam-hamilton-christianity-conservatives
+  - **原文摘要**：James Talarico and Adam Hamilton’s interpretations of the Bible are wildly different from the conservative vision we are regularly fed Two-thirds of Americans identify as Christian, but since less than a third of the country actually makes it to church regularly, many rely on what they pick up from the media – social or otherwise – to know what the religion means. And until yesterday, that received wisdom could be summed up as: a conservative, domineering and above all anti-gay force fiercely committed to the Republican party. Well, let’s just talk about what Republicans and Democrats believe, and I value Republicans, too. But … Republicanism – often we hear it’s about fiscal responsibility, limited government, a strong defense and personal civil liberties, and let’s say conservative values in some ways. And Democrats – if you think about what they stand for, it’s education, it’s the vulnerable, it’s social safety nets, it’s a progressive spirit that’s trying to lift people up. And I said: if you think about those two, which sounds more like Jesus in the gospels? Continue reading...
+
+- **原标题**：Deep-red Kansas votes for change as patience wears thin with Trump: ‘The economy is really taking a beating’
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：177
+  - **发布时间**：Thu, 05 Nov 2026 20:00:32 GMT
+  - **地区分类**：美国
+  - **原文链接**：https://www.theguardian.com/us-news/2026/nov/05/kansas-voters-trump-republicans-dispatch
+  - **原文摘要**：Bills have soared in rural state buffeted by tariffs and war in Iran – and Democrat Adam Hamilton’s stunning upset shows how deep economic frustrations run Linda Olson always does her homework before voting – a trait she inherited from a family invested, and interested, in politics. Her father was a photographer who took portraits of political leaders in Washington, while her grandparents were farmers who cared deeply about their industry. In 2024, Olson’s research led her to Donald Trump. She trusted that the then-former president would improve their economic realities in Junction City, Kansas – where she was born and raised – if he returned to the White House. Continue reading...
+
+- **原标题**：Rural voters were feeling left behind before the midterms, poll shows
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：177
+  - **发布时间**：Thu, 05 Nov 2026 11:00:22 GMT
+  - **地区分类**：美国
+  - **原文链接**：https://www.theguardian.com/business/2026/nov/05/former-trump-voters-economy
+  - **原文摘要**：Polling done for the Guardian shows plummeting support from a former key constituency of Donald Trump’s base Q&A: Ask your questions about Democrats’ win in the midterms Polling conducted by the Harris Poll for the Guardian before the election shows just how angry voters were and points to one key reason Republicans lost so badly: plummeting support from rural voters, once a key constituency of Donald Trump’s base. Over the summer, 95% of Americans indicated they believed there was an affordability crisis , particularly because of steep gas and grocery prices. By October, 61% of voters believed the country was experiencing a recession, even though technically it wasn’t. Continue reading...
+
+- **原标题**：Melania Trump urges 'enduring' ceasefire at meeting with Ukrainian, Russian officials
   - **来源**：France 24
   - **来源级别**：Tier 1
-  - **评分**：183
-  - **发布时间**：Wed, 04 Nov 2026 18:01:05 GMT
+  - **评分**：173
+  - **发布时间**：Thu, 05 Nov 2026 05:23:48 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.france24.com/en/americas/20261104-democrats-warn-trump-camp-lawyer-up-anger-over-corruption-drives-midterms-wipeout-gop
-  - **原文摘要**：Corruption in government was high on the minds of US voters as they dealt US President Donald Trump’s party a chastening defeat in midterm elections, toppling Republican strongholds like dominoes and flipping both chambers of Congress. Triumphant Democrats have warned the Trump administration to “lawyer up”; how they go about tackling alleged graft and abuse of power could shape both their own fortunes and the country’s politics.
+  - **原文链接**：https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house
+  - **原文摘要**：Russian and Ukrainian officials, including human rights chiefs, met US First Lady Melania Trump at the White House on Thursday ahead of Abu Dhabi talks aimed at ending the Ukraine war. The meeting comes weeks after Melania Trump helped broker a partial ceasefire enabling the evacuation of civilians from the Russian-occupied Ukrainian town of Oleshky.
 
-- **原标题**：The Guardian view on the US midterms: joy for Democrats, a rout for Republicans and a reprieve for democracy | Editorial
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：181
-  - **发布时间**：Wed, 04 Nov 2026 18:31:13 GMT
-  - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/commentisfree/2026/nov/04/the-guardian-view-on-the-us-midterms-joy-for-democrats-a-rout-for-republicans-and-a-reprieve-for-democracy
-  - **原文摘要**：Voters have delivered a damning verdict on Donald Trump’s presidency with this Congressional landslide Bitter experience made Democrats wary of believing that the blue wave predicted by polls would materialise. What arrived was not just victory but a rout: control of Congress and a Republican wipeout . It was an astounding humiliation for a president whose political brand is power. Donald Trump won it back in 2024 by promising voters lower prices and no foreign wars. He lost it by launching an illegal conflict that hit them in the pocket and imposing hefty tariffs too. He urged voters to pretend that he was on the ticket and they delivered a verdict that could not have been more damning. Two years ago, retaking the House looked like a genuine fight for Democrats, and the Senate a long shot. On Tuesday, they needed to flip four more seats to gain a 51-seat Senate majority. Within hours of polls closing, they had 54, with two more races in the balance, and had easily passed the 218 seats needed for a House majority. This appears to be the biggest congressional landslide since 1976 , in Watergate’s aftermath. Do you have an opinion on the issues raised in this article? If you would like to submit a response of up to 300 words by email to be considered for publication in our letters section, please click here . Continue reading...
-
-- **原标题**：US stocks rise, dollar slides as investors digest Democrats’ midterm victories
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：181
-  - **发布时间**：Wed, 04 Nov 2026 16:38:28 GMT
-  - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/business/2026/nov/04/us-dollar-slides-democrats-midterm-election-win-growth-fears
-  - **原文摘要**：Government bond yields fall while initial fears ease over impact of election results on world’s biggest economy US midterm elections – live updates After US midterms, what will lame-duck Trump mean for global economy? US stocks have surged as investors digest the Democrats’ victories in the midterm elections , lifted by hopes that Donald Trump ’s turbulent policymaking would be restrained and shaking off initial fears about the impact on growth in the world’s largest economy. The Dow Jones rose close to 3%, its best day in over a year, while the tech-heavy Nasdaq and the benchmark S&P 500 gained about 1.5% each when markets closed on Wednesday afternoon, turning around overnight falls in US stock futures after the news that the Democratic party won control of the Senate and the House of Representatives. Continue reading...
-
-- **原标题**：Democrats won. What does that mean for impeachment inquiries? | Claire Finkelstein
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：181
-  - **发布时间**：Wed, 04 Nov 2026 11:00:10 GMT
-  - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/commentisfree/2026/nov/04/democrats-congress-trump
-  - **原文摘要**：An impeachment investigation would enhance transparency and allow Congress to reassert its authority In Tuesday’s midterm elections, voters sent the Republican party an unmistakable message: their love affair with Trumpism is coming to an end. The overwhelming victory for Democrats in both the US House of Representatives and the US Senate, was foreshadowed by a number of polls showing growing disenchantment with Donald Trump – and it was personal. Continue reading...
-
-- **原标题**：Five reasons why Republicans lost so badly
+- **原标题**：Democrats 'got their wish': Voters react to midterm results
   - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：171
-  - **发布时间**：Thu, 05 Nov 2026 00:07:19 GMT
+  - **评分**：173
+  - **发布时间**：Wed, 04 Nov 2026 19:01:37 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.bbc.co.uk/news/articles/cqkgjvr00zmyo?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：From angry voters to an unpopular president, here is why Americans in traditional Republican areas turned to Democrats.
+  - **原文链接**：https://www.bbc.co.uk/news/videos/cqe8le668e13o?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：People in the US react after the Democrats won the Senate and the House, taking control of Congress for the rest of Donald Trump's presidency.
 
 
 
 ---
 ## 拉丁美洲
 
-- **原标题**：Both sides of the Atlantic sense more hope: voters are drawn to the ‘politics of love’ | Alexander Hurst
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：190
-  - **发布时间**：Wed, 04 Nov 2026 18:35:18 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.theguardian.com/commentisfree/2026/nov/04/donald-trump-midterms-atlantic-hope-voters-democratic
-  - **原文摘要**：Trump’s rout could be part of a democratic spring that began in Hungary. But will it extend to the French elections next May? Hungary, Brazil, Serbia, and now the US. So far this year, when their hand has been held to the stove, voters have chosen what the Texas senator-elect James Talarico, the new face of the US’s Christian left, campaigned on as a “politics of love”: a society where we aren’t at each other’s throats, or a police state at ours. Is it any surprise that when there is clarity about the choice on offer, voters have started to shrink away from a vision fuelled by billionaire wealth and runaway inequality? Away from oligarchic rule and unapologetic corruption , connivance with aggression, expansion, colonialism and war; environmental degradation and the surrender of the human spirit to a reality mediated by the algorithm. Alexander Hurst writes for Guardian Europe from Paris. His memoir Generation Desperation is out now Do you have an opinion on the issues raised in this article? If you would like to submit a response of up to 300 words by email to be considered for publication in our letters section, please click here . Continue reading...
-
-- **原标题**：Flávio Bolsonaro’s defeat is a major blow to Trump and his orange wave
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：181
-  - **发布时间**：Thu, 29 Oct 2026 10:00:32 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.theguardian.com/world/2026/oct/29/bolsonaro-defeat-trump-orange-wave
-  - **原文摘要**：The far-right candidate was supposed to claim the presidency, but Brazilian voters had other ideas For Donald Trump , Brazil’s presidential election was meant to represent the crest of the “orange wave” – a three-year surge of rightwing triumphs that has reshaped Latin American politics in the US president’s tangerine-hued image. The far-right candidate, Flávio Bolsonaro , was supposed to claim the presidency on Sunday, bringing the region’s biggest democracy and economy into Trump’s orbit, after similar victories in Argentina, Bolivia , Chile, Colombia, Costa Rica, Honduras, Ecuador and Peru – not to mention the capture of Venezuela’s government after the country was invaded in January. Continue reading...
-
-- **原标题**：Lula faces hostile congress and divided country after Brazil election win
+- **原标题**：Paraguay President Santiago Peña resigns after bank collapse
   - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：167
-  - **发布时间**：Mon, 26 Oct 2026 03:55:13 GMT
+  - **评分**：182
+  - **发布时间**：Thu, 05 Nov 2026 17:40:40 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.bbc.co.uk/news/articles/cmvg7p001qj9o?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：The incumbent president has pulled off a surprise win, but he will face a hostile Congress and a polarised country.
+  - **原文链接**：https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：The move follows a bank collapse and after the lower house of congress voted in favour of pursuing an impeachment trial against him.
 
-- **原标题**：Brazil's central bank ends run of rate cuts after Lula election win - Reuters
-  - **来源**：Reuters
+- **原标题**：US urges Venezuela to release remaining political prisoners
+  - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：165
-  - **发布时间**：Wed, 04 Nov 2026 23:38:07 GMT
+  - **评分**：182
+  - **发布时间**：Tue, 03 Nov 2026 12:09:20 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://news.google.com/rss/articles/CBMitAFBVV95cUxQZEFUME9sYnFseThMNGczNTU1OGwtT1ZzWk5yNXpVWGpfZWpFbjVYcHJ0NS1iRjNVNGcyQnZ4cXp3WkRuVTJ3UF8takxXTnV6ZjZ5RXFsVkVGazQwbkdkZ3czRTZ1QXp6RVo4eVZxRGpJSkN0dXhzSWZ6V0N4RGwzdTVsTF9vYlFHdUlrakdlZGF4bnFPYzlNZ1dUT2FHTnlJZTlYSWlYZ1psV2NQSHB2RExDZUg?oc=5
-  - **原文摘要**：Brazil's central bank ends run of rate cuts after Lula election win Reuters
+  - **原文链接**：https://www.bbc.co.uk/news/articles/cxg5jln586pno?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：The US secretary of state also discusses laying the groundwork for 'free, fair, and credible elections'.
 
-- **原标题**：Brazil economists raise inflation, rate forecasts after Lula reelection - Reuters
-  - **来源**：Reuters
+- **原标题**：US accuses Mexican judge of $2m bribe to free accused drug trafficker allegedly linked to ex-Olympic snowboarder
+  - **来源**：The Guardian
   - **来源级别**：Tier 1
-  - **评分**：162
-  - **发布时间**：Tue, 03 Nov 2026 21:43:44 GMT
+  - **评分**：176
+  - **发布时间**：Thu, 05 Nov 2026 19:58:49 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://news.google.com/rss/articles/CBMivgFBVV95cUxQd2NpZHp3a2RSSFFqLTZzUHFPeU55RlVKdGxieUpFWkFkdGdvLXVrOHRydmhYeDFTREpIVDVDLTF2OTBOSGI4R3ZrZEpGVTdtc1Q2U0hBSTd6Z0drcHZmVkhONEFNalV6MTJaTzRYMWFORGNZV1ZQcFRkZ0MtS1dSTENuRF9MVTBHR2QwQXJ5RGFPblptUXNlNzk4V2FFRVJyb1AxcFpQZlBMbzF4TTdhNmZqNnJuM2lfUW1Jb09R?oc=5
-  - **原文摘要**：Brazil economists raise inflation, rate forecasts after Lula reelection Reuters
+  - **原文链接**：https://www.theguardian.com/us-news/2026/nov/05/mexican-judge-us-arrest-drug-trafficking
+  - **原文摘要**：The judge oversaw extradition proceedings in Mexico for a Canadian citizen allegedly helping Ryan Wedding A Mexican judge has been arrested and accused of accepting $2m in bribes in exchange for releasing a suspected Canadian drug trafficker from custody, US officials said on Thursday. Luis Benítez Alcántara was overseeing extradition proceedings in Mexico in 2024 for Canadian citizen Andrew Clark, who was charged in the US with helping to run a billion-dollar drug-trafficking group allegedly headed by the former Canadian Olympic snowboarder Ryan Wedding, the justice department said in a statement. Continue reading...
 
-- **原标题**：Brazil’s post-election market shock clouds path to cheaper credit​ - Reuters
-  - **来源**：Reuters
-  - **来源级别**：Tier 1
-  - **评分**：162
-  - **发布时间**：Tue, 03 Nov 2026 20:19:09 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjFMUTg0NHVWTzhUVmtsM0RXS0FZcFoxZlRPci1kSXo5RkNaaVF2UXZOTUVzSHJKdE5nZlEtSlNBVHlnc09tR0stX0hmV2VUQ05QRUc1WmhYakNnblRMaFNGM2VxZVd5dlQ0SktwXzktdzlKNXprdnJJWjVXY0R0cEVtSkY4dXpza0lPWnhOVGI5MVRUWHFxNUREU1BYSnZKcXc5d09hVkZGVnJRUHdqS3ln?oc=5
-  - **原文摘要**：Brazil’s post-election market shock clouds path to cheaper credit​ Reuters
-
-- **原标题**：Argentina's austerity-hit economy reels towards recession, testing Milei ahead of 2027 vote - Reuters
-  - **来源**：Reuters
-  - **来源级别**：Tier 1
-  - **评分**：160
-  - **发布时间**：Mon, 02 Nov 2026 10:09:43 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://news.google.com/rss/articles/CBMixgFBVV95cUxNNFVsdDIwMFVTSnVyR2Y4ZHh3bkRBdHJqSVowbHRnX2JxaFdIcGVVS0RPTTAxYy1VNWlQVGgwYmNqV2JFYTNvSm1KdmV4U0RsUi1wMnBGenV6c2xDNlc0THJLMzVTdno1ZVlkVDZmOXhIVUphSjNSOEI1QnRqOTBLc2ViUDNFOVdVVFRhUEpwOEhHZVZzUjV5TDExU2Vmc0g3Z0lTVU1JTUszRWZtZFJvdDhOQ3Z2blQ0TjRvMFczWUdpSjBsblE?oc=5
-  - **原文摘要**：Argentina's austerity-hit economy reels towards recession, testing Milei ahead of 2027 vote Reuters
-
-- **原标题**：New Mexico Governor Election Live Results 2026 - AP News
+- **原标题**：New Mexico U.S. Senate Election Live Results 2026 - AP News
   - **来源**：AP News
   - **来源级别**：Tier 1
-  - **评分**：159
-  - **发布时间**：Wed, 04 Nov 2026 01:07:43 GMT
+  - **评分**：173
+  - **发布时间**：Wed, 04 Nov 2026 11:08:53 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://news.google.com/rss/articles/CBMie0FVX3lxTE84azU2SWpWUkNtR1ctZGR6VVJZYnhEc2Fzek5vSmdsbWt3WVdiTEZEMWlYaktsd3V3N0l5Z29IdVlxeldta0w2NzNYbFpBUHFYY2xzcHlOam1wV1hzcENreFZNelg0dS1kODd5ZG5GdGowYllkYy1Sb2hIcw?oc=5
-  - **原文摘要**：New Mexico Governor Election Live Results 2026 AP News
+  - **原文链接**：https://news.google.com/rss/articles/CBMifEFVX3lxTE16eFhLMG94c25ZUUNxVExPdk1XOUc3MkJTOVN6WERaY0RTVFVWS1BHa3hqSmd3Z1VZWEVrbHFSZVlNbDVfdDl3TWljcWViVWxiaXNhb25pMjVndW1tTVVQWWlCX3FxRlVIYkVuTXFCWFVkUnF2MFh6c2NfbWw?oc=5
+  - **原文摘要**：New Mexico U.S. Senate Election Live Results 2026 AP News
+
+- **原标题**：Brazil’s Senate approves Lula’s main bet to tackle criminal gangs - AP News
+  - **来源**：AP News
+  - **来源级别**：Tier 1
+  - **评分**：173
+  - **发布时间**：Wed, 04 Nov 2026 01:19:00 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://news.google.com/rss/articles/CBMimgFBVV95cUxQd2RwODZuckFRRFZURkg3RXVYblNudWJpbDJTWm1KVUQxeUhaOTBULVpKVmRBaDNuRVJxbU42QnlYS0x5M3RrdmF3WkV1ZFhGMFN3SUhXcHcyaHRLWmpRZ2t6QWk3cHNNWllaVFM5TVRVR0ktMjVqUm5mLXlOUmlUTXdIRWhKZ3FLSzJVRlYtb0p3aUxsRHFXUm93?oc=5
+  - **原文摘要**：Brazil’s Senate approves Lula’s main bet to tackle criminal gangs AP News
+
+- **原标题**：Paraguay President Pena resigns in wake of bank collapse
+  - **来源**：Al Jazeera
+  - **来源级别**：Tier 1
+  - **评分**：171
+  - **发布时间**：Thu, 05 Nov 2026 17:08:19 +0000
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.aljazeera.com/economy/2026/11/5/paraguay-president-pena-resigns-in-wake-of-bank-collapse?traffic_source=rss
+  - **原文摘要**：President Pena, a Trump ally, had faced an impeachment motion and protests after the collapse of digital lender ueno.
+
+- **原标题**：Paraguay President Peña under investigation, faces removal from office over bank collapse - AP News
+  - **来源**：AP News
+  - **来源级别**：Tier 1
+  - **评分**：165
+  - **发布时间**：Fri, 06 Nov 2026 00:46:00 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://news.google.com/rss/articles/CBMixwFBVV95cUxQam96dk1BWFZKQ0pzUHlCZ2FpdEkzUWRqbks0di1NdW9jSE16M1F2c3lwMkphbkEzT0JZNzYxTzdnTkxMcjF4b3U1T25ESkNjQXpmU0ItLVhfanZiaUVsWkpNcUl2ZUNoa3MxRFlHRGRNam9rRzVVblF5bjV5UTAtYW9NVldrSG1QcWwyOXJ1eG1KcFlpbFRjbmtOVGNSSFU0aGxpM1lrd0N1YVhGZWUyNmxXdFRXZVh5dnFVMTBVbERkNldBSWpN?oc=5
+  - **原文摘要**：Paraguay President Peña under investigation, faces removal from office over bank collapse AP News
+
+- **原标题**：Flávio Bolsonaro calls himself 'leader of Brazil' after election loss
+  - **来源**：BBC
+  - **来源级别**：Tier 1
+  - **评分**：164
+  - **发布时间**：Thu, 29 Oct 2026 14:58:28 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：The defeated presidential candidate says he will lead the opposition from the US.
 
 
 
 ---
 ## 加勒比地区
 
-- **原标题**：As reparations debate grows, Caribbean campaigners point to one British family's example - Reuters
-  - **来源**：Reuters
+- **原标题**：The Guardian view on the midterms and foreign policy: American voters spoke, and now the world waits anxiously | Editorial
+  - **来源**：The Guardian
   - **来源级别**：Tier 1
-  - **评分**：163
-  - **发布时间**：Mon, 02 Nov 2026 13:33:06 GMT
+  - **评分**：190
+  - **发布时间**：Thu, 05 Nov 2026 18:52:33 GMT
   - **地区分类**：加勒比地区
-  - **原文链接**：https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSFRxZjhnMEszdmFsOHpnUUlOazlqd0cwZzRZOVU0UHdJLTFFWmNWb2l2TkhXYXhrcXFqX25HRnRORXZ1MUtNQ2hMRlVzZ29wa1ozT3J6WTk5dlpVckc5MndWU2pqVjRQNE5uRGFIYml1Wmk0QTA3cHBIeFp6MTRYdU96TlhkTjVMTVhoZk11YU02aW9DWm15SUkycm9Wcmc3Q3k4Vi14UVhERHhoQzYwVFlDMUxqMjdYem5EaFNiNGVDVk81R084bGdYY2U1YUwyV1hZSi1R?oc=5
-  - **原文摘要**：As reparations debate grows, Caribbean campaigners point to one British family's example Reuters
+  - **原文链接**：https://www.theguardian.com/commentisfree/2026/nov/05/the-guardian-view-on-the-midterms-and-foreign-policy-american-voters-spoke-and-now-the-world-waits-anxiously
+  - **原文摘要**：The Democrats have gained new powers to constrain Donald Trump. But the drubbing that Republicans received could yet prompt him to new excesses Donald Trump is a president without parallel, but history can still be instructive. Lame duck presidents often focus on foreign policy to escape domestic discontent and establish a legacy in an area where a hostile Congress offers less of an obstacle. Mr Trump, who was stunningly rebuffed by voters in Tuesday’s midterms , might seek satisfaction in construction projects, the 2028 presidential race and his family’s future. Or, amid the humiliation and with Republican critics growing louder, he could distract attention with fresh adventurism – perhaps escalating against Cuba – or more likely a vengeful new offensive against Iran. Mr Trump won’t put in the legwork or attention to detail demanded by, say, Bill Clinton’s push for lasting peace in the Middle East. But he loves the glitz of state visits, spectacular military action, hobnobbing with strongmen and (unearned) credit for dubious “peace deals”. With a potential three-way meeting with Vladimir Putin and Xi Jinping mooted for the Apec summit in China this month, Ukraine, Taiwan and others have reason to be nervous. Do you have an opinion on the issues raised in this article? If you would like to submit a response of up to 300 words by email to be considered for publication in our letters section, please click here . Continue reading...
 
-- **原标题**：'You're lying' - US and Cuban officials get into shouting match at UN
-  - **来源**：BBC
-  - **来源级别**：Tier 1
-  - **评分**：162
-  - **发布时间**：Tue, 27 Oct 2026 20:52:30 GMT
-  - **地区分类**：加勒比地区
-  - **原文链接**：https://www.bbc.co.uk/news/videos/ck5yn5rlz978o?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：Cuban delegates reacted in response to claims from US ambassador Mike Waltz that the Havana government has profited off the forced labor of its citizens.
-
-- **原标题**：King visits Guyanese slave rebellion site on Caribbean tour
-  - **来源**：BBC
-  - **来源级别**：Tier 1
-  - **评分**：160
-  - **发布时间**：Fri, 30 Oct 2026 22:24:03 GMT
-  - **地区分类**：加勒比地区
-  - **原文链接**：https://www.bbc.co.uk/news/articles/c693zxw11x1wo?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：Hundreds of slaves were killed by colonial leaders in the Demerara rebellion of 1823, with many survivors executed.
-
-- **原标题**：Haiti’s prime minister Fils-Aimé speaks out as concerns over El Salvador’s troops deepen - AP News
+- **原标题**：US escalates economic campaign against Cuba and targets China-based suppliers - AP News
   - **来源**：AP News
   - **来源级别**：Tier 1
-  - **评分**：155
-  - **发布时间**：Tue, 03 Nov 2026 20:35:00 GMT
+  - **评分**：171
+  - **发布时间**：Thu, 05 Nov 2026 20:07:00 GMT
   - **地区分类**：加勒比地区
-  - **原文链接**：https://news.google.com/rss/articles/CBMiowFBVV95cUxORTJVSzJFM2ctYW9rcGJwdXVqcXYtZEJmVHhRNjZua010OXh2RkhQLW5mSnVQOGg3cjVUNXFyTDV1bm9UbjY5eS1sekFQWXphSDllbG1FYnhLcVhaT0Fjc1g1N2ZDQlREWjh0WFl4bFk4Vm9yeUhxV0RzOGFrOF95eHVKSG9abVFzNUJocGVzOFNCNUozSElVOWUxUnpjb0xUY2U0?oc=5
-  - **原文摘要**：Haiti’s prime minister Fils-Aimé speaks out as concerns over El Salvador’s troops deepen AP News
+  - **原文链接**：https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5MWlNOUF3bkxyZm1jNzZyM2R5Unh0SEV6bzBsNV9VdHgzTW85YTV0SkNXTF8yb2gxazRWSmZackpWQ3U2RE5fRDRJYnVoTmFTVmhwUVhyb1ZrT3R5Z2xKVUtyVVQxVTFZOUJiNUhZb3VOb1I3NHNHMkZlODlrd0NlYldLOVZFWlhRVldDTldUTTkwMGVx?oc=5
+  - **原文摘要**：US escalates economic campaign against Cuba and targets China-based suppliers AP News
+
+- **原标题**：US issues new Cuba sanctions, takes aim at sectors of Cuban economy - Reuters
+  - **来源**：Reuters
+  - **来源级别**：Tier 1
+  - **评分**：161
+  - **发布时间**：Thu, 05 Nov 2026 18:11:08 GMT
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://news.google.com/rss/articles/CBMisAFBVV95cUxQblVpSUg3SjBzNjdqeWlrY1hpeWNhQ2E0VzNmZW1RTVl3ekVfRW5ERnpNU2gwa3M3NUZuNWFFc3JWR3BnNGlHeS1VOENLeFcwRUxaYm00TnVxZWd1RkxtbEJ0WlJTQmFMeXZDZm9iX1Fybk5qTGJ5eVhCMlV6c2VFbUd4ZXZBS2VmeW9tM0d1SjRoN0FibW13RnAtcU11XzVENk5PVTVYV2RPMGJkM3ZlaQ?oc=5
+  - **原文摘要**：US issues new Cuba sanctions, takes aim at sectors of Cuban economy Reuters
 
 - **原标题**：Many Cubans voted for Trump - now they're turning on Republican immigration policies
   - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：154
+  - **评分**：158
   - **发布时间**：Fri, 30 Oct 2026 00:43:04 GMT
   - **地区分类**：加勒比地区
   - **原文链接**：https://www.bbc.co.uk/news/articles/c574p7z1xm8wo?at_medium=RSS&at_campaign=rss
   - **原文摘要**：President Trump's fellow Republicans might feel the brunt of frustration among Cubans at the ballot box, writes the BBC's Will Grant.
 
-- **原标题**：El Salvador sends 2,000 troops to Haiti to rescue four missing soldiers
+- **原标题**：'You're lying' - US and Cuban officials get into shouting match at UN
   - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：152
-  - **发布时间**：Thu, 29 Oct 2026 06:24:56 GMT
+  - **评分**：147
+  - **发布时间**：Tue, 27 Oct 2026 20:52:30 GMT
   - **地区分类**：加勒比地区
-  - **原文链接**：https://www.bbc.co.uk/news/articles/ck0e075n79j5o?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：The troops are trying to recover four military personnel who went missing in an ambush on the outskirts of the Haitian capital Port-au-Prince.
+  - **原文链接**：https://www.bbc.co.uk/news/videos/ck5yn5rlz978o?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：Cuban delegates reacted in response to claims from US ambassador Mike Waltz that the Havana government has profited off the forced labor of its citizens.
 
 
 
 ---
 ## 智库
 
+- **原标题**：Venezuela’s Airstrike on the ELN Tests 2 Decades of Chavista Tolerance
+  - **来源**：InSight Crime
+  - **来源级别**：Tier 2
+  - **评分**：165
+  - **发布时间**：Thu, 05 Nov 2026 20:12:59 +0000
+  - **地区分类**：智库
+  - **原文链接**：https://insightcrime.org/news/venezuelas-airstrike-the-eln-tests-decades-chavista-tolerance/
+  - **原文摘要**：Venezuela’s Airstrike on the ELN Tests 2 Decades of Chavista Tolerance The Venezuelan government’s first major attack against the ELN marks a rupture in the longstanding relationship between Chavista administrations and Colombian insurgent groups. The post Venezuela’s Airstrike on the ELN Tests 2 Decades of Chavista Tolerance appeared first on InSight Crime .
+
+- **原标题**：Has Venezuela Declared War on Colombia’s ELN Guerrillas? | The InSight Take
+  - **来源**：InSight Crime
+  - **来源级别**：Tier 2
+  - **评分**：160
+  - **发布时间**：Thu, 05 Nov 2026 18:25:46 +0000
+  - **地区分类**：智库
+  - **原文链接**：https://insightcrime.org/news/venezuela-declared-war-on-colombias-eln-insight-take/
+  - **原文摘要**：Has Venezuela Declared War on Colombia’s ELN Guerrillas? | The InSight Take The Venezuelan government launched strikes against the ELN amid United States pressure on Delcy Rodríguez’s administration to end the protection that the Chavista regime has historically provided to the Colombian guerrilla group. The offensive could mark the beginning of a broader campaign against the group, although it remains unclear whether the strikes will continue. The post Has Venezuela Declared War on Colombia’s ELN Guerrillas? | The InSight Take appeared first on InSight Crime .
+
 - **原标题**：Bolivia Profile
   - **来源**：InSight Crime
   - **来源级别**：Tier 2
-  - **评分**：157
+  - **评分**：151
   - **发布时间**：Mon, 02 Nov 2026 18:27:16 +0000
   - **地区分类**：智库
   - **原文链接**：https://insightcrime.org/bolivia-organized-crime-news/bolivia/
@@ -218,20 +227,11 @@
 - **原标题**：Spotters, Jammers, and Hijackers: Costa Rica’s Cargo Theft System Explained
   - **来源**：InSight Crime
   - **来源级别**：Tier 2
-  - **评分**：156
+  - **评分**：150
   - **发布时间**：Mon, 02 Nov 2026 20:48:20 +0000
   - **地区分类**：智库
   - **原文链接**：https://insightcrime.org/news/spotters-jammers-and-hijackers-costa-ricas-cargo-theft-system-explained/
   - **原文摘要**：Spotters, Jammers, and Hijackers: Costa Rica’s Cargo Theft System Explained Cargo theft is a lucrative illicit business in Costa Rica that requires an advanced level of organization and planning. InSight Crime explains the system here. The post Spotters, Jammers, and Hijackers: Costa Rica’s Cargo Theft System Explained appeared first on InSight Crime .
-
-- **原标题**：Gangs, Fintechs, and the Amazon: The Crime Agenda Awaiting Lula’s Fourth Term
-  - **来源**：InSight Crime
-  - **来源级别**：Tier 2
-  - **评分**：150
-  - **发布时间**：Mon, 26 Oct 2026 14:29:50 +0000
-  - **地区分类**：智库
-  - **原文链接**：https://insightcrime.org/news/gangs-fintechs-and-the-amazon-the-crime-agenda-awaiting-lulas-fourth-term/
-  - **原文摘要**：Gangs, Fintechs, and the Amazon: The Crime Agenda Awaiting Lula’s Fourth Term Luiz Inácio Lula da Silva, Brazil’s 80-year-old president, completed a stunning turnaround to win a fourth presidential term, but with rising criminality and an opposition-controlled Congress, he may struggle to implement an effective security agenda. The post Gangs, Fintechs, and the Amazon: The Crime Agenda Awaiting Lula’s Fourth Term appeared first on InSight Crime .
 
 
 
@@ -247,14 +247,14 @@
   - **原文链接**：https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ21qSmpyZzRDaFJwUUh1Zldnb25yMGphSVlOa0NiN3hPdDVXcThHVzlEdTM2U0NhdkwwSFdnanZ2VENlYVhDZWF3UlA4eVBGRms1clZabHdJbnJQeVpOWEd4NkkyWkVPbzQxRG8xQnFhWGVfVEpseXhfOURzLUI0SVptcW9KNWxjUGlLT1N6Nkh0cVRrMmdmQ2xoS09NbVBQa3RzWFgtWnRFQkZlUnMwekl0U0NJTm5wM2o3QURySFpJNldySHgzUjNzOVhRZw?oc=5
   - **原文摘要**：IMF cuts Latin America, Caribbean growth forecasts on energy shock, little AI boost Reuters
 
-- **原标题**：Haiti gang leader seeks UN talks as El Salvador sends 2,000 troops to hunt for missing soldiers
-  - **来源**：UN News - Global perspective Human stories
-  - **来源级别**：Tier 2
+- **原标题**：IMF urges Latin America to cut debt, lift productivity while tailwinds last - Reuters
+  - **来源**：Reuters
+  - **来源级别**：Tier 1
   - **评分**：137
-  - **发布时间**：Tue, 03 Nov 2026 12:00:00 +0000
+  - **发布时间**：Thu, 15 Oct 2026 07:00:00 GMT
   - **地区分类**：国际组织
-  - **原文链接**：https://news.un.org/feed/view/en/story/2026/11/1168728
-  - **原文摘要**：A Haitian gang leader wanted by the United States has asked the UN to mediate, as El Salvador sends more than 2,000 troops into the country to search for four of its personnel who went missing after a gang ambush.
+  - **原文链接**：https://news.google.com/rss/articles/CBMiugFBVV95cUxOcVBJUU5iQTRsZFktRGYwLU1NU2U2OEJFX1pOMllrQzlKUmUxemF3aFNPRXFianRFNElGdDRXOHRwR0pnTE1LazVuaEVKck9ualFEYjM3b3dhcjVxRDlkVkN5SGo2SjBxb2RVRFc5TVNvZWdURFkwcHY1Z043YVNGa3lfZEZEZVE0clVPOE9xWDZHYW5FdWlxMDVCRzZXbnN6S3JiQjB4TjFVajNVd2ZHMjM5SW9qNVpjSmc?oc=5
+  - **原文摘要**：IMF urges Latin America to cut debt, lift productivity while tailwinds last Reuters
 
 
 
