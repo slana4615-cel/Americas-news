@@ -1,6 +1,6 @@
 # 美洲新闻自动抓取结果｜Daily Americas News Collection
 
-- **生成日期**：2026-11-07
+- **生成日期**：2026-11-08
 - **自动更新**：每日 22:00 UTC
 - **输出说明**：本文件由程序根据公开 RSS 新闻源自动抓取生成，仅用于研究团队初步筛选。新闻价值、事实核验和最终采用由人工判断。
 
@@ -11,109 +11,118 @@
 
 ## 美国
 
-- **原标题**：Susie Wiles exits White House as Trump ousts another woman from key role
+- **原标题**：Trump’s elevation of Stephen Miller is a middle finger to millions of voters
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：183
+  - **发布时间**：Sat, 07 Nov 2026 13:00:12 GMT
+  - **地区分类**：美国
+  - **原文链接**：https://www.theguardian.com/us-news/2026/nov/07/trump-stephen-miller-midterms
+  - **原文摘要**：Architect of Trump’s far-right immigration agenda is now most powerful unelected figure in government – it suggests White House is moving to a war footing Donald Trump just gave the middle finger to millions of American voters. Any other president who suffered the kind of drubbing at the polls that Trump did this week might have felt at least a sliver of humility – and perhaps even an obligation to work with the new opposition in Congress. Continue reading...
+
+- **原标题**：Flip voters discovered that Trump’s racism and xenophobia are expensive
   - **来源**：The Guardian
   - **来源级别**：Tier 1
   - **评分**：181
+  - **发布时间**：Sat, 07 Nov 2026 12:00:12 GMT
+  - **地区分类**：美国
+  - **原文链接**：https://www.theguardian.com/us-news/2026/nov/07/flip-voters-trump-midterms
+  - **原文摘要**：Maga’s regret voters were all-in for Trump’s racism. Then they found out they couldn’t afford it For the first time in a decade, election predictions far exceeded public expectations. What pollsters anticipated as a blue wave billowed into a blue tsunami . Wins that held ground for already blue seats eased nerves, and the flips of swing states like Michigan, Georgia, North Carolina and Ohio energized the blue base. But red-belt-busting wins in Republican strongholds like Texas, South Carolina and Kansas alongside pending races in Alaska and Mississippi left mouths agape. The explanation was that Democrats turned out far more supporters than their regulars, and that the “ regret voter ” (both swing voters and partisan Republicans) expanded the wave across districts Trump previously won . Elation and sighs of relief rolled over consistently Democratic voters who suffered multiple sucker punches from recent years of Republican upsets. Regret voters, who run the gamut from gen Z men to Latinos , farmers and the white working class , hope a different party can deliver on the economy Trump promised them. Blue voters look at the dismantling of democracy, multiple wars, mass deportations and Trump’s unchecked power in these last two years and see how it all could have been avoided. Regret voters, however, either co-signed or conceded to Trump’s naked racism and brutish bullying of marginalized people, but switched their votes as soon as the consequences hit their pockets. While some of the president’s backers may have been turned away by Immigration and Customs Enforcement (ICE) gunning down American citizens, the final straw for most wasn’t ICE’s brutality , but rather the price of eggs. Some may have been upset by the Tomahawk missile assault that killed 120 schoolgirls in Iran, but most fumed at the rocketing costs at the gas pump that followed. Few demanded answers for the nearly 60 deaths of innocent people detained in DHS detention centers since the start of 2024, but many felt scorned by lost immigrant labor that cut into owners’ profit margins. Maga’s regret voters were all-in for Trump’s racism. Then they found out they couldn’t afford it. Continue reading...
+
+- **原标题**：Susie Wiles exits White House as Trump ousts another woman from key role
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：178
   - **发布时间**：Fri, 06 Nov 2026 22:35:09 GMT
   - **地区分类**：美国
   - **原文链接**：https://www.theguardian.com/us-news/2026/nov/06/susie-wiles-white-house-resignation
   - **原文摘要**：Wiles thanks president for ‘honor of a lifetime’ as departure leaves behind overwhelmingly male leadership team US politics live – latest updates Donald Trump on Friday said Susie Wiles, the first woman to serve as White House chief of staff, will leave her post, a major shake-up of his inner circle that comes amid a steady exodus of senior female officials from his administration. The president announced her ouster – and her replacement, by the immigration hardliner Stephen Miller – in a post on Truth Social, days after a sweeping blue wave gave Democrats control of both chambers of Congress in the midterm elections. Wiles’s departure leaves behind an overwhelmingly male leadership team. Continue reading...
 
-- **原标题**：Trump announces immigration hardliner Stephen Miller as new chief of staff
-  - **来源**：France 24
+- **原标题**：'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary
+  - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：181
-  - **发布时间**：Fri, 06 Nov 2026 20:51:37 GMT
+  - **评分**：166
+  - **发布时间**：Sun, 08 Nov 2026 00:31:53 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff
-  - **原文摘要**：US President Donald Trump on Friday said advisor Stephen Miller would become his new chief of staff. Miller has been instrumental in driving the Trump administration's mass deportation programme and faced particular criticism after the deadly shootings of two Minneapolis protesters by ICE agents in January.
+  - **原文链接**：https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：It was unclear whether the president's public job offer was genuine, although White said later on Saturday: "I got a lot of jobs already."
 
-- **原标题**：The Guardian view on the AI backlash: American voters want a say in their future | Editorial
-  - **来源**：The Guardian
+- **原标题**：Trump names Stephen Miller as new White House chief of staff
+  - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：179
-  - **发布时间**：Fri, 06 Nov 2026 23:45:52 GMT
+  - **评分**：166
+  - **发布时间**：Fri, 06 Nov 2026 20:11:45 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/commentisfree/2026/nov/06/the-guardian-view-on-the-ai-backlash-american-voters-want-a-say-in-their-future
-  - **原文摘要**：Tech stocks have lost trillions while voters have rejected the industry’s political champions. The billionaire-led boom is facing a democratic reckoning This week’s midterms showed that the political bill for the AI boom is falling due. The Democratic sweep intensified fears over runaway spending, mounting debt and resistance to datacentres, sending tech shares tumbling. On Thursday Wall Street suffered its worst day since the pandemic as $3.2tn was wiped from markets. Anthropic, developer of the Claude chatbot, is hoping to float within the next fortnight for $1.5tn (£1.1tn), but it may not now get even a trillion dollars. The dominant AI chipmaker Nvidia saw its value crash by more than $400bn. The world’s richest man, Elon Musk, lost $113bn in two days . While a few very rich people may be a little less wealthy, the sell-off may not be a bad thing. It brings a needed dose of reality to an industry whose spending plans and valuations depend on heroic expectations of future profits. That is a view held by many influential figures – from Goldman Sachs’ research boss to Nobel laureate Daron Acemoğlu . AI may transform the economy. That does not guarantee investors will earn back the sums being poured into it. Do you have an opinion on the issues raised in this article? If you would like to submit a response of up to 300 words by email to be considered for publication in our letters section, please click here . Continue reading...
+  - **原文链接**：https://www.bbc.co.uk/news/articles/cm9qzz5x9g5yo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：Miller, considered the architect of Trump's hard-line immigration policy, will move into the role on Monday.
 
-- **原标题**：Stephen Miller, architect of Trump’s immigration crackdown, to become White House chief of staff
-  - **来源**：The Guardian
+- **原标题**：Inside Mississippi's ballot counting in tight Senate race
+  - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：179
-  - **发布时间**：Fri, 06 Nov 2026 20:06:11 GMT
+  - **评分**：166
+  - **发布时间**：Thu, 05 Nov 2026 20:31:38 GMT
   - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/us-news/2026/nov/06/stephen-miller-chief-of-staff-trump
-  - **原文摘要**：US president confirms Susie Wiles, current chief of staff and first woman to serve in the role, will step down US politics live – latest updates Stephen Miller, Donald Trump ’s most controversial aide and the architect of his sweeping immigration crackdown, will become his new White House chief of staff days after Republicans lost control of the US Congress in US midterm elections. The president announced the extraordinary appointment on Friday, confirming that Susie Wiles – his current chief of staff, and the first woman to serve in the role – had been ousted. Continue reading...
-
-- **原标题**：Two more DoJ officials resign, including US attorney leading inquiry into Trump rivals
-  - **来源**：The Guardian
-  - **来源级别**：Tier 1
-  - **评分**：179
-  - **发布时间**：Fri, 06 Nov 2026 18:37:55 GMT
-  - **地区分类**：美国
-  - **原文链接**：https://www.theguardian.com/us-news/2026/nov/06/doj-officials-resign
-  - **原文摘要**：Jason Reding Quiñones led investigation into whether Trump’s rights were violated during 2020 election inquiry A US attorney overseeing the so-called “grand conspiracy” investigation into Donald Trump ’s rivals announced on Friday he is leaving the Department of Justice, one of several officials to leave the department in recent days after sweeping Democratic wins in the midterm elections . Jason Reding Quiñones, the US attorney for the southern district of Florida, and John Eisenberg, who led the justice department’s national security division, are both leaving. Democrats have pledged to use their majorities in the US House and Senate to conduct aggressive oversight of the justice department, among other agencies. Continue reading...
-
-- **原标题**：Melania Trump urges 'enduring' ceasefire at meeting with Ukrainian, Russian officials
-  - **来源**：France 24
-  - **来源级别**：Tier 1
-  - **评分**：170
-  - **发布时间**：Thu, 05 Nov 2026 05:23:48 GMT
-  - **地区分类**：美国
-  - **原文链接**：https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house
-  - **原文摘要**：Russian and Ukrainian officials, including human rights chiefs, met US First Lady Melania Trump at the White House on Thursday ahead of Abu Dhabi talks aimed at ending the Ukraine war. The meeting comes weeks after Melania Trump helped broker a partial ceasefire enabling the evacuation of civilians from the Russian-occupied Ukrainian town of Oleshky.
+  - **原文链接**：https://www.bbc.co.uk/news/videos/cmj477d0dyxqo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：The BBC's Carl Nasman goes inside a county election commission building as votes are counted in the race between Democrat Scott Colom and Republican Cindy Hyde-Smith.
 
 
 
 ---
 ## 拉丁美洲
 
+- **原标题**：Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：190
+  - **发布时间**：Sat, 07 Nov 2026 01:55:11 GMT
+  - **地区分类**：拉丁美洲
+  - **原文链接**：https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts
+  - **原文摘要**：Santiago Peña was detained minutes after he was impeached by Congress, as protesters took to the streets demanding answers after the suspension of the Ueno bank Paraguay’s rightwing president has been placed under house arrest minutes after he was impeached by Congress, amid a severe crisis that left more than half the country’s population unable to access their bank accounts. Santiago Peña is being investigated about allegations he used his political influence to favour a bank that expanded exponentially under his government and was suspended this week after irregularities . Continue reading...
+
 - **原标题**：Flávio Bolsonaro battles to remain relevant as he speaks at rightwing conference at Mar-a-Lago
   - **来源**：The Guardian
   - **来源级别**：Tier 1
-  - **评分**：182
+  - **评分**：179
   - **发布时间**：Fri, 06 Nov 2026 13:03:38 GMT
   - **地区分类**：拉丁美洲
   - **原文链接**：https://www.theguardian.com/world/2026/nov/06/flavio-bolsonaro-upbeat-brazil-election-us
   - **原文摘要**：Far-right politician addresses Conservative Political Action Conference and makes unsubstantiated claims about election fraud Flávio Bolsonaro, the far-right politician who lost Brazil’s presidential election last month, has insisted his defeat is not “the end for Brazil” as he battles to maintain political relevance after fleeing to the US. Bolsonaro absconded early last week shortly after losing the 25 October election to the leftwing incumbent Luiz Inácio Lula da Silva by more than 4m votes. Continue reading...
 
-- **原标题**：After the midterms, the global right is reeling. But the danger of Trumpism will never be gone | Jonathan Freedland
-  - **来源**：The Guardian
+- **原标题**：Paraguay Senate votes to impeach President Peña - Reuters
+  - **来源**：Reuters
   - **来源级别**：Tier 1
-  - **评分**：179
-  - **发布时间**：Fri, 06 Nov 2026 11:46:27 GMT
+  - **评分**：176
+  - **发布时间**：Fri, 06 Nov 2026 22:19:50 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.theguardian.com/commentisfree/2026/nov/06/midterms-global-right-danger-donald-trump-republicans
-  - **原文摘要**：Yes, the Republicans suffered humiliating defeat. But the fact that a Trump presidency was even possible means something like it could happen again He’s down, but not quite out. Barring divine or other intervention, Donald Trump will remain in the Oval Office for a further two years and 10 weeks. Or, as the White House put it in a plaintive social media post brimming with neediness: “PSA [Public Service Announcement]: Trump is still your president.” But that’s not the only reason why the global celebrations that greeted the Democratic tidal wave that swept Republicans out of even their deepest heartlands should be tempered, if only a tad. Don’t get me wrong, the results of Tuesday’s midterm elections are cause for genuine international jubilation. The defeats of Trump allies in Serbia and Brazil were delicious appetisers, but this was the feast. No mere electoral setback in line with midterm tradition, this was a thorough repudiation of the second Trump presidency and of Trumpism. The 16% swing to Democrats in the popular vote for the House of Representatives was greater even than the 11.2% swing recorded in the Watergate midterms of November 1974, following the resignation in disgrace of Richard Nixon. Trump had worked hard for many months to undermine these elections , either by gerrymandering districts in his favour or preparing the ground for a later claim the vote was rigged, but to no avail: the democratic system proved too resilient, and the American public too determined to have their say. And have it they did, in a voice loud and clear. Continue reading...
+  - **原文链接**：https://news.google.com/rss/articles/CBMimgFBVV95cUxOTEZGTXdqZzI2U0M5aVZQb2FnNXk0VS1tWFlfci1fd1AyYnRYOUxQSElRUkxnM0RsNl9HZWkwb2pla2FxMXBRWF9zZ2o4amgwcGZrWnZxaHpvd0VBUDlSWk9tU1NfNTdFb0t5WVF4Q0pvZFZZdkRUcmh6ZEJXMmtnb2gzYVEwVXl6dWVQZDB1UVdfd2JDSXoxMWpR?oc=5
+  - **原文摘要**：Paraguay Senate votes to impeach President Peña Reuters
 
-- **原标题**：Paraguay President Santiago Peña resigns after bank collapse
+- **原标题**：US urges Venezuela to release remaining political prisoners
   - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：179
-  - **发布时间**：Thu, 05 Nov 2026 17:40:40 GMT
+  - **评分**：176
+  - **发布时间**：Tue, 03 Nov 2026 12:09:20 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：The move follows a bank collapse and after the lower house of congress voted in favour of pursuing an impeachment trial against him.
+  - **原文链接**：https://www.bbc.co.uk/news/articles/cxg5jln586pno?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：The US secretary of state also discusses laying the groundwork for 'free, fair, and credible elections'.
 
 - **原标题**：Brazil extends oil export tax through year end, advances US reciprocity process - Reuters
   - **来源**：Reuters
   - **来源级别**：Tier 1
-  - **评分**：174
+  - **评分**：171
   - **发布时间**：Fri, 06 Nov 2026 13:17:45 GMT
   - **地区分类**：拉丁美洲
   - **原文链接**：https://news.google.com/rss/articles/CBMiygFBVV95cUxQbUhTTlgyaFZBWXZIQllzVEkxM3FGZzZBa1N6MTlZY0pDQ3Ryb1c0eUlFZjhXVFZQeEk3VVVaRGVSWmNhU3VFbkVpb1lkTHF5Z3prV3JvZDBxS3ZyeXFaZmREY1VNbXBYVjB4aE9jNmtPSUVyMDhuVExBYU5PanpCQ1JfYTJNNWh0UzBGV3FQQ25ZTEduVFdBSEJpVVVLOTZZcUdFTjAyM3k4RFpLUEU4WUVFem1wX181Y3RGazd0Rlo1SFQ4cGY2Y3lR?oc=5
   - **原文摘要**：Brazil extends oil export tax through year end, advances US reciprocity process Reuters
 
-- **原标题**：Pope begins lengthy trip to Latin America weeks after lung cancer surgery
-  - **来源**：BBC
+- **原标题**：The women who rode the blue wave
+  - **来源**：France 24
   - **来源级别**：Tier 1
-  - **评分**：167
-  - **发布时间**：Fri, 06 Nov 2026 00:02:57 GMT
+  - **评分**：168
+  - **发布时间**：Fri, 06 Nov 2026 14:15:28 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：Pope Leo, who had part of a lung removed last month, will visit Uruguay, Argentina and Peru.
+  - **原文链接**：https://www.france24.com/en/tv-shows/the-51/20261106-the-women-who-rode-the-blue-wave
+  - **原文摘要**：In this edition, we report on how the US midterms, which saw the Democrats make massive gains, also marked a series of historic firsts for women. Also the dark side to Bangkok's booming fertility industry, which attracts thousands of foreign patients seeking assistance from the Thai capital's state-of-the-art private clinics. Plus how an impoverished neighbourhood in El Salvador, once a no-go zone plagued by gang violence, is being transformed by women into a vibrant canvas for street art.
 
 - **原标题**：Brazil’s Senate approves Lula’s main bet to tackle criminal gangs - AP News
   - **来源**：AP News
@@ -124,28 +133,28 @@
   - **原文链接**：https://news.google.com/rss/articles/CBMimgFBVV95cUxQd2RwODZuckFRRFZURkg3RXVYblNudWJpbDJTWm1KVUQxeUhaOTBULVpKVmRBaDNuRVJxbU42QnlYS0x5M3RrdmF3WkV1ZFhGMFN3SUhXcHcyaHRLWmpRZ2t6QWk3cHNNWllaVFM5TVRVR0ktMjVqUm5mLXlOUmlUTXdIRWhKZ3FLSzJVRlYtb0p3aUxsRHFXUm93?oc=5
   - **原文摘要**：Brazil’s Senate approves Lula’s main bet to tackle criminal gangs AP News
 
-- **原标题**：New Mexico U.S. Senate Election Live Results 2026 - AP News
-  - **来源**：AP News
-  - **来源级别**：Tier 1
-  - **评分**：167
-  - **发布时间**：Mon, 02 Nov 2026 11:08:53 GMT
-  - **地区分类**：拉丁美洲
-  - **原文链接**：https://news.google.com/rss/articles/CBMifEFVX3lxTE16eFhLMG94c25ZUUNxVExPdk1XOUc3MkJTOVN6WERaY0RTVFVWS1BHa3hqSmd3Z1VZWEVrbHFSZVlNbDVfdDl3TWljcWViVWxiaXNhb25pMjVndW1tTVVQWWlCX3FxRlVIYkVuTXFCWFVkUnF2MFh6c2NfbWw?oc=5
-  - **原文摘要**：New Mexico U.S. Senate Election Live Results 2026 AP News
-
-- **原标题**：Lula faces hostile congress and divided country after Brazil election win
+- **原标题**：Pope in 'pretty good health' as he starts Latin America tour
   - **来源**：BBC
   - **来源级别**：Tier 1
-  - **评分**：167
-  - **发布时间**：Mon, 26 Oct 2026 03:55:13 GMT
+  - **评分**：166
+  - **发布时间**：Sat, 07 Nov 2026 06:59:48 GMT
   - **地区分类**：拉丁美洲
-  - **原文链接**：https://www.bbc.co.uk/news/articles/cmvg7p001qj9o?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：The incumbent president has pulled off a surprise win, but he will face a hostile Congress and a polarised country.
+  - **原文链接**：https://www.bbc.co.uk/news/articles/c60e0001ve9wo?at_medium=RSS&at_campaign=rss
+  - **原文摘要**：Pope Leo travels to Uruguay just three weeks after having surgery for lung cancer.
 
 
 
 ---
 ## 加勒比地区
+
+- **原标题**：‘Potentially ugly’: taking war on gangs to Haiti poses risks for El Salvador’s leader
+  - **来源**：The Guardian
+  - **来源级别**：Tier 1
+  - **评分**：182
+  - **发布时间**：Sat, 07 Nov 2026 12:00:10 GMT
+  - **地区分类**：加勒比地区
+  - **原文链接**：https://www.theguardian.com/world/2026/nov/07/el-savador-war-on-gangs-haiti
+  - **原文摘要**：Soldiers may end up in ferocious battles across sprawling slums, say experts who question Nayib Bukele’s motive It has been nearly five years since El Salvador’s authoritarian leader, Nayib Bukele, launched his controversial “war” on gangs – transforming his country’s fortunes and becoming a hard-right beacon for Latin America’s fight against violent crime. Now the Salvadoran populist seems intent on exporting his hardline tactics to the region’s most violence-stricken nation, Haiti. He has sent more than 2,000 troops and special forces to the Caribbean country since four citizens of El Salvador were abducted there on 18 October. Continue reading...
 
 - **原标题**：US escalates economic campaign against Cuba and targets China-based suppliers - AP News
   - **来源**：AP News
@@ -159,7 +168,7 @@
 - **原标题**：US issues new Cuba sanctions, takes aim at sectors of Cuban economy - Reuters
   - **来源**：Reuters
   - **来源级别**：Tier 1
-  - **评分**：158
+  - **评分**：153
   - **发布时间**：Thu, 05 Nov 2026 18:11:08 GMT
   - **地区分类**：加勒比地区
   - **原文链接**：https://news.google.com/rss/articles/CBMisAFBVV95cUxQblVpSUg3SjBzNjdqeWlrY1hpeWNhQ2E0VzNmZW1RTVl3ekVfRW5ERnpNU2gwa3M3NUZuNWFFc3JWR3BnNGlHeS1VOENLeFcwRUxaYm00TnVxZWd1RkxtbEJ0WlJTQmFMeXZDZm9iX1Fybk5qTGJ5eVhCMlV6c2VFbUd4ZXZBS2VmeW9tM0d1SjRoN0FibW13RnAtcU11XzVENk5PVTVYV2RPMGJkM3ZlaQ?oc=5
@@ -174,23 +183,14 @@
   - **原文链接**：https://www.bbc.co.uk/news/articles/c574p7z1xm8wo?at_medium=RSS&at_campaign=rss
   - **原文摘要**：President Trump's fellow Republicans might feel the brunt of frustration among Cubans at the ballot box, writes the BBC's Will Grant.
 
-- **原标题**：'You're lying' - US and Cuban officials get into shouting match at UN
-  - **来源**：BBC
+- **原标题**：Haiti PM says gang leader Mathias Saintil is dead - Reuters
+  - **来源**：Reuters
   - **来源级别**：Tier 1
-  - **评分**：152
-  - **发布时间**：Tue, 27 Oct 2026 20:52:30 GMT
+  - **评分**：151
+  - **发布时间**：Sat, 07 Nov 2026 00:27:00 GMT
   - **地区分类**：加勒比地区
-  - **原文链接**：https://www.bbc.co.uk/news/videos/ck5yn5rlz978o?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：Cuban delegates reacted in response to claims from US ambassador Mike Waltz that the Havana government has profited off the forced labor of its citizens.
-
-- **原标题**：Watch: King dances in the streets of the Bahamas capital
-  - **来源**：BBC
-  - **来源级别**：Tier 1
-  - **评分**：146
-  - **发布时间**：Wed, 28 Oct 2026 20:44:10 GMT
-  - **地区分类**：加勒比地区
-  - **原文链接**：https://www.bbc.co.uk/news/videos/cm87zwe3ydp1o?at_medium=RSS&at_campaign=rss
-  - **原文摘要**：The monarch is in the Bahamas as part of a tour of the Caribbean during which he addressed the "great suffering of the past".
+  - **原文链接**：https://news.google.com/rss/articles/CBMingFBVV95cUxOUkdOZEEtMTQ5NzlLdWRCRUlzdVFsWkFoR0xPOTdIV2szN1hTWmNLQTBHejRjVUI0YTU1bDJpUXdONl9VSlQtZU9iLVRTWFhEbi1RLTZuNEJGQTFxZ1JXWVBBRk43Rjl0VXJrTnF5MXNONkM2TFRYRUM3QXVqTVBOR0R0a1o4NkNsZDhUVVNYTzRkTWNvYm4yRFpEWmVfUQ?oc=5
+  - **原文摘要**：Haiti PM says gang leader Mathias Saintil is dead Reuters
 
 
 
@@ -209,7 +209,7 @@
 - **原标题**：Paraguay
   - **来源**：InSight Crime
   - **来源级别**：Tier 2
-  - **评分**：161
+  - **评分**：158
   - **发布时间**：Fri, 06 Nov 2026 18:07:19 +0000
   - **地区分类**：智库
   - **原文链接**：https://insightcrime.org/paraguay-organized-crime-news/paraguay/

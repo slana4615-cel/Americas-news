@@ -1,18 +1,18 @@
 {
-  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-11-07)",
+  "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-11-08)",
   "blocks": [
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-11-07)"
+        "text": "📰 美洲新闻自动抓取结果｜Daily Americas News Collection (2026-11-08)"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/nov/06/susie-wiles-white-house-resignation|Susie Wiles exits White House as Trump ousts another woman from key role>\n• <https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff|Trump announces immigration hardliner Stephen Miller as new chief of staff>\n• <https://www.theguardian.com/world/2026/nov/06/flavio-bolsonaro-upbeat-brazil-election-us|Flávio Bolsonaro battles to remain relevant as he speaks at rightwing conference at Mar-a-Lago>\n• <https://www.theguardian.com/commentisfree/2026/nov/06/midterms-global-right-danger-donald-trump-republicans|After the midterms, the global right is reeling. But the danger of Trumpism will never be gone | Jonathan Freedland>\n• <https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5MWlNOUF3bkxyZm1jNzZyM2R5Unh0SEV6bzBsNV9VdHgzTW85YTV0SkNXTF8yb2gxazRWSmZackpWQ3U2RE5fRDRJYnVoTmFTVmhwUVhyb1ZrT3R5Z2xKVUtyVVQxVTFZOUJiNUhZb3VOb1I3NHNHMkZlODlrd0NlYldLOVZFWlhRVldDTldUTTkwMGVx?oc=5|US escalates economic campaign against Cuba and targets China-based suppliers - AP News>\n• <https://news.google.com/rss/articles/CBMisAFBVV95cUxQblVpSUg3SjBzNjdqeWlrY1hpeWNhQ2E0VzNmZW1RTVl3ekVfRW5ERnpNU2gwa3M3NUZuNWFFc3JWR3BnNGlHeS1VOENLeFcwRUxaYm00TnVxZWd1RkxtbEJ0WlJTQmFMeXZDZm9iX1Fybk5qTGJ5eVhCMlV6c2VFbUd4ZXZBS2VmeW9tM0d1SjRoN0FibW13RnAtcU11XzVENk5PVTVYV2RPMGJkM3ZlaQ?oc=5|US issues new Cuba sanctions, takes aim at sectors of Cuban economy - Reuters>"
+        "text": "*自动抓取条目示例（非新闻价值判断）*\n• <https://www.theguardian.com/us-news/2026/nov/07/trump-stephen-miller-midterms|Trump’s elevation of Stephen Miller is a middle finger to millions of voters>\n• <https://www.theguardian.com/us-news/2026/nov/07/flip-voters-trump-midterms|Flip voters discovered that Trump’s racism and xenophobia are expensive>\n• <https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts|Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts>\n• <https://www.theguardian.com/world/2026/nov/06/flavio-bolsonaro-upbeat-brazil-election-us|Flávio Bolsonaro battles to remain relevant as he speaks at rightwing conference at Mar-a-Lago>\n• <https://www.theguardian.com/world/2026/nov/07/el-savador-war-on-gangs-haiti|‘Potentially ugly’: taking war on gangs to Haiti poses risks for El Salvador’s leader>\n• <https://news.google.com/rss/articles/CBMioAFBVV95cUxQMGdSS2ktZzBZMkF5MWlNOUF3bkxyZm1jNzZyM2R5Unh0SEV6bzBsNV9VdHgzTW85YTV0SkNXTF8yb2gxazRWSmZackpWQ3U2RE5fRDRJYnVoTmFTVmhwUVhyb1ZrT3R5Z2xKVUtyVVQxVTFZOUJiNUhZb3VOb1I3NHNHMkZlODlrd0NlYldLOVZFWlhRVldDTldUTTkwMGVx?oc=5|US escalates economic campaign against Cuba and targets China-based suppliers - AP News>"
       }
     },
     {
